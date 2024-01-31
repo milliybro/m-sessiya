@@ -1,0 +1,79 @@
+.card {
+  background-color: #fff;
+  border-top: 4px solid #d2d6de !important;
+  border-bottom: 4px solid #d2d6de !important;
+  padding: 10px;
+  h4 {
+    margin: 0;
+    color: #555;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.1;
+    padding-bottom: 20px;
+  }
+  form {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .value {
+      align-items: center;
+      gap: 10px;
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      user-select: none;
+      p {
+        font-size: 15px;
+        padding: 4px 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.value:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.value input:checked ~ .checkmark {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.value input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.value .checkmark:after {
+  top: 7.3px;
+  left: 7.5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(60, 141, 188);
+}
