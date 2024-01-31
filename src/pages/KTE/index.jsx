@@ -63,276 +63,815 @@ const Kompyuter = () => {
           <div className="main-info">
             <div className="question-left">
               <QuestionCard />
-              ?Drayverlar dasturlarning qaysi turiga kiradi? + Tizimli dasturlar
-              -Dasturlash tizimiga -Amaliy dasturlar -Virtual dasturlar ?Tezkor
-              tizim dasturlarning qaysi turiga kiradi? + Tizimli dasturlar
-              turiga -Tizimli dasturlash tiliga -Amaliy dasturlarturiga -Virtual
-              dasturlar turiga ?Core i7 protsessorida necha sathli kesh
-              qo‘llaniladi? + 3 sathli kesh -1 sathli kesh -4 sathli kesh -2
-              sathli kesh ?Core i7 protsessorlaridagi yadrolar sonini ko‘rsating
-              + ko‘p -3 -2 -1 ?ADM protsessorlaridagi yadrolar sonini
-              ko‘rsating. + 2 -3 -1 -4 ?ATmega168 protsessoridagi yadrolar
-              sonini ko‘rsating. + 1 -3 -2 -4 ?Keltirilganlarning qaysi biri Fon
-              Neyman printsiplariga to‘g‘ri keladi? + ikkilik sanoq sistemasini
-              qo‘llash -sakkizlik sanoq sistemasini -o‘nlik sanoq sistemasini
-              -o‘n oltilik sanoq sistemasini ?Keltirilganlarning qaysi biri Fon
-              Neyman printsiplariga to‘g‘ri keladi? + dastur yordamida
-              boshqarish -avtomatik ravishda boshqarish -avtomatlashtirilgan
-              boshqarish -qo‘lda boshqarish ?Keltirilganlarning qaysi biri Fon
-              Neyman printsiplariga to‘g‘ri keladi? + xotirani ham
-              ma’lumotlarni, ham dasturlarni saqlashda qo‘llash -xotirani
-              ma’lumotlarni saqlashda qo‘llash -xotirani dasturlarni saqlashda
-              qo‘llash -xotirani algoritmlarni saqlashda qo‘llash
-              ?Keltirilganlarning qaysi biri Fon Neyman printsiplariga togri
-              keladi? + xotira yacheykalari ketma-ket keluvchi adreslarga ega
-              -xotira yacheykalari ketma-ket bolmagan adreslarga ega -xotira
-              yacheykalari hisoblanadigan adreslarga ega -xotira yacheykalari
-              ixtiyoriy tarzda keladigan adreslarga ega ?Keltirilganlarning
-              qaysi biri Fon Neyman printsiplariga to‘g‘ri keladi? + dasturni
-              bajarishda shartli o‘tish imkoniyati -dasturni bajarishda to‘g‘ri
-              tartibda o‘tish imkoniyati -dasturni bajarishda teskari tartibda
-              o‘tish imkoniyati -dasturni bajarishda ixtiyoriy tartibda o‘tish
-              imkoniyati ?Keltirilganlarning qaysi biri Mur qonunini ifodalaydi?
-              + bir mikrosxemadagi tranzistorlar soni har yili 60% ga ortib
-              boradi -mikrosxemalarning yangi avlodi har 4 yilda almashadi
-              -kompyuterlarning yangi avlodi har 15 yilda almashadi
-              -protsessorlarda tranzistorlar soni har yili 60% ga ortib boradi
-              ?Protsessorning qaysi registrida, keyingi bajariladigan buyruqning
-              adresi yozib turiladi? + PC -MAR -AX -SP ?Raqamli mantiqiy sath,
-              olti sathli kompyuterlarning qaysi sathiga tegishli? + 0 sathiga 1
-              sathiga 2 sathiga 3 sathiga ?Mikroarxitektura sathi, olti sathli
-              kompyuterlarning qaysi sathiga tegishli? + 1 sathiga -4 sathiga -2
-              sathiga -3 sathiga ?Buyruqlar to‘plami arxitekturasi sathi, olti
-              sathli kompyuterlarning qaysi sathiga tegishli? + 2 sathiga -4
-              sathiga -5 sathiga -3 sathiga ?Operatsion tizim sathi, olti sathli
-              kompyuterlarning qaysi sathiga tegishli? + 3 sathiga -4 sathiga -5
-              sathiga -0 sathiga ?Assembler sathi, olti sathli kompyuterlarning
-              qaysi sathiga tegishli? + 4 sathiga -3 sathiga -5 sathiga -1
-              sathiga ?Amaliy tillar dasturchilari sath, olti sathli
-              kompyuterlarning qaysi sathiga tegishli? + 5 sathiga -3 sathiga -4
-              sathiga -1 sathiga ?16 razryadli adres shinasi yordamida qanday
-              xajmdagi xotirani adreslash mumkin? + 64 Kbayt -256 Kbayt -1 Mbayt
-              -4 Gbayt ?20 razryadli adres shinasi yordamida qanday xajmdagi
-              xotirani adreslash mumkin? + 1 Mbayt -256 Kbayt -64 Kbayt -4 Gbayt
-              ?32 razryadli adres shinasi yordamida qanday xajmdagi xotirani
-              adreslash mumkin? + 4 Gbayt -256 Kbayt -1 Mbayt -64 Kbayt ?33
-              razryadli adres shinasi yordamida qanday xajmdagi xotirani
-              adreslash mumkin? + 8 Gbayt -256 Kbayt -1 Mbayt -4 Gbayt ?Qaysi
-              protsessor tarkibida 42 000 000 tranzistor mavjud? + Pentium 4
-              -UltraSPARC III -8051 -SIMM ?Qaysi protsessor tarkibida 29 000 000
-              tranzistor mavjud? + UltraSPARC III -Pentium 4 -8051 -SIMM ?Qaysi
-              protsessor NetBurst mikroarxitekturasiga ega? + Pentium 4 -
-              UltraSPARC III -8051 -SIMM ?Qaysi protsessor Version 9 SPARC
-              mikroarxitekturasiga ega? + UltraSPARC III -Pentium 4 -8051 -SIMM
-              ?Qaysi protsessor «qatorining kengligi» 0,18 mkm ga teng? +
-              Pentium 4 -UltraSPARC III -8051 -SIMM ?Qaysi protsessor
-              «qatorining kengligi» 0,13 mkm ga teng? + UltraSPARC III -Pentium
-              4 -8051 -SIMM ?SIMM qisqartmasi nimani anglatadi? + Ulanish
-              nuqtalari bir tomonda joylashgan xotira moduli -Ulanish nuqtalari
-              ikki tomonda joylashgan xotira moduli -Uyali telefonni ulash uchun
-              mo‘ljallangan karta -O‘rnatilgan kontrollerga ega qurilma ?DIMM
-              qisqartmasi nimani anglatadi? + Ulanish nuqtalari ikki tomonda
-              joylashgan xotira moduli -Ulanish nuqtalari bir tomonda joylashgan
-              xotira moduli -Uyali telefonni ulash uchun mo‘ljallangan karta -
-              O‘rnatilgan kontrollerga ega qurilma ?PCI qisqartmasi nimani
-              anglatadi? + Kompyuterning tashqi tashkil etuvchi qurilmalarni
-              o‘zaro birgalikda ishlashini ta’minlovchi shina -Ma’lumotlarni
-              ketma-ket uzatuvchi universal shina -Sanoatdagi standart
-              arxitekturali shina -Kontrollerning porti ?AGP qisqartmasi nimani
-              anglatadi? + Tez ishlaydigan grafik port shinasini -Ma’lumotlarni
-              ketma-ket uzatuvchi universal shina -Sanoatdagi standart
-              arxitekturali shina -Tarmoq interfeysining qurilmasi ?USB
-              qisqartmasi nimani anglatadi? + Ma’lumotlarni ketma-ket uzatuvchi
-              universal shina -Sanoatdagi standart arxitekturali shina -Tez
-              ishlaydigan grafik port shinasini -Tarmoq interfeysining qurilmasi
-              ?RAID qisqartmasi nimani anglatadi? + Magnitli disklar asosida
-              qurilgan, ma’lumotlarni tezkor kiritish-chiqarish qurilmasi -Bitta
-              katta xajmdagi qimmat disk -Kichik hisoblash tizimlarining
-              interfeysi -Tarmoq interfeysining qurilmasi ?EISA qisqartmasi
-              nimani anglatadi? + Sanoatdagi kengaytirilgan standart
-              arxitekturali shina -Sanoatdagi standart arxitekturali shina -Tez
-              ishlaydigan grafik port shinasini -Ulanish nuqtalari bir tomonda
-              joylashgan xotira moduli ?ISA qisqartmasi nimani anglatadi? +
-              Sanoatdagi standart arxitekturali shina -Sanoatdagi kengaytirilgan
-              standart arxitekturali shina -Tez ishlaydigan grafik port
-              shinasini -Ulanish nuqtalari bir tomonda joylashgan xotira moduli
-              ?RISC qisqartmasi nimani anglatadi? + Qisqartirilgan buyruqlar
-              to‘plamiga ega kompyuter -Magnitli disklar asosida qurilgan,
-              ma’lumotlarni tezkor kiritish-chiqarish qurilmasi -Ulanish
-              nuqtalari ikki tomonda joylashgan xotira moduli -Tarmoq
-              interfeysining qurilmasi ?CISC qisqartmasi nimani anglatadi? +
-              To‘lik buyruqlar to‘plamiga ega kompyuter -Magnitli disklar
-              asosida qurilgan, ma’lumotlarni tezkor kiritish-chiqarish
-              qurilmasi -Ulanish nuqtalari ikki tomonda joylashgan xotira moduli
-              -Tarmoq interfeysining qurilmasi ?Dasturchilarga, dasturlardagi
-              xatolarni topish uchun yordam beradigan tizimli dastur nima
-              ataladi? + Otladchik -Interpretator -Translyator -Kompilyator
-              ?Dasturning xar bir qatorini taxlil qilib, o‘sha zahoti
-              bajaradigan tizimli dastur nima deb ataladi? + Interpretator
-              -Otladchik -Translyator - Kompilyator ?Dasturni to‘liq taxlil
-              qilib, keyin bajarish uchun kompyuter xotirasiga yozadigan tizimli
-              dastur nima deb ataladi? + Translyator -Otladchik -Interpretator
-              -Naladchik ?Fizik adreslar to‘plamini qanday nomlash mumkin? +
-              Adreslar fazosi -Diskdagi fazo -Sahifalar -Mavjud bo‘lish joyi
-              ?SHina orqali ma’lumotlarni uzatishga ruxsat beradigan qurilma
-              nima deb ataladi? + SHina ustasi -SHina tsikli -SHina so‘rovi
-              -Parallel shina ?Registrga yangi ma’lumotni yozish jarayoni qanday
-              nomlanishi mumkin? + YUklash -Bajarish -Uchirib-yoqish -Qayta
-              yuklash ?Qaysi xotiraga murojaat qilish tezligi eng katta? +
-              registrli xotiraga -operativ xotiraga -doimiy xotiraga -optik
-              xotiraga ?Hardware deganda nima tushiniladi? + kompyuterning
-              apparat qismi -IBM PC kompyuterlari uchun mo‘ljallangan eng
-              mashxur tizim -yangi dasturlarni yaratishni ta’minlaydigan tizim
-              -kompyuterlarning apparat va dasturiy qismlarini
-              zamonaviylashtirish ?«Kompyuter» so‘zini inglizchadan qilingan
-              dastlabki tarjimasi nimani anglatgan? + buyruqlarni bajarish uchun
-              mo‘ljallangan elektron qurilma -axborotlarni saqlash uchun
-              mo‘ljallangan qurilma -hisoblashlarni amalga oshiruvchi odam
-              -diskovoddan axborotni o‘kish uchun mo‘ljallangan qurilma
-              ?Software deganda nima tushiniladi? + kompyuterning dasturiy
-              ta’minoti -«manbani ula va ishlayver» tizimi -yordamchi dastur -
-              kompyuterga yangi qurilmalarni ulash uchun mo‘ljallangan dastur
-              ?Kompyuterning minimal tarkibiga nimalar kiradi? + monitor,
-              tizimli blok, klaviatura -vinchester, «sichqoncha», protsessor
-              -printer, klaviatura, disketa -tizimli blok, skaner, monitor
-              ?Kompyuterning ma’lumotlar shinasining razryadlar soni nimaga
-              bog‘liq? + foydalanilgan protsessorning adreslashi mumkin bo‘lgan
-              xotirasiga -xotiraga bir marotaba murojaat qilinganda, o‘qish
-              mumkin bo‘lgan ma’lumotning uzunligiga . -adreslar shinasi
-              razryadiga -boshqarish shinasi razryadiga ?Printirlarning qanday
-              xillarini bilasiz? + matritsali, sepuvchi va lazerli -ichki va
-              tashqi -rolikli va planshetli -gorizontal (desktop) va vertikal
-              (tower) ?Boshqarish shinasi nima uchun mo‘ljallangan? + boshqarish
-              signallarini uzatish uchun -protsessor murojaat qilayotgan tashqi
-              qurilmalarga, xotira adresini uzatish uchun -ishlanayotgan
-              axborotni uzatish uchun -protsessordan kelayotgan axborotlarni,
-              qurilmalar ishini boshqaruvchi mos signallariga o‘zgartirish uchun
-              ?Plotter nima uchun mo‘ljallangan? + grafik axborotni qog‘ozga
-              chiqarish uchun -kompyuterga qogoz betidagi tasvirni skanerlash
-              uchun -kompyuterga axborotni kiritish uchun -istalgan turdagi
-              axborotlarni qog‘ozga chiqarish uchun ?SHaxsiy kompyuterlar uchun
-              mo‘ljallangan qoplamalarning qanday xillarini bilasiz? +
-              gorizontal (desktop) va vertikal (tower) xillari -ichki va tashqi
-              -rolikli va planshetli -matritsali, sepuvchi va lazerli
-              ?Ma’lumotlar shinasi nima uchun mo‘ljallangan? + ishlanayotgan
-              axborotni uzatish uchun -protsessor murojaat qilayotgan tashqi
-              qurilmalarga, xotira adresini uzatish uchun -boshqarish
-              signallarini uzatish uchun -protsessordan kelayotgan axborotlarni,
-              qurilmalar ishini boshqaruvchi mos signallariga o‘zgartirish uchun
-              ?Djoystikdan nima uchun foydalaniladi? + kompyuter o‘yinlari
-              o‘ynash uchun -injenerlik hisoblashlarni o‘tkazish uchun -grafik
-              ma’lumotni kompyuterga uzatish uchun -simvolli ma’lumotni
-              kompyuterga uzatish uchun ?Modemlarning qanday xillarini bilasiz?
-              + ichki va tashqi -gorizontal (desktop) va vertikal (tower)
-              xillari -rolikli va planshetli -faqat vertikal (tower) ?Kontroller
-              nima uchun mo‘ljallangan? + protsessordan kelayotgan axborotlarni,
-              qurilmalar ishini boshqaruvchi mos signallariga o‘zgartirish uchun
-              - protsessor murojaat qilayotgan tashqi qurilmalarga, xotira
-              adresini uzatish uchun - boshqarish signallarini uzatish uchun
-              -ishlanayotgan axborotni uzatish uchun ?Videoadapterning ko‘rsata
-              olish imkoniyati deganda nima tushiniladi? + gorizantal va
-              vertikal bo‘ylab chiqarib bera olishi mumkin bo‘lgan nuqtalarining
-              soni -ekranning diagonal bo‘yicha o‘lchami -lyuminofor donasining
-              o‘lchami -ekrandagi tasvirning xajmini proportsional ravishda
-              kichraytirishi/kengaytirishi ?Modem nima uchun mo‘ljallangan? +
-              telefon tarmog‘i orqali bir kompyuterdan, boshqa bir kompyuterga
-              ma’lumotni uzatish uchun -qog‘oz bo‘lagidagi grafik tasvirlarni
-              o‘qish uchun -vizual axborotni akslantirish uchun -katta xajmdagi
-              axborotni magnit tasmasiga yozish uchun ?Telefon tarmog‘i orqali
-              kompyuterlarni o‘zaro bog‘laydigan qurilma qanday nomlanadi? . +
-              modem . -interfeys -CD- ROM -MIDI ?Qaysi qurilma odatdagi telefon
-              aloqa chiziqlari orqali ma’lumotlar almashinishni ta’minlab bera
-              oladi? + modem -telefaks -faks-modem -interfeys ?Skaner nima uchun
-              mo‘ljallangan? + qog‘oz bo‘lagidagi grafik tasvirlarni kompyuterga
-              kiritish uchun -vizual axborotni akslantirish uchun -telefon
-              tarmog‘i orqali bir kompyuterdan, boshqa bir kompyuterga
-              ma’lumotni uzatish uchun -katta xajmdagi axborotni magnit
-              tasmasiga yozish uchun ?Quyidagilardan qaysi biri dasturiy
-              vositalarga tegishli emas? + protsessor -drayver -tizimli dasturiy
-              ta’minot -matn va grafik redaktorlar ?Qaysi qurilma yordamida
-              tashqi qurilma bilan shina o‘rtasidagi aloqa amalga oshiriladi? +
-              kontroller -vinchester -magistralllar -DXQ ?Strimmer nima uchun
-              mo‘ljallangan? + katta xajmdagi axborotni magnit tasmasiga yozish
-              uchun -qog‘oz bo‘lagidagi grafik tasvirlarni kompyuterga kiritish
-              uchun -telefon tarmog‘i orqali bir kompyuterdan, boshqa bir
-              kompyuterga ma’lumotni uzatish uchun -vizual axborotni
-              akslantirish uchun ?Vinchester nima uchun mo‘ljallangan? +
-              Ma’lumotlarni doimiy saqlash uchun -Tashqi qurilmalarni ulash
-              uchun -Berilgan dastur asosida kompyuterni boshqarish uchun
-              -Operativ xotirada ma’lumotni saqlash uchun ?Modem qanday vazifani
-              bajaradi? + Analogli signalni raqamli signalga va raqamli signalni
-              analogli signalga aylantirish uchun uzgartiradi. -Ikkilik kodini
-              analog signalga o‘zgartiradi -Analogli signalni ikkilik kodga
-              o‘zgartiradi -Analogli signalni kuchaytirish uchun ?Kompyuterning
-              ish samaradorligi nimaga bog‘liq? + Protsessor chastotasiga
-              -Manbanig kuchlanishiga -Klavishalarning tez ishlashiga
-              -Kommunikatsiya tezligiga bog‘liq ?Monitorning harakteristikasini
-              tanlang + Ruxsat etish imkoniyati -Takt chastotasi -Diskretlik
-              -Ma’lumotga murojat vaqti ?Personal kompyuterning shinalari nimani
-              ta’minlab beradi? + Element va qurilmalarning o‘zaro bog‘lanishini
-              -Signallardan kelayotgan nurlanishni bartaraf qilish -Issiqlik
-              nurlanishini bartaraf qilish -Umumiy energiya manbasini manbayini
-              qo‘llash ?Takt chastotasining o‘lchov birligi nima? + MGts ?Mbayt
-              ?Kbayt ?Bit ?Ma’lumotni protssessor qanday qayta ishlaydi? +
-              ikkilik sanoq tizimida -o‘nlik sanoq tizimida -matn ko‘rinishida
-              -Beysik tilida ?Asosiy plataga nima o‘rnatiladi? + Protsessor
-              -Qattiq disk -Manba bloki -Tizimli blok ?CD-disklarning hajmi
-              qanchagacha bo‘lishi mumkin? + 700 Mbayt -1 Mbayt -1 Gbayt -700
-              Kbayt ?Tarmoq kabellarining qaysi biri eng kata uzatish tezligiga
-              va sifatga ega? + Optik tolali -Koaksial kabel -“O‘rama juft”
-              kabeli -Telefon kabeli ?Diskovod – bu ...? + Tashqi qurilmadagi
-              ma’lumotni o‘qish/ yozish qurilmasi -Dasturda bajariladigan
-              buyruqlarni saqlash qurilmasi -Ma’lumotlarni uzoq vaqt saqlash
-              qurilmasi -Bajariladigan dasturda buyruqlarni qayta ishlash
-              qurilmasi ?Kompyuter yoqilishini testlash dasturi qaerda yozilgan?
-              + BIOS mikrosxemasida -Operativ xotirada -Tashqi xotirada
-              -Protsessor registrlarida ?Doimiy saqlovchi qurilma qanday xotira
-              turiga kiradi? + Manbaga bog‘liq bo‘lmagan qurilma -Manbaga
-              bog‘liq bo‘lgan qurilma -Dinamik -Operativ ihtiyoriy murojatga ega
-              bo‘lgan ?SHisha tolali kabelda signal qanday yo‘nalishda
-              uzatiladi? + Bir yo‘nalishda -Dupleks rejimida -Ikki yo‘nalishda
-              -YArim dupleks rejimida ?Magnit diskni sektorlarga bo‘lish nimani
-              amalga oshiradi? + Ma’lumotlarga murojat qilish vaqtini
-              kamaytiradi Disk yuzasining yemirilishini kamaytiradi YOziladigan
-              ma’lumot hajmini ko‘paytiradi Energiya sarfini kamaytiradi
-              ?SHaxsiy kompyuterda ma’lumotni qayta ishlash qaysi qurilmada
-              amalaga oshiriladi? + Protsessorda -Adapterda -SHinada
-              -Klaviaturada ?XX asrning 40 yillarida hisoblash mashinalarining
-              ishlash printsiplari kim tomonidan tavsiflangan? + Jon Fon Neyman
-              tomonidan -MicroSoft kompaniyasi hodimlari tomonidan -Bill Geyts
-              tomonidan -Klod SHen tomonidan ?Kompyuter o‘chirilganida
-              kompyuterning kayerida ma’lumot ham o‘chib ketadi? + operativ
-              xotirada -yumshoq diskda -CD-diskda -qattiq diskda ?Multimedia-
-              kompyuterning tarkibida qanday qurilma bo‘lishi shart? + CD-ROM
-              diskovod va tovush kartasi -Proektsion panel -Modem -Plotter
-              ?«Sichqoncha» manipulyatori – bu ... + ma’lumotni kiritish
-              qurilmasidir -ma’lumotni o‘qish qurilmasi -ma’lumotni saqlash
-              qurilmasi -moyulyatsiya va demoyulyatsiya qurilmasi ?Tashqi
-              qurilmalarni boshqarish dasturi nima deb nomlanadi? + drayver
-              -brauzer -tezkor tizim -dasturlash tizimi ?Qaysi qurilma
-              o‘chirilganida kompyuter ishlamaydi? + Operativ xotira -Diskovod
-              -Sichqoncha -Printer ?Kompyuterda ma’lumot qanday ko‘rinishda
-              qayta ishlanadi? + Ikkilik ko‘rinishida -Simvollar va sonlar
-              ko‘rinishida -Matn ko‘rinishida -O‘nlik sanoq tizimi ko‘rinishida
-              ?Ma’lumotlar –bu ...? + Kompyuter kodiga o‘tkazilgan axborotdir
-              -Buyruqlar ketma-ketligidir -Raqamli va matnli axborot -Tovushli
-              va grafikli axborot ?Dastur – bu ...? + Kompyuterning ma’lumotni
-              qayta ishlash jarayonida bajaradigan buyruqlar ketma-ketligidir
-              -Kompyuter kodiga o‘tkazilgan axborotdir -Raqamli va matnli
-              axborot -Tovushli va grafikli axborot ?Berilgan dastur bo‘yicha
-              ma’lumotlarni qayta ishlash qurilmasi bu? + Protsessor -Kiritish
-              qurilmasi -Tezkor xotira -CHiqarish qurilmasi ?Dastur va
-              ma’lumotlar qayta ishlash vaqtida qayerga joylashtiriladi? +
-              Tezkor xotiraga -Doimiy xotiraga -Qattiq diskga -Kesh-xotiraga
-              ?Mikroprotsessor tomonidan qabul qilinadigan bitlarning yaxlit
-              soni nima deyiladi? + Protsessor razryadligi -Kompyuterning
-              samaradorligi -Takt chastotasi -Kompyuterning ichki xotira hajmi
-              ?Bir sekunddagi taktlar soni nima debataladi? + Takt chastotasi
-              -Protssessor razryadligi -Kesh-xotira -Kompyuter samaradorligi
-              ?Tezkor tizimni dasturi qayerda joylashgan? + Doimiy xotirada
-              -Kesh- xotirada -CD- diskda -Protsessorda Uchta o‘zgaruvchili
-              mantiqiy funksiyaning xaqiqat jadvali necha qatordan iborat
-              bo‘ladi? + 8 -4 -3 -16
+              <h4>
+                ?2VA-EMAS mantiqiy elementi kirish signallari kombinatsiyasi
+                orqali boshqariladi: x10; x21. Tranzistorlar holatini aniqlang.
+                +VT0- ochiq ; VT1- yopiq ; VT2- ochiq -VT0- yopiq; VT1- yopiq ;
+                VT2- yopiq -VT0- ochiq ; VT1- ochiq ; VT2- ochiq -VT0- yopiq;
+                VT1- ochiq ; VT2- yopiq ?2YOKI-EMAS mantiqiy element ikkala
+                kirishga mantiqiy 0 darajasi berilsa, VT1 va VT2 berk bo‘ladi.
+                Chiqishda esa yuqori sath kuchlanishi – mantiqiy .......
+                o‘rnatiladi. +1 -0 -2 -3 ?KMDYa-tranzistorlarda 2YOKI-EMAS
+                mantiqiy elementida p-kanalli MDYa tranzistori qanday ulanadi.
+                +ketma-ket -Parallel -ketma-ket va parallel -parallel va
+                ketma-ket ?2YOKI –EMAS elementda biror kirishga yuqori sath
+                kuchlanishi (U1KIR( U0) berilsa, mos ravishda VT1 yoki VT2
+                tranzistor ........ va chiqishda mantiqiy 0 (U0CHIQ ( U0)
+                o‘rnatiladi. +ochiladi -berk -ochiladi yoki berk -berk yoki
+                ochiladi ?2VA-EMAS MEda VT1 va VT2 tranzistorlar ............
+                ulanadi. +ketma – ket -parallel -ketma – ket va parallel
+                -parallel va ketma – ket ?2YOKI-EMAS MEda VT1 va VT2
+                tranzistorlar ............ ulanadi. +Parallel -ketma-ket -ketma
+                – ket va parallel -parallel va ketma – ket ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/94/NWpuK4NTpsuvq7mzIc4hYBIHQB5GHlIc.jpg"
+                  alt=""
+                  width="149"
+                  height="127"
+                />
+                Qaysi mantiqiy element sxemasi keltirilgan? +2VA – EMAS
+                -YOKI-EMAS -2YOKI -Invertor ?2VA-EMAS mantiqiy element ikkala
+                kirishga mantiqiy 0 darajasi berilsa, VT1 va VT2 berk bo‘ladi.
+                Chiqishda esa yuqori sath kuchlanishi – mantiqiy .......
+                o‘rnatiladi. +1 -0 -2 -3 ?2YOKI-EMAS mantiqiy element ikkala
+                kirishga mantiqiy 1 darajasi berilsa, VT1 va VT2 ochiq bo‘ladi.
+                Chiqishda esa yuqori sath kuchlanishi – mantiqiy .......
+                o‘rnatiladi. +0 -1 -2 -3 ?2VA-EMAS mantiqiy element ikkala
+                kirishga mantiqiy 1 darajasi berilsa, VT1 va VT2 ochiq bo‘ladi.
+                Chiqishda esa yuqori sath kuchlanishi – mantiqiy .......
+                o‘rnatiladi. +0 -1 -2 -3 ?Agar 1x4 demultipleksorni boshqaruviga
+                S00, S10 berilgan bo‘lsa, chiqishda kirish liniyasini Q da
+                namoyon qiladi. +Q0 -Q1 -Q2 -Q3 ?Agar 1x4 demultipleksorni
+                boshqaruviga S01, S10 berilgan bo‘lsa, chiqishda kirish
+                liniyasini Q da namoyon qiladi. +Q1 -Q2 -Q0 -Q3 ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/OsOnaONo796qX52LlfyNPWr3kCX6mmgz.jpg"
+                  alt=""
+                  width="163"
+                  height="87"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +ISTISNO-YOKI- mantiqiy
+                elementi -ISTISNO-YOKI- EMAS mantiqiy elementi -2VA-EMAS
+                mantiqiy elementi -2YOKI mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/2uvoctg01a3a_I1fiuQHGvD06_fNPNBt.jpg"
+                  alt=""
+                  width="200"
+                  height="86"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +ISTISNO-YOKI- mantiqiy
+                elementi -ISTISNO-YOKI- EMAS mantiqiy elementi -2VA-EMAS
+                mantiqiy elementi -2YOKI mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/v4ZKTbTFLc6y87AjAHR4RNnNGPyxDEMf.jpg"
+                  alt=""
+                  width="134"
+                  height="86"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +ISTISNO-YOKI mantiqiy
+                elementi -ISTISNO-YOKI-EMAS mantiqiy elementi -2VA-EMAS mantiqiy
+                elementi -2YOKI mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/yVdcUIXGBfxpTEuuHLcWjbo9YbRZsNkT.jpg"
+                  alt=""
+                  width="159"
+                  height="97"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +2YOKI-EMAS mantiqiy
+                elementi -2YOKI mantiqiy elementi -2VA-EMAS mantiqiy elementi
+                -2VA mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/mX4CFJ1vUl33BwY7szbyltTWTYMjgzq6.jpg"
+                  alt=""
+                  width="123"
+                  height="66"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +2VA mantiqiy elementi
+                -2YOKI mantiqiy elementi -2VA-EMAS mantiqiy elementi -YOKI-EMAS
+                mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/WrlEaS3oClEWG3uoVzrS7Pl_-pkV2sxv.jpg"
+                  alt=""
+                  width="99"
+                  height="78"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +2YOKI mantiqiy elementi
+                -2VA mantiqiy elementi -2VA-EMAS mantiqiy elementi -YOKI-EMAS
+                mantiqiy elementi ?Shifratorni shartli belgilashda …….. harfidan
+                foydalaniladi. +CD -DC -RS -MUX ?O‘nlik, sakkizlik yoki
+                o‘noltitalik sanoq tizimidagi raqamlarni ikkilik yoki
+                ikkilik-o‘nlik kodga o‘zgartiruvchi kombinatsion mantiqiy
+                qurilma – ........ deb ataladi. +Shifrator -deshifrator
+                -Multipleksor -Demultipleksor ?.................. qurilmalar
+                deb, chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi
+                bilan belgilanadigan, ikkita vaqt momentiga ega bo‘lgan,
+                xotirasiz mantiqiy quril-malarga aytiladi. +Kombinatsion
+                -Xotirali -Kuchaytiruvchi -O‘zgartiruvchi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/1NKupFqAFJd7NnOyznEq3SxutPDPIUcA.jpg"
+                  alt=""
+                  width="184"
+                  height="128"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +To’liqjamlagich
+                -Yarimjamlagich -JK-trigger -Hisoblagich ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/9Gv7rA7tDpl86ZUGtZaAyCong0Vb3fxS.jpg"
+                  alt=""
+                  width="149"
+                  height="108"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Yarimjamlagich
+                -To’liqjamlagich -JK-trigger -Hisoblagich ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/KrhMKKLLtxYUSwuodlggMokig1khqYBl.jpg"
+                  alt=""
+                  width="159"
+                  height="81"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Yarimjamlagich
+                -To’liqjamlagich -JK-trigger -Hisoblagich ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/KFZQMOurtKKuIQKl787WCwmGHqGngfqJ.jpg"
+                  alt=""
+                  width="166"
+                  height="88"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? . +Yarimjamlagich
+                -To’liqjamlagich -JK-trigger -Hisoblagich ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/aN37L45e5i2yw0zk2Zqw1KBT5ZBLLnJF.jpg"
+                  alt=""
+                  width="180"
+                  height="111"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +ISTISNO-YOKI- EMAS
+                mantiqiy elementi -ISTISNO-YOKI- mantiqiy elementi -2VA-EMAS
+                mantiqiy elementi -2YOKI mantiqiy elementi ?4x2 shifratorni
+                kirish yullariga X00, X10, X21, X30 berilganda chiqish yo’li
+                signali qanday bo’ladi. +Y0 1, Y10 -Y0 0, Y10 -Y0 0, Y11 -Y0 1,
+                Y11 ?4x2 shifratorni kirish yullariga X00, X10, X20, X31
+                berilganda chiqish yo’li signali qanday bo’ladi. +Y0 1, Y11 -Y0
+                0, Y10 -Y0 1, Y10 -Y0 1, Y10 ?Ikkilik sanoq tizimidagi
+                raqamlarni o‘nlik sanoq tizimidagi kodga o‘zgartiruvchi
+                kombinatsion mantiqiy qurilma – ........... deb ataladi.
+                +Deshifrator -Shifrator -Multipleksor -Demultipleksor
+                ?Deshifratorni shartli belgilashda …….. harfidan foydalaniladi.
+                +DC -CD -RS -MUX ?2x4 deshifratorni kirish yullariga X00, X10
+                berilganda chiqish yo’li signali qanday bo’ladi. +Y0 0, Y1 0, Y2
+                0, Y3 0 -Y0 0, Y1 1, Y2 0, Y3 0 -Y0 1, Y1 0, Y2 0, Y3 0 -Y0 0,
+                Y1 0, Y2 1, Y3 0 ?...................... bir manbadan
+                berilayotgan ma’lumotlarni bir nechta chiqish kanaliga uzatishni
+                boshqarish uchun mo‘ljallangan. +Demultipleksor -Shifrator
+                -Deshifrator -Multipleksor ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/CLUv42V97S3Alk9u_qGlyI3dHT1Y8aY1.jpg"
+                  alt=""
+                  width="122"
+                  height="163"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +Deshifrator -yarim
+                jamlagich -to’liqjamlagich -Trigger ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/24pX9nQXe8h6uLWQJuYg8sGuuiKThTS9.jpg"
+                  alt=""
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Deshifrator -yarim
+                jamlagich -to’liqjamlagich -Trigger ?4x2 shifratorni kirish
+                yo`llariga X00, X11, X20, X30 berilganda chiqish yo‘li signali
+                qanday bo‘ladi. +Y0 0, Y11 -Y0 0, Y10 -Y0 1, Y10 -Y0 1, Y11 ?2x4
+                deshifratorni kirish yo‘llariga X01, X10 berilganda chiqish
+                yo’li signali qanday bo’ladi. +Y0 0, Y1 0, Y2 0, Y3 0 -Y0 0, Y1
+                1, Y2 0, Y3 0 -Y0 1, Y1 0, Y2 0, Y3 0 -Y0 0, Y1 0, Y2 1, Y3 0
+                ?2x4 deshifratorni kirish yo‘llariga X00, X11 berilganda chiqish
+                yo’li signali qanday bo’ladi. +Y0 0, Y1 1, Y2 0, Y3 0 -Y0 1, Y1
+                1, Y2 0, Y3 0 -Y0 1, Y1 0, Y2 0, Y3 0 -Y0 0, Y1 0, Y2 1, Y3 0
+                ?Qaysi qurilmaning sxemasi keltirilgan? +Demultipleksor
+                -Multipleksor -Deshifrator -Shifrator ?2x4 deshifratorni kirish
+                yo‘llariga X01, X11 berilganda chiqish yo’li signali qanday
+                bo’ladi. +Y0 0, Y1 0, Y2 0, Y3 1 -Y0 0, Y1 1, Y2 0, Y3 0 -Y0 1,
+                Y1 0, Y2 0, Y3 0 -Y0 0, Y1 0, Y2 1, Y3 0 ?Agar 4x1
+                multipleksorni boshqaruviga S01, S11 berilgan bo’lsa, chiqishda
+                kirish liniyasini Q da namoyan qiladi. +A3 -A1 -A2 -A0 ?Agar 4x1
+                multipleksorni boshqaruviga S00, S10 berilgan bo’lsa chiqishda
+                kirish liniyasini Q da namoyan qiladi. +A0 -A1 -A2 -A3 ?Agar 4x1
+                multipleksorni boshqaruviga S01, S10 berilgan bo’lsa, chiqishda
+                kirish liniyasini Q da namoyan qiladi. +A1 -A0 -A2 -A3 ?Agar 4x1
+                multipleksorni boshqaruviga S00, S11 berilgan bo’lsa, chiqishda
+                kirish liniyasini Q da namoyan qiladi. +A2 -A3 -A1 -A0 ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/MV25JuONRRCN6b6xdvw_BSUonmfqJIsQ.jpg"
+                  alt=""
+                  width="146"
+                  height="138"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Multipleksor -yarim
+                jamlagich -to’liqjamlagich -Trigger ?…………… deb ikkili so’zlarni
+                taqqoslashga mo’ljallangan kombinatsion qurilmaga aytiladi.
+                +Komparator -Shifrator -Jamlagich -Deshifrator
+                ?................deb ikkilik koddagi sonlarni qo‘shish (jamlash)
+                asosiy arifmetik amalini bajaruvchi kombinatsion mantiqiy
+                qurilmaga aytiladi. +Jamlagich -Shifrator -Multipleksor
+                -Deshifrator ?Bir xonali sonlarni jamlash sxemasidagi kirish
+                yo’llari soni bo’yicha: ikki kirish yo’lli bir xonali ………………….
+                +kombinatsion jamlagich -yarim jamlagich va uch kirish yo’lli
+                bir xonali to’liqjamlagich -uch kirish yo’lli bir xonali
+                to’liqjamlagich -yarim jamlagich ?Bir xonali sonlarni jamlash
+                usuli bo’yicha …………. jamlagichlarga bo’linadi. +kombinatsion va
+                to’plovchi -to’plovchi -kombinatsion -yarim ?Ko’p xonali
+                sonlarni jamlash usuli bo’yicha jamlagichlar …………..
+                jamlagichlarga bo’linadi. +ketma-ket va parallel -parallel
+                -ketma-ket -kombinatsion va to’plovchi ?Ko’p xonali sonlarni
+                jamlash usuli bo’yicha …………. jamlagichlar qo’llanilganda bitta
+                xonaga ortiradi. +inkrement -dekrement -kombinatsion va
+                to’plovchi -ketma-ket va parallel ?Ko’p xonali sonlarni jamlash
+                usuli bo’yicha …………. jamlagichlar qo’llanilganda bitta xonaga
+                kamaytiradi. +dekrement -inkrement -kombinatsion va to’plovchi
+                -ketma-ket va parallel ?........................qurilmalar deb,
+                chiqish signallari kirish o‘zgaruvchilari kombinatsiyasi bilan
+                belgilanadigan, xotirali mantiqiy qurilmalarga aytiladi. +Ketma
+                – ketli -Jamlagich -Arifmetik-mantiqiy qurilma -Multipleksor
+                ?Agar 1x4 demultipleksorni boshqaruviga S00, S11 berilgan
+                bo‘lsa, chiqishda kirish liniyasini Q da namoyon qiladi. +Q2 -Q0
+                -Q1 -Q3 ?Axborotni kiritish (yozish) usuli bo’yicha triggerlar
+                …………… triggerlarga bo’linadi. +asinxron va sinxron -Sinxron
+                -Asinxron -ikki taktli ?Asinxron …..-trigger deb ikkita kirish
+                yo’li S va R ga ega bo’lgan, ikki turg’un muvozanat holatli
+                sxemaga aytiladi. +RS -D -TT -J K ?Asinxron RS-trigger kirishiga
+                ……………….. berilganda trigger birlik holatiga o’tadi. +S1 va R0
+                -S0 va R0 -S0 va R1 -S1 va R1 ?…………. triggerlar qo’shimcha
+                kirish yo’liga ega bo’lib, bu yo’ldan ……….lovchi signallar
+                beriladi. +Sinxron -Asinxron -Pog’anali -Taktli ?Ketma – ketli
+                qurilmalarga ............................misol bo‘la oladi.
+                +triggerlar, registrlar, schetchiklar -arifmetik-mantiqiy
+                -Multipleksor -Shifrator ?.....................– ikkita turg‘un
+                holatli chiqishga ega bo‘lgan qurilma bo‘lib, u elementar xotira
+                yacheykasi (bistabil yacheyka) va boshqaruv sxemasiga ega.
+                +Triggerlar -Shifrator -Multipleksor -Hisoblagichlar
+                ?Triggerlarga .... bit ma’lumotni yozish va saqlash mumkin. +1
+                -2 -10 -4 ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/vP-CHDV3zHuRuEduy4P4JIPL5ZppgbZR.jpg"
+                  alt=""
+                  width="162"
+                  height="124"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Asinxron RS trigger
+                -Multipleksor -Deshifrator -Shifrator ?Asinxron RS-trigger
+                kirishiga ……………….. berilganda trigger nollik holatiga o‘tadi.
+                +S0 va R1 -S1 va R0 -S0 va R0 -S1 va R1 ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/Ix9wPebvi2siysTMu600R5iRFQT6xuwO.jpg"
+                  alt=""
+                  width="179"
+                  height="98"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +bistabil yacheyka
+                -multipleksor -deshifrator -Shifrator ?…..-kirishga berilayotgan
+                ma`lumot trigger chiqishida faqat sinxro signal berilgandagina
+                paydo bo`ladi. +RS -D -JK -RSK ?Axborotni ikki pog’onali
+                xotirlovchi triggerlar ikkita trigger tuzilmasidan iborat. Biri
+                ……… deb, ikkinchisi ………… deb ataladi. +yetakchi, yetaklanuvchi
+                -yetaklanuvchi -Yetakchi -Taktli ?Ikki pog’onali triggerni
+                shartli belgilashda …….. harfidan foydalaniladi. +TT -JK -D -RS
+                ?Triggerlarning quyidagi turlari mavjud: ......................
+                +RS, D, T, JK -R D , D, T, JS -R D , D, T, JK -R A, D, TS, JS
+                ?…… -triggerlar - ikki pog’onali universal sinxron trigger +JK
+                -RS -D -TT ?RS-triggerda ma’lumot yozish boshqaruv signali
+                berilishi bilan ixtiyoriy vaqt momentlarida amalga oshiriladi.
+                Bunday triggerlar .......... deb ataladi. +taktli -sinxron
+                -asinxron -chastotali ?………. deb ko’p xonali ikkili kod
+                ko’rinishida ifodalangan axborotni yozish, saqlash va (yoki)
+                siljitishga mo’ljallangan o’zelga aytiladi. +Registr -Jamlagich
+                -Multipleksor -Arifmetik-mantiqiy ?Ketma-ket registrlar -
+                axborot faqat …………… ko’rinishda yoziladi va o’qiladi. +ketma-ket
+                -Parallel -ketma-ket son kodini parallel kodga o’zgartirish
+                -ketma-ket- parallel ?Ketma-ket - parallel registrlar ……………
+                registrlar hisoblanadi va ular parallel kodni ketma-ket kodga
+                o’zgartira oladi va aksincha. +universal -parallel -ketma-ket
+                -ketma-ket- parallel ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/6F4QMasYg35l_J_YCBX9OiL25KY1JrgW.jpg"
+                  alt=""
+                  width="120"
+                  height="87"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Asinxron RS trigger
+                -Multipleksor -Deshifrator -Shifrator ?…………registrlarda ikkili
+                so’zlarni qabul qilish va o’zgartirish barcha xonalari bo’yicha
+                bir vaqtning o’zida amalga oshiriladi. +Parallel -Ketma-ket
+                -Universal -Ketma-ket- parallel ?Parallel registr ma’lumotlar
+                ustidan quyidagi mikroamallarni bajarishga mo’ljallangan: ………
+                shaklda kirishdagi ma’lumotlarni yozish, saqlash va uzatish.
+                +parallel -ketma-ket -Universal -ketma-ket- parallel
+                ?Siljituvchi registrlarda faqat ……… triggerlar ishlatiladi. +TT
+                -JK -D -RS ?Ma`lumotlarni ikkala yo`nalishda siljitish imkoniga
+                ega bo`lgan ketma-ketli registrlar …………… deb ataladi. +reversiv
+                registrlar -ketma-ket -siljituvchi -parallel ?………….deb kirish
+                yo’li signallarini sanashga va ular sonini qaydlashga
+                mo’ljallangan o’zelga aytiladi. +Hisoblagich -Trigger -Registr
+                -Reversiv registr ?Axborotni qabul qilish usuli bo‘yicha
+                quyidagi registrlar farqlanadi. +ketma-ket- parallel -ketma-ket
+                -Siljituvchi -Parallel ?……………… registrlarda triggerlar ketma-ket
+                ulangan, ya’ni oldingi triggerning chiqish yo‘li axborotni
+                keyingi triggerning kirish yo‘liga uzatadi. +Ketma-ket -Parallel
+                -Universal -Ketma-ket- parallel ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/tYMpc0xwI81pV_YggR-w6ukODZtPNCpi.jpg"
+                  alt=""
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +D trigger -asinxron RS
+                trigger -sinxron RS trigger -Shifrator ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/ledWtrdJcIdj7CVsQX9v6QxYmIJvH6rw.jpg"
+                  alt=""
+                  width="142"
+                  height="82"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +D trigger -asinxron RS
+                trigger -sinxron RS trigger -Shifrator ?To’g’ri va teskari
+                sanashning turli variantlaridan foydalanib ………. hisoblagichni
+                qurish mumkin. +reversiv -Parallel -ketma-ket -ketma-ket,
+                parallel, guruxli kuchirishli ?Qurilma .......si deb dasturlar,
+                kiritilayotgan ma’lumotlar, oraliq natijalar va olinayotgan
+                ma’lumotlarni saqlash uchun mo‘ljallangan qurilmalar majmuiga
+                aytiladi. +xotira -multipleksor -deshifrator -jamlagich
+                ?.................... mikroprotsessor tomonidan qayta
+                ishlanayotgan unchalik katta bo‘lmagan hajmdagi ma’lumotlarni
+                saqlashga mo‘ljallangan. +Ichki xotira -Tashqi xotira -Optik
+                xotira -Magnit xotira ?Sanash amalini tashkil etish bo‘yicha
+                ………………. hisoblagichlar farqlanadi. +asinxron, sinxron -Sinxron
+                -Reversiv -Asinxron ?Sanash yo‘nalishi bo‘yicha quyidagi
+                hisoblagichlar farqlanadi. +jamlovchi, ayiruvchi, reversiv
+                -Ayiruvchi -Reversiv -Jamlovchi ?Hisoblagichlarning asosiy
+                parametri ………. moduli M hisoblanadi. +Sanash -Saqlash
+                -Ko`chirish -nolga o’tkazish ?Hisoblagichlarda quyidagi mantiqiy
+                amallar bajariladi. +kirish yo’liga berilgan signallarni sanash,
+                chastotani bo’lish -kirish yo’liga berilgan signallarni sanash
+                -yozilgan axborotni saqlash -chastotani bo’lish
+                ?Hisoblagichlarning asosiy vazifalari quyidagilar. +kirish
+                yo’liga berilgan signallarni sanash, chastotani bo’lish -kirish
+                yo’liga berilgan signallarni sanash -kiritilayotgan ma’lumotni
+                saqlash -chastotani bo’lish ?...................... qurilma
+                o‘chirilgan yoki yoqilganidan qattiy nazar katta hajmdagi
+                ma’lumotlarni uzoq muddatga saqlash uchun mo’ljallangan. +Tashqi
+                xotira -Ichki xotira -Optik xotira -Magnit xotira ?Qurilma
+                tarmoqdan o‘chirilganda yo‘qolib ketadigan xotira,
+                .............. deb ataladi. +energiyaga bog‘liq bo‘lgan xotira
+                -energiyaga bog‘liq bo‘lmagan xotira -doimiy xotira qurilmasi
+                -qayta dastrulanuvchi xotira ?Qurilma tarmoqdan o‘chirilganda
+                ma’lumotlar yo‘qolib ketmasa – ..................... deb
+                ataladi. +energiyaga bog‘liq bo‘lmagan xotira -Videoxotira
+                -energiyaga bog‘liq bo‘lgan xotira -kesh-xotiralar ?Energiyaga
+                bog‘liq bo‘lmagan ichki xotiraga ………… qurilmasi kiradi. +doimiy
+                xotira qurilmasi -Videoxotira -kesh-xotiralar -operativ xotira
+                qurilmasi ?Statik yarimo‘tkazgichli XQlar bipolyar va
+                MDYA-tranzistorlarda bajarilgan xotira elementlari
+                (..................dan) tashkil topadi. +triggerlar
+                -Multipleksor -Videoxotira -Schetchik ?.............. OXQlarda
+                ma’lumot doimiy ravishda unga ajratilgan massivda aylanib
+                yuradi. +Dinamik -Statik -dinamik va statik -Fizik ?Tanlangan
+                ish algoritmi uchun sozlashga (dasturlashga) tayyor mantiqiy
+                ..………….. deb ataladi. +katta integral sxema -Sodda mantiqiy
+                integral sxema -Mantiqiy integral sxema -TTM integral sxema
+                ?SMISlarni …….. xil usul bilan sozlash (dasturlash) mumkin: +Uch
+                -Ikki -Bir -To‘rt ?Dasturlash usuli bo’yicha ………………
+                dasturlanuvchi hamda qayta dasturlanuvchi DMMlar farqlanadi.
+                +maskali va elektr -Elektr -Maskali -Kavsharlash ?……..
+                dasturlanuvchi DMMda axborot kiritish matritsa zanjirlariga
+                diodlar yoki tranzistorlarni ulash yo’li bilan bajariladi.
+                +Elektr -Maskali -Maskali va elektr -Kavsharlash ?………..
+                dasturlanuvchi DMMga axborotni yozish maxsus uskuna yordamida
+                kashaklarni kuydirish yoki matritsaning mos zanjiriga katta
+                amplitudali impuls tokini berib, ulanishni hosil qilish yo’li
+                bilan bajariladi. +Elektr -Maskali -Maskali va elektr
+                -Kavsharlash ?Arifmetik va mantiqiy amallar bajariladigan
+                qurilma ………………. deb ataladi. +arifmetik-mantiqiy qurilma
+                -Jamlagich -Hisoblagich -Multipleksor ?………………. MKning tashki
+                dunyo bilan axborot almashinuv kanali. +Ketma-ket port -Parallel
+                port -Qayta ulanuvchi port -Sig’imli port ?……….. deb berilganlar
+                ustidan arifmetik va mantiqiy amallar bajaradigan
+                dasturiy-boshqariladigan qurilmaga aytiladi. +Mikroprotsessor
+                -Mikrokontroller -Raqam-analog o’zgartgich -Analog-raqam
+                o’zgartgich ?Mkning mikroprotsessordan farqi shundaki, unda
+                markaziy protsessordan tashqari xotira va ko’p sonli ………………………,
+                analog-raqam o’zgartgichlari, axborotni uzatishning ketma-ket va
+                parallel kanallari, real vaqt taymerlari, modulyatorlar va h,.
+                mavjud. +kiritish va chiqarish qurilmalari -analog-raqam
+                o’zgartgichlari -raqam-analogli o’zgartgichlari -real vaqt
+                taymerlari ?Mkning mikroprotsessordan farqi shundaki, unda
+                markaziy protsessordan tashqari xotira va ko‘p sonli kiritish va
+                chiqarish qurilmalari, ……………….., axborotni uzatishning ketma-ket
+                va parallel kanallari, real vaqt taymerlari, modulyatorlar va
+                h,. mavjud. +analog -raqam o’zgartgichlari -raqam-analog
+                o’zgartgichlari -kiritish va chiqarish qurilmalari -real vaqt
+                taymerlari ?Mkning mikroprotsessordan farqi shundaki, unda
+                markaziy protsessordan tashqari xotira va ko’p sonli kiritish va
+                chiqarish qurilmalari, analog-raqam o’zgartgichlari, axborotni
+                uzatishning ketma-ket va parallel kanallari, ………………….,
+                modulyatorlar va h,. mavjud. +real vaqt taymerlari -analog-raqam
+                o’zgartgichlari -kiritish va chiqarish qurilmalari
+                -raqam-analogli o’zgartgichlari ?…………….qurilmaning barcha
+                uzellari ishlashini sinxronlovchi signallarni ishlab chiqarishga
+                mo’ljallangan. +Takt generatori -Analog-raqam o’zgartgichlari
+                -Raqam-analogli o’zgartgichlari -Real vaqt taymerlari
+                ?Mikrokontrollerlar ………. texnologiyasi asosida yaratilgan
+                bo’lib, programmalar va malumotlarni saqlovchi energiyaga
+                bog’lik bo’lmagan xotira qurilmalari FleshROM va EEPROM
+                texnologiyalari asosida yaratilgan. +KMDYa -Emmiterlari
+                bog’langan mantiq -kanalli maydoniy transistor -TTM ?………………………-
+                bu qurilma bevosita ikkilik kodida ifodalangan sonlar va
+                adreslar ustidan arifmetik va mantiqiy amallarni bajaradi.
+                +Boshqaruv qurilmasi -Arifmetik-mantiqiy qurilma -Registrlar
+                bloki -Saqlash registrlari ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/ZjUgvSYMoROXJt73v7wq_k4WAHGmLFuH.jpg"
+                  alt=""
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +asinxron hisoblagich
+                -Ikki pog’onali trigger -sinxron RS trigger -asinxron RS trigger
+                ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/GJyxBresRKTxLc9TabeylqlD8ppRksAj.jpg"
+                  alt=""
+                  width="174"
+                  height="207"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Sinxron hisoblagich
+                -Ikki pog’onali trigger -sinxron RS trigger -asinxron RS trigger
+                ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/ruzZDl0rZ8irJnpw647gap_NogBzQOBR.jpg"
+                  alt=""
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +asinxron hisoblagich
+                -asinxron RS trigger -sinxron RS trigger -Ikki pog’onali trigger
+                ?Hisoblagichlarda quyidagi mantiqiy amallar bajariladi.
+                +chastotani bo’lish -kirish yo’liga berilgan signallarni sanash
+                -inkrement - saqlanayotgan sonni bittaga orttirish -kirish
+                yo’liga berilgan signallarni sanash, chastotani bo’lish
+                ?Ketma-ket - parallel registrlar …………… registrlar hisoblanadi va
+                ular parallel kodni ketma-ket kodga o’zgartira oladi va
+                aksincha. +ketma-ket -parallel -universal -ketma-ket- parallel
+                ?……….. siljituvchi registrlar mavjud. +Chapga va o‘nga
+                -Axborotni chiqarish -Qabul qilish -Ajratish ?Ketma-ket
+                registrlar - axborot faqat …………… ko’rinishda yoziladi va
+                o’qiladi. +ketma-ket -Parallel -ketma-ket son kodini parallel
+                kodga o’zgartirish -ketma-ket- parallel ?……….. kod tartibida
+                ma`lumot chiqaruvchi registrlar ham mavjud. +To‘g’ri va teskari
+                -Axborotni chiqarish -Axborotni kiritish -Saqlanuvchi
+                ?RS-triggerda ma’lumot yozish boshqaruv signali berilishi bilan
+                ixtiyoriy vaqt momentlarida amalga oshiriladi. Bunday triggerlar
+                .......... deb ataladi. +Sinxron -Asinxron -Taktli -Chastotali
+                ?………….deb kirish yo’li signallarini sanashga va ular sonini
+                qaydlashga mo’ljallangan o’zelga aytiladi. +Hisoblagich -Trigger
+                -Registr -Reversiv registr ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/_R4ew0bugctZEaJgweWmboMD5kUv9aaK.jpg"
+                  alt=""
+                  width="279"
+                  height="121"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +sinxron hisoblagich
+                -Ikki pog’onali trigger -sinxron RS trigger -asinxron RS trigger
+                ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/lKcGOXu4c5PYiw6pgyeYrX6j5V_iFXvM.jpg"
+                  alt=""
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +registr -Ikki pog’onali
+                trigger -sinxron RS trigger -asinxron RS trigger
+                ?Hisoblagichlarda kirish yo’liga berilgan signallarni sanash,
+                chastotani bo’lish..…. bajariladi. +mantiqiy amallar -holat
+                -orttirish -kamaytirish ?Hisoblagichlarning asosiy parametri
+                ………. moduli M hisoblanadi. +sanash -saqlash -ko‘chirish -nolga
+                o’tkazish ?Qurilma tarmoqdan o‘chirilganda yo‘qolib ketadigan
+                xotira, .............. deb ataladi. +energiyaga bog‘liq bo‘lgan
+                xotira -energiyaga bog‘liq bo‘lmagan xotira -doimiy xotira
+                qurilmasi -qayta dastrulanuvchi xotira ?Xonalararo bog‘lanishni
+                qurish usuliga binoan ……….…………. hisoblagichlar farqlanadi.
+                +ketma-ket, parallel, guruhli ko`chirishli -Parallel -guruhli
+                ko`chirishli -Ketma-ket ?Qurilma .......si deb dasturlar,
+                kiritilayotgan ma’lumotlar, oraliq natijalar va olinayotgan
+                ma’lumotlarni saqlash uchun mo‘ljallangan qurilmalar majmuiga
+                aytiladi. +xotira -multipleksor -deshifrator -jamlagich ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/3WX1j6BnG5_0wR8S_7lclw1rztixnh2_.jpg"
+                  alt=""
+                  width="253"
+                  height="222"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +MT asosida qurilgan EXE
+                -BT asosida qurilgan EXE -Ikki pog’onali trigger -sinxron RS
+                trigger ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/vJdCLHTpO94Z0s65iLtyMZYo44qe-mHN.jpg"
+                  alt=""
+                  width="156"
+                  height="117"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +MT asosida qurilgan EXE
+                -BT asosida qurilgan EXE -Ikki pog’onali trigger -sinxron RS
+                trigger ?...................... qurilma o‘chirilgan yoki
+                yoqilganidan qattiy nazar katta hajmdagi ma’lumotlarni uzoq
+                muddatga saqlash uchun mo’ljallangan. +Tashqi xotira -Ichki
+                xotira -Optik xotira -Magnit xotira ?Qurilma tarmoqdan
+                o‘chirilganda ma’lumotlar yo‘qolib ketmasa –
+                ..................... deb ataladi. +energiyaga bog‘liq bo‘lmagan
+                xotira -Videoxotira -energiyaga bog‘liq bo‘lgan xotira
+                -kesh-xotiralar ?Mkning mikroprotsessordan farqi shundaki, unda
+                markaziy protsessordan tashqari xotira va ko’p sonli kiritish va
+                chiqarish qurilmalari, ……………….., axborotni uzatishning ketma-ket
+                va parallel kanallari, real vaqt taymerlari, modulyatorlar va
+                h,. mavjud. +raqam-analogli o’zgartgichlari -analog-raqam
+                o’zgartgichlari -kiritish va chiqarish qurilmalari -real vaqt
+                taymerlari ?………………..saqlashdan tashqari o’z holatini ma’lum
+                tarzda o’zgartirish xossasiga ega. +Operatsion registrlar
+                -Saqlash registrlari -Yordamchi registrlar -Qo‘shimcha
+                registrlar ?………………………. – boshqaruv signallariga bog’liq ravishda
+                turli amallarni bajaruvchi, cheklangan nomenklaturaga ega
+                bo’lgan KISlar majmuasi. +Mikroprotsessorli vositalar -MP
+                tuzilmasi -Mikrokontroller -Mikroprotsessor ?……………………... -
+                analog shakldagi ma’lumotlarni raqamli shaklga o’zgartirishga
+                xizmat qiladi. +Analog-raqam o’zgartgichlari -Raqam-analogli
+                o’zgartgichlari -Mikrokontroller -Mikroprotsessor
+                ?Axborot-boshqaruv tizimiga kiruvchi axborot nima orqali
+                yetkaziladi? +operativ xotira -Protsessor -xotira -Datchik
+                ?………………………- bu qurilma bevosita ikkilik kodida ifodalangan
+                sonlar va adreslar ustidan arifmetik va mantiqiy amallarni
+                bajaradi. +Boshqaruv qurilmasi -Arifmetik-mantiqiy qurilma
+                -Registrlar bloki -Saqlash registrlari ?Elektron qurilmalarda
+                jumladan, kompyuterlarda qayta ishlanayotgan ma`lumotlar,
+                natijalar va boshqa axborotlar ko‘p hollarda elektr signallar
+                ………………………ko‘rinishida ifodalanadi. +raqamli -Uzluksiz
+                -(uzluksiz) va raqamli (diskret) -Mantiqiy ?Uzluksiz
+                ko‘rinishdagi signallarni qabul qilish, o‘zgartirish va uzatish
+                uchun mo‘ljallangan elektron qurilmalar …….. elektron qurilmalar
+                deb ataladi. +analog -Raqamli -Impulsli -Diskretli ?Qaysi
+                mantiqiy element sxemasi keltirilgan?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/l6gy29ejvoso3hIfPGgjUSbS7lrk7brB.jpg"
+                  alt=""
+                  width="169"
+                  height="133"
+                />
+                +Invertor -2YOKI-EMAS -2HAM -2HAM-EMAS ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/bHqXqwrZBfJk1l5wLjgBFl9RCoXkfGCu.jpg"
+                  alt=""
+                  width="173"
+                  height="187"
+                />
+                Qaysi mantiqiy element sxemasi keltirilgan? +Invertor -YOKI-EMAS
+                -2VA – EMAS -2YOKI ?KMDYa-tranzistorlarda 2VA-EMAS mantiqiy
+                elementida p-kanalli MDYa tranzistori qanday ulanadi? +parallel
+                -ketma-ket -ketma-ket va parallel parallel va ketma-ket
+                -parallel va ketma-ket ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/wiA04J76WGdlV86u5reGsWgXRZTlfudB.jpg"
+                  alt=""
+                  width="156"
+                  height="169"
+                />
+                Qaysi mantiqiy element sxemasi keltirilgan? +2VA-EMAS -YOKI-EMAS
+                -2YOKI -Invertor ?Qaysi mantiqiy element sxemasi keltirilgan?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/sIclkJ-iS78eFAgRJvRaXtNAGCg3lgmS.jpg"
+                  alt=""
+                  width="188"
+                  height="143"
+                />
+                +2YOKI-EMAS -2VA-EMAS -2YOKI -Invertor ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/B4yGV_d1LnyO2SElYEExjXR4VxtuhI7V.jpg"
+                  alt=""
+                  width="130"
+                  height="128"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Multipleksor -yarim
+                jamlagich -to’liqjamlagich -Trigger ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/1F3jL5Tf_uL3H-j132Fox94Abfel4yJ5.jpg"
+                  alt=""
+                  width="182"
+                  height="78"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +To’liqjamlagich
+                -Yarimjamlagich -JK-trigger -Hisoblagich ?Qaysi qurilmaning
+                sxemasi keltirilgan va qanday mantiqiy
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/5_Q3MzJK-HTbsXpAg2Hvca4ZU_cRLJAh.jpg"
+                  alt=""
+                  width="153"
+                  height="104"
+                />{" "}
+                amalni bajaradi? +MDYAdan yig’ilgan , 2YOKI – EMAS -TTM
+                ,YOKI-EMAS -BTdan yig’ilgan , 2BA – EMAS -KMDYa dan yig’ilgan,
+                2YOKI – EMAS ?Qaysi qurilmaning sxemasi keltirilgan va qanday
+                mantiqiy
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/nMNPxVLkFGUYWXTaaiF-wKjeij7PE4jS.jpg"
+                  alt=""
+                  width="144"
+                  height="131"
+                />{" "}
+                amalni bajaradi? +MDYAdan yig’ilgan , 2VA– EMAS -TTM ,YOKI-EMAS
+                -BTdan yig’ilgan , 2BA – EMAS -KMDYa dan yig’ilgan, 2YOKI – EMAS
+                ?Hisoblagichlarning asosiy vazifalari quyidagilar. +kirish
+                yo’liga berilgan signallarni sanash,chastotani bo’lish -kirish
+                yo’liga berilgan signallarni sanash -kiritilayotgan ma’lumotni
+                saqlash -chastotani bo’lish ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/85aPZzZhn3GRG4zZ_Szc6kvltL2jCaVP.jpg"
+                  alt=""
+                  width="156"
+                  height="87"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +2VA-EMAS mantiqiy
+                elementi -2YOKI mantiqiy elementi -EMAS mantiqiy elementi
+                -YOKI-EMAS mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/B30fbuk9o6zkOC2lGl1uWOYglFyi_aaT.jpg"
+                  alt=""
+                  width="265"
+                  height="123"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +asinxron hisoblagich
+                -asinxron RS trigger -sinxron RS trigger -Ikki pog’onali trigger
+                ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/33Mbe3NbXKCpnej9P168zWt8n9IZlWhd.jpg"
+                  alt=""
+                  width="152"
+                  height="168"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +Deshifrator -yarim
+                jamlagich -to’liqjamlagich -Trigger ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/2pYYtjsuWPqlFECxT_RrPhxox7p-dsk9.jpg"
+                  alt=""
+                  width="213"
+                  height="179"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +Analog-raqamli
+                o’zgartgich -Raqam-analogli o’zgartgich -Operatsion
+                kuchaytirgich -Analogli kuchaytirgich ?Qaysi qurilmaning sxemasi
+                keltirilgan?{" "}
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/fQ7djsQ-EFtV4t5asZ23qIhaJdex99rM.jpg"
+                  alt=""
+                  width="169"
+                  height="129"
+                />
+                +JK trigger -asinxron RS trigger -sinxron RS trigger -D trigger
+                ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/4XUh9gKwieUAcCD1-XfzjikNE2jqPmkv.jpg"
+                  alt=""
+                  width="151"
+                  height="50"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +bistabil yacheyka
+                -Multipleksor -Deshifrator -Shifrator ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/l4vyKxL7DBwIourjvBT56goEEGRPymmA.jpg"
+                  alt=""
+                  width="161"
+                  height="126"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +Shifrator -yarim
+                jamlagich -to’liqjamlagich -trigger ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/Tie6rPJV9el9cNuED64Ou-RRrSo9xTv4.jpg"
+                  alt=""
+                  width="188"
+                  height="102"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +ISTISNO-YOKI- EMAS
+                mantiqiy elementi -ISTISNO-YOKI- mantiqiy elementi -2VA-EMAS
+                mantiqiy elementi -2YOKI mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/Ge80AD0Ig4FwRGjvsEpgfJJ_J1xzv4B7.jpg"
+                  alt=""
+                  width="127"
+                  height="73"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +ISTISNO-YOKI-EMAS
+                mantiqiy elementi -ISTISNO-YOKI- mantiqiy elementi -2VA-EMAS
+                mantiqiy elementi -2YOKI mantiqiy elementi ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/Ql2IQOKYDjBuKCvFYZCNsVPkoQU5_I_8.jpg"
+                  alt=""
+                  width="202"
+                  height="172"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan va qanday mantiqiy amalni
+                bajaradi? +KMDYAdan yig’ilgan , 2VA– EMAS -TTM ,YOKI-EMAS -BTdan
+                yig’ilgan , 2BA – EMAS -KMDYa dan yig’ilgan, 2YOKI – EMAS ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/s3WJHoYijiZHUqkdT0uxe87lJvMBEXDA.jpg"
+                  alt=""
+                  width="143"
+                  height="107"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan va qanday mantiqiy amalni
+                bajaradi? +TTM ,2VA-EMAS -MDYAdan yig’ilgan , 2YOKI – EMAS
+                -BTdan yig’ilgan , 2BA – EMAS -KMDYa dan yig’ilgan, 2YOKI – EMAS
+                ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/hi2ZICMbBfj_NTOaQ9pkCnXZxOF7Rd2L.jpg"
+                  alt=""
+                  width="108"
+                  height="71"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +EMAS mantiqiy elementi
+                -2VA mantiqiy elementi -2VA-EMAS mantiqiy elementi -YOKI-EMAS
+                mantiqiy elementi ?…………………. ular buferlash, qisqa muddatga
+                saqlash va shu kabi yordamchi amallarni bajarishga
+                mo‘ljallangan. +Yordamchi registrlar -Saqlash registrlari
+                -Operatsion registrlar -Qoshimcha registrlar ?Qaysi qurilmaning
+                sxemasi keltirilgan?{" "}
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/20eZSDjceu-59tjBXUJBiV9NzGfEfvom.jpg"
+                  alt=""
+                  width="173"
+                  height="103"
+                />
+                +Raqam-analogli o’zgartgich. -Analog-raqamli o’zgartgich.
+                -Operatsion kuchaytirgich. -Analogli kuchaytirgich . ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/6Eqk5ENgJrqtQmFb38LGJTb6OS9iVvqK.jpg"
+                  alt=""
+                  width="159"
+                  height="93"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +BT asosida qurilgan EXE
+                -MT asosida qurilgan EXE -Ikki pog’onali trigger -sinxron RS
+                trigger ?...................... bir necha manbadan berilayotgan
+                ma’lumotlarni bitta chiqish kanaliga uzatishni boshqarish uchun
+                mo‘ljallangan. +Multipleksor -Shifrator -Deshifrator
+                -Demultipleksor ?Registrlarda quyidagi amallar bajariladi.
+                +saqlanuvchi axborotni kiritish va chiqarish -saqlanuvchi
+                axborotni chiqarish -saqlanuvchi axborotni kiritish -saqlanuvchi
+                axborotni siljitish ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/1KaiuTlZAkApnjPQW8lyPuYBSvRnuwpy.jpg"
+                  alt=""
+                  width="224"
+                  height="121"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +JK trigger -asinxron RS
+                trigger -sinxron RS trigger -D trigger ?Xonalararo bog‘lanishni
+                qurish usuliga binoan ……….…………. hisoblagichlar farqlanadi.
+                +ketma-ket, parallel, guruhli kochirishli -Parallel -guruhli
+                kochirishli -ketma-ket ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/uqbyU13ywHJxZlWOXlC0_phjeoq7AyR_.jpg"
+                  alt=""
+                  width="170"
+                  height="98"
+                />{" "}
+                Qaysi qurilmaning sxemasi keltirilgan? +Sanoq trigger -asinxron
+                RS trigger -sinxron RS trigger -D trigger ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/b-UdYfl_C96gPDpNPel-Wcz4GcGynQC0.jpg"
+                  alt=""
+                  width="180"
+                  height="102"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Ikki pog’onali trigger
+                -asinxron RS trigger -sinxron RS trigger -D trigger ?………………
+                registrlarda triggerlar parallel ulangan, ya’ni oldingi
+                triggerning chiqish yo‘li axborotni keyingi triggerning kirish
+                yo‘liga uzatadi. +Parallel -Ketma-ket -Universal -Ketma-ket-
+                parallel ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/ME9nufw_g9CXmU13YAMKaVtff95EOiXx.jpg"
+                  alt=""
+                  width="156"
+                  height="122"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +sinxron RS trigger
+                -asinxron RS trigger -deshifrator -Shifrator ?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/88/XtTUPKJIaJ-_lGDWqCVYqG6gQ0XvWMtI.jpg"
+                  alt=""
+                  width="156"
+                  height="128"
+                />
+                Qaysi qurilmaning sxemasi keltirilgan? +Asinxron RS trigger
+                -Multipleksor -Deshifrator -Shifrator ?Agar 1x4 demultipleksorni
+                boshqaruviga S01, S11 berilgan bo‘lsa, chiqishda kirish
+                liniyasini Q da namoyon qiladi. +Q3 -Q1 -Q2 -Q0 ?Qaysi mantiqiy
+                element sxemasi keltirilgan?
+                <img
+                  src="https://hemis.tuitkf.uz/static/uploads/94/u9FDhuZ-AWaCrfkLkI4__31ivn0NuSZw.jpg"
+                  alt=""
+                  width="143"
+                  height="109"
+                />
+                +2YOKI-EMAS -2VA – EMAS -2YOKI -Invertor
+              </h4>
             </div>
             <div className="answers-right">
               <h3>Javoblar</h3>
