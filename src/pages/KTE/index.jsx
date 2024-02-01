@@ -873,7 +873,7 @@ const Kompyuter = () => {
                 +2YOKI-EMAS -2VA – EMAS -2YOKI -Invertor
               </h4>
 
-  <iframe id="iframepdf" src="https://drive.google.com/file/d/1-_8cWHVagq1MRxnAdVKbvd2DdDjSwwRb/view?usp=drivesdk"></iframe>          
+  <iframe width="800" id="iframepdf" src="https://drive.google.com/file/d/1-_8cWHVagq1MRxnAdVKbvd2DdDjSwwRb/view?usp=drivesdk"></iframe>          
 </div>
             <div className="answers-right">
               <h3>Javoblar</h3>
