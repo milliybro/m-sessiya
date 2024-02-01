@@ -964,7 +964,6 @@ const Kompyuter = () => {
               <button className="btn btn-primary btn-flat">Yakunlash</button>
             </div>
           </div>
-        </div>
       </main>
     </Fragment>
   );
