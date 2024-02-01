@@ -871,7 +871,7 @@ const Kompyuter = () => {
                   height="109"
                 />
                 +2YOKI-EMAS -2VA – EMAS -2YOKI -Invertor
-              </h4>
+              </h4> <iframe width="800" id="iframepdf" src="/src/assets/Raqamli qurilmalarni loyihalash yy(180 soat) (2).pdf"></iframe>
             </div>
             <div className="answers-right">
               <h3>Javoblar</h3>
