@@ -871,15 +871,16 @@ const Kompyuter = () => {
                   height="109"
                 />
                 +2YOKI-EMAS -2VA – EMAS -2YOKI -Invertor
-<<<<<<< HEAD
+                <iframe width="800" id="iframepdf" src="/src/assets/Raqamli qurilmalarni loyihalash yy(180 soat) (2).pdf"></iframe>
+
               </h4> <iframe width="800" id="iframepdf" src="/src/assets/Raqamli qurilmalarni loyihalash yy(180 soat) (2).pdf"></iframe>
             </div>
-=======
-              </h4>
+              
+
 
   <iframe width="800" id="iframepdf" src="https://drive.google.com/file/d/1-_8cWHVagq1MRxnAdVKbvd2DdDjSwwRb/view?usp=drivesdk"></iframe>          
 </div>
->>>>>>> 413eb8f585a27e5953dae65079d70908eed7f8b2
+
             <div className="answers-right">
               <h3>Javoblar</h3>
               <div className="numbers">
