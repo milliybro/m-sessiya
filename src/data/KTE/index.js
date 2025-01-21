@@ -1,1241 +1,1109 @@
 const input = `
-?Ta’limning vazifasi bu:
-+Yosh avlodni ilmiy bilimlar va ko‘nikma va malakalar tizimi bilan qurollantirish. 
--Shaxsni shakllantirish   
--O‘z oldiga qo‘ygan maqsadni amalga oshirish. 
--Tugal ma’noga ega matn tashkil etish. 
+?Mashinali o'qitish Sun'iy intellekti bo'lmagan elementni ko'rsating
++Hub
+-Kalkulyator 
+-Telefon
+-Foto Radar 
+
+?Mashinali o'qitish va suniy intellect bu…
++Mashinali o'qitish sun'iy intellekt tizimlarini ishlab chiqishga xizmat qiladi 
+-Bir tushunchani ifodalaydi
+-Sun'iy intellekt mashinali o'qitish tizimlarini ishlab chiqishga xizmat qiladi 
+-Turli tushunchalarni ifodalaydi
+
+?Mashinali o'qitishning o'qituvchili sinflashtirish algoritmini ko'rsating
++KNN,SVM,Logistik regresiya
+-Kmaens
+-Chiziqli regressiya
+-Kmaens,KNN 
+
+?Supervised learning
++bu modelni xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish
+-bu modelni xususiyatlari aniq bo'lmagan ma'lumotlar bilan o'qitish
+-bu modelni ham aniq ham aniq bo'lmagan xususiyatli ma'lumotlar bilan o'qitish
+-bu model o'zini-o'zi qayta o'qitish va natijalarni o'qitish
  
-
-?«Qutadg‘u bilig» asari kimning qalamiga mansub? 
-+Yusuf Xos Xojib 
--A.Navoiy 
--A. Avloniy 
--Bobur 
-
-?Ta’lim ikki yoqlama jarayon – bu...
-+O‘qituvchi va o‘quvchilarning birgalikdagi faoliyati  
--Ota-ona va o‘qituvchiningbirgalikdagi faoliyati   
--Ta’limda o‘qituvchining otalikdagi roli 
--O‘qituvchining ilmiy bilimlar berish va ko‘nikma 
-
-
-?Ta’lim metodlari 
-+Nazariy, amaliy, ko‘rgazmali 
--Og‘zaki, ko‘rgazmali, amaliy 
--Amaliy va og‘zaki 
--Amaliy, og‘zaki, ko‘rsatmali, o‘quv faoliyatini tashkil etish va rag‘batlantirish, nazorat va o‘z-o‘zini nazorat qilish metodlari 
-
-?Individual psixologik xususiyatlar nima? 
-+Qiziqish, dunyoqa rash temperament, xarakter va qobiliyatlar
--Hissiyot va iroda   
--Xoxish, mayl va istak qiziqishlar 
--Dunyoqarash va shaxsiy e’tiqodlar 
-
-?Faoliyat turlari. 
-+Yo‘nalishlariga ko‘ra amaliy va nazariy, shakliga ko‘ra o‘qish mehnat va o‘yin faoliyat turlaridan iborat bo‘ladi. 
--Yo‘nalishlariga ko‘ra amaliy, nazariy faliyat turlariga bo‘linadi 
--O‘qish, o‘yin va mehnat faoliyatlaridan iborat. 
--Mehnat va o‘qish faoliyati. 
-
-?Shaxsning faoliyati jarayonida……. 
-+Faqat odatlar hosil bo‘ladi 
--Odatlar, ko‘nikmalar va malakalar hosil bo‘ladi. 
--Faqat ko‘nikmalargina shakllanadi. 
--Malakalar hosil bo‘ladi. 
-
-?Sezgilarga berilgan ta’riflardan to‘g‘risini toping? 
-+Sezgilar obyektiv olamning suyektiv obrazlaridan iborat jarayon. 
--Biror sezgi a’zolarimizga ta’sir etayotgan voqelikning miyadaalohida, ayrim xossalarini aksettirishdan iborat sodda psixik jarayon. 
--Sezgi a’zolarimiz orqali tashqi dunyoni dastlabki his qilish jarayoni 
--Ayrim xossalarini aks ettirishdan iborat sodda psixik jarayon. 
-
-?Obyektiv borliqni adyekvat bilish nima? 
-+Borliq haqida to‘g‘ri ma’lumot va axborotlar signalining miyaga yetishi natijasida to‘g‘ri tushunchalarga ega bo‘lish. Ular ba’zan noaniq ham bo‘ladi. 
--Borliqni aniq va to‘g‘ri bilish 
--Biror sezgi organlarimiz to‘liq rivoj lanmagan xoli da borliqni noaniq anglash 
--Aniq va to‘g‘ri bilish 
-
-?Darsning tuzilishi...
-+Reja asosida 
--Amaldagi dastur asosida 
--Ta’limiy va tarbiyaviy funksiyalari va ta’lim prinsplari asosida 
--Ta’lim prinsiplari asosida 
-
-?Sezgi turlarini bilasizmi? 
-+Proprioretseptiv sezgilar (pay, bo‘g‘im, muskul va suyaklar tebranish natijasida vujudga keladigan hatti-harakatlar). 
--Ekstroretseptiv sezgilar (ko‘rish, eshitish, hid bilish, teri tuyish 
--Introretseptiv sezgilar (ochlik,chanqash xojat chiqarish, seksual munosabatga ehtiyojni sezish 
--og‘riq va turli ichki organlar faoliyatidagi bezovtalik hollari haqida bosh miyaga boradigan signallar). 
-
-?Ma’lum jarayonni uch vazifani va maqsadini amalga oshiradi bu: 
-+ta’limiy maqsad, tarbiyaviy maqsad, rivojlantiruvchi maqsad 
--Rivojlantiruvchi maqsad. 
--tarbiyaviy maqsad. 
--Ta’limiy maqsad‚ 
-
-?“Ilm tarbiya jarayonida o‘zlashtiriladi va yaxshini yomondan, ezgulikni yovuzlikdan, joizni nojoizdan farqlash imkonini beradi»-degan fikrni ilgari surgan mutafakkur? 
-+A.Avloniy 
--Beruniy 
--Farobiy 
--Ibn Sino 
-
-?Tarbiyaning maqsadi bu: 
-+Mustaqil jamiyatimiz rivojiga nazariy va amaliy hissa qo‘sha oladigan «Barkamol avlod»ni tarbiyalash 
--O‘quvchini tinglash 
--O‘quvchiga bildirish. 
--O‘quvchini yosh xususiyatini hisobga olish. 
-
-?Dastur necha xil usul bilan joylashtiriladi? 
-+2 xil 
--3 xil 
--5 xil 
--6 xil 
-
-?Ta’lim o‘z ichiga quyidagilarni oladi: 
-+O‘quv predmetlari, o‘quv rejasi, dasturi va darsliklari 
--Predmetlar, o‘quv rejasi 
--O‘quv rejasi, dastur 
--Jurnal va ta’lim vositalarini 
-
-?Ko‘rishni vujudga keltiruvchi hujayralar shaklini bilasizmi? Qanday hujayralar orqali ranglarni ko‘ramiz? 
-+Tayoqchasimon hujayralargina bo‘ladi, ular orqali axromatik ranglarni ajratamiz. 
--Kolbachasimon hujayra bo‘lib, ular orqali axromatik ranglarni ko‘ramiz 
--Ko‘rish sezgisining maxsus hujayralari kolbachasimon va tayoqsimon shaklda bo‘lib, ular orqali xromatik va axromatik ranglarni aniq ajrata olamiz. 
--Xromatik va axromatik ranglarni aniq ajrata olamiz. 
-
-?Sezgi xususiyatlari….. 
-+Kontrastlik va senzetivlik. 
--Adaptatsiya (biror sezgi organlarimizning muhitga moslashuvi 
--Adaptatsiya, kontrastlik. (Senzetivlik, sensibilizatsiya va sezgi chegaralari). 
--Senzetivlik, sensibilizatsiya va sezgi chegaralari 
-
-?Dars turlari 
-+Aralash darslar, yangi bilimlarni bayon etuvchi va leksiya darslari 
--O‘tilgan materiallarni mustaxkamlash, kontrol, o‘tilganlarni sistemalashtirish va umumlashtirish darslari 
--Preskonfesrensiya, mohir qo‘llar darsi 
--Noan’anaviy dars 
-
-?Bilimlarni tekshirish turlari 
-+Joriy, oraliq va yakuniy 
--Tematik, mustaqil 
--Frontal, tekshirish 
--Insho,savol-javob 
-
-?Ta’lim tamoyillari - bu: 
-+Ta’lim tarbiyasida asosiy didaktik talablar tizimi, dars samaradorligini oshirishga qaratilgan maxsus tizim 
--Ta’lim tamoyillari bu shaxsni xar tomonlama kamol toptirish 
--Ta’lim jarayoniga qo‘yilgan asosiy didaktik talablar 
--Tarbiyalar talablaridan kelib chiqib, o‘qitishning borishini belgilaydigan va aniqlaydigan qonun 
-
-?Ta’limning maqsadi – 
-+Yosh avlodni ilmiy bilimlar, ko‘nikma va malakalar tizimi bilan qurollantirish 
--Mustaqil jamiyatimiz ravnaqiga nazariy va amaliy xissa qo‘shadigan «barkamol avlodni» tarbiyalash 
--O‘qituvchining rejalashtirilgan aniq, bir mavzusini o‘quvchilarga bildirish 
--O‘qitish va, o‘rganish 
-
-?DTS?
-+O‘quv predmetlari, o‘quv rejasi, dasturi, darslik. 
--Predmetlar, o‘quv rejasi. 
--O‘quv rejasi va dasturi. 
--Dastur,kalendar reja,ma’ruza 
-
-?Daltonizm nima? 
-+Uzoqni yaxshi ko‘ra olmaslik. 
--Ko‘z to‘r pardasidagi kolbachasimon hujayralarning funksiyasi buzilishi natijasida qizil rangni ajrata olmaslik hodisasi.Ular qizilni gunafsha rangda ko‘radilar. 
--Ko‘z tur pardasidagi tayoqchasimon hujayralarning funksiyasi buzilish natijasida qora rangni ajrata olmaslik. 
--Yashil rangni ajrata olmaslik. 
-
-?Idrok nima? 
-+Voqelikning miyada aks ettirishdan iborat murakkab jarayon 
--Sezgi organlarimizga ta’sir etayotgan narsa. Ommabop tilda uni zehn, fahm-farosat deb yuritadilar 
--Idrok sezgini to‘ldiruvchi jarayondir 
--Hodisa va faktlarni miyada to‘laligicha, butunligicha yaxlitligicha aks etirishdan iborat murakkab psixik jarayon. 
-
-?Dars nima? 
-+Didaktik maqsadlarni amalga oshirish yo‘lida doimiy o‘quvchilar jamoasi bilan aniq belgilangan vaqtlarda jadval asosida mashg‘ulot olib borish 
--O‘quvchilarga o‘z predmetini sitsematik bayon etishga imkon beruvchi jarayon 
--Ta’lim jarayoni 
--Ta’limning tarbiyaviy, ta’limiy va rivojlantiruvchi funksiyalarini amalga oshiruvchi jarayon 
-
-?Darslik nima? to‘liq tarifini toping. 
-+Muayyan o‘quv predmeti bo‘lib, o‘quv dasturida ko‘rsatilgan hajmda ta’lim talablariga muvofiq ravishda batafsil bayon qilib beriladigan o‘quv kitob. 
--O‘quv dasturida ko‘rsatilgan hajmdagi ta’lim talablariga javob beradigan o‘quv kitobi. 
--Reja asosida tuzilgan o‘quv qo‘llanma 
--O‘quv dasturida ko‘rsatilgan hajmdagi kitob. 
-
-?Umumiy o‘rta ta’lim necha qismdan iborat? 
-+umumiy o‘rta ta’lim ikki qismdan iborat, 1-4 va 5-9 sinflar 
--umumiy o‘rta ta’lim ikki qismdan iborat,1-6 va 1-9 sinflarni qamrab oladi. 
--umumiy o‘rta ta’lim uch qismdan iborat, 1-4 va 5-9, 10-11 sinflar. 
--umumiy o‘rta ta’lim bir qismdan iborat, 1-9 sinflar 
-
-?Metod so‘zi qaysi tildan olingan? 
-+yunoncha-(usul,yo‘l) 
--lotincha-(rasm-rusum) 
--forscha-(y o‘l) 
--Arabcha-(xarakat) 
-
-?Umumiy o‘rta ta’lim nechanchi sinfgacha? 
-+9 – sinfgacha 
--11 – sinfgacha 
--10- sinfgacha 
--8- sinfgacha 
-
-?«Analiz» so‘zining ma’nosi nima? 
-+Lotincha,bo‘laklargaajratish 
--Ruscha,metod 
--Forscha, tekshirish 
--Grekcha, maxorat 
-
-?Pedagogik mahorat nima? 
-+Pedagogik bilimlar, mahorat, donolik va ijodiy dadillik, qobiliyatlar mujassamidir 
--O‘qituvchi maxorati 
--Shaxslararo munosabat 
--Donolik va ijodiy dadillik 
-
-?Nazariya- bu: 
-+Bilimlarning xaqqoniy ekanligi 
--Mashq qilish natijasida beriladigan harakatlar yig‘indisi 
--Yangi bilimni yangicha bilishni ifodalovchi fikrlar tizimidir 
--Amaliy faoliyat 
-
-?Tarbiya tamoyillari nechta? 
-+8ta 
--5ta 
--10ta 
--6ta 
-
-?Ta’lim jarayoni - bu: 
-+O‘quvchilarning tomonidan bilimlarini, ko‘nikma va malakalrini egallash borasidagi aqliy bilish faoliyatini tashkil etish 
--Bilish faoliyati 
--Dialektik jarayon 
--O‘quvchilar tomonidan ular qurshab olgan dunyo konuniyatlarini bilishi 
-
-?Ta’lim mazmuni: 
-+Ta’lim jarayonida o‘zlashtirilishi lozim bo‘lgan bilimlar, amaliy malaka ko‘nikmalar 
--O‘quv jarayonida o‘zlashtirilishi lozim bo‘lgan va o‘quvchilarning dunyoqarashiga ta’sir etadigan ilmiy bilimlar tizimi 
--Ta’lim jarayonida o‘kuvchilarga beriladigan xozirgi zamon ma’lumotlarining asoslari 
--Ikki yoklama jarayon 
-
-?Ta’lim jarayonini tashkil etish 
-+Dars, ekskursiya darslari, darsdan tashqari o‘qish, fakultativ mashg‘ulotlar 
--Darsdan tashqari o‘qish, ekskursiya 
--Repititorlik ta’limi 
--O‘qish, dars, darsdan tashqari o‘qish 
-
-?Psixik funksiyalar nima? 
-+Psixik hodisalarning qonuniy ravishda izchil o‘zgarib borishi natijasida vujudga keladigan psixologik holat. 
--Psixik hodisalarning zohir bo‘lish qonuniyati 
--Psixik hodisalarni vujudga keli shi qonuniy izchil o‘zgarib borishi, bir taraqqiyot bosqichidan navbatdagisi ga o‘tib takomillashuv jarayoni. 
--Psixik hodisaning, tarmoq bosqichining navbatdagisiga o‘tib takomillashuv jarayoni. 
-
-?Tarraqqiyot psixologiyasi tarmoqlarini bilasizmi? 
-+Yosh davrlar psixologiyasi, maxsus psixologiya, siyosiy psixologiya, zoopsixologiya, tipologiya 
--Yosh davrlar psixologiyasining bolalar, o‘smirlar, o‘spirinlar, kattalar va keksalar psixologiyasi. 
--Maxsus psixologiya tarmog‘i hisoblangan patopsixologiya,   
--oligofreno, surdopsixologiya
--tiflopsixologiya   
--Siyosiy, maxsus, psixologiya 
-
-?Shaxsni rivojlantiruvchi omillar. 
-+Shaxsiy faollik. 
--Irsiyat va muhit 
--Irsiyat muhit ta’lim tarbiya va shaxsiy faollik 
--Ta’lim – tarbiya. 
-
-?Muhandis qanday metodlardan foydalangani ma’qul bo‘ladi? 
-+Kuzatish, eksperement, faoliyat maxsullarini o‘rganish va modellashtirish metodlaridan. 
--Modellashtirish metodidan 
--Kuzatish nazorat qilish va faoliyat mahsulini o‘rganish metodidan 
--Test va modellashtirish metodi. 
-
-?«Shaxs»ga berilgan ta’riflardan qaysi birini ma’qullaysiz? 
-+O‘zining ongi, tili,ijtimoiyligi nutqi bilan individual farq qiladigan konkret, tirik tip shaxs deb yuritiladi. 
--Har kanday individ shaxs bo‘lishi mumkin 
--O‘zining ijtimoiyligi nutqi va tili bilan individual farq iladigan har qanday odam shaxs deyiladi 
--Nutqi va tili bilan individual farq qiladigan har qanday odam shaxs deyiladi. 
-
-?Shaxsning psixologik belgilari nima? 
-+Ongi nutqi va tili 
--Ongi va tilining rivojlanganlik darajasi 
--Ijtimoiyligi 
--ijtimoiyligi, konkretligi va tirikligi 
-
-?Psixologning ilmiy tadqiqot metodlarini bilasizmi? 
-+So‘roq suhbat, kuzatish, odam faoliyati mahsullarini o‘rganish, modellashtirish 
--Kuzatish va eksperement. 
--Intervyu, anketa va testlar. 
--Temperament va modellashtirish metodi. 
-
-?Didaktikaning asosiy nazariyasini ishlab chiqqan faylasuf olim? 
-+Y.A.Komenskiy. 
--I.G.Pestalotssi 
--I.G.Gerbart 
--L.N.Tolstoy 
-
-?Oliy o‘quv yurtidan keyingi ta’lim tizimi kiradi? 
-+doktorantura, kadrlar malakasini oshirish, qayta tayyorlash 
--aspirantura, doktorantura, fan nomzodi, fan doktori. 
--aspirantura, doktorantura 
--kollej 
--magistratura, aspirantura, doktorantura. 
-
-?Didaktikaning lug‘aviy ma’nosi nima? 
-+o‘qitish- o‘rganish. 
--Nutq so‘zlash. 
--faqat yozishni o‘rgatish 
--Ma’ruza tinglash 
-
-?Kadrlar tayyorlash milliy dasturida belgilangan barcha tadbirlarni amalga oshirishni 1 bosqichi qaysi yillar hisoblanadi? 
-+1997 – 2001 yillar. 
--1997 – 2000 yillar. 
--1998 – 2001 yillar. 
--2003-2005yillar 
-
-?Pedagogik qobiliyat necha turga bo‘linadi? 
-+9 ta turga. 
--4 ta turga. 
--7 ta turga. 
--2ta turga 
-
-?Muammoli ta’lim deganda qanday ta’limni tushunasiz? 
-+O‘quv materialini ilmiy izlanishga o‘xshash, bilish vazifalari 
--Metodik va muammoli ta’lim berish 
--Muammoni vujudga keltiradigan usulda 
--Savol-javob usulidan foydalanib 
-
-?Tyutor usuli 
-+Masofadan o‘qitish, dasturlarni yaratish va bajarilishini ta’minlash 
--Maslahat berish, tushuntirish 
--Nazariy ma’lumotlar bilan tanishtirish 
--Amaliyotni rivojlantirish 
-
-?A.F.Osborn qo‘llagan usul? 
-+Aqliy hujum usuli 
--Mantiqiy fikrlash 
--Sifatlash 
--Yangi bilimlar o‘rgatish 
-
-?Pedagog obro‘sining shakllanish nimaga asoslanadi? 
-+xurmatga 
--bilimga 
--mehribonlikka, xurmatga 
--mehribonlikka 
-
-?Bugungi bozor munosabatlarini bosqichma-bosqich amalga oshirayotgan O‘zbekiston misolida psixologiya ilmining ahamiyati nimada deb o‘ylaysiz ? 
-+Ishlab chiqarishni barqarorlashtirish. 
--Jamiyatni erkinlashtirishda. 
--Insonni, jamiyatni va uning tafakkurini erkinlashtirish, ishlab chiqarishni barqarorlashtirish xamda inson omili imkoniyatlarini yuksaltirishda. 
--Inson omili imkoniyatlarini yuksaltirishda. 
-
-?Psixik energiya nima? 
-+Real sharoitda inson o‘zi anglab yetmaydigan hodisalar yig‘indisidir. 
--Inson xulq atvorini va uning amallarini boshqarib turadigan shaxs qiyo fasini belgilab beruvchi kuch. 
--Ehtiyojlarni qoniqtirishga undovchi libido va agressiv kuch ya’ni energiyalar bo‘lib, bu kuchlar shaxsningi ma’naviy va aqliy salohiyatini ta’minlash maqsadida psixik quvvatni ta’minlovchi mexanizmdir. 
--Hadiksirash doimiy xavotirlanish psixo emotsional qoniqmaslik kabi omillar ana shu kuchlar-ning nomuvofiqligidan kelib chiqadi. 
-
-?Ongsizlik nima? 
-+Psixikaning quyi darajada rivojlangan shakli ongsizlikdir 
--Ongsizlik natijasida harakat betartib bo‘lib nazorat yo‘qoladi, idrok, tafakkur va nutqda buzilishlar sodir bo‘ladi, 
--Faqat odamlarga xos degan iborani kiritishi bilan unga to‘liq javob olgan bo‘lamiz 
--Gallyutsionatsiya va uyquni kuchayishi. 
-
-?Ong nima va ongning asosiy belgilari nima ? 
-+Faqat inson tafakkuri. 
--Insonning olam, tabiat, jamiyat va o‘z-o‘zini bilishi, his tuyg‘ularini anglashi va boshqarish sezish idrok qilishi, eslab qolishi, fikrlashi va tili orqali munosabat o‘rnata olishi 
--Isonning olam, tabiat va jamiyat haqidagi to‘plangan bilimlar yig‘indisidir 
--Tili orqali o‘rnatadigan o‘zaro muloqoti ongni tashkil etadi 
-
-?Taqdirlash nima? 
-+bu o‘quvchi xulqiga to‘g‘ri ta’sir etish va pedagog tomonidan to‘g‘ri baholash usulidir 
--yaxshi xulq-atvori uchun taqdirlash uslubi 
--tarbiyalanuvchilar faoliyatini taqdirlash usuli 
--mukofotlash 
-
-?O‘quvchining ichki sababiyat nuqtasining boshlanishi? 
-+o‘z-o‘zini ishontirish 
--o‘zini-o‘zi tahlil etish 
--barcha javoblar to‘g‘ri 
--malakalarni mustahkamlash 
-
-?Didaktika nima? 
-+ta’lim nazariyasini ishlab chiquvchi pedagogika sohasi 
--o‘sib kelayotgan avlodning tarbiyasi, ta’limi haqidagi fan 
--Ta’lim-tarbiya berish 
--shaxsning rivojlanishi qonuniyatlari haqida alohida fan 
-
-?Qobiliyatning o‘sishi asosan nimaga bog‘liq? 
-+tabiiiy iste’dodiga 
--Mavjud bilim va iste’dodiga 
--egallagan bilim va o‘quvlarga 
--maqsadga yo‘naltirilgan o‘quv-tarbiyaviy jarayonning tashkil etilishi va amalga oshirilishiga 
-
-?Muammo yechish paytida tayyorgarlik bosqichi bu: 
-+muammoga taalluqli barcha axborotni jamlash 
--bir necha kunni egallashi mumkin 
--Yechimni tanlashga 
--yechim jarayonining birinchi bosqichi 
-
-?«Jamoa» so‘zining ma’nosi? 
-+«gurux, omma, birlashma» 
--«avlod» 
--«xalq» 
--«omma» 
-
-?Didaktikaning asoschisi kim? 
-+Chex olimi Yan Amos Komenskiy. 
--Amerikalik olim Jon Dyum. 
--Yunon faylasufi Arastu 
--Fransuz olimi Deni Dibro. 
-
-?Kategoriya – bu: 
-+«nuqtai nazar». 
--«bilish» 
--«ko‘rsatma», «dalil», «tushuncha». 
--«o‘qitish», «o‘rgatish». 
-
-?«Men» obrazi qanday xosil bo‘ladi? 
-+Shaxsning o‘zi, o‘z xulq-atvori xususiyatlari, jamiyatdagi mavqeini tasavvur qilish orqali. 
--Ma’lum bir maqsadga yo‘naltirilgan kattalarning pedagogik faoliyati ta’sirida. 
--Rahbarlik roli natijasida bolaning o‘z-o‘zini taraqqiy ettirishdir. 
--Borliqni tushunish orqali 
-
-?Nutq rivojlangani sari nima rivojlanadi? 
-+Inson tafakkuri. 
--Tarbiya. 
--G‘oya. 
--ong 
-
-?Kreativlik - ? 
-+«Ijodiy fikrlash» 
--«noyob fikrlash». 
--«o‘qitish», «o‘rgatish». 
--«nuqtai nazar». 
-
-?Komillik nechta bosqichdan iborat? 
-+3 ta. 
--15 ta. 
--20ta 
--10 ta. 
-
-?Biror bir g‘oyaning tub mazmuniga tushunib yetish nima? 
-+Anglash. 
--Tafakkur. 
--tasavvur 
--Mushohada 
-
-?Inson ongida mavjud ilmiy va hayotiy bilimlar majmualaridan keragini saralab olish va amaliyotda qo‘llash? 
-+Mushohada 
--Tafakkur. 
--Anglash. 
--bilish 
-
-?Gapirish shakllari: 
-+Suxbat, ma’ruza, munozaralar. 
--Nutq, jargon 
--Noverbal muloqot 
--yuz ifodasi ( mimika va suzsiz xarakat, antomimika); 
-
-?« Talim texnologiyasi» tushunchalari nimalarni uz ichiga oladi? 
-+Talim texnologiyasi-o‘quv jarayoni; o‘qituvchi yoki talimning texnik vositalari; shakl usullarini 
--Texno-maxorat,logos- fan 
--talim tarbiyaning shakl-usullari, konuniyat va prinsiplarini 
--O‘quv vazifasi-talim-tarbiyaning maqsadi va mazmuni 
-
-?«Texnologiya» so‘zining lug‘oviy manosi 
-+texne-maxorat, sanat, logos-tushuncha, talim 
--texnologiya-ishlab chikarish usuli 
--Yangi g‘oya,fikrlash 
--texne-texnika, logos- talimot 
-
-?Pedagogik texnologiyaning konuniyati, prinsiplari. 
-+Ta’lim shaklllarini optimallashtirish (qulaylashtirish) 
--Ta’lim va tarbiya berish 
--talaba va o‘quvchi faoliyatini okilona uyushtirish 
--talim-tarbiyaning birligi, yaxlidligi 
-
-?«O‘qituvchi odobi» qo‘llanmasida o‘qituvchi odobining umumiy va xususiy konuniyatlaridan nechtasi ifodalangan? 
-+Umumiy qonuniyatlardan uchtasi, xususiy qonuniyatlardan to‘qqiztasi 
--xususiy qonuniyatlardan o‘ntasi 
--umumiy qonuniyatlardan beshtasi 
--Xech qanday qonuniyat mavjud emas 
-
-?Ta’lim nima? 
-+Ta’lim – bu o‘quv va malaka, bilimni berish va o‘zlashtirish borasida o‘quvchilar va o‘qituvchilar o‘rtasidagi o‘zaro muloqotdir 
--Ta’lim – bu bilim, malaka, o‘quvlarni o‘quvchilarga yetkazib berishga qaratilgan o‘qituvchining faoliyat jarayoni 
--Shaxsni xar tomonlama kamol toptirish 
--Ta’lim – bu hayotga tayyorlash maqsadida bilimni o‘qituvchidan o‘quvchilarga yetkazib berish 
-
-?Musobaqa bu – nima? 
-+qiyoslash jarayonida shaxsga kerak bo‘lgan sifatlarni shakllantirib mustahkamlash usuli 
--erishilgan natijalarni mustaxkamlash yo‘li 
--Munozarali o‘yin 
--g‘olib aniqlanadigan o‘yin 
-
-?Jazo nima? 
-+Tarbiyalanuvchilarning salbiy omillarini to‘xtatishning hal qiluvchi omil 
--Tanbex berish va ogoxlantirish 
--jamoa manfaatdan kelib chiqib tarbiyalanuvchiga ta’sir etish uslubi 
--talab shaklida yuzaga keluvchi tarbiya vositasi 
-
-?Tushunchalardan shaxs ongini shakllantirish uslublarini belgilab beruvchilarini tanlang ? 
-+Ota-ona namunasi va obro‘si, tushuntirish, iltimos, ta’sir etish, topshiriq, o‘qituvchi obro‘si, etikaga oid suhbatlar, hikoya‚ ma’ruza, jazo, musobaqa 
--Tushuntirish, iltimos ta’sir etish topshiriq 
--o‘qituvchi obro‘si, etikaga oid suhbatlar, hikoya‚ ma’ruza, jazo, musobaqa 
--Ota-ona namunasi va obro‘si 
-
-?Rag‘batlantirish uslublari ? 
-+mukofatlash, musobaqa 
--Sovrin va maosh 
--suxbat, shart-sharoit, nazorat 
--hikoya, suhbat, shaxsiy namuna 
-
-?Yan Komenskiyning hayot va ijod davrlari ? 
-+1592-1670 yy.. 
--1356-1487yy. 
--1556-1618 yy. 
--1450-1510 yy 
-
-?Sinf – dars tizimni kim joriy etgan? 
-+Komenskiy 
--Makarenko 
--Krupskaya 
--Volt 
-
-?O‘zbekiston ta’lim tizimda nechta bosqich mavjud? 
-+beshta 
--to‘qizta 
--yettita 
--oltita 
-
-?Bakalavriat – bu nima? 
-+Tayanch oliy ta’lim 
--bazaviy oliy ta’lim olishning bir yo‘nalishi 
--oliy ta’limning birinchi bosqichi 
--tugatilmagan oliy ta’lim 
-
-?Doktoranturadagi ta’limga nima asos bo‘la oladi? 
-+magistr diplomi,bakalavr darajasida uch yillik mehnat staji 
--fan nomzodi ilmiy darajasi 
--Malaka oshirish 
--bakalavr diplomi 
-
-?Reyting nima? 
-+Real jarayonlarni raqamlar tizimi yordamida modellashtirish. 
--O‘quv fanining bir qismi yoki butunicha tugatilgandan keyin agarda dastlabki, joriy tematik va oraliq nazorat natijasida kursga mo‘ljallab tayyorlangan 
--Baholash, tartibga keltirish, klassifikatsiyalash, birorta hodisani oldindan 
--Oraliq nazorat 
-
-?O‘qish va bilimni o‘zlashtirish ma’lum tartibda va uzviylikda bo‘lishni talab etuvchi prinsip qaysi? 
-+Uzviylik va uzluksizlik prinsipi. 
--Ijodiy prinsip 
--Ilmiylik prinsipi. 
--Ko‘rgazmalilik prinsipi 
-
-?Qaysi prinsipda bilim o‘quvchilar xotirasida mustahkam qolishi, o‘rnashishi uchun, bilim ular tushunchasining bir qismi sifatida odat va hulqlarining asosi bo‘lib qolishi talab etiladi? 
-+ko‘rgazmalilik prinsipida. 
--Metod vositasida 
--Ilmiylik prinsipida. 
--Tushunarli bo‘lish prinsipida. 
-
-?Ta’lim prinsipi nima? 
-+Talim jarayoniga qo‘yiladigan asosiy didaktik talab. 
--Asosiy qoida 
--G‘oya. 
--Tadqiqot. 
-
-?«Metod» so‘zi falsafiy lug‘atda nima deb aytilgan? 
-+Maqsadga erishish usuli, aniq tartibga solingan faoliyat. 
--Bilim olish, faoliyat ko‘rsatish. 
--Takrorlash va mashq qilish. 
--ishontirish 
-
-?M.I.Mahmudov qaysi ta’lim metodlarini taklif etgan? 
-+Ijodiy faoliyat, mustaqil ishlash. 
--O‘qitish, o‘rganish. 
--Kuzatish, tushuntirish. 
--taqqoslash 
-
-?Uzluksiz ta’lim mohiyati nimadan iborat? 
-+bir bosqichdan izchil ravishda ikkinchisiga o‘tish 
--yagona fanni o‘rganish 
--barcha javoblar noto‘g‘ri 
--Ta’limni uzviyligidan 
-
-?Shaxsga ta’sir etish uslublari? 
-+ishontirish, mashq qildirish, ta’lim berish, rag‘batlantirish, nazorat va baho berish 
--nazorat va baholash 
--Shaxsiy namuna ko‘rsatib 
--ishontirish, mashq qildirish, o‘qitish 
-
-?Tarbiya uslublarini ishlatishga bo‘lgan pedagogik talablarni sanab o‘ting? 
-+individual xususiyatlarni hisobga olish 
--amaliyot va nazariyaning yaxlitligiy 
--Yoshni inobatga olish 
--baland obro‘, aniqlik, hayot tajribaga suyangan, erishuvchanlik, samimiy ish 
-
-?Uslub nima? 
-+bu o‘quv jarayonining uzagi, yakuniy natija bilan rejalashtirilgan biror-bir maqsadga bo‘lgan yo‘l, ta’lim jarayonida amalga oshiriladigan yo‘l-yo‘riqlar 
--O‘qituvch belgilagan faoliyat turlari 
--maqsad o‘rtasidagi bog‘lovchi xalqa 
--Tanlangan hatti-harakatlar 
-
-?Uslub subyektiv qismining bog‘liqligi? 
-+pedagogikaning qoida-qonunlari 
--o‘qituvchi shaxsi va o‘quvchilarning o‘ziga xosligi 
--nazorat va baho berish 
--o‘zgarmas holatlar 
-
-?Ta’lim berishning an’anaviy tasnifi? 
-+bilim va o‘quvlarni shakllantirish, bilim o‘quv va malakalarni mustahkamlash va tekshirish 
--amaliy, ko‘rsatma, nutqi, kitob bilan ishlash, video uslub 
--Nazariy va amaliy 
--amaliy, ko‘rsatma 
-
-?Birinchi gimnaziyalar paydo bo‘lgan joy: 
-+18 asr Rossiyada 
--Qadimgi Rimda 
--Markaziy osiyoda 
--Qadimgi Gretsiyada 
-
-?Qaysi metod bilim o‘zaro so‘zlashuv (diolog) yo‘li bilan o‘rganiladi? 
-+Suhbat metodida. 
--Ma’ruza metodida. 
--Amaliy metodda 
--Darslik bilan ishlash metodida. 
-
-?Qaysi metodda bilim ko‘rgazmali vositalar asosida bayon qilinadi? 
-+Ma’ruza metodida 
--Darslik bilan ishlash metodida. 
--nazariy metodda 
--Suhbat metodida 
-
-?O‘quvchilar bilimini tekshirish va baholash ularning o‘quv ishlarini muntazam kuzatib borish qaysi metodda amalga oshiriladi? 
-+Nazorat metodida 
--O‘tilgan materialni mustaxkamlash metodlari. 
--Test, reyting 
--Mustaqil ish metodlarida 
-
-?Qaysi mashq o‘quvchida mantiqiy fikrlashni, xotirani, nutq va e’tiborni kuchaytiradi? 
-+O‘quv mehnat mashqi 
--Grafik mashq. 
--jismoniy mashq 
--Yozma mashq 
-
-?Qaysi mashqda o‘quvchilar jadval, chizma diagramma, texnik xarita, al’bom, plakat, rasmlar ishlash, bilan shug‘ullanadilar? 
-+Grafik mashq. 
--Yozma mashq. 
--Kuzatuv mashqi 
--O‘quv mehnat mashqi 
-
-?Qaysi metod ta’limda «al’ternativ» metodi deb ham ataladi? 
-+Nazorat metodi. 
--Amliy metod 
--Mashq metodi. 
--Dasturli nazorat metodi. 
-
-?«Al’ternativ» so‘zining ma’nosi? 
-+Tanlov. 
--kuzatish 
--Dastur. 
--Mashq. 
-
-?Jadval, rasm, sur’at, madel, fotosuratlar bular nimalar? 
-+Ta’lim vositalari 
--Ta’lim metodlari. 
--Ta’lim jarayoni 
--Ta’lim prinsiplari 
-
-?O‘qituvchining baholash faoliyatidagi asosiy maqsad? 
-+O‘quvchilar o‘zlashtirishini nazorat qilish va ularda o‘zlashtirganlarini o‘zlari baholash ko‘nikmasini shakllantirish 
--O‘quvchilarning o‘qishga, ishga to‘g‘ri munosabatda bo‘lishni kuzatib borish. 
--O‘qituvchi va o‘quvchining mustaqil faoliyati 
--O‘qituvchi o‘quvchining bilimni faol o‘rganishini ta’minlash 
-
-?Baholash ta’siri natijasida o‘quvchilarda qanday hislat shakllanadi? 
-+O‘z-o‘ziga baho berish va talabchanlik. 
--Faoliyatni turli shakllarda bayon etish. 
--Bilish va idrok 
--Qo‘yilgan maqsadni hayotga tadbiq etish. 
-
-?Qaysi eksperiment turi tabiiy sharoitda sinfda va sinfdan tashqari mashg‘ulotda o‘tkaziladi? 
-+Tabiiy va laboratoriya eksperimenti. 
--Qayd qilish va ta’lim berish eksperimenti. 
--Didaktik va metodik eksperimenti. 
--kuzatish eksperimenti. 
-
-?Dars tahlili bu...? 
-+O‘quv mashg‘ulotini tahlil qilish va uni baholash. 
--Mashg‘ulotni yakunlash, asosiy xulosani bayon etish. 
--Darsni taxlil qilish 
--Darslik bilan ishlashdan keyingi bilimni o‘zlashtirish sifatini tekshirish. 
-
-?Diskussiya –? 
-+Muhokama, bahs yuritish 
--Tekshirish, nazorat qilish. 
--tinglash 
--O‘qitish, ta’lim berish. 
-
-?Didaktik materiallar? 
-+Audio va videotasma yozuvlar, lug‘atlar‚ ma’lumotnomalar va darsliklar 
--Ta’lim vositalari 
--Boshqarish va axborot uzatish. 
--Foydalanishga mo‘ljallangan metodik qo‘llanmalar 
-
-?Ta’lim metodologiyasi nima? 
-+Falsafa, ilmiy bilish manbai va ta’lim ideologiyasi. 
--O‘qitish jarayonini tashkil etish. 
--Boshqarish va axborat uzatish. 
--Fanni nazorat qilish 
-
-?Shaxs rivojlanishiga ta’sir etuvchi asosiy omillar 
-+irsiyat, tarbiya, muhit. 
--Ta’lim jarayoniga qo‘yiladigan asosiy didaktik talab 
--mafkura. 
--Asosiy qoida. 
-
-?Qaysi davrda tasavvur va tafakkur doirasi deyarli nihoyasiga yetkan va ijtimoiy hayotning biror sohasiga yo‘naltirilgan bo‘ladi? 
-+O‘spirinlikda. 
--O‘smirlikda. 
--Maktabgacha davrda 
--Kichik maktab davrida. 
-
-?«Jamiyatda qabul qilingan axloqiy normallarga bo‘ysunish va o‘zgalarning nafratini qo‘zg‘atadigan xatti-harakatlardan o‘zini tiya bilish»? 
-+Xulq-atvor 
--Ma’lumot 
--Tarbiyalanganlik 
--Kamolot. 
-
-?Rejali va maqsadli o‘qitish va tarbiyalash jarayonida natijalarni aniqlash zaruriyati nimani vujudga keltirdi? 
-+Pedagogik diagnostika 
--Defektologiya 
--Logopediya 
--Pedagogik menejment 
-
-?Kadrlar tayyorlash milliy dasturi tasdiqlangan sana? 
-+1997 yil 29 avgust 
--!992yil 29 avgust 
--“2001yil 2noyabr 
--2005 yil 2sentabr 
-
-?Ta’lim metodologiyasi nima? 
-+Falsafa, ilmiy bilish manbai va ta’lim ideologiyasi. 
--O‘qitish jarayonini tashkil etish. 
--Boshqarish va axborat uzatish. 
--Fanni nazorat qilish 
-
-?Shaxs rivojlanishiga ta’sir etuvchi asosiy omillar 
-+irsiyat, tarbiya, muhit. 
--Ta’lim jarayoniga qo‘yiladigan asosiy didaktik talab 
--mafkura. 
--Asosiy qoida. 
-
-?Qaysi davrda tasavvur va tafakkur doirasi deyarli nihoyasiga yetkan va ijtimoiy hayotning biror sohasiga yo‘naltirilgan bo‘ladi? 
-+O‘spirinlikda. 
--O‘smirlikda. 
--Maktabgacha davrda 
--Kichik maktab davrida. 
-
-?«Jamiyatda qabul qilingan axloqiy normallarga bo‘ysunish va o‘zgalarning nafratini qo‘zg‘atadigan xatti-harakatlardan o‘zini tiya bilish»? 
-+Xulq-atvor 
--Ma’lumot 
--Tarbiyalanganlik 
--Kamolot. 
-
-?Rejali va maqsadli o‘qitish va tarbiyalash jarayonida natijalarni aniqlash zaruriyati nimani vujudga keltirdi? 
-+Pedagogik diagnostika 
--Defektologiya 
--Logopediya 
--Pedagogik menejment 
-
-?Kadrlar tayyorlash milliy dasturi tasdiqlangan sana? 
-+1997 yil 29 avgust 
--!992yil 29 avgust 
--“2001yil 2noyabr 
--2005 yil 2sentabr 
-
-?Axloqiy tarbiya sifatlarini ko‘rsating? 
-+Axloq, odob, xulq, insof, diyonat, sharm hayo. 
--Bilim, ilm, malaka, aql, ong. 
--Faollik, ishbilarmonlik, aqliy ish 
--Go‘zallik, kiyinish, tozalik, yurish-turish. 
-
-?Aqliy tarbiya sifatlarini ko‘rsating? 
-+Ong, faxm, ilm, bilim, malaka. 
--Chiniqish, o‘yinlar, sog‘lom tan 
--Aqliy ish, faollik, foyda, faollik 
--axloq, odob, yaxshilik vatanparvarlik 
-
-?Iqtisodiy tarbiya sifatlarini ko‘rsating ? 
-+Sarf, isrof, mulk, tejamkorlik. 
--Tabiat, kiyinish, yurish-turish. 
--Fuqaro, halollik, jinoyat, jazo. 
--Faollik, ishchanlik, tadbirkorlik. 
-
-?Huquqiy tarbiya sifatlari qaysilar? 
-+Fuqaro, huquq, burch, tinchlik, to‘g‘rilik. 
--Axloq, odob, xulq-atvor, tarbiya. 
--Ong, faxm, ilm, bilim, malaka. 
--Sarf, isrof, tejamkorlik, mulk 
-
-?Adolat - ? 
-+Hayotiy masalalarni axloqiy va huquqiy normalarga rioya etgan holda xal etirish 
--Bolaning noto‘g‘ri qilgan ishiga o‘zini iqror qildirish 
--Maslaxat berish, ma’lumotlarni jamlashtirish orqali qabul qilish. 
--Yaxshi bajarilgan ishlarni o‘rtoqlari oldida ma’qullash. 
-
-?Ijtimoiy va shaxslararo munosabatlarning mas’uli, ongli faoliyatning subyekti bo‘lmish individ nima? 
-+Shaxs 
--Inson 
--Individuallik 
--Jamoa 
-
-?Mafkura - ? 
-+Inson ruhiyati tafakkur va dunyoqarashini o‘zgartiradigan kuchli vosita. 
--Inson fazilatlarida miqdor o‘zgarishi 
--Hayotiy masalalarni axloqiy va huquqiynormalarni rioya etgan holda xal etish 
--Jamiyatda qabul qilingan axloqiy normalarga bo‘ysunish 
-
-?Qaysi funksiya oila a’zolarining o‘zaro muloqot va o‘zaro tushunishga bo‘lgan ehtiyojni qondirishga hizmat qiladi? 
-+Kommunikativ 
--Reproduktiv 
--Felistologik 
--Iqtisodiy 
-
-?Pedagog psixolog: 
-+Ba’zi hollarda o‘quvchilarga psixik yordam beruvchi inson. 
--Muloqat va testlar o‘tkazadi. 
--O‘qitishda eng to‘g‘ri uslublardan foydalanadi 
--maslahatchi 
-
-?Pedagogika nima? 
-+Pedagogika shaxsning rivojlanishini o‘rganadi, uning tarbiyasini belgilab beradi. 
--Pedagogika kishi tarbiyasi haqida 
--Insonni tarbiyalaydi 
--Borliqni o‘rganadi 
-
-?Pedagogika qaysi Fan bilan yaxshi bog‘langan? 
-+Psixologiya 
--Falsafa 
--Sotsiologiya 
--Iqtisodiy nazariya 
-
-?Qaysi yil “Ta’lim to‘g‘risida”gi Qonun qabul qilingan? 
-+1997yil 29 avgust 
--1998yil 30avgust 
--1999yil 14 iyul 
--2000yil 29 avgust 
-
-?Kadrlar tayyorlash milliy dasturi necha bosqichdan iborat? 
-+uchta 
--ikkita 
--beshta 
--bitta 
-
-?O‘smirlikda psixik o‘sishni harakatga keltiruvchi asosiy kuch nima? 
-+Uning ehtiyojlari va uning qondirilishi 
--Aqliy zaifligi 
--Tengdoshlari va ota- onalari bilan kelishmovchiliklar 
--Sevgi. 
-
-?Psixologiya fanining lug‘aviy ma’nosi va uning mazmuni nimadan iborat? 
-+Yunoncha so‘zdan olingan bo‘lib “psyche”-jon, “logos”-ilm degan ma’noni anglatadi. 
--Psixologiya shaxsning psixik faoliyati, psixik holati va xususiyatlarning paydo bo‘lishi va rivojlanishi qonuniyatlarini o‘rganadigan fan hisoblanadi. 
--Psixologiya jon va ruh haqidagi diniy fan hisoblanib, miyaning ob’ktiv voqeligini aks ettiruvchi funksiyasi bo‘lgan psixika haqida ma’lumot beradi 
--Psixologiya-jon va ruh haqidagi ilm bo‘lib tabiatdagi barcha jonli mavjudotlarning psixik dunyosi haqida axborotlar to‘playdi 
-
-?Psixologik hodisalar nima ? 
-+Psixik jarayonlar (sezgi, idrok, xotira, tasavvur, diqqat, hayol, tafakkur, nutq va muomala, hissiyot va emotsiya, iroda) psixik holatlar va psixik xususiyatlar yig‘indisidan iborat. 
--Faqatpsixik jarayonlar (sezgi,idrok, xotira,tasavvur, diqqat, hayol,tafakkur, nutq va muomala, hissiyot va emotsiya,iroda) dir 
--Psixik holatlar va individual psixik xususiyatlargina psixolog hodisalarni tashkil etadi. 
--Individual psixologik xususiyatlar. 
-
-?Kasbiy psixologiya o‘z predmetini o‘rganishda qanday ta’limotga asoslanadi? 
-+Abu Ali Ibn Sinoning asab tizimi qonuniyatlari, I.M.Sechenov va I.P.Pavlovning reflektorlik ta’limotiga va ularga asoslangan hozirgi zamon neyrofiziologiyasining eng yangi yutuqlariga asoslanadi.   
--Materialistik nazariyaga asoslanishi mumkin. 
--Psixika haqidagi turli yo‘nalishdagi idealistik ta’limotlarga asoslanadi. 
--Motivatsiya va idealistik ta’lim asoslari. 
-
-?Psixolog kim ? 
-+Psixologiyaning nazariy va amaliy jihatlarini mukammal biladigan, mutaxassisligi bo‘yicha davlat sertifikatiga ega bo‘lgan, psixologiya sohasida ilmiy tekshirish ishlarini olib boruvchi yoki o‘qituvchi sifatida ilmiy ma’ruzalar qiluvchi shaxs. 
--Psixologiya yo‘nalishi bo‘yicha ish olib boradigan o‘qituvchi. 
--Psixikaga ta’sir etib gipnoz qaluvchi shaxs 
--Psixologiya yo‘nalishi bo‘yicha ish olib boradigan psixik ta’sir, etnogipnoz qilgan shaxs 
-
-?Pedagogik psixologiya qanday tarmoq? 
-+Pedagogik psixologiyaning shaxsning ham aqliy - intellektual, ham axloqiy hamda estetik jihatda psixik jixatdan tarkib topishi rivojlanashi va shakillanishi qonuniyatlarini o‘rganuvchi alohida bo‘limihisoblanadi 
--Pedagogik psixologiya psixologiyaning alohida tarmog‘i bo‘lib shaxsning faqatgina aqliy - intellektual shakllanishi haqidagi alohida yo‘nalish hisoblanadi. 
--Umumiy psixologiyaning a’lohida tarmog‘i hisoblangan pedagogik psixologiya, faqat shaxsning axloqiy hamda estetik jihatidan tarkib topishini o‘rganadigan sohasi hisoblanadi.  
--Shaxsning axloqiy hamda estetik jihatidan tarkib topishini o‘rganadigan sohasi hisoblanadi. 
-
-?Psixotexnika nima? 
-+Psixologiyaning mexnatpsixologiyasining amaliy tomonlarini, kasb tanlash va unga to‘g‘ri yo‘naltirishning, mehnat jarayonlarini ratsionalizatsiya qilish, ishlab chiqarishda jarohatlanish va avriya holatlarini kamaytirish ishlab chiqarish unumdorligini oshirish va mukammallashtirishning psixologik qonuniyatlarini o‘rganadigan hozirgi zamonning eng zarur tarmog‘i hisoblanadi. 
--Mehnat psixologiyasining amaliy muammolarini o‘rganuvchi sohasi. 
--Kasb tanlash va kasbga yo‘naltirish masalalari bilan shug‘ullanuvchi alohida sohasi. 
--Kasbga yo‘naltirish masalalari bilan shug‘ullanuvchi alohida sohasi 
-
-?Psixologiyaning boshqa fanlar bilan aloqasi va fanlar tizimida tutgan o‘rni nimadan iborat? 
-+falsafa, tibbiyot, fizika, biologiya, fizologiya,pedagogika, kibernetika, metodika va texnika fanlari bilan bog‘liq. 
--Texnik fanlar bilangina yaqindan bog‘liq. 
--Faqat odam anatomiyasi va fizologiyasi fanlari bilan yaqindan aloqada faoliyat ko‘rsatadi. 
--Texnik fanlar bilangina yaqindan bog‘liq 
-
-?Psixikaning oliy taraqqiyot darajasi nima, unga kim asos solgan? 
-+Ong. Asoschisi nemis olimi Vilgelm Vund (1879 y) 
--Onglilik va ongsizlik. Asoschilari AQSH olimi E.Tetchiner, Gorndayk, D.Uotsonlar. 
--Ong, ongsizlik va ong osti faoliyati. Asoschisi Zigmund Freyd. 
--Ong va ong osti faoliyati. Asoschisi Zigmund Freyd. 
-
-?Psixikani keltiruvchi sabablar nima? 
-+Fizikaviy, ximiyaviy va biologik ta’sirlar ning odam nerv sistemasiga ta’sir qilishi natijasida vujudga keladi 
--G‘ayri tabiiy kuchlar ta’sirida vujudga keladi 
--Oliy nerv sistemasi hisoblanadigan, miya, miya yarim sharlari va uning qobig‘iga o‘rta va uzunchoq miyaga,pereferik nerv sistemasi kelayotganga tashqi va ichki qo‘zg‘ovchilarning ta’siri natijasida vujudga keladi.   
--Miya qo‘zg‘alish, tormozlanish, induksiya, repikulyar formatsiya, irradiatsiya, dinamik stereotiplar assotsiyatsiyalar, birinchi va ikkinchi signallar sistemasi va boshqalar. 
-
-?Psixologik hodisalar nima? 
-+Faqat shaxsning individual psixik xususiyatlarigina psixologik hodisalarni keltirib chiqaradi. 
--Psixik holatlar va psixik jarayonlar psixologik hodisalarni tashkil etadi 
--Psixik holatlar, jarayonlar individual psixologik xususiyatlar, funksiyalar yig‘indasi psixik hodisalarni keltirib chiqarishi mumkin. 
--Psixik jarayonlar. Psixik xodisalarni tashkil etadi. 
-
-?Psixik holat nima? 
-+Faqat o‘z-o‘ziga bo‘lgan munosabatlarda vujudga keladigan kechinmalar psixik holat deb tan olingan 
--Shaxsning obyektiv voqeylikdagi narsa va hodisalarga o‘z-o‘ziga bo‘lgan munosabatlarni ifodalovchi ichki ruhiy emotsional kechinmalar. 
--Astenik kechinmalardir 
--Stenik va ichki ruhiy emotsional kechinmalar. 
-
-?Psixik jarayonlar nima? 
-+Shaxsning emotsi onal va irodaviy, jarayonlari,psixik jarayonlarni tashkil etadi 
--Miyaning alohida aks ettirish faoliyati bo‘lib, inson sezgilari, idroki, xotira va tasavvurlari hayol, tafakkur, nutq, diqqat, hissiyot va iroda kabi psixika deb nomlanuvchi ongshakllaridir 
--Inson sezgilarigina psixik jarayonlarni tashkil etadi. 
--Xarakter, temperament kabi jarayonlar. 
-
-?Bolalarni o‘qishga salbiy munosabatni kelib chiqishiga asosiy sababini ko‘rsating? 
-+O‘qituvchilarning boshqa o‘quvchilarni moddiy tarafiga qarab ko‘proq etibor berishi. 
--Oiladagi bolaga bo‘lgan munosabatlar 
--Aka-opalarining maktabdagi kechinma va vaziyatlar, ularni bolani dars tayyorlashga majbur qilish 
--Irsiylik. 
-
-?Har bir yosh davrlariga ko‘ra o‘smirlarni ham tipologik xususiyatlariga ko‘ra bir necha shartli guruhlarga ajratilgan. Ushbu guruhning birinchi toifasiga kiruvchi o‘smirlar qanday nom bilan ataladi? 
-+Hamma narsalarga ko‘nikuvchan 
--Barqaror va yuksak his-tuyg‘uga ega 
--Orsiz yoki subutsiz ammo qat’iyatli 
--Ko‘nikuvchan va subutsiz. 
-
-?Tarbiyasi qiyin o‘smirlarni keltirib chiqaruvchi sabablar majmuasiga nimalar kiradi? 
-+Oilaning salbiy ta’siri, maktabdan tashqari muhitdagi nuqsonlar, maktab ta’limi tarbiyasidagi kamchiliklar, oila birligining yo‘qligi va hokazolar. 
--Psixikasidagi kamchilik lar, tarbiya sidagi nuqsonlar   
--Biologik nuqsonlar, psixik kamolotidagi, bilim olish faoliyatidagi kamchiliklar 
--Biologik nuqsonlar, irodasizlik 
-
-?Ilk o‘spirinlik yoshi davriga qaysi yosh davrdagilarni kiritamiz? 
-+15-18 yoshlik 
--15-19 yoshlik 
--14-18 yoshlik 
--16-18 yoshlik 
-
-?Kuch g‘ayrat shijoat qahramonlik ko‘rsatishga urinish, jamoat, jamiyat va tabiat hodisalariga romantik munosabatda bo‘ladi. Ushbu ta’rif qaysi yosh davriga taaluqli? 
-+Ilk o‘spirinlik yoshi 
--O‘spirinlik 
--O‘spirinlik va balog‘at yoshi. 
--O‘smirlik 
-
-?Psixolog L.I.Umanskiyning fikricha o‘spirin namunali tashkilotchi bo‘lishi uchun qanday hislatlar zarur? 
-+Ahloqiy, irodaviy, suitsidal, empatiya 
--Emotsional xislatlar, suitsedal, empotiya 
--Aqliy-intellektual, ahloqiy irodaviy, emotsional 
--Ahloqiy, emotsional 
-
-?O‘spirinlarda kasb tanlashda ko‘proq xatoga yo‘l qo‘yadilar, sababini ko‘rsating? 
-+Aniq motivlarning yo‘qligi. 
--Orzularning yo‘qligi, xayol parastlik va xom xayolga berilish 
--Kasblar haqida yaqqol tasavvurlarning yo‘qligi, shuningdek ota-onalarning bilimining susligi 
--Orzular yo‘qligi, kasblar haqida yaqqol tasavvurlarning yo‘qligi 
-
-?Talabalik davri o‘spirinlikning ikkinchi bosqichidan iborat bo‘lib, qaysi yosh davrini o‘z ichiga oladi? 
-+17-22 (25) 
--16-21(24)   
--16 (21-25) 
--18 – 23 (25) 
-
-?Hamkorlikdagi o‘quv faoliyatini yaratish maqsadi nima? 
-+O‘zaro (shaxslararo) munosabatni yaxshilash o‘zlashtiriladigan faoliyat va birgalikdagi harakatlar, muloqotning boshqarish mexanizmi 
--SHerikliklik munosabatini yaratish.yaxshilash 
--Shaxslararo yaxshi natijani hal qilish mexanizmi. 
--Birgalikdagi harakatlar, muloqotning boshqarish mexanizmi. 
-
-?Akselnratsiya so‘zining ma’nosi nima? 
-+O‘smirlar orasidagi farqlar. 
--O‘sishdagi jadallashuv 
--Psixik jarayonlarning tez faoliyat yuritishga tayyorligi 
--O‘smirlar orasidagi o‘sishdan jadallashuvi 
-
-?Shaxs xususiyatlar majmuasining asosiy komponentlari? A.. V.. S.. D. 
-+Odamlarga, tabiatga, jamiyatga munosabatni ifodalovchi shaxs xususiyatlaridan 
--O‘z-o‘ziga munosabatni ifodalovchi shaxs xususiyatlaridan 
--Faqat jonli mavjudotga munosabatni ifodalovchi shaxs xususiyatlardan iborat 
--Jamiyatga munosabatni ifodalovchi shaxs xususiyatlaridan 
-
-?Individ nima va uning psixologik belgisi nimadan iborat? 
-+Tug‘iladi va muhitga moslashadi, saralanadi va muhofazalanadi. 
--Tug‘iladi, ko‘payadi va o‘ladi 
--Tug‘iladi ovqatlanadi ko‘payadi, saralanadi. Muhitga moslashadi o‘zini himoyalaydi ammo moddiy ne’mat yaratmaydi. 
--Tug‘iladi, kuchayadi, moddiy ne’mat yaratmaydi 
-
-?Shaxs ehtiyojlari…. 
-+Biologik moddiy va ma’naviy 
--Faqat moddiy va biologik 
--Ma’naviy va estetik ehtiyojlardan iborat 
--Moddiy-ma’naviy. 
-
-?Faoliyatga berilgan ta’riflardan ma’qulini toping? 
-+Moddiy ehtiyojlarni qondirish uchun qilinadigan faol ish faoliyat deb yuritiladi 
--Impulsiv hatti -harakatlar faoliyat deb ataladi. 
--Har qanday ehtiyojni qondirish uchun qilinadigan   
--harakat 
--Ongli va faol hatti- harakatlar natijasi faoliyat deb ataladi. 
-
-?Ma’naviyatni shakllantiradigan asosiy mezonlar? 
-+Ma’naviy meros, madaniy boyliklar, ko‘hna tarixiy yodgorliklar 
--YUNESKO 
--BMT 
--Vatanga muhabbat 
-
-?Maxsus pedagogika tizimiga nimalar kiradi? 
-+Surdopedagogika, tiflopedagogika, oligofrenopedagogika 
--Logopediya, Tiflopedagogika 
--Defektologiya,logopediya 
--Surdopedagogika, logopediya 
-
-?Pedagogika tizimiga oid fanlar qaysi guruhga kiritilgan? 
-+Umumiy pedagogika, yosh pedagogikasi, ijtimoiy pedagogika, pedagogika tarixi. 
--Didaktika, psixologiya, tarix, tarbiya nazariyasi. 
--Fiziologiya,pedagogik psixologiya, sotsiologiya 
--Gigiyena asoslari, valeologiya, botanika 
-
-?«Pedagogika» atamasining lug‘aviy ma’nosi nima? 
-+Bola yetaklamoq 
--Men o‘qitaman 
--Men o‘rgataman 
--Ta’lim va tarbiya beraman 
-
-?Pedagogikaning ilmiy tadqiqot metodlari quyidagilardan iborat: 
-+Pedagogik kuzatish usuli, suhbat usuli (yakka tartibda, guruh bilan) bolalar ijodini o‘rganish usuli, test usuli, ma’lumotlarni tahlil qilish usuli,eksperiment-tajriba-sinov usuli, statistika ma’lumotlarini taxlil qilish usuli, matematika va kibernetika usuli. 
--statistika ma’lumotlarini taxlil qilish usuli, matematika va kibernetika usuli. 
--Suhbat metodi 
--Ma’lumotlarni tahlil qilish usuli 
-
-?Ahloqiy tarbiya vazifalari nimadan iborat? 
-+Shaxsda ma’naviy-axloqiy ongni shakllantirish, ma’naviy-axloqiy his-tuyg‘ularni tarbiyalash va rivojlantirish, ma’naviy-axloqiy xulq-atvor ko‘nikma va odatlarini tarkib toptirish 
--Mushohadaviy fikr yuritsh 
--Yangi bilim va ko‘nikmalarni qabul qilish 
--Tekshirish, nazorat qilish 
-
-?Kasb ta’limi muassasalarini boshqarish deganda nimani tushunasiz? 
-+o‘quv tarbiya jarayonini boshqarish, pedagogik jamoa faoliyatini tashkillashtirish 
--Talaba va ustoz o‘rtasidagi ahloqiy va aqliy saviyani oshirish 
--O‘quv jarayonini ilg‘or pedagogik texnologiya asosida uyushtirish 
--Emotsional sharoit yaratish 
-
-?Kasbiy pedagogikaning izlanish metodlari qaysilar? 
-+Nazariy, empirik 
--Nazariy, empirik, umumiy 
--Ma’lumot, madaniyat, mentalitet, 
--Aqliy , ma’lumot, nazariy 
-
-?Malakaviy bilim berishda rivojlanish tizimi tendensiyalariga nimalar kiradi? 
-+Ta’limning uzluksizligi, ta’limning birlashishi, ta’lim standartlari, ta’limning demokratiyaviyligi 
--Davlat ta’lim standartlari 
--Eng yaxshi tanlab olingan o‘quv materialini amaliyotda qo‘llash 
--Uzluksiz ta’lim aloqasini yaxshilash va tayyorlov aspektlarini tartibga keltirish 
-
-?“Men” obrazi qanday xosil bo‘ladi? 
-+Shaxsning o‘zi, o‘z xulq-atvori xususiyatlari, jamiyatdagi mavqeini tasavvur qilish orqali 
--Ma’lum bir maqsadga yo‘naltirilgan kattalarning pedagogik faoliyati ta’sirida 
--Rahbarlik roli natijasida bolaning o‘z-o‘zini taraqqiy ettirishdir 
--Ta’lim tarbiya natijasida olingan va tizimlashtirilgan bilim orqali. 
-
-?Qaysi javob ijodiy jarayonlarda hayol va fantaziya vositasidan ongda berilmagan narsalarning xususiyatlarini anglash va hayolda tiklashni taqazo etadi? 
-+Imajitiv faoliyat («imaje» - obraz 
--Perzertiv faoliyat. 
--Minglik faoliyat. 
--Tasavvur va idrokda 
-
-?Nutq rivojlangani sari nima rivojlanadi? 
-+Inson tafakkuri. 
--Tarbiya 
--Ahloq 
--G‘oya 
-
-?Chaqaloqning boshqa odamlar bilan muloqotga kirishish orqali o‘zini anglaydigan, o‘zi tug‘ilgan madaniyatni tushunadigan aqlli mavjudodga aylanish jarayoni? 
-+kamolot   
--Tarbiyalanganlik 
--Ijtimoiylashuv 
--Inson tafakkuri 
-
-?Jamiyatning boshlang‘ich ijtimoiy bo‘g‘ini? 
-+Oila 
--Shaxs   
--Yosh avlod 
--Vatan 
-
-?Qaysi funksiyaning asosiy mohiyati inson naslini davom ettirishdan iborat? 
-+Reproduktiv 
--Felistologik 
--Regulativ 
--Relaksatsiya 
-
-?Agressiv shaxs? 
-+Agressivlik va dushmanlik 
--Affishatsiya 
--Protektivlik va homiylik 
--Ishonchsizlik bildiruvchilar 
-
-?Qaysi mashq o‘quvchida mantiqiy fikrlashni, xotirani, nutq va e’tiborni kuchaytiradi? 
-+O‘quv mehnat mashqi 
--Yozma mashq 
--Grafik mashq 
--Og‘zaki mashq 
-
-?Tinch, sukunat vaqtida asta-sekin aytilgan tovushga nisbatan uzoq masofadan eshitish tug‘ma layoqatlar asosida vujudga keladigan individual shaxs xususiyati nima deb ataladi? 
-+Yaxshi eshitish qobiliyati (slux). 
--Past eshitish xususiyati. 
--Eshitishning nisbiy chegarasi 
--Suyak tizimi orqali his qilish qobiliyati. 
-
-?O‘z fikrlarini ma’lum bir tartibda bayon qila olmaslikdan iborat aqliy kamchilikni yo‘qotish uchun nima qilish kerak? 
-+Juda ko‘p kitob o‘qib, o‘qib, mutolaa qilish kerak.   
--Qunt bilan mashq qilish kerak. 
--Logopedga qatnash kerak. 
--Nevralogiyada davolanish shart. 
-
-?Mustaqil aktiv (faol) harakatlarni bajarishga nisbatan moyillik hamda qobiliyatda namoyon bo‘ladigan harakter hislati: 
-+Tashabbuskorlik deb nomlanadi 
--Sustkashlik deb nomlanadi 
--Loqaydlik deb nomlanadi. 
--Faoliyatsizlik deb nomlanadi 
-
-?Kimlar intelegent deb nomlanadi? 
-+Ilm va bilimga ega madaniyatning turli sohalarida bo‘lgan aqliy mehnat hodimlari, aqliy yetuk insonlar toifasini. 
--Intelegensiya ya’ni aqilli, ziyoli ammo madaniyatsiz insonlarni. 
--Madaniyat sohasidagi madaniyatli odamni. 
--Maxsus sohalar bo‘yicha ilmi bor insonlarni 
-
-?«Baland» so‘zini idrok qilsak unga qarama qarshi «past»ni «urush» so‘zining idrok qilsak beihtiyor tinchlik «yaxshi» so‘zidan so‘ng «yomon»ni idrok qilamiz. Bu qonuniyat psixologiyada qanday nomlanadi? 
-+Qarama-qarshilik assotsatsiyasi. 
--Ketma-ketlik assotsatsiyasi. 
--Yaxlitlik assotsatsiyasi. 
--Murakkab assotsatsiyasi. 
-
-?Eshituv nutq zonasi (maydonchasi) qayerga joylashgan? 
-+Chap yarim sharlarning yuqori kanalida. 
--Bosh miyaning chap yarim sharlaridagi yuqori chakka burmaning orqasidagi bo‘lagida   
--Bosh miyaning o‘ng yarim sharidagi yuqori chakka burmaning orqasidagi bo‘lagini egallagan 
--Orqa miyada joylashgan. 
-
-?Nutqning ta’sirchanligini ta’minlovchi psixologik omillarni belgilang: 
-+So‘zlayotgan shaxs obro‘si, tajribasi va bilim darajasi, notiqlik san’atini mukammal egalaganligi va tashqi ko‘rinishi. 
--So‘zlayotgan shaxsning obro‘si va ko‘rinishi. 
--Nutq madaniyatiga va notiqning ritorika uslubini mukammal egallaganligi. 
--Tajribasi 
-
-?Bolalar nutqining rivojlanishi qachon va qanday uslubda boshlanadi? 
-+4-5 oylikdan lablari yordamida ovoz chiqarib mashina ovozini ifodalaydi. 
--6-7 oylikdan «bu-bu-bu», «ta-ta-ta», «na-na-na», «ma-ma-ma» bo‘g‘inini ayta boshlaydi. 
--11-12 oydan so‘ng «na-na-na» va «ma-ma-ma» bo‘g‘inlarini ayta boshlaydi 
--1,5 yoshdan bemalol oyi, ada, suv, non, Osh degan so‘zlardan boshlaydi 
-
-?Qiziqish qanday psixik jarayon hisoblanadi? 
-+Faqatgina biror faoliyatni amalga oshiruvchi subyektiv motiv hisoblanadi 
--Shaxsni shakllantiruvchi omildir. 
--Biror faoliyatning asosiy motivi, aqliy vosita, muvaffaqiyat omili 
--Aqliy vosita bo‘lsa kerak. 
-
-?Kundalik turmushda ilmiy, ijtimoiy, siyosiy faoliyatda, jamoat manfaatlariga qarama-qarshi ravishda o‘zining shaxsiy manfaatlarini ko‘zlab yutuq, mavqe mansabga kuchli intilishdan iborat salbiy harakter hislati: 
-+Karyerizm (mansabparastlik) deb ataladi. 
--Kategoriya demakdir. 
--Katalepsiyadir. 
--Kvalefikatsiya (ixtisoslik) demakdir. 
-
-?Biror narsaga, kimsaga nisbatan bo‘lgan salbiy munosabatdan kelib chiqadigan yoqimsiz hissiyot: 
-+Antipatiya. 
--Antropologiya. 
--Anesteziya. 
--Antipatiya va Apatiya. 
-
-?Insonlarning ba’zan g‘ayrati shijoati susayganda u umidsizlanadi 
-ruhiy tushkun xolatga tushadi, ushbu vaziyatdagi his-tuyg‘u: 
-+Astenik hislar 
--Stenik hislar 
--Agnologik hislar 
--Affekt 
-
-?Odamning obyektiv ravishda zerikish mavjud sharoitdan noroziligi kimdandir xafa, kimnidir qo‘msash shaklida namoyon bo‘ladigan muvozanat psixikasining paydo bo‘lishi: 
-+Norozilikdir. 
--Axborot miqdori va axborotga muxtojlik deb nomlanadi. 
--Axborotlar muvozanatining buzilishi 
--Eng oz miqdordagi taasurotlar va xabarlardan bexabarlik ya’ni informatsion minimum. 
-
-?Shaxsiy manfaatlari yo‘lida nutq va so‘z orqali kishilar ruhiga ya’ni psixikasiga ta’sir qilish, ishontirish orqali ular ongida, soxta tasavvur va tushunchalar xosil qilish: 
-+Gipnoz deyiladi 
--Kolloziya (to‘qnashuv) deyiladi. 
--Jodugarlik deyiladi. 
--Komaga (vaqtinchalik ongsizlik xolati) tushirish jarayonida 
-
-?Konformizm nima? 
-+Ikki xil ma’noda qo‘llaniladi moslilik va shu vaqtning o‘zida qarama- qarshilik guruh ichida mos ammo tashqaridagi qilayotgan ishi unga qarama- qarshi. 
--Bir xil ma’nosi bor, qarama-qarshilik 
--Faqat kesish uchun tashqaridan o‘zini ularni qo‘llayotganday ko‘rsatadi. 
--Ichidan jon-jon deb turadi, ammo ular fikriga qo‘shilayotganini bildirmaydi 
-
-?Qabariq linzali ko‘zoynaklar kimlarga tavsiya etiladi? 
-+Yaqinni ko‘ra olmaydiganlarga 
--Uzoqni ko‘ra olmaydiganlarga 
--Yaxshi ko‘ra olmaydigan va ko‘zi ojizlarga 
--Ko‘zi ojizlarga. 
-
-?Qaysi yosh davrlarda kattalar bilan muloqot jiddiylashadi? 
-+O‘smirlikdan o‘spirinlikgacha 
--Ilk maktab yoshdan o‘smirlikkacha 
--Go‘daklikdan ilk bolalik davrigacha 
--O‘rta yetuklik davrida 
-
-?Yosh davrlarni tabaqalashda bir qancha qarashlar, nazariyalar mavjud bo‘lib, qaysi psixolog mazkur nazariyalardan biriga tayanib insonning umrini ma’lum davrga bo‘ladi, yani qanday davrga bo‘lgan? 
-+Psixogenetik Z.Freyd - 10 davrga 
--Sotsiogenetik E.Erikson - 8 davrga. 
--Psixogenetik E.Erikson - 8 davrga. 
--Sotsiogenetik Z.Freyd - 10 davrga. 
-
-?Insonning shaxs sifatida shakllanishi ikki bosqichda o‘tadi. Ular qanday nomlanadi? 
-+Men va jamiyat, Men va «U» obrazi 
--Filogenez, Ontogenez 
--Men jamiyat bilan, Men va jamiyat 
--Filogenez, men va «U» obrazi. 
-
-?Chaqaloq onasini emish vaqtida boshqa hatti-harakatlari sekinlashib butunlay to‘xtaydi. Mazkur jarayon qanday nomlanadi? 
-+Uyquga ketish. 
--Yurak urishini eshitib uxlash.   
--Ovqatga yo‘nalish 
--To‘yinish. 
-
-?Qaysi yosh davrlarda insonga xos eng muhim psixologik xislatlar shakllanadi? 
-+4 yoshdan to 9 yoshgacha 
--11-12 yoshdan 14-15 yoshgacha. 
--7 to 10 yoshgacha 
--3 yoshdan to 7 yoshgacha 
-
-?O‘quvchining ichki sababiyat nuqtasining boshlanishi: 
-+O‘z-o‘zini ishontirish. 
--O‘zini ko‘rsatish 
--O‘zini tahlil etish 
--O‘zgalardan o‘rganish 
-
-?Kimni Sharq Aristoteli deb nomlaydilar? 
-+Farobiy 
--A.Avloniy 
--Abu Ali Ibn Sino 
--Beruniy
-
+?Unsupervised learning
++bu modelni xususiyatlari aniq bo'lmagan ma'lumotlar bilan o'qitish
+-bu modelni xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish 
+-modelni ham aniq ham aniq bo'lmagan xususiyatli ma'lumotlar bilan o'qitish
+-bu o'qitishning mukammal usuli bo'lib, bunda model o'zini-o'zi qayta o'qitish 
+
+?Semi- supervised learning……………
++bu modelni ham aniq ham aniq bo'lmagan xususiyatli ma'lumotlar bilan o'qitish
+-bu modelni xususiyatlari aniq bo'lmagan ma'lumotlar bilan o'qitish 
+-bu modelni xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish 
+-bu o'qitishning mukammal usuli bo'lib, bunda model o'zini-o'zi qayta o'qitish
+
+?Reinforcement learning
++bu o'qitishning mukammal usuli bo'lib, bunda model o'zini-o'zi qayta o'qitish va natijalarni yaxshilash imkoniyati
+-bu modelni xususiyatlari aniq bo'lmagan ma'lumotlar bilan o'qitish
+-bu modelni ham aniq ham aniq bo'lmagan xususiyatli ma'lumotlar bilan o'qitishdir.
+-bu modelni xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish 
+
+?O'qitishning mukammal usuli bo'lib, bunda model o'zini-o'zi qayta o'qitish va natijalarni yaxshilash imkoniyatiga ega bo'ladi
++Reinforcement learning
+-Semi-supervised learning 
+-Supervised learning 
+-Unsupervised learning 
+
+?Modelni ham aniq ham aniq bo'lmagan xususiyatli ma'lumotlar bilan o'qitishdir
++Semi-supervised learning
+-Reinforcement learning
+-Unsupervised learning 
+-Supervised learning
+
+?Modelni xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish
++Supervised learning
+-Semi-supervised learning 
+-Reinforcement learning 
+-Unsupervised learning
+
+?Modelni xususiyatlari aniq bo'lmagan ma'lumotlar bilan o'qitish bu……
++Unsupervised learning
+-Supervised learning 
+-Semi-supervised learning 
+-Reinforcement learning 
+
+?Mashinali o'qitishda asosan qaysi instrumental vositalardan foydalaniladi
++Python, Matlab, Octave
+-Python,NLP,Keras 
+-Numpy,Pandas 
+-Python,Keras,Pandas 
+
+?Bir o'zgaruvchili chiziqli regressiya bu - ....
++Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan model yaratish 
+-Bashoratlash uchun obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib bashoratlashga xizmat qiladigan model yaratish 
+-Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat qiladigan model yaratish 
+-Siflashtirish uchun obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib
+siflashtirishga xizmat qiladigan model yaratish 
+
+?Ko'p o'zgaruvchili chiziqli regressiya bu -...
+ +Bashoratlash uchun obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib bashoratlashga xizmat qiladigan model yaratish
+-Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan model yaratish 
+-Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat qiladigan model yaratish 
+-Siflashtirish uchun obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib siflashtirishga xizmat qiladigan model yaratish 
+
+?Logistik regressiya bu 
++Regression tahlil asosida sinflashtirish masalasini yechish
+-Regression tahlil asosida klasterlash masalasini yechish
+-Regression tahlil asosida bashoratlash masalasini yechish 
+-Regression tahlil asosida chuqur o'qitish masalasini yechish
+
+?Chiziqli va logistic regressiyaning asosiy farqi bu………
++Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli regressiya basharotlash, logistic regressiya sinflashtirish 
+-Bu ikkalasi ikki turdagi masalani ishlaydi. chiziqli sinflashtirish basharotlash, logistic regressiya regressiya 
+-Ikkalasi ham bir turdagi masalani ishlash uchun mo'ljallangan 
+-chiziqli regressiya basharotlash
+
+?Python dasturlash tilida ma'lumotlarni visuallashtirish uchun ishlatiladigan kutubxona
++Matplotlib
+-plotData
+-Pillow 
+-PyPlot 
+
+?Numpy kutubxonasida ikkita vektorni skalyar ko'paytirish amali qanaqa
++A*B ~A@B
+-np.multiply([A,B]) 
+-np.dot([a,b]) 
+-A*B
+
+?Numpy kutubxonasida ikkita vektorni vektor ko'paytirish amali qanaqa
++A@B
+-A*B 
+-np.dot([A,B]) 
+-np.multiply([A,B]) 
+
+?Pythonda ikkita vektorni birlashtirishda xatolik sodir bo'ladigan javobni tanlang
++a#append(a,b)
+-a#np.append(a,b) 
+-a#np.append(b,a) 
+-a#np.append
+
+?Cost funksiya bu
++Modelni o'qitish davrida model tomonidan topilgan qiymat bilan o'rgatuvchi tanlamada berilgan qiymat oralidagi farqlarni hisoblash funksiyasi
+-Cosinius funksiyasini qisqartma ko'rinishi
+-Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish
+-Modelni o'qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish
+
+?Chiziqli regression model nechta qiymat qaytaradi
++Har doim bitta
+-Ixtiyoriy ravishdagi sonda qiymat qaytarishi mumkin 
+-Har doim bittadan ko'p 
+-Xatolik sodir bo'ladi
+
+?Gradient tushish bu
++Model parametrlarini sozlash uchun ishlatiladigan algoritm
+-Xatolik funksiyasi 
+-Kiruvchi ma'lumotlarni narmallashtirish uchun qiymatlarni 0,1oraliqqa tushirish 
+-Mashinali o'qitish turi 
+
+?O'qitish jarayonida regulyarizatsiyalash bu
++Modelni o'qitish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish
+-Modelni testlash jarayonida qisqartirish
+-Modelni testlash jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish 
+-Modelni qurish jarayonida ortiqcha paramertlardan ozod qilish, qisqartirish
+
+?Modelni qurishda bo'ladigan Underfitting muammosi bu
++Model train to'pilmada ham, test to'plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan.
+-Model train to'pilmada ham, test to'plamda ham yuqori aniqlik bermaydi. Model murakkab tuzilgan.
+-Model train to'pilmada yuqori, test to'plamda esa past aniqlik beradi. Model sodda tuzilgan. 
+-Model train to'pilmada yuqori, test to'plamda esa past aniqlik beradi. Model murakkab tuzilgan. 
+
+?Model qurishda bo'ladigan Owerfitting muammosi bu?
++Rasmlarni joylashtirish uchun
+-Ma'lumotlarni jadval ko'rinishida chop etish uchun 
+-Audioma'lumotlarni joylashtirish uchun 
+-Matnli ma'lumotlarni joylashtirish uchun 
+
+?Mobil ilovadagi element ustiga sichqoncha chap tugmasi bilan bosilganda qaysi metod ishga tushadi
++Model train to'plamda yuqori, test to'plamda esa past aniqlik beradi. Model murakkab tuzilgan.
+-Model train to'plamda ham, test to'plamda ham yuqori aniqlik bermaydi. Model sodda tuzilgan. 
+-Model train to'plamda ham, test to'plamda ham yuqori aniqlik bermaydi. Model murakkab tuzilgan. 
+-Model train to'plamda yuqori, test to'plamda esa past aniqlik beradi. Model sodda tuzilgan. 
+
+?Bias tushunchasi
++Modelni train to'plam bilan testlaganda bo'ladigan xatolik
+ -Modelni test to'plam bilan testlaganda bo'ladigan xatolik 
+- Modelni train  test to'plam bilan testlaganda bo'ladigangadi umumiy xatolik 
+ -Modelni validation to'plam bilan testlaganda bo'ladigangadi umumiy xatolik 
+
+?Variance tushunchasi
++Modelni test to'plam bilan testlaganda bo'ladigan xatolik
+-Modelni train to'plam bilan testlaganda bo'ladigan xatolik 
+-Modelni train + test to'plam bilan testlaganda bo'ladigangadi umumiy xatolik
+-Modelni validation to'plam bilan testlaganda bo'ladigangadi umumiy xatolik
+	
+?Agar bias yuqori bo'lsa qaysi turdagi muammo sodir bo'lmoqda
++Underfitting
+-Owerfitting
+-Bias ni yuqoriligi mumamo hisoblanmaydi 
+-Model juda murakkab 
+	
+?Model murakkab bo'lsa bias qanday bo'ladi?
++Quyi, model o'rgatuvchi tanlamaga mostlashib qoladi va train to'plamda xatoligi past bo'ladi
+-Model juda soda bo’ladi 
+-Bias ning quyi yoki yuqori bo'lishi model murakkabligiga bog'liq emas. 
+-Yuqori, model o'rgatuvchi tanlamaga mostlashib qoladi va train to'plamda xatoligi yuqori bo'ladi 
+
+?O'rgatuvchi tanlama nima
++bu o'qitish uchun kerakli bo'lgan ma'lumotlar to'plamidir
+-bu o'qitish uchun kerakli bo'lgan neyronlar to'plamidir 
+-bu o'qitish uchun kerakli bo'lgan og'irliklar to'plamidir 
+-bu o'qitish uchun kerakli bo'lgan neyron tarmoq qatlamlar to'plamidir 
+
+?O'rgatuvchi tanlamadagi train to'plam ...
++modelni o'qitish uchun ishlatiladi
+-modelni testlash uchun ishlatiladi 
+-modelni o'qitish davomida model parametrlarini sozlash uchun ishlatiladi 
+-bu turdagi o'rgatuvchi tanlamadan foydalanilmaydi 
+
+?O'rgatuvchi tanlamadagi val (validation) to'plam bu
+-Modelni o'qitish davomida model parametrlarini sozlash uchun ishlatiladi
+-modelni o'qitish uchun ishlatiladi 
+-modelni testlash uchun ishlatiladi 
+-Bu turdagi o'rgatuvchi tanlamadan foydalanilmaydi 
+
+?Nima uchun o'rgatuvchi tanlama normallashtiriladi
++Obyektni xarakterlovchi xususiyatlari bir xil shkalaga olib kelish orqali ularning ta'sir kuchini barobarlashtirish
+-Obyektni xarakterlovchi xususiyatlari faqat [0,1] shkalaga olib kelish orqali ularning ta'sir kuchini barobarlashtirish 
+-Obyektni xarakterlovchi xususiyatlari faqat [-1,1] shkalaga olib kelish orqali ularning ta'sir kuchini barobarlashtirish 
+-Obyektni xarakterlovchi xususiyatlari turli xil shkalaga olib kelish orqali ularning ta'sir kuchini barobarlashtirish 
+
+?Validation dataset qayerda ishlatiladi
++Modelni qurish davomida paramertlarni sozlashda
+-Model qurib bo'linganidan so'ng aniqlikni baholashda 
+-Chiziqli regressiyasini baholashda
+-Validation datasetdan foydalanilmaydi 
+
+?Klasterlash bu
++O'qituvchisiz o'qitish algoritmi asosida obyektlarni xarakterlovchi o'xshash xususiyatlari asosida guruhlash
+-O'qituvchili o'qitish algoritmi asosida obyektlarni xarakterlovchi o'xshash xususiyatlari asosida guruhlash 
+-Mashinali o'qitishda buday tushuncha yo'q
+-Logistik regressiya asosida amalga oshiriladigan mashinali o'qitish algoritmi 
+
+?O'qituvchisiz o'qitish algoritmiga qaysi algoritim kiradi
++K-maens Singular Value Decomposition
+-KNNSVM 
+-SVMKmaens 
+-Random Forest 
+
+?KNN algoritmida k qiymat nimani xarakterlaydi
++k ta eng yaqin qo'shnini
+-k ta eng uzoq qo'shnini
+-O'qitish qadami
+-O'qitishlar sonini 
+
+?Uy narxini bashorat qilish uchun mashinali o'qitishning qaysi algoritmidan foydalanadi
++Chiziqli regressiya
+-Logistik regressiya 
+-Kmeans 
+-SVM 
+
+?Uyning xarakterlovchi xususiyatlari asosida ikkita guruhga(klasterga) (biznes, ekanom) ajratish uchun qaysi mashinali o'qitish algoritmidan
+foydalaniladi
++Kmeans
+-SVM 
+-Random Forest 
+-Logistik regressiya 
+
+?KNN algoritmida k ni kichik tanlasak nima sodir bo'ladi
++Shovqinga sezgir bo'ladi va sinflashtirishda xatolikka ko'p uchrashi mumkin
+-Shovqinga sezgir bo'lmaydi va sinflashtirishda xatolikka ko'p uchrashi mumkin
+-KNN algoritmida k parametr yo'q.
+-k ni kichik yoki katta tanlash algoritm ishiga ta'sir qilmaydi 
+
+?KNN algoritmida k ta eng yaqin qo'shni qanday aniqlanadi
++To'plamdagi barcha elemetlar orasidagi masofa hisoblanib chiqiladi va eng yaqin k tasi tanlanadi
+-Taxminiy random() funksiyasi orqali aniqlanadi
+-To'plamdagi k ta elemetlar orasidagi masofa hisoblanib chiqiladi va ular o'sish tartibida saralanadi.
+-KNN algoritmida k ta eng yaqin qo'shni tushunchasi yo'q
+
+?SVM algorimi qaysi masalani yechish uchun xizmat qiladi
++Sinflashtirsh
+-Chiziqli regressiya 
+-Klasterlash 
+-Normallashtirish 
+
+?KMeans bu –
++O'qituvchisiz o'qitish algoritmi
+-O'qituvchili o'qitish algoritmi 
+-O'zini o'zi o'qitadigan algoritmi 
+-Sinflashrirish algoritmi
+
+?Kmaens algoritmi qaysi masalani yechish uchun xizmat qiladi
++Klasterlash
+-O'qituvchili o'qitish
+-Sinflashtirish 
+-Regressiya 
+
+?SVM algoritmidagi hisoblaanadigan orqaliq (margin) qanday bo'lsa model ishonchli deb topiladi
++Oraliq eng kattta bo'lsa
+-Oraliq eng kichik bo'lsa 
+-Oraliq hech narsani anglatmaydi 
+-O'qituvchili o'qitish uchun
+
+?SVM orqali ..
++Faqat bir nechta sinfga tegishli bo'lgan obyektlar sinflanadi
+-Faqat ikkita sinfga tegishli bo'lgan obyektlar sinflanadi 
+-Faqat regressiya masalasini yechish mumkin
+-Ham sinflashrish, ham regressiya masalasini ishlash mumkin. 
+
+?Qidiruv tizimlarida sun'iy intellektdan foydalanish mumkinmi
++ha, mumkin va hozirda keng qo'llanilmoqda
+-qisman amaliy natijalari bor lekin yetarlicha nazariy jihatdan formallashtirilmagan
+-nazariy jihatdan mumkin, lekin hozircha amaliy jihatdan natijalarga erishilmagan
+-qidiruv tizimlarida sun'iy intellektdan foydalanish qidiruv vaqtini oshiradi 
+
+?Mashinani o'qitish jarayonida ma'lumotlarga qanday dastlabki ishlov beriladi
++Ma'lumotlar formatlari bir xillashtiriladi
+-Ma'lumotlarni tozalash 
+-Ma'lumotlardan xususiyatlarni ajratish 
+-O'qituvchili o'qitishda ma’lumot berish
+
+?Sun'iy neyron tarmoqlarida perceptron tushunchasi
++bu ikkita qatlamdan iborat ya'ni kiruvchi va chiquvchi qatlamdan iborat bo'lgan neyronni hisoblash tugunidir.
+-bu ikkita qatlamdan iborat ya'ni kiruvchi va faollashtish qatlamdan iborat bo'lgan neyronni hisoblash tugunidir. 
+-bu bir qatlamdan iborat bo'lgan neyronni hisoblash tugunidir.
+-bu uch qatlamdan iborat bo'lgan neyronni hisoblash tugunidir. 
+
+?Sun'iy neyron tarmoqlarida yashirin qatlam tushunchasi
++Kiruvchi va chiquvchi qatlamlar orasida joylashadigan neyron
+-Ko'rinmaydigan qatlam 
+-Neyron tarmoqda yashirin qatlam tushunchasi yo'q 
+-Kiruvchi qatlamdan kiyin keladigan barcha qatlamalar 
+
+?Sun'iy neyron tarmoqlarida aktivlashtirish funksiyasi tushunchasi
++Neyron tugunlaridan chiqqan qiymatni ma'lum bir diapozonga tushirish uchun ishlatiladi
+-Neyron tarmoqda aktivlashtirish funksiyasi tushunchasi yo'q 
+-Bu faol bo'lmagan tugunlarni faollashtish uchun ishlatiladi. 
+-O'qituvchili o'qitish usllaridan foydalaniladi
+
+?Chuqur o'qitilish deyiladi, qachonki ...
++Nayron tarmog'imizda yashirin qatlamlar soni bittadan ko'p bo'lsa. 
+-Neyron tarmog'imizda yashirin qatlamlar soni bitta bo'lsa.
+-Ikkita neyron orasidagi masofa katta bo'lsa 
+-Neyronlar soni ikkitadan ko'p bo'lsa 
+
+?Modelni o'qitish uchun o'quv tanlanma (dataset) qanday turlarga bo'lindi
++training, validation, testing
+-testing, value-x, training 
+-validation, labels, training
+-labels, validation, testing 
+
+?O'qitish uchun ma'lumotlar orasidan ortiqcha yoki ahamiyati past bo'lgan, model turg'unligiga ta'sir qiluvchi ma'lumotlarni olib tashlash 
+jarayoni nima deb ataladi
++Ma'lumotlarni tozalash (Data cleaning)
+-Xususiyatlarni aniqlash (Feature detection)
+-Ma'lumotlarni o'chirish (Data deletion)
+-Ma'lumotlar turini aniqlash (Data formatting) 
+ 
+?Neyron tarmoqlarida sinflashtirish masalasini yechishda chiquvchi qatlamda qaysi turdagi aktivlash funksiyasidan foydalaniladi
++Softmax
+-Sigmoid 
+-ReLu 
+-Polyfit
+
+?Logistik regression model nima uchun ishlatiladi
++Sinflashtirsh masalasini yechish uchun
+-Klasterlash masalasini ishlash uchun 
+-Neyron tarmoqni qurish uchun 
+-Qiymatni bashoratlash uchun
+
+?Numpy kutubxonasidagi polyfit() funksiyasi nima uchun ishlatiladi
++Chiziqli regressiya uchun model paramertlarini aniqlash uchun 
+-Loginstik regressiya uchun model paramertlarini aniqlash uchun
+-Chiziqli va logistik regressiya uchun model paramertlarini aniqlash uchun 
+-Polynom funksiya yaratish uchun 
+
+?Numpy kutubxonasidagi poly1d() funksiyasi nima uchun ishlatiladi
++Berilgan parametrlar asosida polinomal funksiya hosil qilish 
+-Berilgan parametrlar asosida polinomal Class hosil qilish 
+-Berilgan parametrlar asosida logistik regressiya modelini qurish
+-Berilgan parametrlar asosida giperbolik regressiya modelini qurish 
+ 
+?Neyron tarmoqlarini qurishga mo'ljallangan python kutubxonalarini ko'rsating
++Numpy, keras, tensorflow 
+-Numpy, pandas, keras
+-Tensorflow, numpy, pandas
+-Python, Matlab, Octave 
+
+?Neyron tarmoq asosida sinflashtirish masalasini yechish mumkinmi
++Sinflashtirish masalasini yechadi
+-Yoq, faqat regressiya masalasini yechadi
+-Faqat ikkilik sinflashtirganda 
+-Yoq, klasterlash masalasini yechadi
+
+?Python muhitida chiziqli regression model qurish uchun ishlatiladigan stats.linregress(x,y) funksiyasi nechta qiymat qaytaradi
++5
+-4
+-3
+-2
+
+?Neyron tarmoqda tugunlar nimalar bilan bog'lanadi
++og'irlik koeffitsentlari
+-o'zgarmas koeffitsentlar
+-tasodifiy koeffitsentlar
+-ozod had koeffitsentlari 
+
+?Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o'qitish (machine learning), chuqur o'qitish (deep learning) kabi 
+usullar sun'iy intellekt bilan qanday bog'liq
++tasvirlardan ob'ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalarda keng foydalaniladi va sun'iy intellekt tizimini yaratishda katta ahamiyat kasb etadi
+-faqat ovozni tanib olishda ishlatiladi va sun'iy intellekt tizimini yaratishda deyarli fodalanilmaydi 
+-tasvirlarni tanib olishda ishlatiladi va sun'iy intellekt tizimini yaratishda foydalaniladi 
+-faqatgina ma'lumotlarning intellektual tahliliga oid 
+
+?Mashinani o'qitish jarayonida ma'lumotlarga qanday dastlabki ishlov beriladi
++Format, Data Cleaning, Feature Extraction
+-Data Cleaning, Resizing, , Feature Extraction
+-Resizing, Feature Extraction, Format 
+-Format, Resizing, Data Cleaning 
+
+?Regression tahlilni qanday usullar asosida amalga oshiriladi
++chiziqli, nochiziqli va logistik regressiya usullari asosida
+-sintaktik usullar asosida 
+-dinamik usillar asosida
+-semantik usullari asosida 
+
+?Muammoni aniqlash, ma'lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviy ma'lumotlar aniqligini oshirish va yakuniy 
+natijani taqdim qilish - bular qanday jarayonning bosqichlari hisoblanadi
++Mashinali o'qitish
+-Chuqur o'qitish
+-Regression tahlil
+-Statistik tahlil 
+
+?Keras bu - ...
++tensorflow asosiga qurilgan ochiq kodli neyron tarmoq uchun mo'ljallangan kutubxona
+-numpy asosiga qurilgan ochiq kodli neyron tarmoq uchun mo'ljallangan kutubxona 
+-ochiq kodli neyron tarmoq uchun mo'ljallangan dasturiy vosita 
+-matplotlib asosiga qurilgan ochiq kodli neyron tarmoq uchun mo'ljallangan kutubxona 
+
+?Sklearn bu - ...
++Python dasturlash tilidagi maxsus kutubxona bo'lib, mashinali o'qitish algoritmlarini amalga oshirishga mo'ljallangan maxsus paket
+-Matlabning maxsus paketi bo'lib, mashinali o'qitish algoritmlarini amalga oshirishga mo'ljallangan hisoblanadi 
+-Python dasturlash tilidagi maxsus kutubxona bo'lib, o'zini o'zi o'qitadigan mashinali o'qitish algortimlarini ishlab chiqishga mo'ljallangan  
+-Python dasturlash tilidagi maxsus kutubxona bo'lib, mashinali o'qitishning o'qituvchili algoritmlarini amalga oshirishga mo'ljallangan maxsus paket 
+
+?Chuqur o'qitish qanday tarmoqlari asosida amalga oshiriladi
++neyron tarmoqlar asosida
+-lokal tarmoqlar asosida 
+-global tarmoqlar asosida 
+-internet tarmoqlar asosida  
+
+?Chuqur o'qitish bosqichlari to'g'ri tartiblangan javobni belgilang
++1. Muammoni tushunib olish.2. Ma'lumotlarni aniqlash.3. Chuqur o'qitish algoritmini belgilash.4. Modelni o'qitish.5. Modelni testlash.
+-1. Ma'lumotlarni aniqlash.2. Muammoni tushunib olish.3. Chuqur o'qitish algoritmini belgilash.4. Modelni o'qitish.5. Modelni testlash. 
+-1. Muammoni tushunib olish.2. Ma'lumotlarni aniqlash.3. Chuqur o'qitish algoritmini belgilash.4. Modelni o'qitish. 
+-1. Chuqur o'qitish algoritmini belgilash.2. Modelni o'qitish. 3. Modelni testlash. 
+
+?Chuqur o'qitish necha asosiy bosqichlardan tashkil topgan
++5
+-4
+-3
+-6
+ 
+?Chuqur o'qitishning birinchi bosqichi qanday jarayondan iborat
++Muammoni tushunib olish.
+-Ma'lumotlarni aniqlash. 
+-Chuqur o'qitish algoritmini belgilash. 
+-Modelni o'qitish. 
+
+?Chuqur o'qitishning ikkinchi bosqichi qanday jarayondan iborat?
++Chuqur o'qitish algoritmini belgilash. 
+-Modelni o'qitish. 
+-Modelni testlash.  
+
+?Chuqur o'qitishning uchunchi bosqichi qanday jarayondan iborat
++Chuqur o'qitish algoritmini belgilash.
+-Modelni testlash. 
+-Muammoni tushunib olish. 
+-Modelni o'qitish. 
+
+?Chuqur o'qitishning to’rtinchi bosqichi qanday jarayondan iborat
++Modelni o'qitish.
+-Modelni testlash. 
+-Chuqur o'qitish algoritmini belgilash. 
+-Muammoni tushunib olish. 
+
+?Chuqur o'qitishning oxirgi bosqichi qanday jarayondan iborat
++Modelni testlash.	
+-Chuqur o'qitish algoritmini belgilash. 
+-Modelni o'qitish. 
+-Ma'lumotlarni aniqlash. 
+
+?Chiziqli va logistik regression model qurilayotganda bitta o'rgatuvchi tanlamadan foydalansa bo'ladimi
++Ha, faqat yorliqlari uchun ikkita qiymat saqlangan bo'lsa
+-Ha, regression model uchun hamma vaqt dataset bir xilda bo'ladi. 
+-Buning imkoni yo'q 
+-Ha, Logistik regressiyadan foydalaniladi
+
+?Python ning scipy kutubxonasidan qaysi Classs chiziqli regressiya modelini qurishda ishlatiladi
++stats 
+-sklearn  
+-numpy
+-ployfit 
+
+?Chiziqli regressiyada modelni murakkab tanlansa qaysi turdagi muammo yuzaga keladi
++Owerfitting
+-Underfitting 
+-Model aniq ishlaydigan bo'lib, shakllanadi. 
+-Muammo sodir bo'lmaydi 
+
+?Chiziqli regressiyada modelni sodda tanlansa qaysi turdagi muammo yuzaga keladi
++Underfitting
+-Owerfitting 
+-Model ishonchli, hech qanaday muammo yo'q 
+-Muammo sodir bo'lmaydi 
+
+?Python ning qaysi kutubxona oraqli vector va matritsalar ustida amalar bajarish mumkin
++Numpy
+-Math 
+-Pandas
+-VecMat 
+
+?K-Maens algoritmida qo'llaniladigan ikki nuqta orasidagi masofa ... deb yuritiladi. Nutqlar o'rniga mos variantni qo'ying
++Euclidean masofasi
+-Chebyshev masofasi 
+-Manhattan masofasi 
+-Minkowski masofasi 
+
+?Gradient tushish algoritmidagi 'learning rate' parameter nimani xarakterlaydi
++O'qish qadamini 
+-O'qishitda takrorlanishlar sonini 
+-O'qishni takrorlash
+-Model aniqligini 
+
+?O'qituvchili o'qitish (supervised learning) nima
++modelni o'qitish uchun ma'lumotlar bilan birgalikda ularning belgisini (data+label) ham ishlatish
+-modelni o'qitish uchun ma'lumotlarni belgisisiz (data without label) ishlatish 
+-modelni o'qitish uchun tasvir ma'lumotlaridan (image) foydalanish 
+-modelni o'qitish uchun faqat ma'lumotlar belgisini (label) ishlatish 
+
+?Keras muhitida qurilgan neyron tarmoqda joriy qatlam uchun faollashtirish funksiyasini qo'shishda quyidagilarning qaysi biridan foydalaniladi
++model.add(Activation('relu'))
+-model.insert(Activation('relu'))  
+-model.function(Activate('relu')) 
+-model.add(ActiveFunction('relu')) 
+
+?O'qituvchisiz (unsupervised) o'qitish algortimlari to'g'ri ko'rsatilgan javobni ko'rsating
++k-means clustering, hierarchical clustering, independent component analysis
+-linear regression, nearest neighbor, random forest, decision tree 
+-k-means clustering, deep learning, logistic regression, random forest 
+-k-nn, decision tree, linear regression, k-means clustering 
+
+?O'qituvchisiz o'qitish (unsupervised learning) nima
++modelni o'qitish uchun ma'lumotlarni belgisisiz (data without label)
+-modelni o'qitish uchun faqat ma'lumotlar belgisini (label) ishlatish 
+-modelni o'qitish uchun ma'lumotlar bilan birgalikda ularning belgisini (data+label) ham ishlatish 
+-modelni o'qitish uchun tasvir ma'lumotlari va ularning belgilaridan (image+label) foydalanish 
+
+?Mashinali o'qitish nima
++kompyuter dasturining ma'lumotlarni o'qib olish asosida xususiyatlarni o'rganish qobiliyatidir
+-faqat kompyuter o'yinlarini yaratish uchun dastur xususiyatlarni o'rganish qobiliyatidir 
+-bu robotni o'rgatishning an'anaviy usuli 
+-kompyuter dasturlarini lug'at yordamida o'qitish usuli 
+
+?...... bu ikkita qatlamdan iborat ya'ni kiruvchi va chiquvchi qatlamdan iborat bo'lgan neyronni hisoblash tugunidir. Nuqtalar o'rniga quyidagilardan mos 
+keldiganini qo'ying
++perceptron
+-sigmoid funksiyasi 
+-neyron 
+-ReLU funksiyasi
+
+?Regressiya nima
++ma'lumotlarni intellektual tahlil qilish usullaridan biri
+-ma'lumotlarni ustida arifmetik usullaridan biri 
+-ma'lumotlarni raqamli ishlov berish usullaridan biri 
+-ma'lumotlarni jamlash usullaridan biri 
+
+?Supervised o'qitish algoritmlari asosan qanday masalani yechishga qaratilgan
++regressiya va sinflashtirish masalasiga
+-statistik usullar yordamida ma'lumotlarni ajratish masalasiga 
+-statistik usullar yordamida ma'lumotlarni sinflashtirish masalasiga 
+-sinflashtirish va segmentlash masalasiga 
+
+?Neyron tarmoqda qanday turdagi qatlamlar (layers) bo'lishi mumkin
++kiruvchi, chiquvchi, yashirin
+-kiruvchi, yashirin, oraliq 
+-qabul qiluvchi, hisoblovchi, chiquvchi 
+-kiruvchi, qabul qiluvchi, chiquvchi 
+
+?Chiziqli regression model nima uchun ishlatiladi
++bashorat qilish uchun
+-mantiqiy model qurish uchun 
+-sinflashtirish masalasini yechish uchun 
+-segmentlash masalasini yechish uchun 
+
+?Neyron tarmoq nima
++bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi tuzilma
+-bu inson miyasining ishlash faoliyatini qisman aks ettiruvchi dataset 
+-bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi dataset 
+-bu inson miyasining ishlash faoliyatini butunlay aks ettiruvchi tuzilma
+
+?Sun'iy intellekt deganda nimani tushunasiz
++insonning onggi kabi fikrlovchi dastur
+-oddiy kompyuter dasturi 
+-qaror qabul qiluvchi ilovalar
+-bunday termin fanda mavjud emas 
+
+?Sun'iy intellekt bu ...
++bu kompyuterda insonning aqlli xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot sohasi
+-bu kompyuterda insonning jismoniy xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot sohasi 
+-bu kompyuterda insonning bialogik xatti harakatlarini qanday amalga oshirishni o'rganadigan tadqiqot sohasi 
+-bu kompyuterda insonni bialogik o'rganadigan tadqiqot sohasi
+
+?Chuqur o'qitish - bu
++bu ko'p qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilgan jarayondir
+-bu bir qatlamli neyron tarmoqlar asosida obyekt xususiyatlarini tushunishga qaratilgan jarayondir 
+- bu bu modelni qurib olish uchun amalga oshiriladigan o'qitish jarayonidir 
+-bu modelni tezroq va aniqroq qurib olish uchun amalga oshiriladigan jarayon 
+
+?Python muhitida turli xil matematik funksiya grafiklarini va tasvirlarni vizuallashtirish uchun ishlatiladigan paket qaysi
++Matplotlib
+-Keras
+-Pandas 
+-Numpy  
+
+?Sun'iy neyron tarmoq tashkil etuvchilarini ko'rsating?
++node, input, weights, output
+-cell body, dendrites, synapse, axon 
+-input, dendrites, synapse, output 
+-synapse, axon, weights, node 
+
+?Python muhitida scatter() funksiyasi qanday vazifani bajaradi
++berilgan x,y to'plam bo'yicha 2 o'lchovli grafigini chizish uchun ishlatiladi 
+-chiziqli regression model koeffitsentlarini (ko'pi bilan 3 ta) hisoblaydi 
+-polinomial regression model koeffitsentlarini hisoblaydi
+-qurilgan model koeffitsentlari bo'yicha bashorat qilinadigan qiymatlarni hisoblaydi 
+
+?pip install tensorflow buyrug'i asosida nima sodir bo'ladi
++tensorflow kutubxonasi o'rnatiladi
+-keras va tensorflow kutubxonasi o'rnatiladi 
+-tensorflow kutubxonasi chaqiriladi 
+-keras va tensorflow kutubxonasi chaqiriladi 
+
+?Dataset bu nima?
++bu o'qitish uchun kerakli bo'lgan ma'lumotlar to'plamidir
+-bu o'qitish uchun kerakli bo'lgan neyronlar to'plamidir 
+-bu o'qitish uchun kerakli bo'lgan og'irliklar to'plamidir 
+-bu o'qitish uchun kerakli bo'lgan neyron tarmoq qatlamlar to'plamidir 
+
+?Convolutional neural networks (CNN) - bu
++bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o'qitishning maxsus arxitekturasi
+-bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o'qitishning maxsus arxitekturasi 
+-bu ko'p qatlamli neyron tarmoq asosida qurilgan chuqur o'qitishning maxsus usuli 
+-bu bir qatlamli neyron tarmoq asosida qurilgan chuqur o'qitishning maxsus usuli
+
+?Mashinali o'qitish va suniy intellect
++Mashinali o'qitish sun'iy intellekt tizimlarini ishlab chiqishga xizmat qiladi 
+-Bir tushunchani ifodalaydi
+-Sun'iy intellekt mashinali o'qitish tizimlarini ishlab chiqishga xizmat qiladi 
+-Turli tushunchalarni ifodalaydi
+
+?Hozirgi kunda butun dunyoda rivojlanib borayotgan mashinali o'qitish (machine learning), chuqur o'qitish (deep learning) kabi usullar sun'iy intellekt 
+bilan qanday bog'liq
++tasvirlardan ob'ektlarni tanib olish, video nazorat, ovozni tanib olish kabi sohalarda keng foydalaniladi va sun'iy intellekt tizimini yaratish
+-faqat ovozni tanib olishda ishlatiladi va sun'iy intellekt tizimini yaratishda deyarli fodalanilmaydi 
+-tasvirlarni tanib olishda ishlatiladi va sun'iy intellekt tizimini yaratishda
+foydalaniladi 
+-faqatgina ma'lumotlarning intellektual tahliliga oid 
+
+?Muammoni aniqlash, ma'lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviy ma'lumotlar aniqligini oshirish va yakuniy natijani 
+taqdim qilish - bular qanday jarayonning bosqichlari hisoblanadi.
++Mashinali o'qitish
+-Chuqur o'qitish
+-Regression tahlil 
+-Statistik tahlil
+
+?Mashinali o'qitish nima
++kompyuter dasturining ma'lumotlarni o'qib olish asosida xususiyatlarni o'rganish qobiliyatidir
+-faqat kompyuter o'yinlarini yaratish uchun dastur xususiyatlarni o'rganish qobiliyatidir
+-bu robotni o'rgatishning an'anaviy usuli 
+-kompyuter dasturlarini lug'at yordamida o'qitish usuli
+
+?Chiziqli regression model nima uchun ishlatiladi
++bashorat qilish uchun
+-mantiqiy model qurish uchun 
+-sinflashtirish masalasini yechish uchun 
+-segmentlash masalasini yechish uchun
+
+?Dataset bu nima
++bu o'qitish uchun kerakli bo'lgan ma'lumotlar to'plamidir
+-bu o'qitish uchun kerakli bo'lgan neyronlar to'plamidir 
+-bu o'qitish uchun kerakli bo'lgan og'irliklar to'plamidir 
+-bu o'qitish uchun kerakli bo'lgan neyron tarmoq qatlamlar to'plamidir
+
+?Chiziqli regressiyaga to'g'ri ta'rifni toping
++Ma'lumotlarga chiziqli tenglamani bog'lash orqali ikkita o'zgaruvchi o'rtasidagi munosabatni modellashtirishga aytiladi 
+-Chiziqli regressiya ma'lumotlarni klassifikatsiyalaydi 
+-Tanlangan ma'lumotlar ichidan kerakli ma'lumotni qidirish algoritmi. 
+-O'qitish uchun kerakli bo'lgan og'irliklar to'plami
+
+?Mashinali o’qitish tizimlarini sinflashtirish nechta turga bo'linadi
++4
+-5
+-3
+-2
+
+?Yanada murakkab va yanada mustaqil bo'lgan o'zi o'qidigan dasturlar yaratadigan mashinali o'qitish turi
++Deep learning
+-Machine Learning
+-Data set
+-Training set
+
+?Odatda ............... o'qitishni neyron tarmoqlarga tadbiq qilishadi.Nuqtalar o'rniga mos so'zni qoying
++chuqur  o'qitish
+-o'qituvchili o'qitish
+-o'qituvchisiz o'qitish
+-o'qituchini o'qitish
+
+?Regressiya bu -....
++Bashoratlash uchun obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib bashoratlashga xizmat qiladigan model yaratish
+-Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib bashoratlashga xizmat qiladigan model yaratish 
+-Siflashtirish uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga xizmat qiladigan model yaratish 
+-Siflashtirish uchun obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib siflashtirishga xizmat qiladigan model yaratish 
+
+?Chiziqli va logistic regressiyaning asosiy farqi
++Chiziqli regressiya basharotlash, logistic regressiya sinflashtirish
+-Chiziqli sinflashtirish basharotlash, logistic regressiya regressiya 
+-Ikkalasi ham bir turdagi masalani ishlash uchun mo'ljallangan 
+-Chiziqli regressiya basharotlash
+
+?Python dasturlash tilida ma'lumotlarni visuallashtirish uchun ishlatiladigan kutubxona bu.............
++Matplotlib
+-plotData
+-Pillow 
+-PyPlot 
+
+?Muammoni aniqlash, ma'lumotlarni tayyorlash, algoritmni ishlab chiqish va baholash, natijaviy ma'lumotlar aniqligini oshirish va yakuniy natijani 
+taqdim qilish - bular qanday jarayonning bosqichlari hisoblanadi
++Mashinali o'qitish
+-Chuqur o'qitish
+-Regression tahlil
+-Statistik tahlil 
+
+?Mashinali o’qitish asosan takrorlanuvchi jarayon bo'lib, u yangi ma'lumotlar va fikr-mulohazalar asosida modelni o'qitish,
+ baholash va takomillashtirishning takroriy sikllarini o'z ichiga oladi
++Iterativ jarayon
+-Modelni joylashtirish
+-Kategorik o'zgaruvchan kodlash
+-Bashoratlash jarayoni
+
+?Tensorflow bu - ...
++Python kutubxonasi bo'lib, neyron tarmoqlarini hosil qilishga mo'ljallangan.
+-Matlab kutubxonasi bo'lib, neyron tarmoqlarini hosil qilishga mo'ljallangan. 
+-Ocatev kutubxonasi bo'lib, neyron tarmoqlarini hosil qilishga mo'ljallangan. 
+-Python kutubxonasi bo'lib, neyron tarmoqlarini hosil qilishga mo'ljallanmagan.
+
+?Biror tasodifiy miqdor oʻrta qiymatining boshqa bir tasodifiy miqdoriga bogʻlikligi
++Regressiya 
+-Sinflashtirish
+-Strukturali tizim
+-Chuqur o‘qitish
+
+?.....................bu  tizimlar taksonlar deb ham ataladi
++O’qituvchisiz
+-O’qituvchili
+-Chuqur o'qitish 
+-Nazoratli
+
+?....................... -   tizimlarda  tanib olish masalasining yechish usuli sifatida maxsus baholarni hisoblash usullari nazarda tutiladi
++Kombinatsiyalashgan
+-Strukturali
+-Mantiqiy
+-Nazoratsiz
+
+?............ -  ob'ektlarni bir -biriga o'xshash xususiyatlarga ega bo'lgan ob'ektlar birlashishi va bir -biriga o'xshash bo'lmagan ob'ektlar 
+bir -biridan  ajralib ketadigan tarzda guruhlash usuli
++Klasterlash
+-Sinflashtirish
+-O'qituvchili o'qitish
+-Guruhlash
+
+?............... - bu klasterlar, masalan, statistik taqsimotlar yordamida modellashtirilgan ko'p o'zgaruvchan normal taqsimotlar tomonidan 
+ishlatilgan kutish-maksimallashtirish algoritmi
++Tarqatish modeli
+-Centroid modeli
+-Ulanish modeli
+-Zichlik modeli
+
+?......... - bu ikki qavatli klasterlar,  ikkala klaster a'zolari va tegishli atributlar bilan modellashtirilgan
++Subspace modeli
+-Grafik asosidagi modeli
+-Guruh modeli
+-Neyron modeli
+
+?Bitta daraxtga qarab emas, balki har bir daraxtdan bashorat oladi va bashoratlarning ko'pchilik ovoziga asoslanib, yakuniy natijani bashorat qiladi
++Tasodifiy o'rmon
+-Qaror daraxti
+-K-algoritmi
+-Decision Tree 
+ 
+?Bu algoritm ishlatilganda odatdagi so'zlar asosida belgili bitta elektron pochta xabarining spam bo'lishi yoki yo'qligi ehtimolini hisoblab chiqiladi
++Bayes teoremasi
+-Tasodifiy o'rmon
+-Qaror daraxti
+-K-algoritmi
+
+?..................... -  mashinani o'rganish asboblar qutisidagi muhim vositadir, chunki u modellarni umumlashtirish ko'rsatkichlarini yaxshilashga va 
+ortiqcha o'rnatishning oldini olishga yordam beradi
+-Regularizatsiya
+-Klasterlash
+-Bazaviy algoritmlash
+-Mashinali o‘qitish
+
+?.............. -  ikki yoki undan ortiq  o‘zgaruvchilar o‘rtasidagi chiziqli munosabatni o‘rganuvchi statistik model bo‘lib, bog‘liq bo‘lgan 
+o‘zgaruvchilardir
++Chiziqli regressiya
+-Regressiya
+-Ikki nuqta orasidagi masofa
+-Statistik model
+
+?Ma'lumotlar ob'ekti bir nechta guruh yoki klasterga tegishli bo'lishi mumkin bo'lgan usulning bir turi
++Noaniq klasterlash
+-Aniq klasterlash 
+-Klaster tahlili yoki klasterlash
+-Noravshan
+
+?Natijalarni ikkitadan ortiq klasterlar yoki faqat ijobiy qirralar bilan subgrafalar beradi
++Imzolangan grafik modellar
+-Neyron modellar
+-Grafik asosidagi modellar
+-Guruh modellar
+
+?Ma'lumotlar to'plamini k klasterlarga guruhlash uchun foydalaniladigan nazoratsiz mashinani o'rganish algoritmi
++K-klasterlash
+-Klasterlash 
+-Pythonda klasterlash 
+-Klasterlash algoritimlari
+
+?Bu usulning asosiy jihati shundaki, o‘quv tanlanmalarining hammasi ham o‘qitish jarayonida, ham testlash jarayonida ishtirirok etadi. Bu usul.........?
++K-Fold Cross-Validation
+-X-Partitioner-Validation
+-X-Aggregator K-Fold
+-X-Aggregator Cross-Validation
+
+?Bular yuqoridan pastga va pastdan yuqoriga klashterlash algoritmlari hisoblanadi
++Ierarxik klasterlash algoritm
+-Kvadrat xatolik algoritm
+-Daraxtni saralash algoritm
+-K-means algoritm
+
+?Ierarxik klasterlash algoritmlari odatda .................... turga bo'linadi
++2
+-3
+-4
+-5
+
+?Real xolatdan qay darajada farq qilishini vizualizatsiya qilish uchun qaysi komponentadan foydalaniladi
++Line Chart
+-Chart Line 
+-Cross-Line
+-Chart-Validation
+
+?Masaladagi eng muhim jarayon bo'lib bu modelni o‘qitish jarayoni hisoblanadi
++Sinflarga ajratish
+ -Sinflashtirish
+-Klasterlash
+-Samaradorlik ko‘rsatkichi
+
+?Berilgan ob'ektlar to'plamini bir-biridan iloji boricha uzoqroqda joylashgan ma'lum miqdordagi klasterlarga ajratadi
++K-means algoritm
+-Kvadrat xatolik algoritm
+-Klasterlash algoritm
+-Ierarxik klasterlash algoritm
+
+?Sun’iy aql atamasi qachon paydo bo’lgan
++1956-yillarda
+-1958-yilda
+-1990-yilda
+-1988-yilda
+
+?Sun’iy neyron tarmoqlarda nechta qatlamga bo’linadi
++2ta
+-3 ta
+-7 ta
+-5 ta
+
+?Mashinali o'qitishda qo'llaniladigan qanday tanlanma yo'q
++ajratuvchi tanlanma
+-sonli tanlanma
+-dataset
+-o’rgatuvchi
+
+?Sun’iy intellekt tilining asosiy dasturi qaysi
++Python
+-C++
+-Java
+-C#
+
+?Klasterlash o'qitishning qaysi turiga kiradi
++O’qituvchisiz
+-O’qituvchi
+-Nazoratsiz
+-Nazoratli
+
+?Tasvirlarni tanib olish mashinali o'qitish muammolarining qaysi turiga kiradi
++bashorat qilish
+-taxminiy
+-tanib olish
+-tekshirish
+
+?Lineer regressiyada munosabatlar yordamida modellashtirilgan modellar qanday nomlanadi
++chiziqli modellar
+-tizimli model
+-algebraic
+-loss model
+
+?Sun’iy neyron tarmoqlari xususiyatlariga qaysilar kiradi
++modellarni tanlab olish
+-sog’lomlik
+-maqsad o’qitish
+-masofa o’qitish
+
+?Learning Мachine g'oyasi kimga tegishli
++A.M.Tyuring
+-T.Mitchell
+-A.M.Samuel
+-F.Rosenblat
+
+?Sinflashtirishning maqsadi – nima
++obyektlar to’plamini sinflarga ajratish
+-matnni aniqlash
+-funksiyalarni tahlili
+-Sinflashtirish
+
+?Perseptron nima
++miya tomondan axborotni qabul qilishning matematik yoki kompyuter modeli
+-mashinali o’qitishda algoritmlar
+-O'qituvchili o'qitish muammolarida
+-axborotni qabul qilishdagi muammolar
+
+?Eng yaxshi modelni (algoritmni) tanlash uchun mashinali o'qitishning barcha muammolari qaysi turdagi muammolar yechimiga to'g'ri keladi
++optimallashtirish
+-klassterlash
+-regressiya
+-Algoritm
+
+?Mashinalia o'qitishda xato nima deb hisoblanadi
++model javobi bilan talab qilingan (haqiqiy) qiymat o'rtasidagi raqmli_ravishda ko'rsatilgan farq
+-xatolarning o'rtacha kvadratlari yig'indisi
+-haqiqiy qiymat o’rtasidagi o'rtacha kvadratlari yig'indisi
+-model javobi bilan talab qilingan (haqiqiy) qiymat
+
+?Logistik regressiya mashinali o'qitish modelining qaysi turiga kiradi
++parametrli
+-shartsiz
+-shartli
+-tizimli
+
+?Mashinali o'qitishda chiziqli regressiyaning maqsadi nima?
++berilgan nuqtalar (xi,yi)ga eng mos keladigan chiziqni funksiyani topish.
+-algoritmni qayta ko’rib chiqish
+-berilgan nuqtalar (xi,yi)ga eng mos algoritmlardan foydalanish
+-o'qitish uchun kerakli bo'lgan og'irliklar to'plami
+
+?Algoritmni qayta o'qitishning mohiyati nimada
++o'qitilgan algoritmning o'quv tanlanma ob'ektlarida xatolik ehtimoli sinov tanlanma ob'ektlariga qaraganda ancha kam bo'lib chiqadi
+-o'qitilgan algoritmning o'quv tanlanma ob'ektlarida xatolik
+-o'qitilgan algoritmning ob'ektlarini tekshirish
+-ob'ektlarida xatolik ehtimoli sinov tanlanma ob'ektlariga qaraganda ancha kam  chiqadi
+
+?K-Means usuli bilan klasterlash masalasini yechishda qanday optimallashtirish mezonidan foydalaniladi
++nuqtalardan sentroidlar (markaziy nuqtalar)gacha masofalar kvadratlarning yig’indisi
+-nuqtalardan sentroidlar  masofalari kvadratlarning ayirmasi
+-nuqtalardan sentroidlar (markaziy nuqtalar)
+-nuqtalardan sentroidlar  masofalari kvadratlarning yig’indisi
+
+?Regressiya vazifasi bu-
++bir yoki bir nechta xususiyatlarning ob'ektga ta'sirini tekshirish
+-sinflarga bo'lingan ko'plab ob'ektlar
+-darajaga ko'ra xususiyatning tartibini aniqlash
+-xususiyatlarning ob'ektga ta'sirini tekshirish
+
+?Mashinali o'qitish bosqichlari qay tartibda amalga oshiriladi
++1)Muammoni aniqlash. 2)Ma’lumotlarni tayyorlash. 3)Algoritmni ishlab chiqish va baholash. 4)Natijaviy ma’lumotlar aniqligini oshirish. 5)Yakuniy natijani taqdim qilish
+-1) Algoritmni ishlab chiqish va baholash 2) Muammoni aniqlash 3) Ma’lumotlarni tayyorlash. 4) Natijaviy ma’lumotlar aniqligini oshirish. 
+-1) Algoritmni ishlab chiqish va baholash. 2) Ma’lumotlarni tayyorlash 3) Natijaviy ma’lumotlar aniqligini oshirish. 4)Yakuniy natijani taqdim qilish.
+-1)Muammoni aniqlash. 2)Ma’lumotlarni tayyorlash.3) Yakuniy natijani taqdim qilish.
+
+?Regulyarizatsiyalash qaysi tildan olingan
++ingliz tilidan
+-rus tilidan
+-grekcha
+-lotincha
+
+?O‘qitish natijalarini baholash neyron tarmoqlarni o‘qitishning nechanchi vazifasi hisoblanadi
++1-chi
+-3-chi
+-2-chi
+-4-chi
+
+?Neyron tarmoq o'qitish jarayonida monitoring va baholashning asosiy vazifasi nimadan iborat
++ishlash jarayonini aniqlash va aniq ko'rsatish
+-bashorat qilish xavfsizligini
+-dasturlash va algoritmlar
+-murakkab neyron tarmoqlarini o'qitish
+
+?Neyron tarmoqlarini o‘qitishda murakkablik muammolar bular:
++dasturlash, optimallashtirish va ma’lumotlar tahlili
+-monitoring va baholash
+-oqituvchili va o'qituvchisiz o'qitish
+-boshlang'ich dasturlash va algoritmlar
+
+?Backpropagation - bu..............
++iteratsiyadagi xatolik darajasini tahlil qilish
+-iteratsiyadagi takrorlanishlarni tahlil qilish
+-iteratsiyadagi qadamlarni tahlil qilish
+-iteratsiyadagi o'qitish darajasini tahlil qilish
+
+?Perceptron bu - ..............
++neyronni hisoblash tuguni
+-qadamlarni hisoblash tuguni
+-chiqishlarni hisoblash tuguni
+-mahfiylikni  hisoblash tuguni
+
+?Perceptron neyron tarmoqlarda nima vazifani bajaradi
++sinflash masalasini yechishda
+-klasterlash masalasini yechishda
+-hisoblash masalasini yechishda
+-regretsiya masalasini yechishda
+
+?Neyronlar yoki maqsadli hujayralar aloqasi bu - ................
++sinaptik aloqa
+-akson neyron aloqa
+-neyron qatlamlar aloqasi
+-neyronlarda signal aloqasi
+
+?Neyron tarmoqlarda sinovlar va testlar nima vazifani bajaradi
++optimallashtirilishiga
+-klasterlashiga
+-sinflashtirishga
+-tarrorlanishiga
+
+?Qaysi neyron tarmoq ma’lumotlarini qurilma xotirasida saqlaydi
++Suniy
+-Biologik
+-Tabiiy
+-Oddiy
+
+?Perseptron g'oyasini kim taklif qilgan
++Frenk Rozenblat
+-Frebn Rozenblat
+-Frenk Rozenlovni
+-Frankli Rozenblat
+
+?Sun'iy intellektga asoslangan dasturlarni ishlab chiqishdan maqsad nima
++mustaqil fikrlovchi va qaror qabul qiluvchi dasturlarni hayotga tadbiq qilish
+-vaqtni maroqli o'tkazish 
+-insonlarning yashash darajasini yaxshilash 
+-ortiqcha sarf-xarajatni kamaytirish 
+
+?Mashinani o'qitish turlari to'g'ri ko'rsatilgan javobni tanlang
++supervised, unsupervised, Semi-supervised, reinforcement 
+-regressiya, Ehtimollar nazariyasi, Supervised, unsupervised 
+-supervised, unsupervised, Regressiya, Sinflashtirish 
+-regressiya, Sinflashtirish, Semi-supervised, reinforcement 
+
+?Neyron tarmoqlari bu...
++Neyron tarmoqlari juda ko'p muhim xususiyatlarga ega, ammo asosiysi bu o'rganish qobiliyatidir.
+-Neyron tarmoqlari ma'lumotlarni bog'lash uchun xizmat qiladi. 
+-Bunday tarmoq mavjud emas 
+-Ikkilik kod sifatidagi algoritm 
+
+?CNN bu...
++Svyortkali neyron tarmoq
+-Adamar neyron tarmog'i 
+-K ta yaqin qo'shnilar 
+-Qayta murojaat neyron tarmog'i 
+
+?KNN bu...
++K ta yaqin qo'shnilar agoritmi 
+-Svyortkali neyron tarmoq
+-Adamar almashtririshli Neyron tarmoq 
+-CNN –ni to’ldiruvchi qatlam
+
+?Sun'iy intellektda mashinani o'qitish uchun to'g'ri ta'rif berilgan qatorni tanlang
++Inson ongiga taqlid qila oladigan dasturiy ta'minot va uni mashinali o'qitishda aqlli mashinalarga dasturlashning muqobil usulidir.
+-Mashinali o'qitish - bu aqlli mashinalarni dasturlashning muqobil usuli. 
+-Mashinali o'qitish va suniy intellektning maqsadlari juda boshqacha aqlli mashinalarga dasturlashning muqobil usulidir.
+-Neyron tarmoq almashtirishli aqlli mashinalarga dasturlashning muqobil usulidir.
+
+?Mashinali o'qitish turlari qaysi qatorda to'g'ri berilga
++O'qtuvchili va O'qituvchisiz
+-Tanlanma 
+-Ma'lumotlar bazasi
+-Chiziqli va logistik 
+
+?O'qituvchili o'qitish (Supervised learning) - bu .. 
++Modelni xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish
+-Modelning aniqligini aniqlash algoritmi bilan o'qitish
+-Ma'lumotlarga ishlov berish dasturi bilan o'qitish
+-Oddiy algoritm bilan o'qitish
+
+?O'qituvchisiz o'qitish (unsupervised learning) - bu ... 
++Aniq bo'lgan ma'lumotlar bilan emas, obyekt parametrlarini (ma'lumotlarni) topish uchun model ustida ishlash
+-Ma'lumot qidirish algoritmlaridan tashkil topgan tizim 
+-Bunday o'qitish mavjud emas 
+-Chuqur o’qitish model ustida ishlash
+
+?Unsupervised learning usulida asosan qanday masala yechiladi
++klasterlash
+-normallashtirish 
+-sinflashtirish 
+-Signallarga ishlov berish 
+
+?Ma'lumotlarni tozalashga to'liq ta'rif berilgan qatorini toping
++model turg'unligiga ta'sir qiluvchi ma'lumotlar olib tashlanadi
+-Dataset ma'lumotlarini testlash 
+-Signallarga ishlov berish 
+-Qaror daraxtidan ma'lumotlarni olib tashlash 
+
+?Xususiyatlarni ajratib olishga to'liq ta'rif berilgan qatorini toping
++Bashoratlash, tashxislash, sinflashtirish, qaror qabul qilish
+-Qaror qabul qilish daraxti qiymatlari 
+-Sinflashtirish masalasini yechish algoritmi to'plami 
+-Mashinali o'qitish algoritmlari
 `;
 
 const parseQuestions = (data) => {
