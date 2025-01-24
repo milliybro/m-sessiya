@@ -1,2407 +1,1181 @@
 const input = `
-#Intel XDK mobil ilovalarni quyidagilar yordamida ishlab chiqmoqda:
-+HTML5
--Tizen
--C ++
--Java 
-
-#Amalni bajarish uchun jarayonlar satrini o‘z ichiga olgan dialog P oynasi
-+ProgressDialog
--DatePickerDialog
--AlertDialog
--DialogFragment
-
-#Android operatsion tizimining asosi sifatida qanday operatsion tizim yadrosi ishlatilgan?
-+OS / 2
--Mac OS
--Windows
--none
-
-#GridView uchun ustunlar soni qanday o’rnatiladi
-+Static
--Dinamik 
--Avtomatik
--Statik va dinamik
-
-#Ilovada yangi Faoliyat yaratishda ma'lumot qo'shish uchun qaysi fayl talab qilinadi?
-+AndroidManifest.xml
--main.java
--layout.xml
--activity.xml
-
-#Intel XDK muhitida siz quyidagi platformalar uchun dasturlarni ishlab chiqishingiz mumkin:
-+Android, Apple iOS,Tizen
--Linux
--Windows		
--Android, Windows
-
-#Ikki NFC qurilmasi o'rtasida qulay almashinish vositasi:
-+AndroidBeam 
--Wi-Fi Direct
--Dalvik
--Bluetooth
-
-#Qaysi kompaniya o'z yaratilishiga birinchi bo'lib smartfon deb nom bergan?
-+Ericsson
--Nokia
--Samsung
--Motorola
-
-#Smartfonlarni joylashishni aniqlash tizimlari quyidagilardan qaysi birini o'z ichiga oladi
-+GPS  tizimi, GLONASS tizimi WiFi va Bluetooth signallari  
--Galiley tizimi, 
--Hindiston mintaqaviy navigatsiya sun'iy yo'ldosh tizimi
--Beidou navigatsiya tizimi
-
-#iOS operatsion tizimini kamchiligi nimada? 
-+Norasmiy dasturlarni o'rnatishda Jailbreak operatsiyasini talab qiladi
--Ochiq manba. Siz ushbu elementni operatsion tizimning afzalliklari ro'yxatida ko'rgansiz, ammo bu nafaqat fazilat, balki uning kamchiliklari hamdir. 
--Katta trafik sarfi. 
--Yangilanishlarni kutish vaqti. 
-
-#WINDOWS operatsion tizimini afzalligi nimada?
-+Intuitiv va sodda interfeys. Xbox o'yin xizmatidan foydalanish imkoniyati.
--Interfeysi murakkab
--Xbox o'yin xizmatidan foydalanish imkoniyati mavjud emas
--Ma'lumotni sinxronizatsiya qilish uchun qulay va tushunarli dastur mavjud emas
-
-#Emulyator – bu
-+boshqa kompyuter yoki dasturga taqlid qiladigan dastur. 
--Ma’lumotlarni ekranga chiqaradi
--Dasturga rasm qo’shadi
--Jadval kiritadi
-
-#….bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori.
-+Appetize.io
--Xcode
--BlueStacks
--Game Loope
-
-#…kabi emulyatorlar Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi.
-+BlueStacks 
--Appetize.io
--Xcode
--Game Loope
-
-#…..kabi dasturlar Mac va Windows-da iOS-ni boshqarishi mumkin
-+BlueStacks 
--Appetize.io
--Game Loope
--none
-
-#….Linux operatsion tizimida Windows dasturlarini ishlaydi 
-+WINE 
--Xcode
--BlueStacks 
--Appetize.io
-
-#MotionEvent sinfida teginish hodisalarini ko'rsatish uchun qanday doimiylik aniqlanmagan  
-+ACTION_CLICK
--ACTION_DOWN
--ACTION_UP
--ACTION_MOVE
-
-#Nestopia nima vazifani bajaradi?
-+Linuxda Nintendo o'yinlarini o'ynashlari mumkin.
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Mac va Windows-da iOS-ni boshqarishi mumkin.
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
-
-#Telefon kitoblar qanday ko’rinishda bo’lgan
-+1 sahifali 50 nomga ega bo’lgan
--2 sahifali 50 nomga ega bo’lgan
--1 sahifali 100 nomga ega bo’lgan
--1 sahifali 150 nomga ega bo’lgan
-
-#Kross platformali ilova – ?
-+bir vaqtning o’zida bir nechta operatsion tizimlarda ishlaydigan ilovalardir.
--Faqat bitta platformada ishlaydigan ilova
--Android operatsion tizimida ishladigan ilova
--Faqat IOS operatsion tizimida ishlaydigan ilova
-
-#android.database.sqlite paketi 
-+SQLite ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
--PhP ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
--SQL ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
--Acces ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
-
-#SQLite bilan ishlash uchun 
-+android.database.sqlite paketi mavjud
--android.database.sql paketi mavjud
--android.data.sqlite paketi mavjud
--android.base.sqlite paketi mavjud
-
-#Qaysi usul yangi faoliyatni boshlaydi?
-+startActivity()
--beginActivity()
--intentActivity()
--newActivity()
-
-#"Radio tugmalari" ni boshqarish qanday bo’lishi kerak:
-+dumaloq bo'lishi kerak
--kvadrat shaklida bo'lishi kerak
--dumaloq bo'lmasligi kerak
--har qanday shaklga ega bo'lishi mumkin
-
-#Androidda SQLite-dan foydalanish uchun
-+SQL tili yordamida ma'lumotlar bazasini yaratish kerak uch yoki undan kam yorliq.
--PhP tili yordamida ma'lumotlar bazasini yaratish kerak uch yoki undan kam yorliq
--Python tili yordamida ma'lumotlar bazasini yaratish kerak uch yoki undan kam yorliq
--dasturlash tillari yordamida ma'lumotlar bazasini yaratish kerak uch yoki undan kam yorliq
-
-#Java bu—? 
-+yuqori darajada himoyalangan va obyektga yo'naltirilgan dashturlash tilidir
--quyi darajada himoyalangan va obyektga yo'naltirilgan dashturlash tilidir 
--yuqori darajada himoyalanmagan va obyektga yo'naltirilgan dashturlash tilidir
--quyi darajada himoyalanmagan va obyektga yo'naltirilgan dashturlash tilidir
-
-#Kotlin v1.0 qachon paydo bo’lgan?
-+2016 yil 15 fevralda chiqarilgan
--2014 yil 15 fevralda chiqarilgan
--2018 yil 15 fevralda chiqarilgan
--2020 yil 15 fevralda chiqarilgan
-
-#Unity-
-+kompyuter o'yinlarini ishlab chiqishning o'zaro platformali muhitidir 
--kompyuter dasturlarini ishlab chiqishning o'zaro platformali muhitidir 
--kompyuter yozuvlarining ishlab chiqishning o'zaro platformali muhitidir
--kompyuter taqdimotlari ishlab chiqishning o'zaro platformali muhitidir
-
-#Android dasturlari uchun qaysi til ishlatiladi?    
-+Java
--JavaScript
--C ++
--C #
-
-#Dart  qaysi kompaniya tomonidan ishlab chiqarilgan?
-+Google
--Yandex
--Opera
--Apple
-
-#Tasvirlarni qaerga joylashtirish kerak?    
-+Chizilgan papkaga 
--Har qanday jildga
--Qadriyatlar papkasida
--Jild papkasiga
-
-#Javada asosan necha turdagi dasturlar yoziladi
-+4
--3
--2
--5
-
-#Elementni ekranning to'liq kengligiga qanday xususiyat uzatadi?
-+match_parent
--fill_parent
--wrap_parent
--parent_wrap
-
-#Birinchi simsiz telefon qachon paydo bo’lgan?
-+1970 yilda
--1980 yilda
--1995 yilda
--1975 yilda
-
-#Android bilan ishlash uchun qanday dasturlar talab qilinadi?
-+JDK, Android Studio
--Faqat JDK
--JDK Android Studio va Visual Studio
--Faqat Android Studio
-
-#AlertDialog bu—?
-+sarlavha, uchta tugmacha, tanlanadigan qiymatlar ro'yxati yoki maxsus tarkibni o'z ichiga oladigan dialog oynasi
--o'zingizning dialog oynalarini yaratish uchun konteyner
--harakatni bajarish uchun bajarilish satrini o'z ichiga olgan dialog oynasi
--sana yoki vaqtni tanlashga imkon beruvchi oldindan belgilangan interfeysga ega dialog oynasi
-
-#Kontent dasturlari bu—?
-+Tarkibiy ilovalar juda mashhur: ular musiqa tinglash, filmlar va fotosuratlarni tomosha qilish, raqamli kitoblar va jurnallarni o'qish uchun mo'ljallangan
--Ofis ishlarida, hisob-kitoblarda, xizmat ma'lumotlari almashinuvida yordam beradi
--Ijtimoiy tarmoqlar kun sayin tobora ommalashib bormoqda, butun dunyo bo'ylab katta auditoriyani ko'paytirmoqda, bunga smartfonlardan tarmoqlarning mavjudligi yordam beradi
--onlayn-do'konlarga, to'lov tizimlariga va bank hisob raqamlariga kirishni ta'minlaydi
-
-#Biznes-ilovalar bu-?
-+Ofis ishlarida, hisob-kitoblarda, xizmat ma'lumotlari almashinuvida yordam beradi   kirish elementlarini chegaralaydiTarkibiy ilovalar juda mashhur: ular musiqa tinglash uchun mo'ljallangan 
--Ijtimoiy tarmoqlar kun sayin tobora ommalashib bormoqda, butun dunyo bo'ylab katta auditoriyani ko'paytirmoqda, bunga smartfonlardan tarmoqlarning mavjudligi yordam beradi
--Filmlar va fotosuratlarni tomosha qilish, raqamli kitoblar va jurnallarni o'qish uchun mo’ljallangan
--none
-
-#Mobil ijtimoiy tarmoqlar 
-+Ijtimoiy tarmoqlar kun sayin tobora ommalashib bormoqda, butun dunyo bo'ylab katta auditoriyani ko'paytirmoqda, bunga smartfonlardan tarmoqlarning mavjudligi yordam beradi
--Ofis ishlarida, hisob-kitoblarda, xizmat ma'lumotlari almashinuvida yordam beradi   kirish elementlarini chegaralaydi
--Tarkibiy ilovalar juda mashhur: ular musiqa tinglash uchun mo'ljallangan 
--filmlar va fotosuratlarni tomosha qilish, raqamli kitoblar va jurnallarni o'qish uchun mo’ljallangan
-
-#Bitta DP teng:
-+MDPI tipidagi ekran uchun 1 dan bitta pikselgacha bo'lgan variant
--0,5 dyuym
--300 dpi
--0,3 mm
-
-#Dunyodagi birinchi sensorli telefon modeli qaysi?
-+Simon modeli edi
--Smartfon modeli
--Sensorli modeli
--Monoblok modeli
-
-#Android operatsion tizimini afzalligi nimada? 
-+Oddiy va intuitiv interfeys, ma'lumotlarni uzatish qulayligi. Ko'p o'lchovli. 
--Oddiy va intuitiv interfeysning mavjud emasligi 
--Ma'lumotlarni uzatish qulay emas
--Ko'p o'lchovli. Ma'lumotlarni uzatish qulay emas 
-
-#Android operatsion tizimini kamchiligi nimada? 
-+Katta trafik sarfi. Yangilanishlarni kutish vaqti. 
--Trafik kam sarflaydi
--Yangilash jarayoni tez bo’ladi
--Yopiq manbaligi. Trafik kam sarflaydi
-
-#Loyihaga yangi faoliyatni qo‘shishda nima qilish kerak?
-+manifestda yangi faoliyat to'g'risidagi, ma'lumotlarni ro'yxatdan o'tkazing
--MultiActivity SDK maxsus vositasini yuklab oling va o'rnating
--yangi loyiha yaratish
--emulyatorni ishga tushirish
-
-#MediaPlayer va MediaRecorder sinflaridagi release () usulining maqsadi nima?
-+obektning hayot aylanishining tugashi va resurslarning chiqarilishi
--ob'ektni kutilayotgan holatga qo'yish
--ob'ektni yangilash va uning ishini boshlash
--ob'ektni yaratish va uni ishga tushirish
-
-#Animatsiya uchun qaysi kutubxona mo‘ljallangan?
-+NineOldAnimationAndroids
--Universal Image Loader for Android
--Yandex.Metrica for Apps
--ActionBarSherlock
-
-#android.database.sqlite.SQLiteQueryBuilder klassi 
-+SQL so'rovlarini yaratishga imkon beradi
--SQL so'rovlarini qabul qilishga imkon beradi
--SQL so'rovlarini qabul qilib yaratishga imkon beradi
--SQLite so'rovlarini yaratishga imkon beradi
-
-#Ovozli yordamchilar haqida. Bilasizmi, "Alisa" kimning ovozida gapiradi?
-+Tatyana Shitova
--Natalya Bochkareva
--Marina Golub
--Yana Troyanova
-
-#MapNavigator kutubxonasining vazifasi bu—?
-+Google Xaritalar bilan ishlash
--har qanday kartalar bilan ishlash
--Yandex.Maps bilan ishlash
--dengiz navigatsiyasi
-
-#jsoup kutubxonasi quyidagilarga ruxsat bermaydi:
-+Stentlarga xabarlar yozish. holatlarni o'qish va o'zgartirish, do'stlar yozishmasini tomosha qilish
--DOM va CSS tanlovchilaridan foydalanib ma'lumotlarni topish va olish
--HTML elementlari, atributlari va matnini boshqarish
--parametr sifatida URL, fayl yoki satrni qabul qiling
-
-#Rasmlarni yuklashni osonlashtiradigan qaysi kutubxona mavjud?
-+Universal Image Loader, for Android
--Yandex.Metrica for Apps;
--ActionBarSherlock
--NineOldAndroids
-
-#Muvofiqlik kutubxonalari mo‘ljallangan
-+platformaning oldingi versiyalarida Android OS, ba'zi versiyalarida paydo bo'lgan xususiyatlardan foydalanish
--statistik ma'lumotlarni to'plash
--grafiklarni chizish
--nostandart boshqaruv elementlarini ulash
-
-#2011 yilda Apple qaysi xususiyatni birinchi bo'lib iPhone 4S-ni da taqdim etdi.
-+Sirli ovozli yordamchisi
--TV dasturlarini, musiqiy videofilmlarni, filmlarni va audiokitoblarni to'g'ridan-to'g'ri iPhone-ga yuklab olish imkoniyati
--3D sensorli ekran texnologiyasi
--SMSlarni o'chirish
-
-#Smartfonning kosmosdagi o'rnini aniqlash uchun datchiklardan qaysi biri ishlatilmaydi?
-+GPS
--Akselerometr
--Giroskop
--Magnetometr
-
-#HTML5 ning yangi xususiyatlari quyidagilarni o'z ichiga oladi 
-+audio va video yordam vositalarini ishlatmasdan qo'shish qobiliyati, 
--ma'lumotlarni grafik rejimida formatlash
--RAMga to'g'ridan-to'g'ri kirish imkoniyati
--jadval rejimida ma'lumotlarni formatlash
-
-#Mobil qurilmaning ekranda bir nechta teginishni tanib olish qobiliyatini qaysi atama anglatadi?
-+multisensor
--katta teginish
--uzoq teginish
--Multisensory
-
-#SurfaceHolder.lockCanvas () usulining maqsadi nima?
-+qayta chizish uchun Canvas() ni blokirovka qilish
--Canvas bilan o'zaro aloqani e'tiborsiz qoldirish
--Canvas ni yashirish
--Canvas ni qatlamlanish tomonidan to'sib qo'yish
-
-#Mobil dastur boshqa dasturda yaratilgan ma'lumotlar bazasiga kira oladimi
-+hech qanday sharoitda qila olmaydi.
--kirish huquqi ma'lumotlar bazasi master dasturini ochadi
--to'g'ridan-to'g'ri murojaat qilishi mumkin
--none
-
-#Ilova ishlayotganda qurilmaning request yo‘nalishini o‘zgartirishi uchun qanday usulni qo‘llash mumkin?
-+setRequestedOrientation
--setChangeOritentation
--disableChangeOrientation
--setOritentation
-
-#Siz Intel XDK muhitida dasturlarni ishlab chiqish imkoniyati mavjud:
-+"Noldan", barcha elementlarni tayinlash
--elementlarni ko'rsatish uchun o'rnatilgan "element dizayneridan" foydalanish imkoniyati mavjud emas
--ro'yxatga olish kitobi bilan ishlash
--xaritalar bilan ishlash
-
-#JavaScript-ga ruxsat berilmaydi:
-+xotiraga bevosita kirishni olish
--ro'yxatga olish kitobi bilan ishlash
--xaritalar bilan ishlash
--bir vaqtning o'zida bir nechta havolali kutubxonalardan foydalaning
-
-#Quyida berilgan ta’riflardan qaysi biri to‘g‘ri:
-+HTML5 ilovalari sekin ishlaydi va "nativie" ga qaraganda ko'proq manbalarni talab qiladi
--HTML5 dasturlari tezroq ishlaydi va "native" ga qaraganda kamroq resurslarni talab qiladi
--Intel XDK muhiti multisensor bilan ishlamaydi
--JavaScript-ni boshqa tillarda yozilgan boshqa tashqi kutubxonalarni ulashga ruxsat berilmaydi
-
-#Intel XDK muhitida ishlab chiqilgan har qanday dasturni tayyorlashda quyidagicha yozilgan:
-+Intel XDK boshlang"ich ekranini yashirish
--dastur o'lchamlarini moslama o'lchamiga moslashtirish mavjud emas
--dastur hajmini aniqlash ("o'tish" ni taqiqlash) imkoniyati yo’q
--Intel XDK boshlang'ich ekranini yashirish imkoniyati mavjud emas
-
-#Intel XDK muhitida dasturlarning foydalanuvchi interfeysini yaratishingiz va tahrirlashingiz mumkin:
-+o'rnatilgan App Designer-dan foydalanish
--faqat interfeys bilan tayyor shablonlarni o'zgartirish imkoniyati mavjud emas
--teglarni faqat qo'lda yozish imkoniyati mavjud emas
--o'rnatilgan App Designerdan foydalanish imkoniyati mavjud emas
-
-#Faoliyat almashinuvi amalga oshiriladi
-+faqat tugmalar yordamida ishlash imkoniyati mavjud
--faqat smartfon sensorli ekranidan foydalanish imkoniyati mavjud emas
--faqat tugmalar va boshqa boshqaruv elementlari yordamida ishlash imkoniyati mavjud emas
--faqat smartfon sensorli ekranidan foydalanish imkoniyati mavjud emas, tugmalar yordamida ishlash imkoniyati mavjud
-
-#Android dasturlarini xavfsiz yuklab olish uchun mos manbani ko'rsating.
-+Google play
--iTunes
--bepul dasturiy ta'minotga ega saytlar
--Apple App Store
-
-#Siz iOS mobil qurilmangizdagi Uy tugmachasi yordamida qaysi ikkita funktsiyani bajarishingiz mumkin? 
-+Android navigatsiya tugmalari bilan bir xil funktsiyalar, Ovozli boshqaruvni ishga tushirish
--TouchFLO interfeysini ishga tushirish
--Qurilmani zavod parametrlariga qaytarish
--Qurilmani bloklash
-
-#2006 yilda ushbu telefon avtomatik ravishda yosh kompaniyaning eng zo'r  kompaniyaga aylantirdi.
-+Sony Ericsson W810i 
--Motorola StarTAC
--Benefon Dragon
--Siemens M35i
-
-#Mobil qurilmaning qaysi xavfsizlik xususiyati foydalanuvchidan qurilmani qulfini ochish uchun ma'lum bir tarzda ekranni siljitishni talab qiladi?
-+shablon 
--oddiy maxfiy kod
--Siljish
--masofadan o'chirish
-
-#Mobil xotira uchun flesh xotiradan foydalanishning afzalligi nimada?
-+Flash xotira ma'lumotlarni saqlash va olish uchun juda kam quvvat sarflaydi.
--Fleshli xotira harakatlanuvchi disk boshi bilan jihozlangan bo'lib, qidiruv vaqtini qisqartirishi mumkin.
--Flash xotira ESDga javob bermaydi.
--Fleshli xotira namlik va sovuqqa juda chidamli.
-
-#Ko'pgina mobil qurilmalarda ishlatiladigan sensorli ekranlarning ikkita xususiyati ko’rsating? 
-+ekranning elektr maydoni, foydalanuvchi ekranga tegganda buziladi, elektr energiyasini o'tkazishga qodir bo'lgan ikkita shaffof qatlam qatlami 
--kondansatör ichiga o'rnatilgan shisha ekran
--elektr o'tkazuvchanligi uchun javobgar bo'lgan uchta qatlam, ular orasida kichik bo'shliq mavjud
--elektr energiyasini o'tkazishga qodir bo'lgan ikkita rangli qatlam qatlami
-
-#Ko'pgina qurilmalarda foydalanuvchi qaysi komponentni almashtirishi mumkin?
-+xotira kartasi
--Markaziy protsessor
--sensorli ekran
--Ram
-
-#Mobil qurilmadagi muammolarni bartaraf etishning to'g'ri tartibi qanday?
-+Agar mobil qurilmada muammo yuzaga kelsa, uning egasi uni ta'mirlashning iqtisodiy maqsadga muvofiqligini tahlil qilishi kerak.
--Mobil qurilmalar bilan bog'liq muammolar har doim nosozliklarni bartaraf etish uchun qurilmani ishlab chiqaruvchiga yuborishni talab qiladi.
--Mobil qurilmalarning dizayni va funksionalligi shunchalik tez-tez o'zgarib turadiki, uni almashtirish har doim uni ta'mirlashdan ko'ra foydaliroq bo'ladi.
--Har safar mobil qurilma muzlaganida, egasi uni asl holatini tiklash tugmachasini bosib, uni qayta ishga tushirishi mumkin.
-
-#Foydalanuvchi tasodifan mobil qurilmani basseynga tushirib yubordi. Qanday choralar ko'rish kerak?
-+Qurilmani ta'mirlash yoki almashtirish uchun ishlab chiqaruvchiga murojaat qiling.
--Telefoningizni fen bilan quriting.
--Qurilmani oching va buzilgan qismlarni almashtiring.
--Agar mobil qurilmangiz yoqilmasa, uni tashlang va yangisini sotib oling.
-
-#2002 yilda smartfonlarning aksariyati qaysi edi?
-+Sensorli
--Katlanadigan dengiz qobiqlari
--To'qqiz tugma bilan
--QWERTY klaviatura bilan
-
-#Mashinada issiq kunda ko'p soatlab qolib ketganidan keyin iPhone yoqilmaydi. Ushbu muammoni hal qilish uchun foydalanuvchi nima qilishi mumkin?
-+Ta'mirlash uchun telefonni ishlab chiqaruvchiga qaytaring.
--Yangi quvvat tugmachasini sotib oling va uni almashtiring.
--Telefonni muzlatgichga qo'ying va sovishini kuting.
--Telefonni qismlarga ajratib oling va qizib ketishdan zarar ko'ring
-
-#Mobil qurilmani yangilashdan so'ng, ba'zi ilovalar endi ishlamaydi, boshqalari esa yaxshi ishlaydi. Foydalanuvchi qo'ng'iroqlarni amalga oshirishi va elektron pochta xabarlarini qabul qilishi mumkin. Qanday ikki turdagi muammolar ushbu vaziyatni keltirib chiqarishi mumkin? 
-+xotira muammosi, dasturiy ta'minot muammosi
--elektron kartadagi muammo
--sensorli ekran muammosi
--uyali aloqa xizmatidagi muammo
-
-#Qanday holat yoki vaziyat foydalanuvchiga Android qurilmasidagi OSni yangilashga to'sqinlik qiladi?
-+Uskunalar texnik shartlardan tashqarida.
--Kerakli tuzatishlar o'rnatilmagan.
--Ishlab chiqaruvchidan rozilik olinmagan.
--O'rnatishdan oldin dasturiy ta'minot mualliflik huquqi olinmadi
-
-#Masofadan qulflash va ishlashga masofadan turib tozalash kabi mobil xavfsizlikning ikkita sharti qanday? 
-+Qurilma tarmoqqa ulangan bo'lishi va qurilma yoqilgan bo'lishi kerak.
--Yashirin kod o'chirilgan bo'lishi kerak.
--Sandboxing xususiyati yoqilgan bo'lishi kerak.
--GPS-lokator yoqilgan bo'lishi kerak.
-
-#Qaysi element Android va iOS qurilmalari uchun keng tarqalgan va masofadan zaxiralashni qo'llab-quvvatlaydi? (Ikkisini tanlang.)
-+taqvim, kontaktlar
--Xabarlar
--Xususiylashtirish
--Fotosuratlar
-
-#Android mobil qurilmasidagi simsiz ulanishlar haqida qaysi so'z to'g'ri?
-+Agar sizning qurilmangiz har qanday Wi-Fi tarmog'idan tashqarida bo'lsa, u yoqilgan bo'lsa, u uyali ma'lumot tarmog'iga ulanishi mumkin.
--Android OS WPA2 shifrlash yordamida simsiz aloqani qo'llab-quvvatlamaydi.
--Agar Wi-Fi tarmog'i parol bilan himoyalangan bo'lsa, ushbu tarmoq qurilmada qo'lda sozlangan.
--Tarmoq nomini (SSID) efirga uzatmasdan, qurilma tarmoqqa ulana olmaydi.
-
-#verticalSpacing ning vazifasi
-+jadval kataklari orasidagi bo'sh joy " " hajmini belgilaydi
--ustunlar sonini aniqlaydi
--satrlar sonini aniqlaydi
--matnga rasm joylaydi
-
-#Mobil qurilmalar nuqtai nazaridan nuqta rejimi nimani anglatadi?
-+mobil qurilmani boshqa mobil qurilmaga ulash yoki
--mobil qurilmani zaryad qilish uchun mobil qurilmani kompyuterning USB portiga ulash
--mobil qurilmani naushnikka ulash
--mobil qurilmani 4G uyali aloqa tarmog'iga ulash
-
-#Uyali aloqa tarmoqlari uchun sanoat standartlari to'g'risida qaysi so'z to'g'ri?
-+Xuddi shu standartdan foydalanadigan uyali telefonlardan ko'pincha faqat ma'lum geografik hududlarda foydalanish mumkin.
--Uyali aloqa standartlarini qo'llash tufayli boshqa tarmoq abonentlariga qo'ng'iroqlar qiyinlashdi va qimmatlashdi.
--Raqamli standartlarning uchinchi avlodi past tezlikda harakatlanayotganda, masalan, mobil telefon foydalanuvchisi yurganida, mobil qurilmalar uchun maksimal 1 Gbit / s tezlikni talab qiladi.
--Uyali aloqa standartlarining birinchi avlodi asosan raqamli standartlardir
-
-#Mobil qurilmani kompyuter bilan sinxronlashtirish haqidagi qaysi gap to'g'ri?
-+IOS qurilmangizdagi ma'lumotlarni sinxronlashtirish uchun kompyuteringizda iTunes o'rnatilgan bo'lishi kerak.
--IOS sinxronizatsiyasi faqat USB ulanishi orqali amalga oshiriladi.
--Android qurilmalaridagi ma'lumotlarni kompyuter bilan sinxronlash mumkin emas.
--Motocast USB-dan ma'lumotlarni iOS qurilmasiga sinxronlashtirish uchun foydalanish mumkin.
-
-#Ushbu xususiyat nima qiladi  android: backgroundTint = "@android: color / holo_green_light"
-+Ob'ektning orqa fonini o'rnatadi
--Ob'ektning soyasini o'rnatadi
--Matn rangini belgilaydi
--Matnning fonini o'rnatadi
-
-#Muhandis mobil qurilmada elektron pochta xabarlarini o'rnatadi. Foydalanuvchi mavjud xatlarni serverda saqlamoqchi, uni papkalar yordamida tartibga solmoqchi va ushbu papkalarni mobil qurilma va server o'rtasida sinxronlashtirmoqchi. Buning uchun qanday elektron pochta protokolidan foydalanish kerak?
-+IMAP
--MIME
--POP3
--SMTP
-
-#batareyasi uzoqroq turishi uchun nima qilishim kerak?
-+Zaryadlashni nolga etkazmang
--Har safar uni nolga tushiring
--Har doim zaryadkaga 0 ga yetkazib qo’ying
--Telefoningizni yostiq ostiga qo'ymang
-
-#Mobil qurilmalarda parolni blokirovka qilish xususiyatining maqsadini ko’rsating
-+shaxsni o'g'irlashni oldini olish, o'g'irlik holatida qurilmani masofadan blokirovka qilish
--qurilmani quvvatni tejash rejimiga o'tkazish
--barcha shaxsiy ma'lumotlarni qurilmadan o'chirish
--qurilmani zavod parametrlariga qaytarish
-
-#Sony Xperia 1 rang chuqurligi 10 bit bo'lgan videoni suratga olishi mumkin . Bu 8 bitga nisbatan sifatga qanday ta'sir qiladi ?    
-+Ko'proq yarim tonlar ko'rinadi, ranglar orasidagi o'tish silliqdir
--8 bit bilan solishtirganda sifatga ta'sir qiladimi?
--Yorqinligi va kontrasti 20% ga oshdi
--Ruxsat berish darajasi 50% ga oshdi
-
-#RAW fotosurati ko'proq ma'lumotni saqlaydi, ya'ni sifatni yo'qotmasdan qayta ishlash osonroq .  
-+RAW sizga keyingi ishlov berish uchun ko'proq imkoniyatlar beradi 
--Fokus aniqligi
--Boshqa rasmlar ustida flesh qurilmasi 
--Hech narsa o'zgarmaydi 
-
-#Sony Xperia 1-da o'ynaganda oddiy SDR- video nima bo'ladi ?   
-+Tasvir yanada yorqinroq, qarama-qarshi va to'yingan bo'ladi 
--Hech narsa o'zgarmaydi 
--Kvadrat tezligi 120 kvadrat / s gacha ko'tariladi 
--Kvadrat tezligi 80 kvadrat / s gacha ko'tariladi 
-
-#Filmlar odatda qanday kadr tezligida suratga olinadi? 
-+24 kvadrat / sek
--25 kvadrat / s
--30 kvadrat / s
--15 kvadrat / s
-
-#Sony Xperia 1 kamerasining sozlamalarida siz buzilishlarni to'g'rilashni yoqishingiz mumkin. Agar siz uni keng burchakli kamera bilan suratga olsangiz , unda nima bo'ladi ?    
-+Buzilish va barrel effekti ramkaning chetlarida yo'qoladi  
--Yorqinlik va raqamli shovqin butun ramkada yo'qoladi  
--Qizil ko'z yo'qoladi
--Hech narsa o'zgarmaydi 
-
-#Siz hamkasblaringiz bilan yozishmalar o'tkazishingiz va shu bilan birga eslatmalaringizga muhim ma'lumotlarni kiritishingiz kerak . Smartfonda buni amalga oshirishning eng qulay usuli qanday ?    
-+Displeyda bir vaqtning o'zida ikkita dasturni oching 
--Oldinga va orqaga ilovalar o'rtasida almashinish
--Yozib olish paytida hamkasblardan kutib turishini so'rang
--Displeyda faqat bitta dasturni oching 
-
-#Birinchi smartfonga o'xshash gadjet qachon paydo bo'lgan?
-+1992
--2005
--1997
--1984
-
-#Qaysi biri to'g'ri emas?
-+5G Internet Rossiyada ishlaydi
--Bluetooth USB-dan oldinroq bo'lgan
--Bir marta Nokia "g'azablandi" va 41 megapikselli kameraga ega smartfonni chiqardi
--Ikkita ekranli (ikkala tomonda) birinchi smartfon Rossiyada ishlab chiqarilgan
-
-#2007 yilda Astraxan viloyatida MegaFon Rossiya uchun noyob bo'lgan mobil aloqa loyihasini boshladi. Operator nima qildi?
-+"Suvda" tarmoqni ishga tushirdi
--Avval 4G / LTE tarmog'ini ishga tushirdi
--"SIM-kartasiz telefon" g'oyasini amalga oshirdi:
--Trafikni behuda sarf qilmasdan, mobil telefonda mashhur ISQ messenjeridan foydalanish imkoniyatini yaratdi.
-
-#Id tomonidan ob'ektni qanday usul topadi?
-+findViewById
--FindViewID
--findViewId
--findById
-
-#Faoliyat nima?
-+Bu barcha turdagi komponentlarning to'plami 
--Bu matn va rasmlar to'plami
--Bu parchalar uchun ombor
--Bu matn, rasm va videolar to'plamidir
-
-#Pio Smart Recorder - bu?
-+Diktofon.
--Ishga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri.
--Asosiy fikrlarni ko'rsatadigan aql xaritalarini yaratish uchun dastur.
--Onlayn kutubxona.
-
-#android.database.sqlite.SQLiteOpenHelper klassi—?
-+agar ular mavjud bo'lmasa, barcha jadvallar bilan ma'lumotlar bazasini yaratishga imkon beradi.
--agar ular mavjud bo'lsa, barcha jadvallar bilan ma'lumotlar bazasini yaratishga imkon beradi.
--SQL so'rovlarini yaratishga imkon beradi
--SQL so'rovlarini bajarishga imkon beradi.
-
-#INTEGER—?
-+javadagi int turiga o'xshash butun sonni ifodalaydi
--javada String va char -ga o'xshash belgilar majmuini ifodalaydi
--javada float va double -ga o'xshash raqamni ifodalayditadqiqot usuli.
--binar ma'lumotlarning massivini ifodalaydi
-
-#REAL—?
-+javada float va double -ga o'xshash raqamni ifodalaydi
--javadagi int turiga o'xshash butun sonni ifodalaydi
--javada String va char -ga o'xshash belgilar majmuini ifodalaydi
--binar ma'lumotlarning massivini ifodalaydi
-
-#C / C ++ kodini Android-da ishlashga moslashtirishga imkon beradigan NDK ishlab chiqish vositasi -
-+Android NDK
--Google Android SDK (ADT to'plami)
--Marmelad SDK
--Intel * dastur menejeri
-
-#Talabalarning bilim qobiliyatini rivojlantirish, o'z bilimlarini mustaqil ravishda loyihalashtirish qobiliyati, axborot makonida harakat qilish qobiliyati, tanqidiy fikrlashni rivojlantirish qaysi uslubga asoslangan?
-+loyihani o'qitish.
--Loyihani o’rganish
--ko'p darajali trening.
--aralash o'rganish.
-
-#Butun ta'lim jarayonini loyiha asosida o'qitishga o'tkazish maqsadga muvofiqmi?
-+yo'q, bu usul an'anaviy o'qitish usullari bilan birlashtirilgan ma'qul.
--ha, bu o'quv jarayoni samaradorligini oshiradi.
--yo'q, bu texnologiya kattalar ta'limida yaxshi qo'llaniladi.
--Ha, bu texnologiya kattalar ta'limida yaxshi qo'llaniladi.
-
-#Tadqiqot usuli va loyihalash uslubining farqi nimada?
-+tadqiqot usulida ilgari ma'lum bo'lgan natija (qidirish ob'ekti) mavjud emas, bu natija tadqiqot jarayonida.
--tadqiqot usuli kamroq vaqt va mablag 'talab qiladi.
--tadqiqot usuli o'qituvchining ishtirokiga muhtoj emas.
--Tadqiqot usuli ko’p mablag’ talab qiladi
-
-#Adapter interfeysi quyidagilarga imkon beradi:
-+ro'yxatni va uning elementlari nomlarini bog'laydi
--telefonni zaryadlash jarayonini optimallashtiradi
--sekin urish bilan ishlaydi
--ilovani istalgan Android SDK versiyasiga moslashtiradi
-
-#Gamifikatsiya bu:
-+o'yinchilarning faolligini oshirish uchun kompyuter o'yinlarida qo'llaniladigan yondashuvlarni, o'yindan tashqari jarayonlarda: mukofotlar, nishonlar, mahorat darajasi, bitta hikoya yaratish.
--guruh a'zolarining o'zaro bog'liqligi tamoyillariga asoslangan talabalarga yo'naltirilgan ta'lim texnologiyalari.
--ilmiy tadqiqot jarayoni kabi o'quv jarayonini qurish, tadqiqot jarayonining asosiy bosqichlarini amalga oshirish.
--tadqiqot usulida ilgari ma'lum bo'lgan natija (qidirish ob'ekti) mavjud emas, bu natija tadqiqot jarayoni
-
-#Ushbu o'quv varianti qaysi texnologiyani nazarda tutadi "guruh maqsadlari" ga va butun guruhning muvaffaqiyatiga alohida e'tibor qaratiladi, bu guruhning har bir a'zosining boshqalari bilan doimiy o'zaro ta'sirida mustaqil ishlashi natijasida erishiladi. mavzu ustida ishlashda bir xil guruh a'zolari, savolni o'rganish kerakmi?
-+hamkorlikda o'qitish texnologiyasi 
--loyihani o'qitish.
--tadqiqot usuli.
--Loyihani o’rganish
-
-#Qaysi texnologiya asosida o'quvchining ma'lum bir ta'lim davrida to'plagan baholari va individual yutuqlarini qayd eta olasiz?
-+innovatsion baholash texnologiyasi "portfel ".
--ishni boshqarish texnologiyasi
--ko'p bosqichli texnologiya.11
--ish usuli.
-
-#"AKT" qisqartmasi nimani anglatadi:
-+axborot-kommunikatsiya texnologiyalari.
--xalqaro kommunistik tendentsiya.
--axborot-kognitiv texnologiyalar.
--Axborot kommunikatsiya tizimlari
-
-#Reverse Classroom texnologiyasi nimani anglatadi?
-+reproduktiv ta'lim faoliyatini uy sharoitida o'qishga o'tkazish .
--talabalar o’qituvchilar bilan mashg’ulot o’tkazadi
--o'qituvchi talabalar bilan rollarni o'zgartiradi.
--sinfdan tashqarida mashg'ulotlar o'tkazish (manzaralarni o'zgartirish).
-
-#MOOC bu:
-+masofaviy ta'lim shakllaridan biri bo'lgan Internet orqali ochiq ta'lim va elektron ta'lim texnologiyalaridan foydalangan holda massiv interaktiv ishtirokidagi o'quv kursi.
--mobil qurilmalardan (planshetlar, smartfonlar, o'yin pristavkalari, multimedia qo'llanmalari) foydalanishga xos bo'lgan masofaviy elektron ta'lim turi.
--ta'lim jarayoniga xos bo'lgan va Internet texnologiyalari yoki boshqa vositalar yordamida amalga oshiriladigan barcha tarkibiy qismlarni aks ettiruvchi o'qituvchi va talabalarning bir-birlari bilan masofadan turib o'zaro aloqasi.
--Ishga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri.
-
-#Gero—bu?
-+Vaqt menejeri sizga ishlashga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri
--Diktofon.
--Asosiy fikrlarni ko'rsatadigan aql xaritalarini yaratish uchun dastur.
--Onlayn kutubxona.
-
-#ListActivity klassi nima uchun kerak?
-+Asosiy elementi ro'yxat bo'lgan faoliyatni yaratish uchun 
--Yangi varaq yaratish uchun
--Doimiy faoliyatni yaratish uchun  
--Asosiy elementi jadval bo'lgan faoliyatni yaratish uchun
-
-#Bookmate —bu?
-+Onlayn kutubxona.
--Diktofon.
--Vaqt menejeri sizga ishlashga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri
--Asosiy fikrlarni ko'rsatadigan aql xaritalarini yaratish uchun dastur.
-
-#textViewResourceId bu—?
-+har bir satr uchun belgilar bilan resurs identifikatori 
--10 ta satr uchun belgilar bilan resurs identifikatori 
--bitta satr uchun belgilar bilan resurs identifikatori 
--id kiritish uchun belgilar bilan resurs identifikatori 
-
-#Google xaritalari —bu?
-+Onlayn ravishda sun'iy yo'ldosh interaktiv xaritalari.
--Siz uchun muhim bo'lgan raqamlarni hisobga oladigan dastur.
--Ta'limning barcha darajalari, shu jumladan geometriya, algebra, jadvallar, grafikalar, statistika va arifmetikalar uchun bepul, o'zaro faoliyat platformalardagi dinamik matematik dasturni ishlatish uchun qulay bo'lgan bitta to'plamda.
--3D anatomiya atlasi erkak va ayol anatomiya modellarini o'rganadi. 
-
-#DialogFragment bu:
-+O'zingizning dialog oynalarini yaratish uchun imkon beradigan konteyner
--sarlavhani, uchta tugmachani, tanlanadigan qiymatlar ro'yxatini yoki maxsus tarkibni o'z ichiga oladigan dialog oynasi
--sana yoki vaqtni tanlashga imkon beruvchi oldindan belgilangan interfeysga ega dialog oynasi
--- amalni bajarish uchun protsessor satrini o'z ichiga olgan dialog oynasi
-
-#Ushbu xususiyat nima qiladi   android: background = "@android: color / holo_green_light"
-+orqa fonini o'rnatadi
--Ob'ektning soyasini o'rnatadi
--Matn rangini belgilaydi
--Matnning fonini o'rnatadi
-
-#ListView bu—?
-+elementlarning aylanadigan ro'yxati. 
--Jadvallar tuzish
--Rasm joylash
--Matn kiritishga imkon beradi
-
-#Context bu-?
-+joriy kontekst
--Matn
--Jadval
--Rasm joylash buyrug’i
-
-#Android yo'nalishi xususiyati…..bilan belgilanadi
-+Orientation
--Gravity
--Background
--Margin
-
-#Android arxitekturasidagi qaysi element apparat va dasturiy ta'minot to'plami o'rtasida mavhumlik qatlami bo'lib xizmat qiladi?
-+Linux yadrosi  
--arizalar  
--dastur doirasi 
--Kutubxonalar va Android ishlash vaqti  
-
-#Android qanday ma'lumotlar bazasi dvigatelidan foydalanadi?
-+SQLite  
--DBM  
--InnoDB  
--MyISAM  
-
-#Android OS kutubxonasi to'plamiga qaysi grafik kutubxona kiradi?
-+GL-ni oching 
--DirectX 
--OpenCL
--OpenCV  
-
-#PacketVideo OpenCORE-ga asoslangan kutubxonalar:
-+Media doirasi  
--FreeType  
--SQLite  
--3D kutubxonalar  
-
-#Android arxitekturasining qaysi tarkibiy qismi har qanday dasturga kirish uchun ruxsat berilgan boshqa dasturlarning allaqachon amalga oshirilgan imkoniyatlaridan foydalanishga imkon beradi?
-+dastur doirasi 
--arizalar  
--Kutubxonalar va Android ishlash vaqti  
--Linux yadrosi  
-
-#O'zining mobil qurilmasi dasturlari to'plamini to'ldirish uchun foydalanuvchi ushbu xizmatdan foydalanishi mumkin
-+Google Play  
--Google xaritalari  
--Android Play  
--Google Market  
-
-#Mobil dasturni yaratish, kompilyatsiya qilish va yig'ish uchun zarur bo'lgan vositalarni o'z ichiga olgan dasturlash vositalarining to'plami deyiladi
-+Android SDK  
--JDK  
--Android NDK  
--ADT plagini  
-
-#SetAdapter usuli(ListAdapter) bu-?
-+Tayyorlangan ro'yxatni adapter bilan bog'laydi.
--Rasm bilan matnni bog’laydi
--Jadval bilan matnni bog’laydi  
--Ro’yxat bilan jadvalni bog’laydi
-
-#Androidda ichki elementlari atributlarda …. qiymatini ishlatadi. 
-+match_parent
--wrap_content
--Margen
--Padding
-
-#Intel * Beacon Mountain rivojlanish muhitida nima uchun Intel * Hardware Accelerated Execution Manager (Intel * HAXM) vositasi ishlatiladi?
-+rivojlanish muhitida emulyatorni tezlashtirish  
--C ++ mobil dasturlarini samarali ravishda parallellashtirish uchun  
--optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun  
--OpenGL muntazam foydalanish paytida tizim yukini optimallashtirish  
-
-#Intel * Beacon Mountain rivojlanish muhitida ishlatiladigan Intel * Threading Building Blocks (Intel * TBB) vositasi nima?
-+ishlab chiquvchilarga C ++ mobil dasturlarini samarali ravishda parallellashtirishga imkon berish  
--rivojlanish muhitida emulyatorni tezlashtirish
--optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun  
--dasturchilarga OpenGL dasturlaridan foydalanishda tizim yukini optimallashtirishga imkon berish  
-
-#numColumns-ning vazifasi bu-?
-+ustunlar sonini aniqlaydi
--matnga rasm joylaydi
--jadvalga matn joylaydi
--satrlar sonini aniqlaydi
-
-#Android quyidagilardan qaysi birini ishlab chiqarmaydi
-+ProGuard  
--SDK menejeri  
--Qurilma monitor  
--AVD menejeri  
-
-#Intel * Beacon Mountain rivojlanish muhitida ishlatiladigan Intel * Integrated Performance Primitives (Intel * IPP) vositasi nima?
-+optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun  
--dasturchilarga OpenGL dasturlaridan foydalanishda tizim yukini optimallashtirishga imkon berish  
--rivojlanish muhitida emulyatorning ishini tezlashtirish  
--ishlab chiquvchilarga C ++ mobil dasturlarini samarali ravishda parallellashtirishga imkon berish  
-
-#Ro’yxat bilan ishlash necha qismdan iborat
+?KIX (eng: FIR) filtr uchun to'g'ri ta'rif berilgan qatorni toping.
++Chekli impuls xarakteristikali filtr
+-Cheksiz impuls xarakteristikali filtr
+-Impuls xarakteristikali filtr emas
+-Tog'ri javob yo'q
+
+?Low Pass Filtr uchun to'g'ri ta'rif berilgan qatorni toping.
++Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlaydi
+-Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlamaydi
+-Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlaydi
+-Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlamaydi
+
+?High Pass Filtr uchun to'g'ri ta'rif berilgan qatorni toping.
++Chastotasi aniqlangan qiymatdan baland bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlaydi.
+-Chastotasi aniqlangan qiymatdan past bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlaydi.
+-Chastotasi aniqlangan qiymatdan baland bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlamaydi
+-To'g'ri javob yo'q
+
+?Band Pass Filtr uchun to'g'ri ta'rif berilgan qatorni toping.
++Signal chastotasi berilgan o'tkazish chastota kengligi ichida bo'lgan qismini o'tkazadi
+-Signal chastotasi berilgan o'tkazish chastota kengligi ichida bo'lgan qismini o'tkazmaydi
+-Signal chastotasi berilgan o'tkazish chastota kengligi ichida bo'lmagan qismini o'tkazadi
+-To'g'ri javob yo'q
+
+?Quyidagi filtrlash formulasida keltirilgan x[n] qanday signal?
++y[n] = (b0*x[n] + b1*x[n-1] + b2*x[n-2] - a1*y[n-1] - a2*y[n-2])/a0
+-Filtrlanishi kerak bo'lgan signal
+-Shovqin signali
+-Filtrlanishi kerak bo'lmagan signal
+-To'g'ri javob yo'q
+
+?Signallarga raqamli ishlov berishda Korrelyatsiya jarayonining necha xil shakli mavjud?
 +2
--3
+-5
+-6
+-4
+
+?To'g'ri ta'rifni keltiring: Svertka jarayoni bu?
++Bu funktsional tahlil bo'lib, 2 ta signalning ko'paytmasidan uchinchi o'zaro bog'lovchi signalning hosil bo'lishi jarayonidir
+-Bu funktsional tahlil bolib, 2 ta signalning ko'paytmasidan ikkita o'zaro bog'lovchi signalning hosil bo'lishi jarayonidir
+-Bu funktsional tahlil bolib, 2 ta signalning ko'paytmasidan uchinchi o'zaro bog'lovchi signalning hosil bo'lmaslik jarayonidir
+-Kvantlashdan xosil bo'lgan jarayon
+
+?Qayta ishlanadigan signallar qanday guruhlarga bo'linadi?
++Barcha javoblar to'g'ri
+-Diskret
+-Raqamli
+-Analogli
+
+?Qanday turdagi signal tashqi ta'sirlarda kamroq o'zgaradi?
++Raqamli signal
+-Analog signal
+-Analog va raqamli signal
+-To'g'ri javob A va B javoblar
+
+?Svyortka amalidan ko'p foydalaniladigan jarayon qaysi?
++Filtrlash jarayoni
+-Kvantlash jarayoni
+-Diskretlash jarayoni
+-To'g'ri javob yo'q
+
+?Signalni segmentlash jarayoni qanday?
++signalni ma'lum bo'laklarga ajratish
+-signalni tanish
+-signalni kvantlash
+-signalni kodlash
+
+?Qanday turdagi signal tashqi ta'sirlarda kamroq o'zgaradi?
++Raqamli signal
+-Analog signal
+-Analog va raqamli signal
+-To'g'ri javob A va B javoblar
+
+?Signalga to'g'ri ta'rif berilgan qatorni belgilang
++bu fizik jarayon bo'lib, uning parametrlari uzatilayotgan xabarga muvofiq o'zgaradi
+-bu fizik jarayon bo'lib, uning parametrlari uzatilayotgan xabarga muvofiq o'zgarmaydi
+-bu fizik jarayon bo'lib, uning parametrlari uzatilmayotgan xabarga muvofiq o'zgaradi
+-bu fizik jarayon bo'lib, uning parametrlari bo'lmaydi
+
+?Raqamli signal qanday bo'ladi?
++Raqamli signal uzlukli bo'ladi
+-Raqamli signal uzlukliz bo'ladi
+-Raqamli signal analog bo'ladi
+-To'g'ri javob yo'q
+
+?Analog signal qanday bo'ladi?
++Analog signal uzliksiz bo'ladi
+-Analog signal kavntlangan bo'ladi
+-Analog signal diskretlangan bo'ladi
+-To'g'ri javob yo'q
+
+?Analog signal bilan raqamli signal o'rtasida qanday farq bor?
++Analog signal uzluksiz, raqamli signal uzlukli bo'ladi
+-Analog signal uzluksiz, raqamli signal uzlukliz bo'ladi
+-Analog signal uzlukli, raqamli signal uzlukli bo'ladi
+-Analog signal uzlukli, raqamli signal uzlukliz bo'ladi
+
+?Raqamli signal protsessorlari qanday sinf protsessorlari hisoblanadi?
++keladigan analogli signallarning raqamli qayta ishlanishiga yo'naltirilgan maxsus mikroprotsessorlar sinfi
+-keladigan analogli signallarning raqamli qayta ishlanishiga yo'naltirilgan maxsus tranzistorlar sinfi
+-keladigan analogli signallarning raqamli qayta ishlanishiga yo'naltirilgan maxsus triggerlar sinfi
+-keladigan analogli signallarning raqamli qayta ishlanishiga yo'naltirilmagan maxsus mikroprotsessorlar sinfi
+
+?Qanday signallar davriy signal hisoblanadi?
++Ma'lum vaqt o'tishi bilan takrorlanadigan signal
+-Ma'lum vaqt o'tishi bilan takrorlanmaydigan signal
+-Ma'lum vaqt o'tmasligi bilan takrorlanadigan signal
+-Ma'lum vaqt o'tmaslgi bilan takrorlanmaydigan signal
+
+?Matlabda clc - buyrug'i nima vazifani bajaradi?
++ishchi oynani tozalash
+-buyruq
+-o'zgartiruvchi sonni kiritish
+-barchasi to'g'ri
+
+?Real vaqt tizimlari bu....?
++boshqaruv paytida tashqi ta'sirlarga javob berishga ulguradigan tizimlar
+-boshqariladigan har qanday tizimlar
+-To'g'ri javob yo'q
+-kompleks tizimlarning barchasi
+
+?Signalni kodlash nima?
++signalni ikkilik sanoq sistemasiga o'tkazish
+-signalni qabul qilish
+-signalni qism-qism qilib bo'laklash
+-signalni diskretlangan qismini hisoblash
+
+?Signalni diskretlash nima?
++signalni vaqt o'qi bo'yicha bo'laklash
+-signalni vaqt o'qi bo'yicha uzatish
+-signalni vaqt o'qi bo'yicha qabul qilish
+-signalni vaqt o'qi bo'yicha kodlash
+
+?Kompyuter markaziy boshqaruv vositalariga qaysilar kiradi?
++mikroprotsessor, mikrokontroller
+-ARO', mikrokontroller
+-yuborgichlar, boshqaruvchilar
+-kitirish-chiqarish modullari, ARO'
+
+?Signalni kvantlash nima?
++signalni amplituda o'qi bo'yicha bo'laklash
+-signalni amplituda o'qi bo'yicha uzatish
+-signalni z o'qi bo'yicha perpendikulyar
+-signalni qabul qilish
+
+?Tibbiyotda ishlatiladigan signal turlarini belgilang.
++elektromiografiya signali, elektroensefalografiya signali, elektrokardiografiya signal
+-davriy signal, statsionar signal, garmonik signal
+-tovush signali, garmonik signal, EKG signallari
+-barcha javoblar to'g'ri
+
+?Signallarni korrelyatsiya qilishning nechta shakli mavjud?
++2
+-5
+-7
+-4
+
+?Signallarni svyortka qilishning necha xil turi bor?
++2
 -4
 -5
+-8
 
-#Android OS uchun rivojlanish muammolari quyidagilarni o'z ichiga oladi:
-+turli xil qurilmalar, dasturni umuman tekshirib bo'lmaydi  
--tizim yadrosini ishlaydigan dasturlardan ishonchsiz ajratish  
--samarali rivojlanish vositalarining etishmasligi  
--turli xil qurilmalar, dasturni umuman teksh imkoniayti mavjud  
+?MATLAB tizimining 'command window' qismida ma'lumotlarni kiritish ... belgisidan boshlanadi.
++>>
+->
+-<<
+-<
 
-#GridView komponenti bu-?
-+tekis jadval hisoblanadi
--matn hisoblanadi
--rasm hisoblanadi
--matn va jadvalni bir-biriga bog’alydi
+?MATLAB tizimida massivlarni kiritish qanday tartibda kiritiladi?
++[1,2,3,4]
+-(1,2,3,4)
+-1,2,3,4
+-barcha javoblar to'g'ri
 
-#-har bir satr uchun belgilar bilan resurs identifikatori
-+textViewResourceId
--Context
--SetAdapter
--SetAdapter
+?Signalni dastlabki holati uni qaysi sohasini anglatadi?
++Amplituda -Vaqt soxasi
+-Chastota soxasi
+-Vaqt-chastota soxasi
+-barcha javoblar to'g'ri
 
-#Intel XDK-da ishlab chiqilgan haqiqiy qurilmalar dasturlarida sinov
-+qurilmaga maxsus dasturni o'rnatish yoki loyihani yig'ish va montaj natijasini qurilmaga o'rnatish orqali amalga oshirilishi mumkin  
--mumkin emas  
--qurilmaga maxsus dastur o'rnatish orqali amalga oshirilishi mumkin  
--loyihani yig'ish va yig'ish natijasini qurilmaga o'rnatish orqali amalga oshirilishi mumkin  
+?Signalni vaqt soxasidan chastota sohasiga o'zgartiruvchi algoritmlar berilgan qatorni belgilang.
++Fourier, DCT, Wavelet
+-KIX, BIX, Fourier
+-Low-pass, high-pass
+-barcha javoblar to'g'ri
 
-#Intel XDK ishlab chiqish muhiti quyidagi dasturlash tillarini qo'llab-quvvatlaydi:
-+JavaScript  
--Java  
--C #  
--C ++ 
+?Signal protsessorlari ishlab chiqaruvchi mashhur firmalarni ko'rsating.
++Analog Device, Motorola, Texas Instruments
+-Analog Device, Lenovo
+-Analog Device, HP, Acer
+-barchasi to'g'ri
 
-#Intel XDK rivojlanish muhiti emulyatori:
-+akselerometr yordamida dasturlarning ishlashini tekshirishga imkon beradi  
--katta tizim resurslarini talab qiladi
--bir qator qurilmalarda dastur bajarilishini simulyatsiya qilishga imkon bermaydi
--akselerometr yordamida dasturlarning ishlashini tekshirishga imkon bermaydi 
+?Hisoblash moslamalari necha bitli ma'lumotlarni qayta ishlaydi?
++16-bitli
+-23-bitli
+-17-bitli
+-15-bitli
 
-#—tekis jadval hisoblanadi
-+GridView komponenti
--ListView komponenti
--Relativelayout
--Linearlayout
+?16 kHz chastota necha Hz chastota bo'ladi?
++16000
+-16384
+-16100
+-16050
 
-#Eclipse va IDE nima?
-+IDE (Integratsiyalashgan rivojlanish muhiti)
--API (dastur dasturlash interfeysi)
--SDK (ishlab chiqish to'plami)
--ADT (Android Development Tools)
-
-#Android uchun ishlab chiqish vositasi hisoblanmaydi: 
-+ProGuard
--Qurilma monitori
--AVD menejeri
--SDK menejeri
-
-#"Ochiq telefon" alyansining maqsadi nima edi?
-+mobil qurilmalar uchun ochiq standartlarni ishlab chiqish
--Android OS rivojlanish tarixini yozing
--Android smartfonlarini sotish
--Android smartfonlarini reklama qilish
-
-#Android 4.4 versiyasining nomi nima?
-+Kit kat
--Krispy kreme
--krem-karamel
--Kitekat
-
-#RelativeLayout bu—?
-+ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi.   
--element matnni ko'rsatish uchun ishlatiladi
--TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar matnni tahrirlashlari mumkin
--foydalanuvchi buyruqlariga javob beradi
-
-#EditText bu—?
-+TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar matnni tahrirlashlari mumkin
--foydalanuvchi buyruqlariga javob beradi
--ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi
--element matnni ko'rsatish uchun ishlatiladi
-
-#TextView bu—?
-+element matnni, ko'rsatish uchun ishlatiladi
--TextView boshqaruviga o'xshash yagona farq shundaki foydalanuvchilar matnni tahrirlashlari mumkin
--foydalanuvchi buyruqlariga javob beradi
--ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi
-
-#Ikki NFC qurilmasi o'rtasida almashishning qulay vositasi:
-+AndroidBeam
--Wi-Fi Direct
--Dalvik
--Bluetooth
-
-#Birinchi telefonni yaratuvchisi kim?
-+Bell A.G.
--I.Grey 
--I. F. Reys
--Bil Geyst
-
-#Greyning to'lov telefoni birinchi bo'lib qayerda o’rnatildi
-+Xartford banki
--Maktabda
--Oksford universitettida
--Oq uyda
-
-#Android dasturining qaysi papkasida Java manba fayllari mavjud?
-+src
--Gen
--axlat qutisi
--Res
-
-#Batareya quvvati, ob-havo prognozi, sana va vaqt kabi dinamik ma'lumotlarni namoyish qilish uchun qanday dasturni ishlatish mantiqan to'g'ri keladi?
-+Vidjet
--fon dasturi
--oldingi dastur
--aralash dastur
-
-#Har bir eshittirish qabul qiluvchisi ... dan meros qilib oladi.
-+BroadcastReceiver
--ContentProvider
--ViewReceiver
--IntentReceiver
-
-#Birinchi telefon kitobi birinchi qayerda paydo bo’lgan?
-+Konnektikut shtatining Nyu-Xeyven shahrida, 
--Angliyada
--Berlinda
--Konnektikut shtatidagi Xartford shahrida
-
-#Gen papkasida nima bor?
-+avtomatik ravishda yaratilgan java fayllari
--Dastur manbalari
--Audiofayllar
--Rasm opsiyasi
-
-#Birinchi telefon kitobi birinchi Nyu-Xeyven okrugi telefon kompaniyasi tomonidan qachon paydo bo‘lgan?
-+1878-yil fevralda
--1888 yil fevralda
--1868 yil fevralda
--1898 yil fevralda
-
-#Android dasturlaridagi GUI komponentlarining jadval tartibini qanday tartib belgilaydi?
-+Tablelayout
--RowLayout
--GridBagLayout
--GridLayout
-
-#Mobil dasturni yaratish, kompilyatsiya qilish va yig‘ish uchun zarur bo‘lgan vositalarni o‘z ichiga olgan SDK dasturlash vositalarining to‘plami:
-+Android SDK
--JDK
--ADT plagini
--Android NDK
-
-#Android OS qanday ma'lumotlar bazasi dvigatelidan foydalanadi? 	
-+SQLite 
--DBM 
--MyISAM   
--InnoDB
-
-#Layout da ishlashda nechta variantdan foydalanamiz
+?Raqamli filtrlar nechta katta turga bo'linadi?
 +2
--3
--4
 -5
+-7
+-1
 
-#Mobile Applications
-+Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
--Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--tarmoq orqali ishlovchi ixtiyoriy dasturlar
--bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
+?Diskretlash natijasida qanday signal paydo bo'ladi?
++Diskret
+-Filtr
+-Analog
+-Hech qanaqa signal paydo bo'lmaydi
 
-#Swift - ?
-+bu kompilyatsiya qilingan dasturlash tili
--bu kompilyatsiya qilinmagan dasturlash tili
--android uchun dasturlash tili
--android uchun kompilyatsiya qilingan dasturlash tili
+?Qanday jarayon asosida diskret signal paydo bo'ladi?
++Diskretlash
+-Kvantlash
+-Shifrlash
+-To'g'ri javob yo'q
 
-#Web Applications bu—?
-+tarmoq orqali ishlovchi ixtiyoriy dasturlar
--Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--Bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
--Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
+?Tasvir signalining piksellari necha xil rangdan tashkil topgan?
++3
+-5
+-6
+-8
 
-#Enterprise Applications bu—?
-+bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
--Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--Tarmoq orqali ishlovchi ixtiyoriy dasturlar
--Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
+?Tasvir signalining piksellari qanday ranglardan tashkil topgan?
++qizil ko'k yashil
+-qora oq qizil
+-sariq qora oq
+-ko'k qora qizil
 
-#Qaysi sinf foydalanuvchi interfeysi (UI) komponentlari view uchun asosiy qurilish blokidir, ekranning to‘rtburchaklar maydonini belgilaydi va voqealarni chizish va boshqarish uchun javob beradi?
-+View
--GUI
--UIComponent
--Widget
+?Ma'lumotlarning siqish algoritmlari necha guruhga bo'linadi?
++2
+-8
+-6
+-7
 
-#Emulyator –?
-+bu boshqa kompyuter, yoki dasturga taqlid qiladigan dastur
--bu faqat kompyuterga tushadigan dasturlar majmuasi
--bu faqat android operatsion tizimiga tushadigan dasturlash tili
--bu amaliy dasturlar paketiga tushadigan dasturlash tili
-
-#BlueStacks  bu—? 
-+Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
--Mac va Windows-da iOS-ni boshqarishi mumkin.
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Linux operatsion tizimida Windows dasturlarini ishlaydi
-
-#Loyihaning talab qilinadigan fayllari va papkalarining to'liq ierarxik ro'yxatini yorliqda ko'rish mumkin ...
-+Package Explorer, Project Explorer
--Internet Explorer
--Navigator
--internet navigator
-
-#Android ilovasining grafik foydalanuvchi interfeysi komponentlari iyerarxiyasini tavsiflash uchun qanday belgilash tili ishlatiladi? 
-+xml 
--Html
--Gml
--Xhtml
-
-#Xcode.
-+Mac va Windows-da iOS-ni boshqarishi mumkin.
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Linux operatsion tizimida Windows dasturlarini ishlaydi
-
-#Intent-Obyekt haqida berilgan to’g’ri ta’rifni tanlang.
-+Bir oynadan ikkinchi oynaga o’tishni amalga oshiradi
--foydalanuvchi xabarlarni uzatish uchun ishlatiladi 
--foydalanuvchi ko'rsatmalar qabul qilish uchun ishlatiladi  
--faqat bitta sahifada ishlaydi
-
-#Xususiylashtirish harakatlari uchun qanday boshqaruv elementlar ishlatiladi?
-+elementlar tanlanadi
--buyruq boshqaruvlari
--kirish elementlari
--displey elementlari
-
-#Appetize.io
-+bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Mac va Windows-da iOS-ni boshqarishi mumkin
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
--Linux operatsion tizimida Windows dasturlarini ishlaydi
-
-#iOS operatsion tizimini afzalligi nimada?
-+Xavfsizlik Ushbu OS uchun manba kodi yopiq, ya'ni "olma" korporatsiyasining muhandislari va dasturchilaridan tashqari hech kim unga kira olmaydi.
--Ochiq manba
--Katta trafik sarfi
--Yangilanishlarni kutish vaqti
-
-#WINDOWS operatsion tizimini kamchiligin nimada?
-+Ilovalarning kichik tanlovi. Windows 7 bilan ishlaydigan smartfonlarning noqulayligi
--multimediya fayllarini gadgetning xotirasiga o'tkazish qiyin emas.
--Windows 7 bilan ishlaydigan smartfonlarning noqulay emas.
--Ilovalarni katta tanlovi.
-
-#Android qurilmalari uchun quyidagi ekran zichligi toifalari mavjud:
-+LDPI, MDPI, HDPI, XHDPI, XXHDPI va XXXHDPI.
--LDPI, MDPI, HDPI
--HDPI, XHDPI, XXHDPI va XXXHDPI
+?Quyidagi keltirilgan filtrlash jarayoning ifodasida y[n] qanday signal?
+y[n] = (b0*x[n] + b1*x[n-1] + b2*x[n-2] - a1*y[n-1] - a2*y[n-2])/a0
+-Filtrlangan signal
+-Filtrlanganmagan signal
+-Shovqin signali
 -to'g'ri javob yo'q
 
-#Quyidagi berilgan ta’riflardan qaysi biri noto‘g‘ri
-+interfeys elementlaridan foydalanmang
--rasmlar so'zlardan ko'ra tezroq ishlaydi.
--har qanday qadamda orqaga qaytish imkoniyati bo'lishi kerak.
--agar ob'ektlar o'xshash bo'lsa, ular shunga o'xshash harakatlarni bajarishlari kerak.
-
-#Dart bu—?
-+veb ilovalar va mobil ilovalar kabi, mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir
--mobil ilovalar kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir
--veb ilovalar kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir
--java va java Script dasturlash tillari kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir
-
-#Mobil telefon, qoʻl telefon qanday telefon turiga kiradi?
-+Simsiz telefon turiga
--Cho’ntak telefon turi
--Liniyali telefon turi
--Datchikli telefon turlariga kiradi
-
-#ProgressDialog bu—?
-+harakatni bajarish uchun bajarilish satrini o'z ichiga olgan, dialog oynasi
--o'zingizning dialog oynalarini yaratish uchun konteyner
--sana yoki vaqtni tanlashga imkon beruvchi oldindan belgilangan interfeysga ega dialog oynasi
--sarlavha, uchta tugmacha, tanlanadigan qiymatlar ro'yxati yoki maxsus tarkibni o'z ichiga oladigan dialog oynasi
-
-#Mobil qurilmaga o‘rnatilgan atrof-muhit sensorlari quyidagilarni o‘z ichiga oladi
-+yorug'lik sezgichlari
--aylanish vektorining sensorlari
--Akselerometrlar
--giroskoplar
-
-#Orqaga muvofiqlikni sozlashda manifest fayliga quyidagi ma'lumotlarni qo‘shing:
-+minimal, asosiy (maqsadli) Android SDK versiyalari
--faqat minimal Android SDK versiyasi
--ulangan kutubxona haqida ma'lumot
--faqat Android SDK-ning asosiy (maqsadli) versiyasi
-
-#Loyihaning res / anim / papkasi nima uchun kerak?
-+ushbu papkada transformatsiyalar uchun animatsiya, ko'rsatmalarining ketma-ketligini belgilaydigan XML fayllari mavjud
--ushbu papkada kadrlar animatsiyasi uchun mo'ljallangan rasmlar to'plami mavjud fayllar mavjud
--ushbu papkada dasturda ijro etish uchun animatsion kliplarni o'z ichiga olgan fayllar mavjud
--ushbu papkada animatsiya xususiyatlarini amalga oshirishni belgilaydigan XML fayllari mavjud
-
-#iOS * dasturlarini HTML5 muhitiga ko‘chirish mumkinmi:
-+ha, Intel XDK vositalaridan, foydalangan holda
--yo'q, to'g'ridan-to'g'ri arizani o'tkazish mumkin emas
--ha, faqat uchinchi tomon vositalaridan foydalangan holda
--ha, faqat Intel XDK vositalaridan foydalangan holda iPhone
-
-#Ilovaning tarqatilgan ma'lumotlar to‘plamini qaysi komponent boshqaradi?
-+Xizmat (Service)
--faoliyat (Activity)
--eshittirish qabul qiluvchisi (Broadcast Receiver)
--kontent-provayder (Content Provider)
-
-#Mobil dastur elementlarining joylashuvi::
-+ekrandagi ob'ektlar va real dunyo ob'ektlari orasidagi: fazoviy munosabatlarni yaratish uchun foydalidir
--iyerarxiyani o'tkazish uchun foydali emas
--foydalanishga ta'sir qilmaydi
--ekrandagi ob'ektlar va real dunyo ob'ektlari orasidagi fazoviy munosabatlarni yaratish uchun foydali emas
-
-#Intel XDK quyidagilarni ishlab chiqishni qo‘llab-quvvatlaydi:
-+Android, Apple iOS, Microsoft Windows 8. Tizen
--MtkOS, Symbian OS, Microsoft Windows 8
--Apple iOS, BlackBerry OS
--JavaFX Mobile
-
-#android:columnWidth bu-?
-+ustunlar kenglik width o'rnatadi
--satrlar kengligini o’rnatadi
--jadvalni o’rnatadi
--matnni kiritadi
-
-#Intel XDK ishlab chiqish muhitining afzalliklari quyidagilarni o‘z ichiga oladi.
-+platformalararo dasturlarni: ishlab chiqish qulayligi
--platformalararo dasturlarni ishlab chiqish qulay emas
--ishlab chiqilgan dasturlar uchun bulutli xotiraning mavjud emasligi
--o'zingizning samarali emulyatoringiz mavjud emasligi
-
-#Intel * Graphics Performance Analyzers (Intel * GPA) tizim analizatori vositasi nima uchun Intel * Beacon Mountain rivojlanish muhitida ishlatiladi?
-+dasturchilarga OpenGL Django dasturlaridan foydalanishda tizim yukini optimallashtirishga imkon berish
--ishlab chiquvchilarga C ++ mobil dasturlarini samarali ravishda parallellashtirishga imkon berish
--rivojlanish muhitida emulyatorning ishini tezlashtirish
--optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun
-
-#Tugma bu—?
-+Foydalanuvchi Buyruqlariga javob beradi
--TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar matnni tahrirlashlari mumkin
--element matnni ko'rsatish uchun ishlatiladi
--ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi
-
-#Standalone applications bu—?
-+Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--tarmoq orqali ishlovchi ixtiyoriy dasturlar
--bu dasturlar yirik salmoqga ega bo'lib odatda katta jabhalarda ishlatiladi
--Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
-
-?Java bu—? 
-+yuqori darajada himoyalangan va obyektga yo'naltirilgan dashturlash tilidir
--quyi darajada himoyalangan va obyektga yo'naltirilgan dashturlash tilidir 
--yuqori darajada himoyalanmagan va obyektga yo'naltirilgan dashturlash tilidir
--quyi darajada himoyalanmagan va obyektga yo'naltirilgan dashturlash tilidir
-
-?Kotlin v1.0 qachon paydo bo’lgan?
-+2016 yil 15 fevralda chiqarilgan
--2014 yil 15 fevralda chiqarilgan
--2018 yil 15 fevralda chiqarilgan
--2020 yil 15 fevralda chiqarilgan
-
-?Unity-
-+kompyuter o'yinlarini ishlab chiqishning o'zaro platformali muhitidir 
--kompyuter dasturlarini ishlab chiqishning o'zaro platformali muhitidir 
--kompyuter yozuvlarining ishlab chiqishning o'zaro platformali muhitidir
--kompyuter taqdimotlari ishlab chiqishning o'zaro platformali muhitidir
-
-?Android dasturlari uchun qaysi til ishlatiladi?    
-+Java
--JavaScript
--C ++
--C #
--Python
-
-?Dart bu—?
-+veb  ilovalar va mobil ilovalar kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir 
--mobil ilovalar kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir 
--veb  ilovalar kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir 
--java va java Script dasturlash tillari kabi mijozlarni rivojlantirish uchun mo'ljallangan dasturlash tilidir 
-
-?Dart  qaysi kompaniya tomonidan ishlab chiqarilgan?
-+Google
--Yandex
--Opera
--Apple
-
-?Android bilan ishlash uchun qanday dasturlar talab qilinadi?    
-+JDK, Android Studio
--Faqat JDK
--JDK, Android Studio va Visual Studio
--Faqat Android Studio
-
-?Tasvirlarni qaerga joylashtirish kerak?    
-+Chizilgan papkaga 
--Har qanday jildga
--Qadriyatlar papkasida
--Jild papkasiga
-
-?Javada asosan necha turdagi dasturlar yoziladi?
-+4
--3
--2
--5
-
-?Elementni ekranning to'liq kengligiga qanday xususiyat uzatadi?
-+match_parent
--Ota-ona
--fill_parent
--wrap_parent
-
-?Birinchi simsiz telefon qachon paydo bo’lgan?
-+1970 yilda
--1980 yilda
--1995 yilda
--1975 yilda
-
-?Telefon kitoblar qanday ko’rinishda bo’lgan
-+1 sahifali 50 nomga ega bo’lgan
--2 sahifali 50 nomga ega bo’lgan
--1 sahifali 100 nomga ega bo’lgan
--1 sahifali 150 nomga ega bo’lgan
-
-?"Radio tugmalari" ni boshqarish qanday bo’lishi kerak:
-+dumaloq bo'lishi kerak
--kvadrat shaklida bo'lishi kerak
--dumaloq bo'lmasligi kerak
--har qanday shaklga ega bo'lishi mumkin
-
-?Kontent dasturlari bu—?
-+Tarkibiy ilovalar juda mashhur: ular musiqa tinglash, filmlar va fotosuratlarni tomosha qilish, raqamli kitoblar va jurnallarni o'qish uchun mo'ljallangan 
--Ofis ishlarida, hisob-kitoblarda, xizmat ma'lumotlari almashinuvida yordam beradi
--Ijtimoiy tarmoqlar kun sayin tobora ommalashib bormoqda, butun dunyo bo'ylab katta auditoriyani ko'paytirmoqda, bunga smartfonlardan tarmoqlarning mavjudligi yordam beradi
--onlayn-do'konlarga, to'lov tizimlariga va bank hisob raqamlariga kirishni ta'minlaydi
-
-?Biznes-ilovalar bu-?
-+Ofis ishlarida, hisob-kitoblarda, xizmat ma'lumotlari almashinuvida yordam beradi   kirish elementlarini chegaralaydi
--Tarkibiy ilovalar juda mashhur: ular musiqa tinglash uchun mo'ljallangan 
--Ijtimoiy tarmoqlar kun sayin tobora ommalashib bormoqda, butun dunyo bo'ylab katta auditoriyani ko'paytirmoqda, bunga smartfonlardan tarmoqlarning mavjudligi yordam beradi
--Filmlar va fotosuratlarni tomosha qilish, raqamli kitoblar va jurnallarni o'qish uchun mo’ljallangan
-
-?Mobil ijtimoiy tarmoqlar 
-+Ijtimoiy tarmoqlar kun sayin tobora ommalashib bormoqda, butun dunyo bo'ylab katta auditoriyani ko'paytirmoqda, bunga smartfonlardan tarmoqlarning mavjudligi yordam beradi
--Ofis ishlarida, hisob-kitoblarda, xizmat ma'lumotlari almashinuvida yordam beradi   kirish elementlarini chegaralaydi
--Tarkibiy ilovalar juda mashhur: ular musiqa tinglash uchun mo'ljallangan 
--filmlar va fotosuratlarni tomosha qilish, raqamli kitoblar va jurnallarni o'qish uchun mo’ljallangan
-
-?Bitta DP teng:
-+MDPI tipidagi ekran uchun 1 dan bitta pikselgacha bo'lgan variant
--0,5 dyuym
--300 dpi
--0,3 mm
-
-?Mobil telefon, qo?l telefon  qanday telefon turiga kiradi?
-+Simsiz telefon turi
--Cho’ntak telefon turi
--Liniyali telefon turi
--Datchikli telefon turlariga kiradi
-
-?Dunyodagi birinchi sensorli telefon modeli qaysi?
-+Simon modeli edi
--Smartfon modeli
--Sensorli modeli
--Monoblok modeli
-
-?Android operatsion tizimini afzalligi nimada? 
-+Oddiy va intuitiv interfeys, ma'lumotlarni uzatish qulayligi. Ko'p o'lchovli. 
--Oddiy va intuitiv interfeysning mavjud emasligi 
--Ma'lumotlarni uzatish qulay emas
--Ko'p o'lchovli. Ma'lumotlarni uzatish qulay emas 
-
-?Android operatsion tizimini kamchiligi nimada? 
-+Katta trafik sarfi. Yangilanishlarni kutish vaqti. 
--Trafik kam sarflaydi
--Yangilash jarayoni tez bo’ladi
--Yopiq manbaligi. Trafik kam sarflaydi
-
-?iOS operatsion tizimini afzalligi nimada? 
-+Xavfsizlik Ushbu OS uchun manba kodi yopiq, ya'ni "olma" korporatsiyasining muhandislari va dasturchilaridan tashqari hech kim unga kira olmaydi. 
--Ochiq manba
--Katta trafik sarfi. 
--Yangilanishlarni kutish vaqti
-
-?iOS operatsion tizimini kamchiligi nimada? 
-+Norasmiy dasturlarni o'rnatishda Jailbreak operatsiyasini talab qiladi
--Ochiq manba. Siz ushbu elementni operatsion tizimning afzalliklari ro'yxatida ko'rgansiz, ammo bu nafaqat fazilat, balki uning kamchiliklari hamdir. 
--Katta trafik sarfi. 
--Yangilanishlarni kutish vaqti. 
-
-?WINDOWS operatsion tizimini afzalligi nimada?
-+Intuitiv va sodda interfeys. Xbox o'yin xizmatidan foydalanish imkoniyati.
--Interfeysi murakkab
--Xbox o'yin xizmatidan foydalanish imkoniyati mavjud emas
--Ma'lumotni sinxronizatsiya qilish uchun qulay va tushunarli dastur mavjud emas
-
-?WINDOWS operatsion tizimini kamchiligin nimada?
-+Ilovalarning kichik tanlovi. Windows 7 bilan ishlaydigan smartfonlarning noqulayligi 
--multimediya fayllarini gadgetning xotirasiga o'tkazish qiyin emas
--Windows 7 bilan ishlaydigan smartfonlarning noqulay emas.
--Ilovalarni katta tanlovi
-
-?Emulyator – bu
-+boshqa kompyuter yoki dasturga taqlid qiladigan dastur. 
--Ma’lumotlarni ekranga chiqaradi
--Dasturga rasm qo’shadi
--Jadval kiritadi
-
-?….bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori.
-+Appetize.io
--Xcode
--BlueStacks
--Game Loope
-
-?…kabi emulyatorlar Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi.
-+BlueStacks 
--Appetize.io
--Xcode
--Game Loope
-
-?…..kabi dasturlar Mac va Windows-da iOS-ni boshqarishi mumkin
-+Xcode
--BlueStacks 
--Appetize.io
--Game Loope
-
-?….Linux operatsion tizimida Windows dasturlarini ishlaydi 
-+WINE 
--Xcode
--BlueStacks 
--Appetize.io
-
-?WINE
-+Linux operatsion tizimida Windows dasturlarini ishlaydi
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Mac va Windows-da iOS-ni boshqarishi mumkin.
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
-
-?Nestopia nima vazifani bajaradi?
-+Linuxda Nintendo o'yinlarini o'ynashlari mumkin.
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Mac va Windows-da iOS-ni boshqarishi mumkin.
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
-
-?Kross platformali ilova – ?
-+bir vaqtning o’zida bir nechta operatsion tizimlarda ishlaydigan ilovalardir.
--Faqat bitta platformada ishlaydigan ilova
--Android operatsion tizimida ishladigan ilova
--Faqat IOS operatsion tizimida ishlaydigan ilova
-
-?Android qurilmalari uchun quyidagi ekran zichligi toifalari mavjud:
-+LDPI, MDPI, HDPI, XHDPI, XXHDPI va XXXHDPI
--LDPI, MDPI, HDPI 
--HDPI, XHDPI, XXHDPI va XXXHDPI 
--to'g'ri javob yo'q 
-
-?Quyidagi berilgan ta’riflardan qaysi biri noto’g’ri
-+interfeys elementlaridan foydalanmang 
--rasmlar so'zlardan ko'ra tezroq ishlaydi
--har qanday qadamda orqaga qaytish imkoniyati bo'lishi kerak
--agar ob'ektlar o'xshash bo'lsa, ular shunga o'xshash harakatlarni bajarishlari kerak
-
-?android.database.sqlite paketi 
-+SQLite ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
--PhP ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
--SQL ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
--Acces ma'lumotlar bazalari bilan ishlashga imkon beradigan sinflar to'plamini aniqlaydi
-
-?Androidda SQLite-dan foydalanish uchun 
-+SQL tili yordamida ma'lumotlar bazasini yaratish kerak  uch yoki undan kam yorliq
--PhP tili yordamida ma'lumotlar bazasini yaratish kerak  uch yoki undan kam yorliq
--Phyton tili yordamida ma'lumotlar bazasini yaratish kerak  uch yoki undan kam yorliq
--dasturlash tillari yordamida ma'lumotlar bazasini yaratish kerak  uch yoki undan kam yorliq
-
-?Amalni bajarish uchun jarayonlar satrini o'z ichiga olgan dialog oynasi
-+ProgressDialog
--DatePickerDialog
--AlertDialog
--DialogFragment
- 
-?SQLite bilan ishlash uchun 
-+android.database.sqlite paketi mavjud
--android.database.sql paketi mavjud
--android.data.sqlite paketi mavjud
--android.base.sqlite paketi mavjud
-
-?Qaysi usul yangi faoliyatni boshlaydi?
-+startActivity()
--beginActivity()
--intentActivity()
--newActivity()
-
-?ProgressDialog bu—?
-+harakatni bajarish uchun bajarilish satrini o'z ichiga olgan dialog oynasi
--o'zingizning dialog oynalarini yaratish uchun konteyner
--sana yoki vaqtni tanlashga imkon beruvchi oldindan belgilangan interfeysga ega dialog oynasi
--sarlavha, uchta tugmacha, tanlanadigan qiymatlar ro'yxati yoki maxsus tarkibni o'z ichiga oladigan dialog oynasi  
-
-?AlertDialog bu—?
-+sarlavha, uchta tugmacha, tanlanadigan qiymatlar ro'yxati yoki maxsus tarkibni o'z ichiga oladigan dialog oynasi
--o'zingizning dialog oynalarini yaratish uchun konteyner
--harakatni bajarish uchun bajarilish satrini o'z ichiga olgan dialog oynasi
--sana yoki vaqtni tanlashga imkon beruvchi oldindan belgilangan interfeysga ega dialog oynasi
-
-?Loyihaga yangi faoliyatni qo'shishda nima qilish kerak?
-+manifestda yangi faoliyat to'g'risidagi ma'lumotlarni ro'yxatdan o'tkazing
--MultiActivity SDK maxsus vositasini yuklab oling va o'rnating
--yangi loyiha yaratish
--emulyatorni ishga tushirish 
-
-?Smartfonlarni joylashishni aniqlash tizimlari quyidagilardan qaysi birini o'z ichiga oladi
-+GPS  tizimi, GLONASS tizimi WiFi va Bluetooth signallari  
--Galiley tizimi, 
--Hindiston mintaqaviy navigatsiya sun'iy yo'ldosh tizimi
--Beidou navigatsiya tizimi
-
-?MotionEvent sinfida teginish hodisalarini ko'rsatish uchun qanday doimiylik aniqlanmagan  
-+ACTION_CLICK
--ACTION_DOWN
--ACTION_UP
--ACTION_MOVE
-
- ?MediaPlayer va MediaRecorder sinflaridagi release () usulining maqsadi nima?
- +ob'ektning hayot aylanishining tugashi va resurslarning chiqarilishi
--ob'ektni kutilayotgan holatga qo'yish
--ob'ektni yangilash va uning ishini boshlash
--ob'ektni yaratish va uni ishga tushirish
-
-?Mobil qurilmaga o'rnatilgan atrof-muhit sensorlari quyidagilarni o'z ichiga oladi
-+yorug'lik sezgichlari
--aylanish vektorining sensorlari
--akselerometrlar
--giroskoplar  
-
-?Android kutubxonasi uchun Universal Image Loader quyidagilarga imkon beradi:
-+rasmlarni yuklash, keshlash va ko'rsatish
--HTML-sahifalarni tahlil qilish
--grafikalar va diagrammalar tuzish
--Android platformasining oldingi versiyalarida faqat 3.x versiyasida mavjud bo'lgan animatsiyadan foydalaning
-
-?android.database.sqlite.SQLiteQueryBuilder klassi 
-+SQL so'rovlarini yaratishga imkon beradi
--SQL so'rovlarini qabul qilishga imkon beradi
--SQL so'rovlarini qabul qilib yaratishga imkon beradi
--SQLite so'rovlarini yaratishga imkon beradi
-
-?Ovozli yordamchilar haqida. Bilasizmi, "Alisa" kimning ovozida gapiradi?
-+Tatyana Shitova
--Natalya Bochkareva
--Marina Golub
--Yana Troyanova
-
-?MapNavigator kutubxonasining vazifasi bu—?
-+Google Xaritalar bilan ishlash
--har qanday kartalar bilan ishlash
--Yandex.Maps bilan ishlash
--dengiz navigatsiyasi
-
-?jsoup kutubxonasi quyidagilarga ruxsat bermaydi:
-+Stentlarga  xabarlar yozish,  holatlarni o'qish va o'zgartirish, do'stlar yozishmasini  tomosha qilish
--DOM va CSS tanlovchilaridan foydalanib ma'lumotlarni topish va olish
--HTML elementlari, atributlari va matnini boshqarish
--parametr sifatida URL, fayl yoki satrni qabul qiling
- 
-?Orqaga muvofiqlikni sozlashda manifest fayliga quyidagi ma'lumotlarni qo'shing:
-+minimal va asosiy (maqsadli) Android SDK versiyalari
--faqat minimal Android SDK versiyasi
--ulangan kutubxona haqida ma'lumot
--faqat Android SDK-ning asosiy (maqsadli) versiyasi
-
-?Rasmlarni yuklashni osonlashtiradigan qaysi kutubxona mavjud?
-+Universal Image Loader for Android 
--Yandex.Metrica for Apps;
--ActionBarSherlock
--NineOldAndroids
-
-?Muvofiqlik kutubxonalari mo'ljallangan
-+platformaning oldingi versiyalarida Android OS ba'zi versiyalarida paydo bo'lgan xususiyatlardan foydalanish
--statistik ma'lumotlarni to'plash
--grafiklarni chizish
--nostandart boshqaruv elementlarini ulash
-
-?Animatsiya uchun qaysi kutubxona mo'ljallangan?
-+NineOldAndroids 
--Universal Image Loader for Android
--Yandex.Metrica for Apps
--ActionBarSherlock
-
-?Loyihaning res / anim / papkasi nima uchun kerak?
-+ushbu papkada transformatsiyalar uchun animatsiya ko'rsatmalarining ketma-ketligini belgilaydigan XML fayllari mavjud
--ushbu papkada kadrlar animatsiyasi uchun mo'ljallangan rasmlar to'plami mavjud fayllar mavjud
--ushbu papkada dasturda ijro etish uchun animatsion kliplarni o'z ichiga olgan fayllar mavjud
--ushbu papkada animatsiya xususiyatlarini amalga oshirishni belgilaydigan XML fayllari mavjud
-
-?Ilovada yangi Faoliyat yaratishda ma'lumot qo'shish uchun qaysi fayl talab qilinadi?
-+AndroidManifest.xml
--main.java
--layout.xml
--activity.xml
- 
-?2011 yilda Apple qaysi xususiyatni birinchi bo'lib iPhone 4S-ni da taqdim etdi.
-+Sirli ovozli yordamchisi
--TV dasturlarini, musiqiy videofilmlarni, filmlarni va audiokitoblarni to'g'ridan-to'g'ri iPhone-ga yuklab olish imkoniyati
--3D sensorli ekran texnologiyasi
--SMSlarni o'chirish
-
-?SurfaceHolder.lockCanvas () usulining maqsadi nima?
-+qayta chizish uchun Canvas ni blokirovka qilish
--Canvas bilan o'zaro aloqani e'tiborsiz qoldirish
--Canvas ni yashirish
--Canvas ni qatlamlanish tomonidan to'sib qo'yish
-  
-?Mobil dastur boshqa dasturda yaratilgan ma'lumotlar bazasiga kira oladimi
-+mumkin, lekin faqat kontent-provayderlar yordamida
--hech qanday sharoitda qila olmaydi
--kirish huquqi ma'lumotlar bazasi master dasturini ochadi
--to'g'ridan-to'g'ri murojaat qilishi mumkin 
- 
-?Ilova ishlayotganda qurilmaning yo'nalishini o'zgartirishi uchun qanday usulni qo'llash mumkin?
-+setRequestedOrientation
--setChangeOritentation
--disableChangeOrientation
--setOritentation
-
-?Smartfonning kosmosdagi o'rnini aniqlash uchun datchiklardan qaysi biri ishlatilmaydi?
-+GPS
--Akselerometr
--Giroskop
--Magnetometr
-
-?HTML5 ning yangi xususiyatlari quyidagilarni o'z ichiga oladi 
-+audio va video yordam vositalarini ishlatmasdan qo'shish qobiliyati, 
--ma'lumotlarni grafik rejimida formatlash
--RAMga to'g'ridan-to'g'ri kirish imkoniyati
--jadval rejimida ma'lumotlarni formatlash
- 
-?iOS * dasturlarini HTML5 muhitiga ko'chirish mumkinmi:
-+ha, Intel XDK vositalaridan foydalangan holda
--yo'q, to'g'ridan-to'g'ri arizani o'tkazish mumkin emas
--ha, faqat uchinchi tomon vositalaridan foydalangan holda
--ha, faqat Intel XDK vositalaridan foydalangan holda iPhone
-
-?Quyida berilgan ta’riflardan qaysi biri to'g'ri:
-+HTML5 ilovalari sekin ishlaydi va "native" ga qaraganda ko'proq manbalarni talab qiladi
--HTML5 dasturlari tezroq ishlaydi va "native" ga qaraganda kamroq resurslarni talab qiladi
--Intel XDK muhiti multisensor bilan ishlamaydi
--JavaScript-ni boshqa tillarda yozilgan boshqa tashqi kutubxonalarni ulashga ruxsat berilmaydi
-
-?Siz Intel XDK muhitida dasturlarni ishlab chiqish imkoniyati mavjud:
-+"Noldan", barcha elementlarni tayinlash
--elementlarni ko'rsatish uchun o'rnatilgan "element dizayneridan" foydalanish imkoniyati mavjud emas
--ro'yxatga olish kitobi bilan ishlash
--xaritalar bilan ishlash
-
-?JavaScript-ga ruxsat berilmaydi:
-+xotiraga bevosita kirishni olish
--ro'yxatga olish kitobi bilan ishlash
--xaritalar bilan ishlash
--bir vaqtning o'zida bir nechta havolali kutubxonalardan foydalaning
-
-?Intel XDK muhitida siz quyidagi platformalar uchun dasturlarni ishlab chiqishingiz mumkin:
-+Android, Apple iOS,Tizen
--Linux
--Windows		
--Android, Windows
- 
-?Intel XDK muhitida ishlab chiqilgan har qanday dasturni tayyorlashda quyidagicha yozilgan:
-+Intel XDK boshlang'ich ekranini yashirish
--dastur o'lchamlarini moslama o'lchamiga moslashtirish mavjud emas
--dastur hajmini aniqlash ("o'tish" ni taqiqlash) imkoniyati yo’q
--Intel XDK boshlang'ich ekranini yashirish imkoniyati mavjud emas
-
-?Intel XDK muhitida dasturlarning foydalanuvchi interfeysini yaratishingiz va tahrirlashingiz mumkin:
-+o'rnatilgan App Designer-dan foydalanish
--faqat interfeys bilan tayyor shablonlarni o'zgartirish imkoniyati mavjud emas
--teglarni faqat qo'lda yozish imkoniyati mavjud emas
--o'rnatilgan App Designer-dan foydalanish imkoniyati mavjud emas
- 
-?Ikki NFC qurilmasi o'rtasida qulay almashinish vositasi:
-+AndroidBeam 
--Wi-Fi Direct
--Dalvik
--Bluetooth
-
-?Faoliyat almashinuvi amalga oshiriladi
-+faqat tugmalar yordamida ishlash imkoniyati mavjud
--faqat smartfon sensorli ekranidan foydalanish imkoniyati mavjud emas
--faqat tugmalar va boshqa boshqaruv elementlari yordamida ishlash imkoniyati mavjud emas
--faqat smartfon sensorli ekranidan foydalanish imkoniyati mavjud emas, tugmalar yordamida ishlash imkoniyati mavjud
-
-?Android dasturlarini xavfsiz yuklab olish uchun mos manbani ko'rsating.
-+Google play
--iTunes
--bepul dasturiy ta'minotga ega saytlar
--Apple App Store
-
-?Siz iOS mobil qurilmangizdagi Uy tugmachasi yordamida qaysi ikkita funktsiyani bajarishingiz mumkin? 
-+Android navigatsiya tugmalari bilan bir xil funktsiyalar, Ovozli boshqaruvni ishga tushirish
--TouchFLO interfeysini ishga tushirish
--Qurilmani zavod parametrlariga qaytarish
--Qurilmani bloklash
-
-?2006 yilda ushbu telefon avtomatik ravishda yosh kompaniyaning eng zo'r  kompaniyaga aylantirdi.
-+Sony Ericsson W810i 
--Motorola StarTAC
--Benefon Dragon
--Siemens M35i
-
-?Mobil qurilmaning qaysi xavfsizlik xususiyati foydalanuvchidan qurilmani qulfini ochish uchun ma'lum bir tarzda ekranni siljitishni talab qiladi?
-+shablon 
--oddiy maxfiy kod
--siljish
--masofadan o'chirish
-
-?Mobil xotira uchun flesh xotiradan foydalanishning afzalligi nimada?
-+Flash xotira ma'lumotlarni saqlash va olish uchun juda kam quvvat sarflaydi.
--Fleshli xotira harakatlanuvchi disk boshi bilan jihozlangan bo'lib, qidiruv vaqtini qisqartirishi mumkin.
--Flash xotira ESDga javob bermaydi.
--Fleshli xotira namlik va sovuqqa juda chidamli.
-
-?Ko'pgina mobil qurilmalarda ishlatiladigan sensorli ekranlarning ikkita xususiyati ko’rsating? 
-+ekranning elektr maydoni, foydalanuvchi ekranga tegganda buziladi, elektr energiyasini o'tkazishga qodir bo'lgan ikkita shaffof qatlam qatlami 
--kondansator ichiga o'rnatilgan shisha ekran
--elektr o'tkazuvchanligi uchun javobgar bo'lgan uchta qatlam, ular orasida kichik bo'shliq mavjud
--elektr energiyasini o'tkazishga qodir bo'lgan ikkita rangli qatlam qatlami
-
-?Ko'pgina qurilmalarda foydalanuvchi qaysi komponentni almashtirishi mumkin?
-+xotira kartasi
--Markaziy protsessor
--sensorli ekran
--Ram
-
-?Mobil qurilmaning ekranda bir nechta teginishni tanib olish qobiliyatini qaysi atama anglatadi?
-+multisensor
--katta teginish
--uzoq teginish
--multisensory
-
-?Mobil qurilmadagi muammolarni bartaraf etishning to'g'ri tartibi qanday?
-+Agar mobil qurilmada muammo yuzaga kelsa, uning egasi uni ta'mirlashning iqtisodiy maqsadga muvofiqligini tahlil qilishi kerak.
--Mobil qurilmalar bilan bog'liq muammolar har doim nosozliklarni bartaraf etish uchun qurilmani ishlab chiqaruvchiga yuborishni talab qiladi.
--Mobil qurilmalarning dizayni va funksionalligi shunchalik tez-tez o'zgarib turadiki, uni almashtirish har doim uni ta'mirlashdan ko'ra foydaliroq bo'ladi.
--Har safar mobil qurilma muzlaganida, egasi uni asl holatini tiklash tugmachasini bosib, uni qayta ishga tushirishi mumkin.
-
-?Foydalanuvchi tasodifan mobil qurilmani basseynga tushirib yubordi. Qanday choralar ko'rish kerak?
-+Qurilmani ta'mirlash yoki almashtirish uchun ishlab chiqaruvchiga murojaat qiling.
--Telefoningizni fen bilan quriting.
--Qurilmani oching va buzilgan qismlarni almashtiring.
--Agar mobil qurilmangiz yoqilmasa, uni tashlang va yangisini sotib oling.
-
-?Mashinada issiq kunda ko'p soatlab qolib ketganidan keyin iPhone yoqilmaydi. Ushbu muammoni hal qilish uchun foydalanuvchi nima qilishi mumkin?
-+Ta'mirlash uchun telefonni ishlab chiqaruvchiga qaytaring.
--Yangi quvvat tugmachasini sotib oling va uni almashtiring.
--Telefonni muzlatgichga qo'ying va sovishini kuting.
--Telefonni qismlarga ajratib oling va qizib ketishdan zarar ko'ring
-
-?Mobil qurilmani yangilashdan so'ng, ba'zi ilovalar endi ishlamaydi, boshqalari esa yaxshi ishlaydi. Foydalanuvchi qo'ng'iroqlarni amalga oshirishi va elektron pochta xabarlarini qabul qilishi mumkin. Qanday ikki turdagi muammolar ushbu vaziyatni keltirib chiqarishi mumkin? 
-+xotira muammosi, dasturiy ta'minot muammosi
--elektron kartadagi muammo
--sensorli ekran muammosi
--uyali aloqa xizmatidagi muammo
-
-?Qanday holat yoki vaziyat foydalanuvchiga Android qurilmasidagi OSni yangilashga to'sqinlik qiladi?
-+Uskunalar texnik shartlardan tashqarida.
--Kerakli tuzatishlar o'rnatilmagan.
--Ishlab chiqaruvchidan rozilik olinmagan.
--O'rnatishdan oldin dasturiy ta'minot mualliflik huquqi olinmadi
-
-?Masofadan qulflash va ishlashga masofadan turib tozalash kabi mobil xavfsizlikning ikkita sharti qanday? 
-+Qurilma tarmoqqa ulangan bo'lishi va qurilma yoqilgan bo'lishi kerak.
--Yashirin kod o'chirilgan bo'lishi kerak.
--Sandboxing xususiyati yoqilgan bo'lishi kerak.
--GPS-lokator yoqilgan bo'lishi kerak.
-
-?Qaysi element Android va iOS qurilmalari uchun keng tarqalgan va masofadan zaxiralashni qo'llab-quvvatlaydi? (Ikkisini tanlang.)
-+taqvim, kontaktlar
--xabarlar
--xususiylashtirish
--Fotosuratlar7
-
-?Android mobil qurilmasidagi simsiz ulanishlar haqida qaysi so'z to'g'ri?
-+Agar sizning qurilmangiz har qanday Wi-Fi tarmog'idan tashqarida bo'lsa, u yoqilgan bo'lsa, u uyali ma'lumot tarmog'iga ulanishi mumkin.
--Android OS WPA2 shifrlash yordamida simsiz aloqani qo'llab-quvvatlamaydi.
--Agar Wi-Fi tarmog'i parol bilan himoyalangan bo'lsa, ushbu tarmoq qurilmada qo'lda sozlangan.
--Tarmoq nomini (SSID) efirga uzatmasdan, qurilma tarmoqqa ulana olmaydi.
-
-?Mobil qurilmalar nuqtai nazaridan nuqta rejimi nimani anglatadi?
-+mobil qurilmani boshqa mobil qurilmaga ulash yoki
--mobil qurilmani zaryad qilish uchun mobil qurilmani kompyuterning USB portiga ulash
--mobil qurilmani naushnikka ulash
--mobil qurilmani 4G uyali aloqa tarmog'iga ulash
--tarmoq ulanishini baham ko'rish uchun kompyuter
-
-?Uyali aloqa tarmoqlari uchun sanoat standartlari to'g'risida qaysi so'z to'g'ri?
-+Xuddi shu standartdan foydalanadigan uyali telefonlardan ko'pincha faqat ma'lum geografik hududlarda foydalanish mumkin.
--Uyali aloqa standartlarini qo'llash tufayli boshqa tarmoq abonentlariga qo'ng'iroqlar qiyinlashdi va qimmatlashdi.
--Raqamli standartlarning uchinchi avlodi past tezlikda harakatlanayotganda, masalan, mobil telefon foydalanuvchisi yurganida, mobil qurilmalar uchun maksimal 1 Gbit / s tezlikni talab qiladi.
--Uyali aloqa standartlarining birinchi avlodi asosan raqamli standartlardir
-
-?Mobil qurilmani kompyuter bilan sinxronlashtirish haqidagi qaysi gap to'g'ri?
-+IOS qurilmangizdagi ma'lumotlarni sinxronlashtirish uchun kompyuteringizda iTunes o'rnatilgan bo'lishi kerak.
--IOS sinxronizatsiyasi faqat USB ulanishi orqali amalga oshiriladi.
--Android qurilmalaridagi ma'lumotlarni kompyuter bilan sinxronlash mumkin emas.
--Motocast USB-dan ma'lumotlarni iOS qurilmasiga sinxronlashtirish uchun foydalanish mumkin.
-
-?Muhandis mobil qurilmada elektron pochta xabarlarini o'rnatadi. Foydalanuvchi mavjud xatlarni serverda saqlamoqchi, uni papkalar yordamida tartibga solmoqchi va ushbu papkalarni mobil qurilma va server o'rtasida sinxronlashtirmoqchi. Buning uchun qanday elektron pochta protokolidan foydalanish kerak?
-+IMAP
--MIME
--POP3
--SMTP
-
-?Mobil qurilmalarda parolni blokirovka qilish xususiyatining maqsadini ko’rsating
-+shaxsni o'g'irlashni oldini olish, o'g'irlik holatida qurilmani masofadan blokirovka qilish
--qurilmani quvvatni tejash rejimiga o'tkazish
--barcha shaxsiy ma'lumotlarni qurilmadan o'chirish
--qurilmani zavod parametrlariga qaytarish
--qurilmani qayta tiklash va qayta sinxronlashtirish
-
-?Sony Xperia 1 rang chuqurligi 10 bit bo'lgan videoni suratga olishi mumkin . Bu 8 bitga nisbatan sifatga qanday ta'sir qiladi ?    
-+Ko'proq yarim tonlar ko'rinadi, ranglar orasidagi o'tish silliqdir
--8 bit bilan solishtirganda sifatga ta'sir qiladimi?
--Yorqinligi va kontrasti 20% ga oshdi
--Ruxsat berish darajasi 50% ga oshdi
- 
-?RAW fotosurati ko'proq ma'lumotni saqlaydi, ya'ni sifatni yo'qotmasdan qayta ishlash osonroq .  
-+RAW sizga keyingi ishlov berish uchun ko'proq imkoniyatlar beradi 
--Fokus aniqligi
--Boshqa rasmlar ustida flesh qurilmasi 
--Hech narsa o'zgarmaydi 
-
-?Sony Xperia 1-da o'ynaganda oddiy SDR- video nima bo'ladi ?   
-+Tasvir yanada yorqinroq, qarama-qarshi va to'yingan bo'ladi 
--Hech narsa o'zgarmaydi 
--Kvadrat tezligi 120 kvadrat / s gacha ko'tariladi 
--Kvadrat tezligi 80 kvadrat / s gacha ko'tariladi 
- 
-?Filmlar odatda qanday kadr tezligida suratga olinadi? 
-+24 kvadrat / sek
--25 kvadrat / s
--30 kvadrat / s
--15 kvadrat / s
-
-?Sony Xperia 1 kamerasining sozlamalarida siz buzilishlarni to'g'rilashni yoqishingiz mumkin. Agar siz uni keng burchakli kamera bilan suratga olsangiz , unda nima bo'ladi ?    
-+Buzilish va barrel effekti ramkaning chetlarida yo'qoladi  
--Yorqinlik va raqamli shovqin butun ramkada yo'qoladi  
--Qizil ko'z yo'qoladi
--Hech narsa o'zgarmaydi 
-
-?Siz hamkasblaringiz bilan yozishmalar o'tkazishingiz va shu bilan birga eslatmalaringizga muhim ma'lumotlarni kiritishingiz kerak . Smartfonda buni amalga oshirishning eng qulay usuli qanday ?    
-+Displeyda bir vaqtning o'zida ikkita dasturni oching 
--Oldinga va orqaga ilovalar o'rtasida almashinish
--Yozib olish paytida hamkasblardan kutib turishini so'rang
--Displeyda faqat bitta dasturni oching 
-
-?Birinchi smartfonga o'xshash gadjet qachon paydo bo'lgan?
-+1992
--2005
--1997
+?To'g'ri javobni tanlang: o'zaro korrelyatsiya .....
++ikkita signalning o'xshashligi yoki umumiy xususiyatlarining ko'rsatkichidir
+-ikkita signalning o'xshamasligi yoki umumiy xususiyatlarining ko'rsatkichidir
+-umumiy xususiyatlari ko'rsatkichimas
+-to'g'ri javob yo'q
+
+?Raqamli filtr uchun to'g'ri javobni aniqlang.
++Raqamli ishlov berish usuli, ma'lum chegaraga ajratuvchi jarayon ketma-ketlik
+-Analog signallarni raqamli qilish uchun ishlatiladigan ketma-ketlik
+-To'g'ri javob yo'q
+-Turli rejimda ishlovchi, raqamli signallarni demodulyatsiya qilish ketma-ketligi
+
+?Raqamli filtrning afzalligi nimada?
++barcha javoblar to'g'ri
+-aniqligi
+-barqarorligi
+-sozlashga egiluvchanligi va kompaktligi
+
+?Raqamli filtrning kamchiligi nimada?
++barcha javoblar to'g'ri
+-baland chastotali signallar bilan ishlash qiyinligi
+-real vaqt davrida ishlash qiyinligi
+-signalni qayta ishlashda protsessorning quvvatli bo'lishi
+
+?Diskret holda svyortkaning ikki turi mavjud ularni nomini aniqlang.
++Chiziqli va siklik
+-Nochiziq va davr
+-Siklik va qiymat
+-To'gri javob yo'q
+
+?To'g'ri javobni tanlang: Avtokorrelyatsiya bu ?
++Faqat bitta signalning mavjudligi nazarda tutadi va vaqt o'tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi
+-Ko'plab signalning mavjudligi nazarda tutadi va vaqt o'tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi
+-Faqat bitta signalning mavjudligi nazarda tutmaydi va vaqt o'tishi bilan signalning tuzilishi yoki uning harakati haqida malumot beradi
+-Faqat bitta signalning mavjudligi nazarda tutadi va vaqt o'tishi bilan signalning tuzilishi yoki uning harakati haqida malumot bermaydi
+
+?Chekli impuls harakteristikali(KIX ing: FIR) filtr uchun to'g'ri ta'rifni belgilang?
++impuls tavsifnomasini vaqt mobaynida cheklangan xususiyatli bo'ladi
+-impuls tavsifnomasini vaqt mobaynida cheklanmagan xususiyatli bo'ladi
+-barcha javoblar to'g'ri
+-bunday filtrlar odatda ishlatilmaydi
+
+?Chekli impuls harakteristikali(KIX ing: FIR) filtrni afzalligi nimada?
++barcha javoblar to'g'ri
+-chidamli
+-qarama-qarshi aloqani talab qilmaydi
+-filtrlar fazasi chiziqli qilinishi mumkin
+
+?Cheksiz impuls harakteristikali(BIX ing: IIR)  filtr uchun to'g'ri ta'rifni belgilang?
++impuls tavsifnomasini vaqt mobaynida cheklanmagan xususiyatli bo'ladi
+-impuls tavsifnomasini vaqt mobaynida cheklangan xususiyati hisoblanadi
+-barcha javoblar to'g'ri
+-bunday filtrlar odatda ishlatilmaydi
+
+?Real vaqt tizimlari uchun to'g'ri bo'lgan javobni ko'rsating.
++boshqaruv paytida tashqi ta'sirlarga javob berishga ulguradigan tizimlar
+-boshqariladigan xar qanday tizimlar
+-kompleks tizimlarning barchasi
+-To'g'ri javob yo'q
+
+?Signal protsessori ishlab chiqaradigan dunyoda yetakchi kompaniya?
++Analog Devices
+-Microsoft
+-IBM
+-Microsystem Sun
+
+?AVR mikrokontrollerlari qaysi firmaga tegishli?
++Atmel
+-MicroSystem Sun
+-Anolog Dvices
+-AVR Company
+
+?QNX operatsion tizimi operatsion tizimi qachon ishlab chiqilgan?
++1982
 -1984
+-1986
+-1970
 
-?Qaysi kompaniya o'z yaratilishiga birinchi bo'lib smartfon deb nom bergan?
-+ Ericsson
- -Nokia
- -Samsung
-- Motorola
- 
-?2002 yilda smartfonlarning aksariyati qaysi edi?
-+Sensorli
--Katlanadigan dengiz qobiqlari
--To'qqiz tugma bilan
--QWERTY klaviatura bilan  
+?Signallarni qayta ishlashning an'anaviy bosqichlarini belgilang?
++signalni olish, dastlabki ishlov berish, belgilarini aniqlash
+-tasniflash, filtrlash, dastlabki ishlov berish
+-signalni tanish, qayd qilish, filtrlash
+-barcha javoblar to'g'ri
 
-?Smartfon batareyasi uzoqroq turishi uchun nima qilishim kerak?
-+Zaryadlashni nolga etkazmang
--Har safar uni nolga tushiring
--Har doim zaryadkaga 0 ga yetkazib qo’ying
--Telefoningizni yostiq ostiga qo'ymang
+?QNX operatsion tizimiga to'g'ri ta'rif berilgan qatorni toping?
++real vaqt tizimida ishlovchi mikroyadroli operatsion tizim
+-Operatsion tizim yopiq kodli
+-Faqat bir foydalanuvchi uchun ishlab chiqilgan
+-barcha javoblar to'g'ri
 
-?Qaysi biri to'g'ri emas?
-+5G Internet Rossiyada ishlaydi
--Bluetooth USB-dan oldinroq bo'lgan
--Bir marta Nokia "g'azablandi" va 41 megapikselli kameraga ega smartfonni chiqardi
--Ikkita ekranli (ikkala tomonda) birinchi smartfon Rossiyada ishlab chiqarilgan
- 
-?2007 yilda Astraxan viloyatida MegaFon Rossiya uchun noyob bo'lgan mobil aloqa loyihasini boshladi. Operator nima qildi?
-+"Suvda" tarmoqni ishga tushirdi
--Avval 4G / LTE tarmog'ini ishga tushirdi
--"SIM-kartasiz telefon" g'oyasini amalga oshirdi:
--Trafikni behuda sarf qilmasdan, mobil telefonda mashhur ISQ messenjeridan foydalanish imkoniyatini yaratdi.
- 
-?Id tomonidan ob'ektni qanday usul topadi?
-+findViewById
--FindViewID
--findViewId
--findById
- 
-?Faoliyat nima?
-+Bu barcha turdagi komponentlarning to'plami 
--Bu matn va rasmlar to'plami
--Bu parchalar uchun ombor
--Bu matn, rasm va videolar to'plamidir
+?Korrelyatsiya ikki shakli mavjud ularni nomini aniqlang.
++Avtokorrelyasiya va o'zaro korrelyasiya
+-O'zaro korrelyasiya va siklik
+-Radar signalar va chastotalar
+-To'gri javob yo'q
 
-?android.database.sqlite.SQLiteOpenHelper klassi—?
-+agar ular mavjud bo'lmasa, barcha jadvallar bilan ma'lumotlar bazasini yaratishga imkon beradi.
--agar ular mavjud bo'lsa, barcha jadvallar bilan ma'lumotlar bazasini yaratishga imkon beradi.
--SQL so'rovlarini yaratishga imkon beradi
--SQL so'rovlarini bajarishga imkon beradi.
+?Raqamli signal prosessorlari ishlab chiqaradigan firmalar qatorini ko'rsating.
++Analog Device,Motorola,Texas Insruments
+-Motorola, Nokia, Samsung
+-LG,Samsung
+-To'gri javob yo'q
 
-?INTEGER—?
-+javadagi int turiga o'xshash butun sonni ifodalaydi
--javada String va char -ga o'xshash belgilar majmuini ifodalaydi
--javada float va double -ga o'xshash raqamni ifodalayditadqiqot usuli.
--binar ma'lumotlarning massivini ifodalaydi
+?Raqamli filtrlar impuls javob reaksiyalariga ko'ra 2ta katta turga bo'linadi ularni nomi keltirilgan qatorni ko'rsating.
++Cheksiz va chekli
+-Chekli va uzluksiz
+-Davriy va chekli
+-To'gri javob yo'q
 
-?REAL—?
-+javada float va double -ga o'xshash raqamni ifodalaydi
--javadagi int turiga o'xshash butun sonni ifodalaydi
--javada String va char -ga o'xshash belgilar majmuini ifodalaydi
--binar ma'lumotlarning massivini ifodalaydi
+?Diskretlash chastotasi aniqlash qaysi teorema asosida olingan.
++Kotelnikov
+-Nuyton
+-Filips
+-Nobel
 
-?Talabalarning bilim qobiliyatini rivojlantirish, o'z bilimlarini mustaqil ravishda loyihalashtirish qobiliyati, axborot makonida harakat qilish qobiliyati, tanqidiy fikrlashni rivojlantirish qaysi uslubga asoslangan?
-+loyihani o'qitish.
--Loyihani o’rganish
--ko'p darajali trening.
--aralash o'rganish.
+?Raqamli sxemalar bilan taqqoslaganda analog sxemalar quyidagilarga nisbatan sezgirroqdir.
++haroratning o'zgarishi, qarish va elementlarning bardoshlik darajasi
+-dasturiy ta'minotdagi xatolar
+-dizayndagi kamchiliklar
+-chiqish signalidagi o'zgarishlar
 
-?Butun ta'lim jarayonini loyiha asosida o'qitishga o'tkazish maqsadga muvofiqmi?
-+yo'q, bu usul an'anaviy o'qitish usullari bilan birlashtirilgan ma'qul.
--ha, bu o'quv jarayoni samaradorligini oshiradi.
--yo'q, bu texnologiya kattalar ta'limida yaxshi qo'llaniladi.
--Ha, bu texnologiya kattalar ta'limida yaxshi qo'llaniladi.
+?Furye tahlili ......
++Signalni asl domenidan chastota domeniga o'zgartiradi
+-Signalni ma'lum darajada pasaytirish uchun ishlatiladi
+-Kiruvchi signal fragmentlarga ajratadi
+-Qisqa vaqtli energiya qiymati hisoblanadi
 
-?Tadqiqot usuli va loyihalash uslubining farqi nimada?
-+tadqiqot usulida ilgari ma'lum bo'lgan natija (qidirish ob'ekti) mavjud emas, bu natija tadqiqot jarayonida.
--tadqiqot usuli kamroq vaqt va mablag 'talab qiladi.
--tadqiqot usuli o'qituvchining ishtirokiga muhtoj emas.
--Tadqiqot usuli ko’p mablag’ talab qiladi
+?Signal deb ....................................... aytiladi?
++biror bir fizik jarayonning bir yoki nechta parametlarini xabarga mos ravishda o'zgarishiga
+-inson haqida ma'lumot beruvchi kundalik
+-bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to'g'risidagi ma'lumotnomaga
+-uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalarga.
 
-?Gamifikatsiya bu:
-+o'yinchilarning faolligini oshirish uchun kompyuter o'yinlarida qo'llaniladigan yondashuvlarni, o'yindan tashqari jarayonlarda: mukofotlar, nishonlar, mahorat darajasi, bitta hikoya yaratish.
--guruh a'zolarining o'zaro bog'liqligi tamoyillariga asoslangan talabalarga yo'naltirilgan ta'lim texnologiyalari.
--ilmiy tadqiqot jarayoni kabi o'quv jarayonini qurish, tadqiqot jarayonining asosiy bosqichlarini amalga oshirish.
--tadqiqot usulida ilgari ma'lum bo'lgan natija (qidirish ob'ekti) mavjud emas, bu natija tadqiqot jarayoni
+?Tabiatda signallar asosan qanday holatda bo'ladi ?
++analog
+-raqamli
+-kvantlashgan
+-to'g'ri javob yo'q
 
-?Ushbu o'quv varianti qaysi texnologiyani nazarda tutadi:
-+"guruh maqsadlari" ga va butun guruhning muvaffaqiyatiga alohida e'tibor qaratiladi, bu guruhning har bir a'zosining boshqalari bilan doimiy o'zaro ta'sirida mustaqil ishlashi natijasida erishiladi. mavzu ustida ishlashda bir xil guruh a'zolari, savolni o'rganish kerakmi?
--hamkorlikda o'qitish texnologiyasi 
--loyihani o'qitish.
--tadqiqot usuli.
--Loyihani o’rganish
+?DFT(Discrete Fourier Transform) qiymatlarini qanday olinadi?
++Qiymatlarni ketma-ketlikni turli chastotalarning tarkibiy qismlariga ajratish orqali-
+-Qiymatlarni birma-bir murojaatlar asosida
+-Qiymatlarni turli yo'nalishlarda berilgan so'rovlar orqali
+-To'g'ri javob yo'q
 
-?Qaysi texnologiya asosida o'quvchining ma'lum bir ta'lim davrida to'plagan baholari va individual yutuqlarini qayd eta olasiz?
-+innovatsion baholash texnologiyasi "portfel ".
--ishni boshqarish texnologiyasi
--ko'p bosqichli texnologiya.
--ish usuli.
+?Elektr signal deb -
++elektr jarayonining bir yoki bir nechta parametrlarini xabarga mos ravishda o'zgarishiga aytiladi
+-xabarni fazoniy bir nuqtasidan ikkinchi nuqtasiga uzatish uchun xabarni biror bir fizik jarayonga yuklashimiz ya'ni uni signalga aylantirishimiz
+-bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to'g'risidagi ma'lumotga
+-uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalar
 
-?"AKT" qisqartmasi nimani anglatadi:
-+axborot-kommunikatsiya texnologiyalari.
--xalqaro kommunistik tendentsiya.
--axborot-kognitiv texnologiyalar.
--Axborot kommunikatsiya tizimlari
+?Kvantlash jarayonida . . . .
++signallarning butun diapazoni darajalarga bo'linadi, ularning soni berilgan bit kengligi sonlari bilan ifodalanishi kerak.
+-raqamli signallar o'zaro bir-biri bilan qo'shiladi
+-diskretlanmagan signallarni jamlash amalga oshiradi
+-to'g'ri javob yo'q
 
-?Reverse Classroom texnologiyasi nimani anglatadi?
-+reproduktiv ta'lim faoliyatini uy sharoitida o'qishga o'tkazish .
--talabalar o’qituvchilar bilan mashg’ulot o’tkazadi
--o'qituvchi talabalar bilan rollarni o'zgartiradi.
--sinfdan tashqarida mashg'ulotlar o'tkazish (manzaralarni o'zgartirish).
+?Xabar manbadan xabar iste'molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to'plamiga .....................  deb ataladi.
++Aloqa tizimi
+-Aloqa liniyasi
+-Aloqa qurilmasi
+-Aloqa tuguni
 
-?MOOC bu:
-+masofaviy ta'lim shakllaridan biri bo'lgan Internet orqali ochiq ta'lim va elektron ta'lim texnologiyalaridan foydalangan holda massiv interaktiv ishtirokidagi o'quv kursi.
--mobil qurilmalardan (planshetlar, smartfonlar, o'yin pristavkalari, multimedia qo'llanmalari) foydalanishga xos bo'lgan masofaviy elektron ta'lim turi.
--ta'lim jarayoniga xos bo'lgan va Internet texnologiyalari yoki boshqa vositalar yordamida amalga oshiriladigan barcha tarkibiy qismlarni aks ettiruvchi o'qituvchi va talabalarning bir-birlari bilan masofadan turib o'zaro aloqasi.
--Ishga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri.
+?Matematik nuqtai nazardan, uzluksiz signal doimiy....... ifodalanadi.
++funktsiyani
+-grafikni
+-matematikani
+-fizikani
 
-?Ushbu xususiyat nima qiladi    android: backgroundTint = "@android: color / holo_green_light"
-+Ob'ektning orqa fonini o'rnatadi
--Ob'ektning soyasini o'rnatadi
--Matn rangini belgilaydi
--Matnning fonini o'rnatadi
+?Aloqa tizimi deb............... aytiladi.
++xabar manbasi va iste'molchi o'rtasidagi xohlagan ikkita nuqta orasidagi texnik qurilmalar to'plamiga
+-xabarni fazoniy bir nuqtasidan ikkinchi nuqtasiga uzatish uchun xabarni biror bir fizik jarayonga yuklashimiz ya'ni uni signalga aylantirishimiz
+-bu xar xil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to'g'risidagi ma'lumotga
+-uzatish uchun uni ma'lum bir shaklga keltirish lozim tekst, jadval, grafik, rasm, xarakatdagi tasvir, va boshqalar
 
-?Adapter interfeysi quyidagilarga imkon beradi:
-+ro'yxatni va uning elementlari nomlarini bog'laydi
--telefonni zaryadlash jarayonini optimallashtiradi
--sekin urish bilan ishlaydi
--ilovani istalgan Android SDK versiyasiga moslashtiradi
+?Telefon signali (ovoz) spektr kengligi qancha ?
++300 Hz   3400 Hz
+-300 Hz   3000 Hz
+-300 Hz   3800 Hz
+-300 Hz   400 Hz
 
-?Pio Smart Recorder - bu?
-+Diktofon.
--Ishga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri.
--Asosiy fikrlarni ko'rsatadigan aql xaritalarini yaratish uchun dastur.
--Onlayn kutubxona.
+?Radioeshittirish signali spektr kengligi qancha?
++20  Hz      20000 Hz
+-20  Hz      200 Hz
+-20  Hz     2400 Hz
+-20  Hz      26000 Hz
 
-?Gero—bu?
-+Vaqt menejeri sizga ishlashga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri
--Diktofon.
--Asosiy fikrlarni ko'rsatadigan aql xaritalarini yaratish uchun dastur.
--Onlayn kutubxona.
+?Telegraf signali spektr kengligi qancha?
++0  Hz   100 Hz
+-0  Hz   1000 Hz
+-0  Hz   10000 Hz
+-0  Hz    10 Hz
 
-?ListActivity klassi nima uchun kerak?
-+Asosiy elementi ro'yxat bo'lgan faoliyatni yaratish uchun   
--Yangi varaq yaratish uchun   
--Doimiy faoliyatni yaratish uchun  
--Asosiy elementi jadval bo'lgan faoliyatni yaratish uchun   
+?Televizion signali (video ) spektr kengligi qancha?
++50 Hz  6.5 MHz
+-0  Hz   1000Hz
+-20  Hz     2400Hz
+-300 Hz   3500 Hz
 
-?Bookmate —bu?
-+Onlayn kutubxona.
--Diktofon.
--Vaqt menejeri sizga ishlashga va o'ynashga qancha vaqt sarflaganingizni hisobga olishga yordam beradigan vaqt menejeri
--Asosiy fikrlarni ko'rsatadigan aql xaritalarini yaratish uchun dastur.
+?Tibbiyotda ishlatiladigan signal turlarini belgilang?
++elektromiografiya signali, elektroensefalografiya signali, elektrokardiografiya signali
+-davriy signal, statsionar signal, garmonik signal
+-tovush signali, garmonik signal, EKG signallari
+-barcha javoblar to'g'ri
 
-?Google xaritalari —bu?
-+Onlayn ravishda sun'iy yo'ldosh interaktiv xaritalari.
--Siz uchun muhim bo'lgan raqamlarni hisobga oladigan dastur.
--Ta'limning barcha darajalari, shu jumladan geometriya, algebra, jadvallar, grafikalar, statistika va arifmetikalar uchun bepul, o'zaro faoliyat platformalardagi dinamik matematik dasturni ishlatish uchun qulay bo'lgan bitta to'plamda.
--3D anatomiya atlasi erkak va ayol anatomiya modellarini o'rganadi. 
+?Matlab paketida signalni ekranda tasvirlash uchun qaysi buyruqdan foydalaniladi?
++Plot()
+-Wavread()
+-Clc
+-Pwelch()
 
-?DialogFragment bu:
-+O'zingizning dialog oynalarini yaratish uchun imkon beradigan konteyner
--sarlavhani, uchta tugmachani, tanlanadigan qiymatlar ro'yxatini yoki maxsus tarkibni o'z ichiga oladigan dialog oynasi
--sana yoki vaqtni tanlashga imkon beruvchi oldindan belgilangan interfeysga ega dialog oynasi
-- amalni bajarish uchun protsessor satrini o'z ichiga olgan dialog oynasi
- 
-?Ushbu xususiyat nima qiladi  android: background = "@android: color / holo_green_light"
-+orqa fonini o'rnatadi
--Ob'ektning soyasini o'rnatadi
--Matn rangini belgilaydi
--Matnning fonini o'rnatadi
+?Python dasturlash tilida matritsalar bilan ishlash kutubxonasi qaysi?
++Numpy
+-Liblary
+-Wav_file
+-Audioread
 
-?ListView bu—?
-+elementlarning aylanadigan ro'yxati. 
--Jadvallar tuzish
--Rasm joylash
--Matn kiritishga imkon beradi
+?Diskretlash chastotasi 11 kHz signalni vaqt o'qi bo'yicha nechta bo'lakka diskretlanadi
++11050
+-11500
+-1000
+-11800
 
-?Context bu-?
-+joriy kontekst
--matn
--jadval
--Rasm joylash buyrug’i
+?Signalni kvatlash qaysi o'q bo'yicha amalga oshiriladi?
++amplituda
+-vaqt
+-chastota
+-quvvat
 
-?Android arxitekturasidagi qaysi element apparat va dasturiy ta'minot to'plami o'rtasida mavhumlik qatlami bo'lib xizmat qiladi?
-+Linux yadrosi  
--arizalar  
--dastur doirasi  
--Kutubxonalar va Android ishlash vaqti  
+?Signalni diskretlash qaysi o'q bo'yicha amalga oshiriladi?
++vaqt
+-amplituda
+-chastota
+-quvvat
 
-?Android qanday ma'lumotlar bazasi dvigatelidan foydalanadi?
-+SQLite  
--DBM  
--InnoDB  
--MyISAM  
+?Nutq signali sohasidagi boshlang'ich va tugallanish koeffitsiyentlari orasidagi farqni aniqlash nutq signalining qaysi parametrini ifodalaydi?
++Takrorlanuvchi oraliq qiymatlar soni
+-Energiya
+-Quvvat
+-Tovush spektrogramma qiymati
 
-?Android OS kutubxonasi to'plamiga qaysi grafik kutubxona kiradi?
-+GL-ni oching  
--DirectX  
--OpenCL  
--OpenCV  
+?Signalda diskret kosinus o'zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?
++Amplituda-chastota
+-Amplituda-vaqt
+-Kuchlanish-tok kuchi
+-Kuchlanish-vaqt
 
-?textViewResourceId bu—?
-+har bir satr uchun belgilar bilan resurs identifikatori 
--10 ta satr uchun belgilar bilan resurs identifikatori 
--bitta satr uchun belgilar bilan resurs identifikatori 
--id kiritish uchun belgilar bilan resurs identifikatori 
+?Signalda tezkor Fure o'zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?
++Amplituda-chastota
+-Amplituda-vaqt
+-Kuchlanish-tok kuchi
+-Kuchlanish-vaqt
 
-?Android arxitekturasining qaysi tarkibiy qismi har qanday dasturga kirish uchun ruxsat berilgan boshqa dasturlarning allaqachon amalga oshirilgan imkoniyatlaridan foydalanishga imkon beradi?
-+dastur doirasi  
--arizalar  
--Kutubxonalar va Android ishlash vaqti  
--Linux yadrosi  
+?Signalda Adamar o'zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?
++Amplituda-chastota
+-Amplituda-vaqt
+-Kuchlanish-tok kuchi
+-Kuchlanish-vaqt
 
-?O'zining mobil qurilmasi dasturlari to'plamini to'ldirish uchun foydalanuvchi ushbu xizmatdan foydalanishi mumkin
-+Google Play  
--Google xaritalari  
--Android Play  
--Google Market  
+?Signalda Wevylet o'zgartirishi amalga oshirilganda uning natijaviy qiymatlari qaysi sohada ifodalanadi?
++Amplituda-chastota
+-Amplituda-vaqt
+-Kuchlanish-tok kuchi
+-Kuchlanish-vaqt
 
-?Mobil dasturni yaratish, kompilyatsiya qilish va yig'ish uchun zarur bo'lgan vositalarni o'z ichiga olgan dasturlash vositalarining to'plami deyiladi
-+Android SDK  
--JDK  
--Android NDK  
--ADT plagini  
+?Dastlab Analog signallarni qanday filtrlar yordamida filtrlanadi?
++Analog filtrlar
+-Raqamli filtrlar
+-Gibrid filtrlar
+-filtrlanmaydi
 
-?SetAdapter usuli(ListAdapter) bu-?
-+Tayyorlangan ro'yxatni adapter bilan bog'laydi.
--Rasm bilan matnni bog’laydi
--Jadval bilan matnni bog’laydi  
--Ro’yxat bilan jadvalni bog’laydi
+?Signallar Analog filtr bilan filtrlanganda qanday signal hosil bo'ladi?
++Analog signal
+-Raqamli signal
+-Diskret signal
+-Kvant signal
 
-?Androidda ichki elementlari atributlarda …. qiymatini ishlatadi. 
-+match_parent
--wrap_content
--margen
--padding
+?Qanday filtrlarni ishlatish yordamida Raqamli signallarni filtrlash mumkin?
++Raqamli filtrlar
+-Analog filtrlar
+-Raqamli signal filtrlanmaydi
+-To'g'ri javob yo'q
 
-?Intel * Beacon Mountain rivojlanish muhitida nima uchun Intel * Hardware Accelerated Execution Manager (Intel * HAXM) vositasi ishlatiladi?
-+rivojlanish muhitida emulyatorni tezlashtirish  
--C ++ mobil dasturlarini samarali ravishda parallellashtirish uchun  
--optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun  
-- OpenGL muntazam foydalanish paytida tizim yukini optimallashtirish  
+?Signalni bo'laklarga taqsimlash(bo'lish) qanday jarayon?
++Segmentlash
+-Svyortkalash
+-Korelyatsiyalash
+-Filtrlash
 
-?Intel * Beacon Mountain rivojlanish muhitida ishlatiladigan Intel * Threading Building Blocks (Intel * TBB) vositasi nima?
-+ishlab chiquvchilarga C ++ mobil dasturlarini samarali ravishda parallellashtirishga imkon berish  
-- rivojlanish muhitida emulyatorni tezlashtirish  
--optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun  
--dasturchilarga OpenGL dasturlaridan foydalanishda tizim yukini optimallashtirishga imkon berish  
+?Turli turdagi signallarni turli shovqinlardan, halaqitlardan tozalash qanday jarayon?
++Filtrlash
+-Segmentlash
+-Korelyatsiyalash
+-Aproksimatsiyalash
 
-?Intel * Beacon Mountain rivojlanish muhitida ishlatiladigan Intel * Integrated Performance Primitives (Intel * IPP) vositasi nima?
-+optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun  
--dasturchilarga OpenGL dasturlaridan foydalanishda tizim yukini optimallashtirishga imkon berish  
-- rivojlanish muhitida emulyatorning ishini tezlashtirish  
--ishlab chiquvchilarga C ++ mobil dasturlarini samarali ravishda parallellashtirishga imkon berish  
+?Signallarni bir biriga mosligini tekshirish qanday jarayon?
++Korrelyatsiyalash
+-Segmentlash
+-Filtrlash
+-Interpolyatsiyalash
 
-?Ro’yxat bilan ishlash necha qismdan iborat
+?Matlab paketida ma'lumotlar qanday shaklda ifodalanadi?
++matritsa
+-text
+-excel
+-file
+
+?Matlab paketida "Workspace" qismda nimalar joylashgan?
++Natijalar, o'zgaruvchi qiymatlari
+-Buyruqlar
+-Fayllar
+-To'gri javob yo'q
+
+?Matlab paketida "Command History" qismida nimalar joylashgan?
++Buyruqlar tarixi
+-Natijalar, o'zgaruvchi qiymatlari
+-Fayllar
+-To'gri javob yo'q
+
+?1KHz chastota necha Hz chastota bo'ladi?
++1000
+-1024
+-1050
+-1100
+
+?Matlab paketida Adamard matritsasini hosil qilish buyrug'i qanday?
++Hadamard()
+-Matrix()
+-Adamard()
+-Adamard_matrix()
+
+?Matlab paketida signallarni svyortka qilish buyrug'i qanday?
++Conv()
+-Convolution_s()
+-Coor()
+-To'g'ri javob yo'q
+
+?Matlab paketida "conv()" buyrug'i qanday vazifani bajaradi?
++Signallarni svyortka qiladi
+-Signallarni korelyatsiya qiladi
+-Signallarni filtrlaydi
+-To'g'ri javob yo'q
+
+?Matlab paketida "close all" buyrug'i qanday vazifani bajaradi?
++Barcha ochiq figuralarni yopadi
+-"Command Window"ni tozalaydi
+-Figuralarni ochadi
+-O'zgaruvchilarni ifodalaydi
+
+?Ochiq figuralarni yopuvchi buyruq Matlab paketida qanday yoziladi?
++Close all
+-Clear all
+-Clc
+-To'g'ri javob yo'q
+
+?Mushaklardan olinadigan biosignallar qanday signallar turiga mansub?
++Elektromiografiya signali
+-Elektrokardiografiya signali
+-Ensofologramma signali
+-Nutq signali
+
+?Miyadan olinadigan signallar qanday signallar turiga kiradi?
++Ensofologramma signali
+-Elektromiografiya signali
+-Elektrokardiografiya signali
+-Nutq signali
+
+?Yurak mushagidan olinadigan signal qanday signal turiga kiradi?
++Elektrokardiogramma signali
+-Elektromiografiya signali
+-Ensofologramma signali
+-Nutq signali
+
+?Tabiatda uchraydigan signallar .... turlarga bo'linadi.
++Vaqt bo'yicha o'zgaradigan va o'zgarmaydigan
+-Diskret va raqamli
+-Spektral ishlov berilgan va berilmagan
+-Svyortyka qilingan va qilinmagan
+
+?Signallar Bul algebrasida qanday ifodalanadi?
++0 va 1 orqali
+-0-7 orqali
+-0-10 orqali
+-0-15 orqali
+
+?Signallarga raqamli ishlov berish amallarining qaysi birini asosida "svyortka algoritmi" yotadi?
++Filtrlash
+-Furye o'zgartirish
+-Segmentlash
+-Interpolyatsiyalash
+
+?Raqamli signallar qanday formula asosida  filtrlanadi ?
++y[n] = b0*x[n] + b1*x[n-1]
+-y[n] = (b0*x[n] + a1*x[n-1] )
+-y[n] = b2*x[n-2] - a1*y[n-1] - a2*y[n-2])/a0
+-To'g'ri javob yo'q
+
+?AVR mikrokontrollerlari qanday arxitekturada tuzilgan?
++RISC-arxitektura asosidagi
+-CISC arxitektura asosida
+-CISC VA RISC
+-To'g'ri javob yo'q
+
+?'fft(x)' - buyrug'i Matlab paketida qanday vazifani bajaradi?
++X-signalni tezkor Furye o'zgartirishi yordamida chastota sohasiga olib o'tadi
+-X-signalni diskret kosinus o'zgartirishi yordamida chastota sohasiga olib o'tadi
+-X-signalni diskret sinus o'zgartirishi yordamida chastota sohasiga olib o'tadi
+-X-signalni diskret tangens o'zgartirishi yordamida chastota sohasiga olib o'tadi
+
+?Korrelyatsiya jarayoni nechta shakli mavjud?
 +2
--3
+-5
+-7
+-4
+
+?"pwelch" buyrug'i Matlab muhitida nima vazifani bajaradi
++Signalning spektral quvvat zichligini ifodalaydi
+-Signalni svyortka qiladi
+-Signalni korrelyatsiya qiladi
+-Bunday buyruq mavjud emas
+
+?Spektral o'zgartirish algoritmlari mavjud qatorni aniqlang:
++DCT,FFT,Haar,Adamar
+-Hamming
+-Hanning
+-To'g'ri javob yo'q
+
+?Signallarni qayta ishlashda analog signallarni raqamli signalga aylantirishning asosiy amallari qaysilar?
++Diskretlash,  kvantlash va Kodlash
+-Diskretlash
+-Kvantlash va Kodlash
+-Kodlash
+
+?Signallarni qayta ishlashda signal o'lchamining sekundiga qilingan o'lchashlar soni nima deb aytiladi?
++Diskretlash
+-kvantlash chastotasi
+-freymlash chastotasi
+-to'g'ri javob keltirilmagan
+
+?Signallarni uzluksiz yoki diskret miqdor qiymatlarining qatorini chekli oraliqlarga bo'lish jarayoni qanday nomladi?
++Kvantlash
+-Freymlash
+-Diskretlash
+-Taqsimlash
+
+?Nutqiy signal tarkibidagi so'zlashuv, bo'g'in yoki fonemalar orasidagi chegaralarni aniqlash jarayoni nima deb ataladi?
++Nutq signalini segmentlash
+-Nutq signalini kvantlash
+-Nutq signalini diskretlash
+-Nutq signalini yaxlitlash
+
+?Nutq signalining asosiy parametrlari qaysilar?
++qisqa vaqtli energiyasi va noldan o'tuvchi nuqtalar soni
+-qisqa vaqtli energiyasi
+-noldan o'tuvchi nuqtalar soni
+-signalning diskretlash chastotasi
+
+?Signallarni qayta ishlash jarayonlarida analog raqamli o'zgartirish jarayoniga  tarkibiga qaysi amallar kiradi?
++Diskretlash,kvantlash,kodlash
+-Diskretlash, segmentlash, filtrlash
+-Kvantlash,kodlash, segmentlash
+-Kvantlash
+
+?Signallarni matritsalarga asoslangan spektral o'zgartirish algoritmini toping.
++Adamar
+-DCT
+-Fure
+-DFT
+
+?Signallarni sinus va kosinusga asoslangan spektral o'zgartirish algoritmi qaysi?
++Fure
+-Adamar
+-DCT
+-Haara
+
+?Qaysi spektral o'zgartirish algoritmi kosinusga asoslangan?
++DCT
+-Fure
+-Adamar
+-Haara
+
+?Nutq hamda tovush signallarni segmentlashning turlari qaysi?
++Ketma-ket, suriluvchi
+-Sektorli, segmentli
+-Sigmoid
+-Kosmoid
+
+?Nutq hamda tovush signallarni segmentlashning necha xil turi mavjud?
++2
 -4
 -5
+-7
 
-?Android OS uchun rivojlanish muammolari quyidagilarni o'z ichiga oladi:
-+turli xil qurilmalar, dasturni umuman tekshirib bo'lmaydi  
--tizim yadrosini ishlaydigan dasturlardan ishonchsiz ajratish  
--samarali rivojlanish vositalarining etishmasligi  
--turli xil qurilmalar, dasturni umuman teksh imkoniayti mavjud  
+?Elektromiografiya signallari qanday signal?
++Biosignal
+-Nutq signali
+-Akustik signal
+-Sinusoid signal
 
-?GridView komponenti bu-?
-+tekis jadval hisoblanadi
--matn hisoblanadi
--rasm hisoblanadi
--matn va jadvalni bir-biriga bog'alydi
+?Elektrokardiografiya signallari qanday signal?
++Biosignal
+-Nutq signali
+-Akustik signal
+-Sinusoid signal
 
-?har bir satr uchun belgilar bilan resurs identifikatori
-+textViewResourceId
--context
--SetAdapter
--SetAdapter
+?Elektroensofologramma signallari qanday signal?
++Biosignal
+-Nutq signali
+-Akustik signal
+-Sinusoid signal
 
-?Intel XDK-da ishlab chiqilgan haqiqiy qurilmalar dasturlarida sinov
-+qurilmaga maxsus dasturni o'rnatish yoki loyihani yig'ish va montaj natijasini qurilmaga o'rnatish orqali amalga oshirilishi mumkin  
-- mumkin emas
-- qurilmaga maxsus dastur o'rnatish orqali amalga oshirilishi mumkin
--loyihani yig'ish va yig'ish natijasini qurilmaga o'rnatish orqali amalga oshirilishi mumkin
+?Quyidagi formatlardan qaysi biri audio signallariga mansub?
++Wav, mp3, ogg
+-C3d, txt
+-Mp4, max, dll
+-To'g'ri javob yo'q
 
-?Intel XDK ishlab chiqish muhiti quyidagi dasturlash tillarini qo'llab-quvvatlaydi:
-+JavaScript
-- Java
--C #
--C ++
+?Matlab paketida tasvirlarni qaysi buyruq orqali o'qib olinadi?
++Imread()
+-Imshow()
+-Imhist()
+-Info()
 
-?Intel XDK rivojlanish muhiti emulyatori:
-+akselerometr yordamida dasturlarning ishlashini tekshirishga imkon beradi
--katta tizim resurslarini talab qiladi
--bir qator qurilmalarda dastur bajarilishini simulyatsiya qilishga imkon bermaydi
--akselerometr yordamida dasturlarning ishlashini tekshirishga imkon bermaydi
+?Matlab paketida tasvirni qaysi buyruq orqali ekranga chiqariladi?
++Imshow()
+-Imread()
+-Imhist()
+-Info()
 
-?—tekis jadval hisoblanadi
-+GridView komponenti
--ListView komponenti
--Relativelayout
--Linearlayout
+?Matlab paketida  tasvirni qaysi buyruq orqali gistogrammasini chiqarish mumkin?
++Imhist()
+-Imshow()
+-Imread()
+-Info()
 
-?PacketVideo OpenCORE-ga asoslangan kutubxonalar:
-+Media doirasi
--FreeType
--SQLite
--3D kutubxonalar
+?Audio signallarining turlari to'g'ri keltirilgan javobni aniqlang
++Mono va stereo
+-3d,7d
+-Mp3,wav
+-Ogg,aac
 
-?numColumns-ning vazifasi bu-?
-+ustunlar sonini aniqlaydi
--matnga rasm joylaydi
--jadvalga matn joylaydi
--satrlar sonini aniqlaydi
+?Mono turidagi audio signallar qanday o'lchamda bo'ladi ?
++1 kanalli
+-2 kanalli
+-3 kanalli
+-4 kanalli
 
-?Android quyidagilardan qaysi birini ishlab chiqarmaydi
-+ProGuard
--SDK menejeri
--Qurilma monitor
--AVD menejeri
+?Stereo turidagi audio signallar qanday o'lchamda bo'ladi ?
++2 kanalli
+-1 kanalli
+-3 kanalli
+-4 kanalli
 
-?Intel XDK quyidagilarni ishlab chiqishni qo'llab-quvvatlaydi:
-+Android, Apple iOS, Microsoft Windows 8, Tizen
-- MtkOS, Symbian OS, Microsoft Windows 8
--Apple iOS, BlackBerry OS
--JavaFX Mobile
+?Matlab paketida audio signallarini qaysi buyruq orqali o'qib olinadi?
++Audioread(), wavread()
+-Audiomread(), imshow()
+-Imread()
+-Imhist()
 
-?Intel XDK mobil ilovalarni quyidagilar yordamida ishlab chiqmoqda:
-+HTML5
--Tizen
--C ++
--Java
+?Matlab paketida tasvir signallarini gistogrammasi orqali normallashtirish qaysi buyruq orqali amalga oshiriladi?
++Histeq()
+-Imhist()
+-Histogram()
+-Pspectrum()
 
-?android operatsion tizimining asosi sifatida qanday operatsion tizim yadrosi ishlatilgan?
-+inux
--OS / 2
--Mac OS
--Windows
+?Matlab paketida natijani chiqarish ekranini taqsimlash buyrug'i qaysi?
++Subplot()
+-Plot()
+-Spectrogram()
+-Pspectrum()
 
-?GridView uchun ustunlar soni qanday o'rnatiladi
-+Static
--Dinamik 
--avtomatik
--Statik va dinamik
+?Inson qulog'i eshita oladigan tovush chastotalari oraliqlarini belgilang?
++20-20000 Hz
+-20 kHz-20MHz
+-20 Hz dan past
+-20 mHz - 20 kHz
 
-?verticalSpacing ning vazifasi
-+jadval kataklari orasidagi bo'sh joy hajmini belgilaydi   
--ustunlar sonini aniqlaydi
--satrlar sonini aniqlaydi
--matnga rasm joylaydi
+?Analog signallar ....
++vaqt o'tishi bilan doimiy ravishda o'zgarib turadi
+-"0" va "1" nollarning ketma-ketliklaridan iborat
+-qadamlar (qadamlar) o'zgarishi
+-faqat chastota domenida mavjud
 
-?C / C ++ kodini Android-da ishlashga moslashtirishga imkon beradigan ishlab chiqish vositasi -
-+Android NDK
-Google Android SDK (ADT to'plami)
--Marmelad SDK
-- Intel * dastur menejeri
+?Bazis funksiyasi tashkil etuvchilari sinus va kosinusga ega spektral o'zgartirish turini aniqlang?
++Furye
+-Haara
+-Adamar
+-Wavelet
 
-?Eclipse va IDEA nima?
-+IDE (Integratsiyalashgan rivojlanish muhiti)
--API (dastur dasturlash interfeysi)
--SDK (ishlab chiqish to'plami)
--ADT (Android Development Tools)
+?Raqamli filtrlar nima uchun analog filtrlardan afzalroq ( eng asosiy sabablardan birini keltiring)
++ularni oson dasturlashtirilishi mumkin
+-ishlab chiqaruvchilar ko'pincha yangi protsessorlarni ishlab chiqaradilar
+-ular barqaror
+-to'g'ri javob yo'q
 
-?android:columnWidth bu-?
-+ustunlar kengligini o'rnatadi
--satrlar kengligini o’rnatadi
--jadvalni o’rnatadi
--matnni kiritadi
+?Oddiy raqamli signal protsessorlari tizimi quyidagilardan iborat.
++DSP, xotira, ADC, DAC va aloqa portlari
+-mikroprotsessor va xotira
+-mikroprotsessor, ADC va DAC
+-mikroprotsessor va yordamchi ombor
 
-?Intel XDK ishlab chiqish muhitining afzalliklari quyidagilarni o'z ichiga oladi.
-+platformalararo dasturlarni ishlab chiqish qulayligi
--platformalararo dasturlarni ishlab chiqish qulay emas
--ishlab chiqilgan dasturlar uchun bulutli xotiraning mavjud emasligi
--o'zingizning samarali emulyatoringiz mavjud emasligi
+?Ko'p protsessorli tizimlarda hisoblash jarayonini tashkil qilish usuli:
++Ko'p protsessorli ishlov berish
+-Ko'p vazifali ishlov berish
+-Geterogen
+-Ko'p yadroli ishlov berish
 
-?Android uchun ishlab chiqish vositasi hisoblanmaydi: 
-+ProGuard
--Qurilma monitori
--AVD menejeri
--SDK menejeri
+?Nutq signallari qanday signal?
++Biosignal
+-O'zgarmas signal
+-tangensial signal
+-Sinusoid signal
 
-?"Ochiq telefon" alyansining maqsadi nima edi?
-+mobil qurilmalar uchun ochiq standartlarni ishlab chiqish
-- Android OS rivojlanish tarixini yozing
-- Android smartfonlarini sotish
--Android smartfonlarini reklama qilish
+?Vaqtga nisbatan fizik signallarni tahlil qilish nima deb ataladi
++Vaqt sohasida signallarini qayta ishlash
+-Faza sohasida signallarini qayta ishlash
+-Chastota sohasida signallarini qayta ishlash
+-Amplituda sohasida signallarini qayta ishlash
 
-?Android 4.4 versiyasining nomi nima?
-+Kit kat
--Krispy kreme
--krem-karamel
-- kitekat
+?Signallarga ishlov berishda qaysi sohalarda jarayonlarni amalga oshirish mumkin?
++Vaqt va chastota sohasida
+-Faza va chastota sohasida
+-Vaqt va faza sohasida
+-Faza va amplituda sohasida
 
-?Intel * Graphics Performance Analyzers (Intel * GPA) tizim analizatori vositasi nima uchun Intel * Beacon Mountain rivojlanish muhitida ishlatiladi?
-+dasturchilarga OpenGL dasturlaridan foydalanishda tizim yukini optimallashtirishga imkon berish
--ishlab chiquvchilarga C ++ mobil dasturlarini samarali ravishda parallellashtirishga imkon berish
--rivojlanish muhitida emulyatorning ishini tezlashtirish
--optimallashtirilgan ma'lumotlar va tasvirni qayta ishlash uchun
+?Deterministik signallar qanday ko'rinishlarda bo'ladi?
++Davriy va davriy bo'lmagan
+-Aniq va noaniq
+-Chekli va cheksiz
+-Tog'ri javob keltirilmagan
 
-?RelativeLayout bu—?
-+ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi.    
--element matnni ko'rsatish uchun ishlatiladi
--TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar -matnni tahrirlashlari mumkin
--foydalanuvchi buyruqlariga javob beradi
+?QNX operatsion tizimi qaysi arxitektura asosida qurilgan?
++Mikroyadroli
+-SIMD
+-MIMD
+-MISD
 
-?TextView bu—?
-+element matnni ko'rsatish uchun ishlatiladi
--TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar matnni tahrirlashlari mumkin
--foydalanuvchi buyruqlariga javob beradi
--ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi
+?Signallarga raqamli ishlov berishda ushbu formula nimani ifodalaydi?
++Qisqa vaqtli energiya
+-Bo'saqaviy qiymatlari
+-Kvantlanganlik darajasi
+-Filtr koeffisenti
 
-?EditText bu—?
-+TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar matnni tahrirlashlari mumkin
--foydalanuvchi buyruqlariga javob beradi
--ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi
--element matnni ko'rsatish uchun ishlatiladi
+?Signallarni qayta ishlashda eng ko'p ishlatiladigan amal?
++Svyortka
+-Korrelyatsiya
+-Tanib olish masalalari
+-Identifikatsiya
 
-?Tugma bu—?
-+foydalanuvchi buyruqlariga javob beradi
--TextView boshqaruviga o'xshash yagona farq shundaki, foydalanuvchilar matnni tahrirlashlari mumkin
--element matnni ko'rsatish uchun ishlatiladi
--ekranda boshqa elementlar qanday stacked yoki ko'rsatilishini aniqlaydi
+?Nutq signallarini tanib olishda qaysi modeldan foydalangan maqsadga muvofiq?
++Markov modellari
+-So'zlarning turli 3d modellari
+-Gap tuzilishi modellari
+-To'g'ri javob yo'q
 
-?Ikki NFC qurilmasi o'rtasida almashishning qulay vositasi:
-+AndroidBeam
-- Wi-Fi Direct
-- Dalvik
--Bluetooth
+?Uchuvchi apparatlar uchun turbalentlik qanday signallarga misol bo'ladi?
++Tasodifiy
+-Determinallashgan
+-Raqamli
+-To'g'ri javob yo'q
 
-?Birinchi telefonni yaratuvchisi kim?
-+Bell A.G.
--I.Grey 
--I. F. Reys
--Bil Geyst
+?Tasodifiy signallarning parametrlarini aniqlang
++Barchasi to'g'ri
+-Matematik kutilma
+-Dispersiya
+-O'rtacha kvadratik og'ish
 
-?Greyning to'lov telefoni birinchi bo'lib qayerda o’rnatildi
-+Xartford banki
--Maktabda
--Oksford universitettida
--Oq uyda
+?Raqamli video sifatini baholovchi eng ishonchli va mukammal tizim?
++Inson ko'z tizimi
+-Telefon kamerasi tizimi
+-Kompyuter tizimi
+-Ekran tizimlari
 
-?Android dasturining qaysi papkasida Java manba fayllari mavjud?
-+src
--gen
--axlat qutisi
--res
+?Python dasturlash tilida ekranga ma'lumotlarni chiqarish buyrug'i?
++Print()
+-Show()
+-Cout()
+-Read()
 
-?Batareya quvvati, ob-havo prognozi, sana va vaqt kabi dinamik ma'lumotlarni namoyish qilish uchun qanday dasturni ishlatish mantiqan to'g'ri keladi?
-+vidjet
--fon dasturi
--oldingi dastur
--aralash dastur
+?Python dasturlash tilida grafik interfeysni hosil qilib berishga yordam beradigan modul?
++Tkinter
+-Library
+-Math
+-Grap
 
-?Gen papkasida nima bor?
-+avtomatik ravishda yaratilgan java fayllari
--dastur manbalari
--audiofayllar
--Rasm opsiyasi 
+?Python dasturlash tilida matrissalar bilan ishlovchi modullar?
++Numpy,scipy
+-Math
+-Filtr
+-Array
 
-?Har bir eshittirish qabul qiluvchisi ... dan meros qilib oladi.
-+BroadcastReceiver
--ContentProvider
--ViewReceiver
--IntentReceiver
+?Filtrlarni loyihalashda signallarni nimalar yordamida filtrlanadi?
++Filtr koeffisentlari
+-Kiruvchi signal
+-Chiquvchi signal
+-Shovqin signal
 
-?Birinchi telefon kitobi birinchi qayerda paydo bo’lgan?
-+Konnektikut shtatining Nyu-Xeyven shahrida, 
--Angliyada
--Berlinda
--Konnektikut shtatidagi Xartford shahrida
+?Signallarni adaptiv filtrlashda filtr koeffisentlari qanday hosil qilinadi?
++Shovqin hamda kiruvchi signallar
+-O'zimiz ishlab chiqamiz
+-Tasodifiy holatida
+-To'g'ri javob yo'q
 
-?Birinchi telefon kitobi birinchi Nyu-Xeyven okrugi telefon kompaniyasi tomonidan qachon paydo bo’lgan?
-+1878 yil fevralda
--1888 yil fevralda
--1868 yil fevralda
--1898 yil fevralda 
-
-?Android dasturlaridagi GUI komponentlarining jadval tartibini qanday tartib belgilaydi?
-+TableLayout
--RowLayout
--GridBagLayout
-- GridLayout
-
-?Mobil dasturni yaratish, kompilyatsiya qilish va yig'ish uchun zarur bo'lgan vositalarni o'z ichiga olgan dasturlash vositalarining to'plami:
-+Android SDK
--JDK
--ADT plagini
--Android NDK
-
-?Android yo'nalishi xususiyati…..bilan belgilanadi
-+Orientation
--gravity
--bacgraund
--margen
-
-?Standalone applications bu—?
- +Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--tarmoq orqali ishlovchi ixtiyoriy dasturlar
--bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
--Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
-
-?Web Applications bu—? 
-+tarmoq orqali ishlovchi ixtiyoriy dasturlar
--Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
--Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
-
-?Android OS qanday ma'lumotlar bazasi dvigatelidan foydalanadi?  
-+SQLite
--DBM
--MyISAM
--InnoDB
-
-?Enterprise Applications bu—?
-+bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
--Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--tarmoq orqali ishlovchi ixtiyoriy dasturlar
--Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
-
-?Layout da ishlashda nechta variantdan foydalanamiz
+?Blokli kodlash nechi turga  bo'linadi?
 +2
--3
 -4
 -5
+-1
 
-?Mobile Applications
-+Mobil qurilmalarga mos dasturlarni ham Javada yozish mumkin
--Linux, Mac yoki Windowsga o'rnatib, kundalik ishlatadigan dasturlarimiz
--tarmoq orqali ishlovchi ixtiyoriy dasturlar
--bu dasturlar yirik salmoqga ega bo'lib, odatda katta jabhalarda ishlatiladi
+?Ikki o'lchamli signallarda yani tasvirlarda filtrlash amalarini qanday usulda  bajariladi?
++Matrisa 
+-Vektor
+-Ketma-ket
+-Parallel
 
-?Qaysi sinf foydalanuvchi interfeysi (UI) komponentlari uchun asosiy qurilish blokidir, ekranning to'rtburchaklar maydonini belgilaydi va voqealarni chizish va boshqarish uchun javob beradi?
-+View
--GUI
--UIComponent
--Widget
+?Kotelnikov teoremasiga ta'rif bering
++diskretlash chastota asosiy signal  chastotasidan 2 marta  katta bo'lishi kerak 
+-diskretlash chastota asosiy signal  chastotasidan 6 marta  katta bo'lishi kerak
+-diskretlash chastota asosiy signal  chastotasidan 4 marta  katta bo'lishi kerak
+-Javoblar noto'g'ri
 
-?Swift - ?
-+bu kompilyatsiya qilingan dasturlash tili
--bu kompilyatsiya qilinmagan dasturlash tili
--android uchun dasturlash tili
--android uchun kompilyatsiya qilingan dasturlash tili
+?Signal chastotalarini ifodalash birligini ko'rsating?
++Hz
+-kg
+-ms
+-F
 
-?Emulyator -? 
-+bu boshqa kompyuter yoki dasturga taqlid qiladigan dastur
--bu faqat kompyuterga tushadigan dasturlar majmuasi
--bu faqat android operatsion tizimiga tushadigan dasturlash tili
--bu amaliy dasturlar paketiga tushadigan dasturlash tili
+?Lokal bazis o'zgartirish algoritmini ko'rsating?
++Haara
+-Furye
+-Adamar
+-Tezkor-Furye
 
-?BlueStacks  bu—? 
-+Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
--Mac va Windows-da iOS-ni boshqarishi mumkin.
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Linux operatsion tizimida Windows dasturlarini ishlaydi
+?Integral bazis o'zgartirish algoritmini ko'rsating?
++Furye
+-Haara
+-Adamar
+-Wavelet
 
-?Loyihaning talab qilinadigan fayllari va papkalarining to'liq ierarxik ro'yxatini yorliqda ko'rish mumkin ...
-+Package Explorer, Project Explorer
--Internet Explorer
--Navigator
--internet navigator
+?Bazis funksiyasi tashkil etuvchilari 1 va -1 ga ega spektral o'zgartirish turini aniqlang?
++Adamar
+-DCT
+-Furye
+-Wavelet
 
-?Ilovaning tarqatilgan ma'lumotlar to'plamini qaysi komponent boshqaradi?
-+xizmat (Service)
--faoliyat (Activity)
--eshittirish qabul qiluvchisi (Broadcast Receiver)
--kontent-provayder (Content Provider)
+?Bazis funksiyasi tashkil etuvchilari sinus va kosinusga ega spektral o'zgartirish turini aniqlang?
++Furye
+-Haara
+-Adamar
+-Wavelet
 
-?Android ilovasining grafik foydalanuvchi interfeysi komponentlari iyerarxiyasini tavsiflash uchun qanday belgilash tili ishlatiladi? 
-+xml 
--html
--gml
--xhtml
+?Ko'p protsessorli tizimlarda hisoblash jarayonini tashkil qilish usuli:
++Ko'p protsessorli ishlov berish
+-Ko'p vazifali ishlov berish
+-Geterogen
+-Ko'p yadroli ishlov berish
 
-?Xcode.
-+Mac va Windows-da iOS-ni boshqarishi mumkin.
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
--bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Linux operatsion tizimida Windows dasturlarini ishlaydi
+?Oddiy raqamli signal protsessorlari tizimi quyidagilardan iborat:
++DSP, xotira, ADC, DAC va aloqa portlari
+-mikroprotsessor va xotira
+-mikroprotsessor, ADC va DAC
+-mikroprotsessor va yordamchi ombor
 
-?Intent-Obyekt haqida berilgan to’g’ri ta’rifni tanlang.
-+Bir oynadan ikkinchi oynaga o’tishni amalga oshiradi
--foydalanuvchi xabarlarni uzatish uchun ishlatiladi
--foydalanuvchi ko'rsatmalar qabul qilish uchun ishlatiladi
--Faqat bitta sahifada ishlaydi
+?Raqamli filtrlarning asosiy afzalligi shundaki, ular:
++arzonroq
+-dizayni osonroq
+-dasturlashtiriladigan
+-o'tish zonasida keskin pasayishni ta'minlash
 
-?Mobil dastur elementlarining joylashuvi::
-+ekrandagi ob'ektlar va real dunyo ob'ektlari orasidagi fazoviy munosabatlarni yaratish uchun foydalidir  
--iyerarxiyani o'tkazish uchun foydali emas
--foydalanishga ta'sir qilmaydi
--ekrandagi ob'ektlar va real dunyo ob'ektlari orasidagi fazoviy munosabatlarni yaratish uchun foydali emas
+?Fourier transform (FT) quyidagilar uchun ishlatiladi:
++vaqt domenidan davriy bo'lmagan signallarni chastota domeniga o'zgartirish
+-faqat vaqt domenidan chastota domeniga davriy signallarni va aksincha
+-diskret signallarni siqish
+-kiruvchi signal chastotalarini filtrlash
 
-?Xususiylashtirish harakatlari uchun qanday boshqaruv elementlari ishlatiladi?
-+elementlar tanlanadi
--buyruq boshqaruvlari
--kirish elementlari
--displey elementlari
+?Signallarni qayta ishlashda eng ko'p ishlatiladigan amal
++Svyortka
+-Korrelyatisiya
+-Tanib olish masalalari
+-Identifikatsiya
 
-Appetize.io?
-+bu har qanday kompyuterda iOS dasturlaridan foydalanishga imkon beruvchi brauzer emulyatori
--Mac va Windows-da iOS-ni boshqarishi mumkin.
--Windows va Mac-da Android dasturlaridan foydalanishga imkon beradi
--Linux operatsion tizimida Windows dasturlarini ishlaydi
+?Signal chastotasi 230 Hz va qurilmaning disktretlash chastotasi 16 kHz bo'lsa, qurilma 1 sekundda nechta qiymat qabul qiladi.
++16000
+-15670
+-16230
+-8230
+
+?Video fayllardagi tasvirlarning tebranishiga asosan quyidagilar sabab bo'ladi:
++kerakli miqdordagi kadrlarni o'z vaqtida uzata olmaslik
+-freymlarning yuqori chastotali tarkibiy qismlari bundan mustasno
+-"yo'qotish bilan" siqishni usullari
+-noo'rin o'tkazish usullari
+
+?JPEG (Joint Photographic Expert Group) siqishni standartining zamonaviy versiyasi:
++DCT va FFT kombinatsiyasidan foydalanadi va asosan harakatsiz tasvirlar uchun ishlatiladi
+-tasvirlarni harakatlantirish uchun ishlatib bo'lmaydi
+-DCT va Huffman kodlarining kombinatsiyasidan foydalanadi va asosan harakatsiz tasvirlar uchun ishlatiladi
+-siqishni aniqlash uchun kesishni aniqlash smetasidan foydalanadi
+
+?MATLAB-dagi qaysi funktsiya uzatish funktsiyasi nomeratori va maxrajining polinomlari koeffitsientlari to'plamlarini vektorlar va nollarga o'zgartiradi?
++cheblfp (x, y)
+-demo
+-platx
+-tf2zp
+
+?Diskret filtrlar qanday shakllarga ega?
++Kanonik, ko'chirilgan, ketma-ket, elliptik
+-Kanonik, muvozanatli, parallel, elliptik
+-Transpozitsiya qilingan, ketma-ket, parallel, kaskadli
+-Kanonik, ko'chirilgan, ketma-ket, parallel
+
+?Siqish jarayoniga to'g'ri ta'rifni belgilang
++Ma'lumotlar fayllari hajmini kamaytirish jarayoni
+-Ma'lumotlarni olib tashlash jarayoni
+-Ma'lumotlarni tahlillash asosida olib tashlash
+-To'g'ri javob yo'q
+
+?Multipleksiya uchun to'g'ri javobi belgilang.
++Bu bir nechta ma'lumot oqimlarini bitta vosita orqali birlashtirish va yuborish uchun ishlatiladigan usul
+-Ma'lumotlarni olib tashlash jarayoni
+-Ma'lumotlarni tahlillash asosida olib tashlash
+-To'g'ri javob yo'q
+
+?Ma'lumotlarning asosiy turlari berilgan qatorni belgilang.
++Butun,haqiqiy,kompleks,mantiqiy,matnli
+-Mantiqiy,matnli,butun,massiv
+-Massiv,haqiqiy,kompleks,irratsional
+-Butun,haqiqiy,matnli,rastrli,chiziqli
+
+?Ma'lumotlar taqdim etishning asosiy formatlarini sanang
++Bayt,yarimso'z,so'z,ikkitalik so'z,kengaytirilgan so'z
+-Bayt,yarimso'z
+-Bayt,yarimso'z,kengaytirilgan so'z
+-To'g'ri javob yo'q
+
+?ADSP-2100 oilasidagi har bir protsessor nechta mustaqil hisoblash birliklarini o'z ichiga oladi?
++3
+-4
+-5
+-6
+
+?ADSP-2100 necha bitli ma'lumotlarni qayta ishlash uchun mo'ljallangan?
++16
+-32
+-48
+-64
+
+?ADSP-2100 oilasi protsessorlari quyidagilardan qaysilarini o'z ichiga oladi?
++Arifmetik mantiqiy qurilma,multiplikator-akkumlator,ma'lumot almashinuvchisi
+-Arifmetik mantiqiy qurilma, boshqaruv yacheykasi, akkumlator
+-Akkumlator,boshqaruv paneli, nazorat yacheykasi
+-To'g'ri javob yo'q
+
+?Qaysi spektral o'zgartirish algoritmi kosinusga asoslangan?
++DCT
+-Fure
+-Adamar
+-Haara
+
+?Nutq signalining asosiy parametrlari qaysilar?
++qisqa vaqtli energiyasi va noldan o'tuvchi nuqtalar soni
+-qisqa vaqtli energiyasi
+-noldan o'tuvchi nuqtalar soni
+-signalning diskretlash chastotasi
+
+?Band Stop Filtr uchun to'g'ri javobni belgilang?
++Chastotasi filtr hisoblanayotganda berilgan chastota o'tkazuvchanlik kengligidan tashqaridagi barcha signallarni o'tkazadi
+-Chastotasi filtr hisoblanmayotganda berilgan o'tkazish chastota kengligi ichida bo'lgan signallarni o'tkazmaydi
+-Bu turdagi filtr chastotasi aniqlangan qiymatdan yuqori bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlamaydi
+-Bu turdagi filtr chastotasi aniqlangan qiymatdan past bo'lgan signallarni o'tkazadi, boshqa signallarni kesib tashlamaydi
+
+?Matlab paketida 'dct(x)' - buyrug'i qanday vazifani bajaradi?
++X - signalni diskret kosinus o'zgartirishi orqali o'zgartiradi
+-X - signalni diskret sinus va kosinus o'zgartirishi orqali o'zgartiradi
+-X- - signalni diskret tangens o'zgartirishi orqali o'zgartiradi
+-X - signalni diskret Furye o'zgartirishi orqali o'zgartiradi
+
+?Signallarga raqamli ishlov berish jarayonlarida teskari jarayonlar nimani ifodalaydi?
++Signalning sinusoidalar bo'yicha sintezi
+-Davriy signallarni  turi
+-Chastotali signallar
+-Karrali chastotalar
+
+?Signallarga raqamli ishlov berishda blokli kodlash 2 turga bo'linadi, ular qaysi qatorda ko'rsatilgan.
++Chiziqli,davriy
+-Davriy, analog
+-Analog va raqamli
+-Filtrli
+
+?Nutq signallari va elektromiografiya signallarining asosiy farqi nimada?
++Kirish chastotasi
+-Formatida
+-Faylida
+-Segmentida
+
+?Shovqinni minimallashtirishda signallarini qayta ishlash texnikasi  asosan qaysi sohada amalga oshiriladi?
++Vaqt sohasida
+-Faza sohasida
+-Amplituda sohasida
+-Chastota sohasida
+
+?Signallarni qayta ishlashda signal nimani ifodalaydi?
++biror bir fizik jarayonning bir yoki bir nechta parametrini xabarga mos ravishda o'zgarishini ifodalaydi.
+-nutqni segmentlash jarayonini ifodalaydi
+-fizik jarayonning matematik modelini ifodalaydi
+-to'g'ri javob yo'q
+
+?Nutq signallarini tanib olishda signalning qaysi asosiy koeffisentlaridan foydalaniladi?
++MFCC
+-FFT qiymatlari
+-DCT qiymatlari
+-Energiya
+
+?Tashqi muhit aloqasiga ko'ra tizimlar qanday bo'ladi?
++Ochiq va yopiq
+-Yashiringan va asosiy
+-Mavhum va absolut
+-Agressiv va aktiv
+
+?Tizimning murakkabligi nimalarga bog'liq?
++Ichki va tashqi bog'liqlik, dinamik o'zgarishlar
+-Tashqi ta'sirlar
+-Statik va dinamik kuchlanishlar
+-Tizimning integratsiyasi,monitoringi
+
+?Signal chastotasi 24 kHz  bo'lsa u necha Hz ga teng bo'ladi?
++24000
+-24576
+-24050
+-24100
 `;
 
 const parseQuestions = (data) => {
