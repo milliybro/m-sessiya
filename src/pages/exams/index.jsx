@@ -4,7 +4,7 @@ const ExamPage = () => {
   return (
     <div>
       <Link to={`/kompyuterni_tashkil etilishi`}>
-        Kompyuterni tashkil etilishi
+        Tizimlar va signallarni qayta ishlash
       </Link>
     </div>
   );

@@ -11,7 +11,7 @@ const Kompyuter = () => {
   const [animationProgress, setAnimationProgress] = useState(0);
 
   useEffect(() => {
-    const animationDuration = 30 * 60 * 1000; // 30 minutes in milliseconds
+    const animationDuration = 45 * 60 * 1000; // 30 minutes in milliseconds
     const startTime = Date.now();
 
     const updateAnimation = () => {
