@@ -1792,7 +1792,604 @@ ChM signalning spektor kengligi  o’zgarmaydi
 +2
 -5 
 
+? Tasodifiy miqdorlar nechta kattaniga bo'linadi?
++ 3
+- 4
+- 2
+- 5
 
+? Aloqa kanallarining ko'rsatgichlari to'g'ri berilgan qatorni belgilang.
++ Kanal orqalig'i xabar uzatilish vaqti, kanal dinamik diapazoni, kanal signal spektri o'tkazish kengligi.
+- Kanal orqalig'i xabar uzatilish vaqti, aloqa kanali hajmi
+- Kanal signal spektri o'tkazish kengligi, aloqa tizimi
+- Aloqa kanali hajmi, kanal dinamik diapazoni
+
+? Aloqa kanali deb –
++ Xabar nima bundan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga aytiladi.
+- Xabar nima bundan xabar iste'molchi o'rtasidagi xohlagan ikki nuqta orasidagi texnik qurilmalar to'plamiga aytiladi.
+- Xabar nima bundan xabar iste'molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to'plamiga aytiladi.
+- Xabar nima bundan xabar iste'molchiga yetkazib berish uchun kanal signal spektri o'tkazish kengligiga aytiladi.
+
+? Davriy signalarning spektri nechaxil ko'rinishda bo'ladi?
++ 5
+- 3
+- 4
+- 2
+
+? Amplituda spektri – bu
++ Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- Bu har xil fizik jarayonlar, jismlar, tarixiy va kundalik hodisalar to'g'risidagi ma'lumotdir.
+- Biror bir fizik jarayonning bir yoki nechtaparametlarini xabar gamos ravishtao'zgarishiga aytiladi.
+- Xabar nima bundan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga aytiladi.
+
+? Davriy signalarning spektri to'g'ri ko'rsatilgan qatorni belgilang.
++ Amplituda spektri, faza spektri, quvvat spektri.
+- Kanal orqalig'i xabar uzatilish vaqti, kanal dinamik diapazoni.
+- Amplituda spektri, faza spektri.
+- Amplituda spektri, chastota spektri, quvvat spektri.
+
+? Faza spektri bu
++ Signalning garmoniktashkiletuvchilarini boshlang'ich fazalarini chastota bo'yicha taqsimlanishi.
+- Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- Signalning garmoniktashkiletuvchilarini quvvatlarini chastota bo'yicha taqsimlanishi.
+- Xabar nima bundan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga aytiladi.
+
+? Quvvat spektri –
++ Bu signalning garmoniktashkiletuvchilarini quvvatlarini chastota bo'yicha taqsimlanishi.
+- Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- Biror bir fizik jarayonning bir yoki nechtaparametlarini xabar gamos ravishtao'zgarishiga aytiladi.
+- Amplituda sicheksizlikka intilgan, impul's kengligi "1"–ga intilgan, yuzasi esa "0"ga teng bo'lgan matematik impulsga aytiladi.
+
+? Delta impuls deb –
++ Amplituda sicheksizlikka intilgan, impul's kengligi “0”–ga intilgan, yuzasi esa “1”ga teng bo'lgan matematik impulsga aytiladi.
+- Biror bir fizik jarayonning bir yoki nechtaparametlarini xabar gamos ravishtao'zgarishiga aytiladi.
+- Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- Amplituda sicheksizlikka intilgan, impul's kengligi “1”–ga intilgan, yuzasi esa “0”ga teng bo'lgan matematik impulsga aytiladi.
+
+? Nochiziqli elementning grafik yoki jadval shaklida berilgan VAX ni analitik (matematik) ifodaga almashtirish nima deb ataladi?
++ Approksimatsiyalash.
+- Delta impuls.
+- Furye qatori.
+- Modulyatsiya.
+
+? Modulyatsiya deb –
++ Yuqori chastotaligarmoniktashuvchitebranishning biror bir parametrini (amplitudasini, chastotasini, yoki fazasini) past chastotalibirlamchi signalning o'zgarish qonuniga mos ravishda o'zgarishiga aytiladi.
+- Nochiziqli elementning grafik yoki jadval shaklida berilgan VAX ni analitik (matematik) ifodaga almashtirishga aytiladi.
+- Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishiga aytiladi.
+- Xabar nima bundan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga aytiladi.
+
+? Modulyatsiyaning nechta asosiy turi mavjud?
++ 2
+- 6
+- 4
+- 3
+
+? Tasodifiy miqdor deb……
++ Avvaldan noma'lum bo'lgan sinash natijasida konkret qiymatga ega bo'lgan miqdorga aytiladi.
+- Ma'lum shartlar bajarilganda ro'y berishi ham ro'y bermasligi ham mumkin bo'ladigan hodisaga aytiladi.
+- Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishiga aytiladi.
+- Xabar nima bundan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga aytiladi.
+
+? Fluktuasiya–bu……
++ Vaqt va spektr bo'yicha cheklanmagan ergodik stansionar tasodifiy jarayon.
+- Biror bir fizik qiymatni o'zining o'rtacha qiymatidan tasodifiy ravishda chetlanishidir.
+- Avvaldan noma'lum bo'lgan sinash natijasida konkret qiymatga ega bo'lgan miqdorga aytiladi.
+- Signalning garmoniktashkiletuvchilarini amplitudalarini chastota bo'yicha taqsimlanishiga aytiladi.
+
+? Impuls amplitudasi modulyatsiyasi signalar necha xil bo'ladi?
++ 4
+- 2
+- 3
+- 5
+
+? Impulslar fazasi modulyatsiyasida……
++ Uzatilayotgan xabar gamosravishda impulslar (kengligi) davomiyligi o'zgaradi.
+- Uzatilayotgan xabar gamosravishda impulslarning holati takchizig'iga isbatanchapga yoki o'ngga siljiydi.
+- Impulslartakrorlanish chastotasi modulyatsiyalovchi xabar amplitudasi gamosravish da'vi o'zgaradi.
+- Birlamchi analog xabar (signal) diskretlash va kvantlash natijasida raqamli odlangan diskret xabarga aylantiriladi va har bir takchizig'ivaqtoralig'ida ushbu kodlar kombinatsiyasi orqali "1" va "0" elementar signallar yaratmaketligi shakllantiriladi.
+
+? Impuls davomiyligi modulyatsiyasida……
++ Uzatilayotgan xabar gamosravishda impulslar (kengligi) davomiyligi o'zgaradi.
+- Uzatilayotgan xabar gamosravishda impulslarning holati takchizig'iga isbatanchapga yoki o'ngga siljiydi.
+- Impulslartakrorlanish chastotasi modulyatsiyalovchi xabar amplitudasi gamosravish da'vi o'zgaradi.
+- Birlamchi analog xabar (signal) diskretlash va kvantlash natijasida raqamli odlangan diskret xabarga aylantiriladi va har bir takchizig'ivaqtoralig'ida ushbu kodlar kombinatsiyasi orqali "1" va "0" elementar signallar yaratmaketligi shakllantiriladi.
+
+? Impulslar chastotasi modulyatsiyasida…..
++ Uzatilayotgan xabar gamosravishda impulslar (kengligi) davomiyligi o'zgaradi.
+- Uzatilayotgan xabar gamosravishda impulslarning holati takchizig'iga isbatanchapga yoki o'ngga siljiydi.
+- Impulslartakrorlanish chastotasi modulyatsiyalovchi xabar amplitudasi gamosravish da'vi o'zgaradi.
+- Birlamchi analog xabar (signal) diskretlash va kvantlash natijasida raqamli odlangan diskret xabarga aylantiriladi va har bir takchizig'ivaqtoralig'ida ushbu kodlar kombinatsiyasi orqali "1" va "0" elementar signallar yaratmaketligi shakllantiriladi.
+
+? Impuls kod modulyatsiyasida……
++ Uzatilayotgan xabar gamosravishda impulslar (kengligi) davomiyligi o'zgaradi.
+- Uzatilayotgan xabar gamosravishda impulslarning holati takchizig'iga isbatanchapga yoki o'ngga siljiydi.
+- Impulslartakrorlanish chastotasi modulyatsiyalovchi xabar amplitudasi gamosravish da'vi o'zgaradi.
+- Birlamchi analog xabar (signal) diskretlash va kvantlash natijasida raqamli odlangan diskret xabarga aylantiriladi va har bir takchizig'ivaqtoralig'ida ushbu kodlar kombinatsiyasi orqali "1" va "0" elementar signallar yaratmaketligi shakllantiriladi.
+
+? Aloqa kanallari nechtako'rsatgich bilan baholanadi?
++ 4
+- 6
+- 3
+- 2
+
+? Qaysi turdagi modulyatsiyada birlamchi analog xabar (signal) diskretlash va kvantlash natijasida raqamli odlangan diskret xabarga aylantiriladi va har bir takchizig'ivaqtoralig'ida ushbu kodlar kombinatsiyasi orqali "1" va "0" elementar signallar yaratmaketligi shakllantiriladi?
++ Impuls kod modulyatsiyasi
+- Impuls vaqt modulyatsiyasi
+- Chastota modulyatsiyada
+- Amplituda modulyatsiyasida
+
+? Impulslar fazasi modulyatsiyasida…….
++ Uzatilayotgan xabar gamosravishda impulslarning holati takchizig'iga isbatanchapga yoki o'ngga siljiydi.
+- Ularning takrorlanish chastotasi xabar gamosravishda kattalashadi va kichiklashadi.
+- Bunda birlamchi analog xabar (signal) diskretlash va kvantlash natijasida raqamli odlangan diskret xabarga aylantiriladi.
+- "1" va "0" elementar signallar yaratmaketligi shakllantiriladi.
+
+? Tizim turlari?
++ Chiziqli tizimlar; Nochiziqli tizimlar
+- Aktiv Passiv
+- Diskret, uzluksiz, chiziqli
+- Chiziqli va diskret
+
+? Quvvatning 10 marta kuchsizlanishi ga to'g'ri keladigan nisbiy uzatish satxi (dB da)
++ Minus 10 dB
+- Minus 3 dB
+- Minus 6 dB
+- Minus 20 dB
+
+? Quvvatning 100 martalik kuchsizlanishga to'g'ri keladigan nisbi uzatish sathi (dB da).
++ minus20dB
+- minus3dB
+- minus10dB
+- minus6dB
+
+? Quvvatning 1000 martalik kuchsizlanishga to'g'ri keladigan nisbi uzatish sathi (dB da).
++ minus30dB
+- minus3dB
+- minus10dB
+- minus6dB
+
+? Agar uzatilayotgan signalning to'lqin uzunligi quyidagi qiymatdan oshmasa, 10 m uzunlikdagi liniya "uzun" hisoblanadi.
++ 1000m
+- 4m
+- 100m
+- 4000m
+
+? Uzatilayotgan signalning to'lqin uzunligi 3 m uzunlikni, yaning minimal uzunligi teng.
++ 3m
+- 0,3
+- 1m
+- 10m
+
+? Uzatilayotgan signal chastotasi 20 kGs. Shunga mos "uzun" liniyaning minimal uzunligini ko'rsating.
++ 30km
+- 15km
+- 0,15km
+- 1,5km
+
+? Liniyaning uzunligi 10 m ga teng. Ushbu liniya "uzun" hisoblanishi uchun uzatilayotgan signalning minimal chastotasini ko'rsating.
++ 0,3mGs
+- 3mGs
+- 30mGs
+- 100mGs
+
+? Aloqa kanallarining ko'rsatgichlari to'g'ri berilgan qatorni belgilang.
++ kanal orqalig'i xabar uzatilish vaqti, kanal dinamik diapazoni, kanal signal spektri o'tkazish kengligi.
+- kanal orqalig'i xabar uzatilish vaqti, aloqa kanali hajmi
+- kanal signal spektri o'tkazish kengligi, aloqa tizimi
+- aloqa kanali hajmi, kanal dinamik diapazoni
+
+? Xabarnomaning badan xabar iste'molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to'plami nima deb ataladi.
++ aloqa kanali hajmi
+- aloqa tizimi
+- kanal signal spektri
+- signalspektri
+
+? Aloqa tizimi bu –
++ xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to'plamiga
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal orqalig'i xabar uzatilish vaqti
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal signal spektri o'tkazish kengligiga
+
+? Aloqa kanali deb –
++ xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga aytiladi.
+- xabarman basivaiste'molchi o'rtasidagi xohlagan ikkita nuqta orasidagi texnik qurilmalar to'plamiga aytiladi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun foydalaniladigan texnik qurilmalar to'plamiga aytiladi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal signal spektri o'tkazish kengligiga aytiladi.
+
+? Signal deb –
++ biror bir fizik jarayonning bir yoki nechtal parametlarini xabar gamosravishtao'zgarishiga aytiladi.
+- buxarxil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to'g'risidagi ma'lumotdir.
+- xabarman basivaiste'molchi o'rtasidagi xohlagan ikkita nuqta orasidagi texnik qurilmalar to'plamiga aytiladi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal signal spektri o'tkazish kengligiga aytiladi.
+
+? Davriy signallarning spektri necha xil ko'rinishda bo'ladi.
++ 2
+- 5
+- 3
+- 4
+
+? Modulyatsiyaning necha asosiy turi mavjud.
++ 3
+- 2
+- 4
+- 6
+
+? Modulyatsiyaning turlari to'g'ri ko'rsatilgan qatorni belgilang.
++ AM, ChM, FM
+- AM, SM, FM
+- AM, FM, DM
+- AM, ChM
+
+? Amplituda spektri – bu
++ signalning garmonika tashkil etuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- buxarxil fizik jarayonlar, jismlar, tarixiy va kundalik xodisalar to'g'risidagi ma'lumotdir.
+- biror bir fizik jarayonning bir yoki nechtal parametlarini xabar gamosravishtao'zgarishiga aytiladi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga.
+
+? Davriy signallarning spektri to'g'ri ko'rsatilgan qatorni belgilang.
++ amplituda spektri, faza spektri, quvvat spektri.
+- kanal orqalig'i xabar uzatilish vaqti, kanal dinamik diapazoni.
+- amplituda spektri, faza spektri.
+- amplituda spektri, chastota spektri, quvvat spektri.
+
+? Faza spektri bu
++ signalning garmonika tashkil etuvchilarini boshlang'ich fazalarini chastota bo'yicha taqsimlanishi.
+- signalning garmonika tashkil etuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- signalning garmonika tashkil etuvchilarini quvvatlarini chastota bo'yicha taqsimlanishi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal dinamik diapazoniga.
+
+? Quvvat spektri –
++ bu signalning garmonika tashkil etuvchilarini quvvatlarini chastota bo'yicha taqsimlanishi.
+- signalning garmonika tashkil etuvchilarini amplitudalarini chastota bo'yicha taqsimlanishi.
+- signalning garmonika tashkil etuvchilarini boshlang'ich fazalarini chastota bo'yicha taqsimlanishi.
+- biror bir fizik jarayonning bir yoki nechtal parametlarini xabar gamosravishtao'zgarishiga aytiladi.
+
+? Nochiziqli elementning grafik yoki jadval shaklida berilgan VAX ni analitik (matematik) ifodaga almashtirish nima deb ataladi.
++ approksimatsiyalash
+- delta impuls
+- furye qatori
+- modulyatsiya
+
+? Modulyatsiya deb
++ Nochiziqli elementning grafik yoki jadval shaklida berilgan VAX ni analitik (matematik) ifodaga almashtirishga aytiladi.
+- yuqori chastotaligarmoniktashuvchitebranishning biror bir parametirini (amplitudasini, chastotasini, yoki fazasini) past chastotalibirlama signalning o‘zgarish qonuniga mos ravishda o‘zgarishiga aytiladi.
+- signalning garmonika tashkil etuvchilarini amplitudalarini chastota bo‘yicha taqsimlanishiga aytiladi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal orqalig'i xabar uzatilish vaqti.
+
+? Amplituda modulyatsiyasi deb
++ yuqori chastotaligarmoniktashuvchitebranishning, amplitudasini past chastotalibirlama signalning o‘zgarish qonuniga mos ravishda o‘zgarishiga aytiladi.
+- yuqori chastotaligarmoniktashuvchitebranishning biror bir parametirini (amplitudasini, chastotasini, yoki fazasini) past chastotalibirlama signalning o‘zgarish qonuniga mos ravishda o‘zgarishiga aytiladi.
+- xabarnomaning badan xabar iste'molchiga yetkazib berish uchun kanal orqalig'i xabar uzatilish vaqti.
+- Nochiziqli elementning grafik yoki jadval shaklida berilgan VAX ni analitik (matematik) ifodaga almashtirishga aytiladi.
+
+? _________ modulyatsiyalovchi signal amplitudasining tashuvchi tebranish amplitudasiga nisbati aytiladi.
++ Amplituda modulyatsiyasi
+- Fazamodulyatsiyasi
+- Modulyatsiya koeffitsienti
+
+? Spektrida tashuvchisi mavjud bo‘lmagan va faqat ikkita yon tomon polosalaridan iborat bo‘lgan garmonika modulyatsiya turi nima deb ataladi.
++ balansli modulyatsiya
+- amplituda modulyatsiyasi
+- faza modulyatsiyasi
+- chastota modulyatsiyasi
+
+? Nodavriysignallarning minimal tashkil qiladi?
++ yolg‘iz, yakka impulslar.
+- chastotalar.
+- spektrlar.
+- impulslar, reklama maketi.
+
+? ………… deb yuqori chastotaligarmoniktashuvchitebranishning fazasini past chastotalibirlama signalning o‘zgarish qonuniga mos ravishda o‘zgarishiga aytiladi.
++ faza modulyatsiyasi
+- chastota modulyatsiyasi
+- impuls modulyatsiyasi
+- garmonik modulyatsiya
+
+? Faza bo‘yicha modulyatsiya qilingan signalni hosil qilish uchun nima dan foydalaniladi?
++ faza modulyatsiyasidan
+- impulsdan
+- chastotadan
+- rezonanslik kuchaytirgichdan
+
+? Faza modulyatori ni faza modulyatsion xarakteristikasibu
++ modulyator chiqishidagi tashuvchitebranishning fazasini siljish kuchlanishini o'zgarishiga bog'liqligi, bu axborotni o'zida mujassamlashtirgan ma'lum bir fizik kattalik.
+- Furye to‘g‘ri almashtirishning spektrial xarakteristikasi
+- xabarnoma va iste'molchi o'rtasidagi xohlagan ikki nuqta orasidagi texnik qurilmalar to‘plami.
+
+? _____ qanday rejimda tebranish konturi xarqanday sozlangan va hamundaqi tebranishning chastotasi kirish signalning chastotasi ga teng bo'ladi.
++ Passiv
+- Statsionar
+- muqobil
+- aktiv
+
+? Signallarga ishlov beruvchi tizimlar matematik tavsiflashga qaysi turlarga bo'linadi?
++ chiziqli, nochiziqli, diskret
+- uzluksiz, diskret, chiziqli
+- nochiziqli, vaqt bo‘yicha diskretlangan, chiziqli
+- diskret, uzluksiz, chiziqli
+
+? ….. deb xabarnoma va iste'molchi o'rtasidagi xohlagan ikki nuqta orasidagi texnik qurilmalar to'plamiga aytiladi.
++ axborot uzatish
+- signal
+- telefoniya
+- aloqa kanali
+
+? Xalaqitning turlarini ko‘rsating?
++ Aditiv xalaqitlar. Multiplikativ xalaqitlar
+- Industrial xalaqitlar. Ta’sir etmagan xalaqitlar
+- Ta’sir etgan va ta’sir etmagan xalaqitlar
+- Industrial xalaqitlar. Multiplikativ xalaqitlar
+
+? Signallarning inflarga ajratish qanday bo‘ladi?
++ shakli bo‘yicha – soddav va murakkab; axborotlashtirilganligi bo‘yicha – determinall va sodifiy; xarakteristikasi bo‘yicha – uzluksiz, diskret va raqamli
+- eksponenta va sinusoidal; xarakteristikasi bo‘yicha – uzluksiz, diskret va raqamli
+- garmoniktebranishni faza bo‘yicha siljitish; axborotlashtirilganligi bo‘yicha – determinall va sodifiy
+- xarakteristikasi bo‘yicha – uzluksiz, diskret va raqamli
+
+? IAM signallar qanday bo‘lishi mumkin:
++ birinchi tur IAM I, ikkinchi tur IAM II
+- impulsning takt chizig‘iga nisbatan faqat bir tomoniga – orqa tomoniga uzatilayotgan xabar signalining amplitudasi mos ravishda kengayishi
+- impulsning takt chizig‘iga nisbatan har ikki tomoniga uzatilayotgan xabar amplitudasi mos ravishda kengayishi
+- nochiziqli, vaqt bo‘yicha diskretlangan, chiziqli
+- diskret, uzluksiz, chiziqli
+
+? Uzluksiz signalni vaqt bo‘yicha diskretlangan signalga aylantirib beradigan qurilma?
++ Diskretizator
+- Koder
+- Demodulyator
+- Kvantlovchi qurilma
+
+? Har qanday radio texnika qurilmaning uzatish koeffitsiyenti bilan impuls xarakteristikasini bir-birlari bilan nima orqali bog‘langan?
++ Furye almashtirishlar
+- Kotelnikov teoremasi
+- Laplas almashtirishlari
+- Signallar orqali
+
+? Agar detektorning tarkibida parametrik element ishlatilsa, bunday detektor …… deb ataladi.
++ Sinxron detektor
+- FM detektor
+- AM detektor
+- ChM detektor
+
+? Har qanday radio texnik qurilmaning impuls xarakteristikasi deb
++ radio texnika qurilmaning kirishiga (t0) berilganda chiqishida hosil bo‘lgan jovoob signaliga radio texnika qurilmaning impuls xarakteristikasiga deyiladi
+- garmoniktebranishni faza bo‘yicha siljitishga aytiladi
+- impulsning takt chizig‘iga nisbatan faqat bir tomoniga – orqa tomoniga uzatilayotgan xabar signalining amplitudasi mos ravishda kengayishi
+- impulsning takt chizig‘iga nisbatan har ikki tomoniga uzatilayotgan xabar amplitudasi mos ravishda kengayishi
+
+? Kotelnikov teoremasiga asoslanib spektri cheklangan har qanday uzluksiz signalni ………. yoyish mumkin.
++ Kotelnikov qatoriga
+- Laplas to‘g‘ri almashtirishiga
+- Laplas eskariy almashtirishiga
+- Furye qatoriga
+
+? Faza deviatsiyasi nima?
++ Tashuvchining fazasini o‘zining o‘rta qiymatidan "maksimum" chetlanishi. ChM signalning spektri kengligi o‘zgarmaydi
+- Detektorining chiqishidagi tokning qiymatini detektornik kirishiga modulyatsiya qilingan tashuvchining amplitudasi ga bog‘liq xarakteristikaga aytiladi.
+- Tashuvchi chastotasini o‘zining o‘rta qiymatidan "max" chetlanishiga aytiladi.
+
+? ChM signalning spektri kengligi o‘zgarmaydi, faqat __________ o‘zgaradi.
++ spektral chizig‘i soni
+- yo‘nalishi
+- ham yo‘nalishi ham chiziqlar soni
+- amplituda kengligi
+
+? AM signalni FM signalga aylantirib ham hosil qilishni qaysi usul amalga oshiradi?
++ Aristrong
+- Furye
+- Laplas
+- Barer
+
+? Qanday kontur sozlanmagan kontur deyiladi?
++ Konturining rezonans chastotasi ChM signalning tashuvchisi ni chastotasiga teng bo‘lmasa
+- Konturining rezonans chastotasi FM signalning tashuvchisi ni chastotasiga teng bo‘lmasa
+- Konturining rezonans chastotasi AM signalning tashuvchisi ni chastotasiga teng bo‘lmasa
+- Konturining rezonans chastotasi ChM signalning tashuvchisi ni amplitudasi ga teng bo‘lmasa
+
+? Analitik usul qaysi hollarda ishlatiladi?
++ Nochiziqli zanjirga murakkab signallar tasir etganda ishlatiladi
+- Polinomlarda
+- Sinxron detektorlarda
+- Vaqt bo‘yicha diskretlangan signallarda
+
+? Chastota modulyatsiyasi nima?
++ yuqori chastotali garmoniktashuvchi tebranishning chastotasini past chastotali birlamchi signalning o‘zgarish qonuni bilan mos ravishda o‘zgarishiga aytiladi
+- yuqori chastotali garmoniktashuvchi tebranishning chastotasini yuqori chastotali birlamchi signalning o‘zgarish qonuni bilan mos ravishda o‘zgarishiga aytiladi
+- tashuvchichastotasi o‘zining o‘rta qiymatidan "max" chetlanishiga aytiladi
+- tashuvchichastotasi o‘zining o‘rta qiymatidan "min" chetlanishiga aytiladi
+
+? Avtogenerator yordamida nima qilish mumkin?
++ Chastota modulyatsiyasini yasash mumkin
+- FM signallarni detektorlash
+- Faza modulyatsiyasini yasash mumkin
+- ChM signallarni detektorlash
+
+? Modulyatsiyaga nisbatan teskarijarayon qaysi?
++ AM signallarni detektorlash
+- Demodulyatsiya
+- FM signallarni detektorlash
+- ChM signallarni detektorlash
+
+? Detektorning kirishidagi signalning amplitudasiga qarab ish rejimlarini ko‘rsating?
++ Kvadratik va chiziqli detektorlash
+- Polosasimon va oddiy detektorlash
+- Arrasimon
+- Bipolyar va unipolyar
+
+? Amplituda detektorining xarakteristikasi deb?
++ detektorining chiqishidagi tokning qiymatini detektornik kirishiga modulyatsiya qilingan tashuvchining amplitudasiga bog‘liq xarakteristikaga aytiladi
+- detektorning kirishidagi signalning amplitudasiga qarab ish rejimi o‘zgarishiga
+- yuqori chastotali garmoniktashuvchi tebranishning chastotasini past chastotali birlamchi signalning o‘zgarish qonuni bilan mos ravishda o‘zgarishiga aytiladi
+- parametrlar (qarshiligi, sig‘imi, ichki induktivligi) vaqtga bog‘liq bo‘lgan elementga aytiladi
+
+? Parametrik element deb?
++ parametrlar (qarshiligi, sig‘imi, ichki induktivligi) vaqtga bog‘liq bo‘lgan elementga aytiladi
+- detektorining chiqishidagi tokning qiymatini detektornik kirishiga modulyatsiya qilingan tashuvchining amplitudasiga bog‘liq xarakteristikaga aytiladi.
+- parametrlar (qarshiligi, sig‘imi, ichki induktivligi) chastotaga bog‘liq bo‘lgan elementga aytiladi
+- parametrlar (qarshiligi, sig‘imi, ichki induktivligi) vaqtga bog‘liq bo‘lmagan elementga aytiladi
+
+? ....….. bug‘rektilida bir butun yoki bo‘laklardan iborat degan ma’no ni beradi.
++ Sistema
+- Xabar
+- Signal
+- Ma’lumot
+
+? Sinxron detektorning faza sezgirligi nima?
++ sinxron detektorning chiqishidagi hosil bo‘lgan past chastotali birlamchi signalning qiymati ga bog‘liq ya'ni tashuvchining chastotasini va parametrik qarshilikning o‘zgarish tezligining fazalarini farqi ga bog‘liq ekanligi
+- sinxron detektorning chiqishidagi hosil bo‘lgan past chastotali birlamchi signalning qiymati ga bog‘liq ya'ni tashuvchining amplitudasini va parametrik qarshilikning o‘zgarish tezligining fazalarini farqi ga bog‘liq ekanligi
+- sinxron detektorning chiqishidagi hosil bo‘lgan past chastotali birlamchi signalning qiymati ga bog‘liq ya'ni tashuvchining chastotasini va parametrik qarshilikning o‘zgarish tezligining spektral farqi ga bog‘liq ekanligi
+- sinxron detektorning kirishidagi hosil bo‘lgan past chastotali birlamchi signalning qiymati ga bog‘liq ya'ni tashuvchining chastotasini va parametrik qarshilikning o‘zgarish tezligining fazalarini farqi ga bog‘liq ekanligi
+
+? Balansli modulyator qurilmasini amalga oshirishdan nima kerak bo‘ladi?
++ 2 tabiiy taktli amplituda modulyatori
+- 1 tabiiy taktli amplituda modulyatori
+- 7 tabiiy taktli amplituda modulyatori
+- 4 tabiiy taktli amplituda modulyatori
+
+? Ideal ko‘paytiruvchi qurilma sifatida ishlatiladigan modulyator
++ Xalqali modulyator
+- Sinxron modulyator
+- Kvadratik modulyator
+- Unipolyar modulyator
+
+? Bitta minutda qali AM signallarni xosil qilish usullarini ko‘rsating
++ Filtrlash va zarar kompensatsiya usullari
+- Xalqali usuli
+- Sinxron usuli
+- Kvadratik usuli
+
+? Xalqali modulyator sxemasi qanday hosil qilinadi?
++ Chiqishida rezistorlar o‘rnatilgan balansli modulyatorning sxemasiga qo‘shimcha ikki ta diodulash orqali
+- AM, FM, CHM signallari orqali
+- Past chastotali signal orqali
+- Filtrlash va zarar kompensatsiya qilish orqali
+
+? Pastchastotalisignallar qanday kengliklarga ega?
++ 1) Telefonsignal 300 Hz = 3400 Hz.
+- 1) Telefonsignal 240 Hz = 3400 Hz.
+- 1) Telefonsignal 30 Hz = 400 Hz.
+- 1) Telefonsignal 380 Hz = 3800 Hz.
+
+? Elektraloqa kabellarining parametrlari
++ Qarshiligi, induktivligi, sig'im va xalaqitlar.
+- Tok kuchi, kuchlanish.
+- Chastota, xalaqitlar.
+- AM, FM, CHM.
+
+? Amplituda modulyatsiyasida nima ga aytiladi?
++ Yuqori chastotaligarmoniktashuvchitebranishning, amplitudasining o'zgarish qonuniga mos ravishda o'zgarishiga aytiladi.
+- Signal garmoniktebranish bo'lganda nochiziqli elementning V.A.X si esa grafik ko'rinishda berilganda ishlatiladi.
+- Yuqori chastotaligarmoniktashuvchitebranishning chastotasini past chastotalibirlamchi signallning o'zgarish qonuniga mos ravishda o'zgarishiga aytiladi.
+- Vaqt bo'yicha diskretlangan signallarga aytiladi.
+
+? Uzluksiz modulyatsiya turlari?
++ AM, FM, CHM.
+- Sinxron M.
+- Ortogonal M.
+- To'g'ri burchakli M.
+
+? Kesmaburchakusuli qachon ishlatiladi?
++ Nochiziqli elementning V.A.X si da raja lapolynomial yordamida approksimatsiya qilinanda ishlatiladi.
+- Chiziqli elementning V.A.X si da raja lapolynomial yordamida approksimatsiya qilinanda ishlatiladi.
+- Nochiziqli elementning V.A.X si sinxron polynomial yordamida approksimatsiya qilinanda ishlatiladi.
+- Nochiziqli elementning V.A.X si Laplas yordamida approksimatsiya qilinanda ishlatiladi.
+
+? ……………… uch koordinata tekisligi yordamida aniqlaymiz.
++ Nochiziqli elementdan oqib o'tuvchi tokni.
+- Vaqt bo'yicha diskretlangan signallarni.
+- AM bo'yicha diskretlangan signallarni.
+- FM bo'yicha diskretlangan signallarni.
+
+? Kesish burchagi deb?
++ Nochiziqli elementdan oqib o'tayotgan tokni "maksimum"dan "minimum" qiymatgacha o'zgarish davriga aytiladi.
+- Xabar manbai va iste'molchi o'rtasidagi xoxlagan ikkita nuqta orasidagi texnik qurilmalarning to'plami.
+- Bu axborotni o'zida mujassamlashtirgan ma'lum bir fizik kattalik.
+- Vaqt bo'yicha diskretlangan signallarga aytiladi.
+
+? Uch va besh koordinatalar usuli qachon ishlatiladi?
++ Signal garmoniktebranish bo'lganda nochiziqli elementning V.A.X si esa grafik ko'rinishda berilganda ishlatiladi.
+- Vaqt bo'yicha diskretlangan signallarda.
+- Laplas almashtirishlarda.
+- Raqamli signallarda.
+
+? Nochiziqli element ishlatilgan nochiziqli zanjirlarni hisoblashda qanday usuldan foydalaniladi?
++ Grafik va analitik usuldan.
+- Sinxron usuldan.
+- Vaqt bo'yicha diskretlangan signallar usuldan.
+- Analitik usuldan.
+
+? Elektraloqa nazariyasida va radio texnikada qaysi turdagi approksimatsiyalovchi funksiyalar eng ko'p ishlatiladi?
++ Daraja polinomlar, bulakli to'g'ri chiziqli approksimatsiya.
+- Qatorli polinomlar, to'g'ri burchakli approksimatsiya.
+- Qatorli polinomlar, bulakli to'g'ri chiziqli approksimatsiya.
+- Daraja polinomlar, bulakli egrichiziqli approksimatsiya.
+
+? Grafik usul qachon ishlatiladi?
++ Nochiziqli zanjirga element argarmoniktebranishlar tasir qilganda.
+- Vaqt bo'yicha diskretlangan signallarda.
+- Laplas almashtirishlarda.
+- Raqamli signallarda.
+
+? Davriy bo'lmagan impulslar spektrini aniqlashda qaysi ifodani qo'llab bo'lmaydi?
++ Furye qatorlarini.
+- Laplas almashtirishlarini.
+- Polinomlarni.
+- Analitik usulni.
+
+? To'g'ri to'rtburchakli yagona impulsning davomiyligi ikki barobar kengaysa qanday hodisa sodir bo'ladi?
++ Spektr kengligi siqiladi.
+- O'zgarmaydi.
+- Kengayadi.
+- Shakli o'zgartiradi.
+
+? To'g'ri to'rtburchakli yagona impulsning davomiyligi ikki barobar ortsa qanday hodisa sodir bo'ladi?
++ Spektr ikki barobar kengayadi.
+- Shakli o'zgartiradi.
+- O'zgarmaydi.
+- Siqiladi.
+
+? ………... bu har xil fizik jarayonlarni tarifiy hodisalar to'g'risidagi ma'lumotdir.
++ Informatsiya.
+- Signal.
+- Xabar.
+- Matn.
+
+? Signal turlari?
++ 1. Uzluksiz signal. 2. Vaqt bo'yicha diskretlangan signal. 3. Sath bo'yicha diskretlangan signal. 4. Vaqt va sath bo'yicha diskretlangan signal.
+- 1. Aloqa signali. 2. Vaqt bo'yicha diskretlangan signal. 3. Sath bo'yicha diskretlangan signal.
+- 1. Ortogonal signallar. 2. Uzluksiz signal. 3. Vaqt bo'yicha diskretlangan signal. 4. Sath bo'yicha diskretlangan signal.
+- Vaqt bo'yicha diskretlangan signallar.
+
+? ………… deb biror bir fizik jarayonning bir yoki bir nechta parametrini xabar gamosravishda o'zgarishiga aytiladi.
++ Signal.
+- Xabar.
+- Informatsiya.
+- Xodisa.
+
+? Aloqa sistemi nima?
++ Vaqt bo'yicha diskretlangan signallar.
+- Ikkita kanalni bir-biriga bog'lanishi.
+- Uzluksiz signallarning yig'indisi.
+- Sath bo'yicha diskretlangan signallar.
+
+? Oldingi misollardan moslangan rejimdagi isrofsiz liniya orqali signal o'tishini ko'rsating.
++ 2.
+- 3.
+- 1.
+- 4.
+
+
+? Oldingi misollardan moslama rejimdagi isrofsiz liniya orqali signal o'tishini ko'rsating.
++ 2.
+- 1.
+- 3 va 4.
+- 3.
+
+? Aloqa kanallari nechtako'rsatgich bilan baholanadi?
++ 4.
+- 6.
+- 3.
+- 2.
 `;
 
 const parseQuestions = (data) => {
