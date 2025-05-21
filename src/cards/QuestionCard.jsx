@@ -704,7 +704,716 @@ const QuestionCard = () => {
           audio dasturlar ++++++++++ Kompilyator qanday vazifani bajaradi?
           ========== #Dastur kodini mashina kodiga aylantirish ========== Faqat
           internet tarmog‘ini nazorat qilish ========== Faqat matn tahrirlash
-          ========== Faqat video yaratish ++++++++++
+          ========== Faqat video yaratish ++++++++++ MS Sql Server 2008 qanday
+          tizim? ==== #Foydalanuvchi interfeyslari so’rovnomalarga ishlov
+          berishni optimizatsiyalovchi va tranzaksiyalovchi boshqarish tizimi.
+          ==== Ma'lumotlar boshqarish tizimi. ==== Tranzaksiyalarga on-line
+          rejimda ishlov berish tizimi. ==== Ma'lumotlarni qayta ishlash tizimi
+          ++++ Ma’lumotlarning yangi, obyektga yo’naltirilgan obyektga
+          relyatsion deduktiv modellari qachon vujudga keldi. ==== #1980 yil
+          o’rtalarida ==== 1980 yil boshida ==== 1970 yilda ==== 1995 yilda ++++
+          (MBBT) qanday tizim? ==== #Predmetga yo’naltirilgan ma’lumotlar
+          bazasini boshqarish tizimi. ==== Ma'lumotlarni boshqarish tizimi. ====
+          Tranzaksiyalarga on-line rejimda ishlov berish tizimi. ====
+          Ma'lumotlarni qayta ishlash tizimi ++++ On-line Analitical Processing
+          OLAP qanday vazifani bajaradi? ==== #Ma’lumotlarni tozalash,
+          ma’lumotlarni umumlashtirish, va ualarga on-line rejimda analitik
+          ishlov berish ==== Ma'lumotlarni turkumlash. ==== Ma’lumotlarga
+          on-line rejimda ishlov berish tizimi. ==== Ma'lumotlarni qayta
+          ishlash. ++++ Ma’lumotlarni chuqur taxlilashning qo’shimcha usullarini
+          ko’rsating? ==== #klassifikatsiya, klasterizatsiya ==== Tranzaksiya,
+          klasterizatsiya ==== Optimizatsiya, klassifikatsiya ====
+          Klasterizatsiya, tranzaksiya ++++ MIT qaday jarayon? ==== #Katta
+          hajimdagi ma’lumotlardan yangi, korrekt bo’lgan va foydali axborotni
+          ajratib olish jarayoni ==== Ma'lumotlar boshqarish jarayoni. ====
+          Ma’lumotlarni umulashtirish jarayoni. ==== Ma'lumotlarni qayta ishlash
+          jarayoni. ++++ Ingiliz adabiyotida “MIT” o’rniga qanday tushuncha
+          ishlatiladi? ==== #Data Mining. ==== Data Source. ==== Data Analyze
+          ==== Data Mind ++++ Pattern nima? ==== #MIT vositasida ajratib olingan
+          bilim. ==== Ma’lumotlarnig asosiy mazmuni. ==== MIT vositasida ajratib
+          olingan ma’lumotlar to’plami. ==== Ma’lumot sarlavhasi. ++++ МIТ ning
+          vazifasi nima? ==== #Katta hajimdagi ma’lumotlar massivlaridan ma’noga
+          ega bo’lgan patternlarni ajratib olish ==== Katta hajimdagi
+          ma’lumotlar oqimidan kerakli malumotni topish. ==== Ma’lumotlarni
+          tasniflash. ==== Ma'lumotlarni qayta ishlash. ++++ Pattern qanday
+          vazifani bajaradi? ==== #Qarorlar qabul qilishda, jarayonlarni nazorat
+          qilishda, axborotni bajaruvchi va so’rovnomalarga ishlov berish
+          vazifasini bajaradi. ==== Ma'lumotlarni tahlil qilish vazifasini
+          bajaradi. ==== Ma’lumotlarni izlash jarayonini amalga oshirish
+          vazifasini bajaradi. ==== Ma'lumotlarni qayta ishlash jarayonini
+          nazorat qilish vazifasini bajaradi. ++++ MIT amalga oshirish necha
+          bosqichda amalga oshiriladi? ==== #6 ==== 5 ==== 4 ==== 7 ++++
+          Ma’lumotlar bazalari (MB) turlari nechta? ==== #9 ta ==== 5 ta ==== 4
+          ta ==== 7 ta ++++ Bilimlar bazasi ga ta’rif bering? ==== #Predmet soha
+          haqidagi natijaviy pattern (bilim) larni qanday izlash va kerakligini
+          baholash haqidagi bilimlar, ==== Ma’lumotlar qimmatliligini aniqlovchi
+          bilimlar. ==== Ma’lumotlar bazasi. ==== Ma’lumotlarni turkumlash
+          haqidagi bilimlar ++++ ... Xarakterlashtirish, assotsiyalarni topish,
+          klassifikatsiyalash, klaster tahlili kabi masalalarni yechishga imkon
+          beruvchi funksional modullar asosida amalga oshiriladi? ==== #Bilimlar
+          toppish xizmati ==== Bilimlar bazasi ==== Patternlarni baholash moduli
+          ==== MB yoki ma’lumotlar ombori server ++++ Patternlarni baholash
+          moduli bu -? ==== #Patternlarga qiziqish va ularning foydaliligini
+          o’lchamani hisoblashga xizmat qiladi. ==== Predmet soha haqidagi
+          natijaviy pattern(bilim)larni qanday izlash va kerakligini baholash
+          haqidagi bilimlar ==== Qarorlar qabul qilishda, jarayonlarni nazorat
+          qilishda, axborotni bajaruvchi va so’rovnomalarga ishlov berish
+          vazifasini bajaradi ==== Ma'lumotlarni tahlil qilish vazifasini
+          bajaradi ++++ Qaysi qatordagi javobga ta’rif berilgan? (Bu modul MIT
+          tizimi va foydalanuvchilar orasidagi aloqani turli formadagi
+          namunalarni vizuallashtirishni amalga oshiradi) ==== #Grafik
+          foydalanuvchi interfeysi ==== Pattern baholash moduli ==== Bilimlar
+          topish xizmati ==== Bilimlar bazasi ++++ Internet tushunchasiga tarif
+          keltirilgan qatorni toping? ==== #Eng katta hajimdagi multimediyali
+          axborotni saqlovchi ma’lumotlar bazasi ==== Ma’lumotlar ombori ====
+          Vizual tarmoq ==== Ma’lumotlar oqimi ++++ Qaysi qatordagi javobga
+          ta’rif berilgan? (fikran bog’lanishlar qoidalari X→Y shakliga ega , X
+          shartlari yetarli , taxminan Y shartlarini ham qoniqtiruvchi
+          ma’lumotlar bazasidagi yozuvlarni tushunadi) ==== #Fikran bog’lanish
+          tahlili ==== Sinflash va bashoratlash ==== Klaster tahlil ====
+          Evolutsion tahlil ++++ Evolutsion tahlil bu -? ==== #Vaqt davomida
+          o’zgaruvchi obyektlar uchun trendlarni modellashtiradi va tavsiflaydi.
+          ==== Ixtiyoriy berilgan obyektning aniq atributlari va klas
+          belgilaridan foydalanib klasni bashoratlash uchun klaslarni
+          tabsiflaydi va ajratadi. ==== MIT tizimi va foydalanuvchilar orasidagi
+          aloqani turli formadagi namunalarni vizuallashtirishni amalga oshiradi
+          ==== Ma'lumotlarni tahlil qilish vazifasini bajaradi ++++ Axborot
+          nazariyasi faniga qachon asos solingan? ==== #1948 yil ==== 1968 yil
+          ==== 1995 yil ==== 1997 yil ++++ Entropiya so’ziga to’g’ri ta’rif
+          berilgan qatorni ko’rsating? ==== #Tartibsizlik ==== Ketma-ketlik ====
+          Uzviylik ==== Aloqadorlik ++++ Beys sinflashtirish usuliga qaysi
+          qatorda to’g’ri ta’rif berilgan? ==== #Statik usul bo’lib,
+          obyektningberilgan sinfga tegishliligi ehtimolini avvaldan (apriori,
+          ya’ni tajriba o’tkazmasdan) topish imkonini beradi. ==== Denamik usul
+          bo’lib, obyektningberilgan sinfga tegishliligi ehtimolini avvaldan
+          (apriori, ya’ni tajriba o’tkazmasdan) topish imkonini beradi. ====
+          Statik usul bo’lib faqatgina tajribalar o’tkazish yo’li bilan aniqlash
+          imkonini beradi. ==== Denamik usul bo’lib faqatgina tajribalar
+          o’tkazish yo’li bilan aniqlash imkonini beradi. ++++ Bozorning savatli
+          tahlilinig ikkinchi nomlanishi qaysi qatorda berilgan? ====
+          #Assotsiativ bog’liqlik qoidalari ==== Sinflash va bashoratlash ====
+          Sinflashirish usuli ==== Klaster tahlil ++++ Katta hajimdagi
+          ma’lumotlar asosida amalga oshiriladi va ma’lumotlar hajmini
+          kichraytirish, ma’lumotlar katta massivlarini ixchamlashtirish,
+          ma’lumotlarni tahlil qilishga qulay ko’rinishga keltirish va grafik
+          asosida ko’rsatish imkonini beradi? ==== #Klasterli tahlili ====
+          Evolutsion tahlili ==== Fikran bog’lanish tahlili ==== Sinflash va
+          bashoratlash tahlili ++++ Supervised learning? ==== #bu modelni
+          xususiyatlari aniq bo'lgan ma'lumotlar bilan o'qitish, ==== bu modelni
+          xususiyatlari aniq bo'lmagan ma'lumotlar bilan o'qitish ==== bu
+          modelni ham aniq ham aniq bo'lmagan xususiyatli ma'lumotlar bilan
+          o'qitishdir ==== bu o'qitishning mukammal usuli bo'lib, bunda model
+          o'zini-o'zi qayta o'qitish va natijalarni yaxshilash imkoniyatiga ega
+          bo'ladi ++++ Malumotlarni korrelyatsion tahlili necha bosqichda amalga
+          oshiriladi? ==== #5 ta ==== 6 ta ==== 4 ta ==== 9 ta ++++ Vaqtli
+          qatorlarni o’rganish (tekshirish) uchun nechta asosiy fazifalar
+          bajariladi ? ==== #3 ta ==== 2 ta ==== 4 ta ==== 5 ta ++++ O’racha
+          o’sish tezligi kamchiliklari sonini ko’rsating? ==== #4 ta ==== 5 ta
+          ==== 2 ta ==== 1 ta ++++ Bilimlarni ifodalashning necha xil turi
+          mavjud? ==== #2 xil ==== 3 xil ==== 4 xil ==== 5 xil ++++ Mantiqiy
+          modellar asosini nimalar tashkil etadi? ==== #Predikatlar hisobi ====
+          Mantiqiy amallar ==== Algoritmlar ketma-ketligi ==== Evristik modellar
+          ++++ Evristik modelning mantiqiy modeldan asosiy afzallik tomonini
+          ko’rsating? ==== #Imkoniyatlarning ko’pligi va muammoli sohaning
+          adekvatlik bilan o’z yechimga ega bo’lishi. ==== Modellar turli xil
+          vositalardan janlanganligi, ma’lumotlarning o’ziga xosligi. ====
+          Muhimlilgi yoki muammoli sohalarning bo’lakcha bo’lganligi. ====
+          Modellar asosini predikatlar hisobi tashkil topishidadir. ++++
+          “Birinchi predikatga munosabat nomi, termenga esa
+          argumentlar-obyektlar moc keladi” yuqorida keltirilgan ishlash
+          prensipi qaysi qatorga to’gri keladi? ==== #Mantiqiy model ====
+          Semantik model ==== Produksion model ==== Freym ko’rinishidagi model
+          ++++ Evristik modellarning mantiqiy modellardan asosiy farqi nima?
+          ==== #Modellar turli xil vositalardan janlanganligi, ma’lumotlarning
+          o’ziga xosligi Muhimlilgi yoki muammoli sohalarning bo’lakcha
+          bo’lgaligi. ==== Modellar asosini predikatlar hisobi tashkil
+          topishidadir. ==== Imkoniyatlarning ko’pligi va muammoli sohaning
+          adekvatlik bilan o’z yechimga ega bo’lishi. ==== Muhimlilgi yoki
+          muammoli sohalarning bo’lakcha bo’lganligi. ++++ Evrestik modellar
+          necha xil bo’ladi? ==== #3 xil ==== 4 xil ==== 5 xil ==== 6 xil ++++
+          Bu tariff qaysi qatorga tegishli “Argumentlar tartibiqaralayotgan
+          predmet soha uchun qabul qilingan predikatlar mazmuniga mos kelishi
+          lozim”? ==== Mantiqiy modellar bilan ishlash qoidalari. ==== Evristik
+          modellar bilan ishlash qoidalari. ==== Semantik modellar bilan ishlash
+          qoidalari. ==== Produksion modellar bilan ishlash qoidalari. ++++
+          “Predikatlar hisoblashda qo’llaniladi va shu bilan bir qatorda barcha
+          mantiqiy ifodalar rost va yolg’on qiymatga egadir”. Bu ta’rifqaysi
+          qatorga tegishli? ==== #Mantiqiy model ==== Semantik model ====
+          Produksion model ==== Freym ko’rinishidagi model ++++ Kbantorlar necha
+          turga bo’linadi? ==== #2 turga ==== 4 turga ==== 5 turga ==== 3 turga
+          ++++ Unsupervised learning? ==== #bu modelni xususiyatlari aniq
+          bo'lmagan ma'lumotlar bilan o'qitish ==== bu modelni xususiyatlari
+          aniq bo'lgan ma'lumotlar bilan o'qitish ==== bu modelni ham aniq ham
+          aniq bo'lmagan xususiyatli ma'lumotlar bilan o'qitishdir. ==== bu
+          o'qitishning mukammal usuli bo'lib, bunda model o'zini-o'zi qayta
+          o'qitish va natijalarni yaxshilash imkoniyatiga ega bo'ladi. ++++
+          Semantika termeniga to’g’ri ta’rif keltirilgan qatorni toping? ====
+          #Ilm-fan, simvollar va obyektlar o’rtasida o’zaro aloqani o’rnatish
+          tushiniladi. ==== Modellar turli xil vositalardan janlanganligi,
+          ma’lumotlarning o’ziga xos bo’lishi. ==== Imkoniyatlarning ko’pligi va
+          muammoli sohaning adekvatlik bilan o’z yechimga ega bo’lishi. ====
+          Vaqt davomida o’z garuvchi obyektlar uchun trendlarni modellashtirishi
+          va tavsiflash. ++++ O'qitishning mukammal usuli bo'lib, bunda model
+          o'zini-o'zi qayta o'qitish va natijalarni yaxshilash imkoniyatiga ega
+          bo'ladi. ==== #Reinforcement learning ==== Semi-supervised learning
+          ==== Supervised learning ==== Unsupervised learning ++++ “Dasturchi
+          kompyuterga o’tiradi va dasturni o’zlashtiradi” bu yerda nechta obyekt
+          bor? ==== #3 ta ==== 4 ta ==== 5 ta ==== 6 ta ++++ Malumotlar bazasini
+          boshqarish tizimlari nechta? ==== #9 ta ==== 7 ta ==== 5 ta ==== 8 ta
+          ++++ Agar server sifatida local kompyuter ishlatilmasa ishlatilayotgan
+          serverga qaysi sozlamalarni o’rnatishimiz zarur? ==== #SQL Server va
+          Firewall ==== SQL Server Management Studioni ==== Paradox for DOS ====
+          SQLite ++++ Yangi ma’lumotlar bazasini yaratish uchun bo’g’langan
+          serverimizning Databases bo’limida qaysi sarlavha tanlanadi? ==== #New
+          Database ==== Restore Database ==== Attach ==== Deploy data tier
+          application ++++ Ma’lumotlar bazasida yangi jadval yaratish uchun
+          qaysi bo’lim tanlanadi? ==== #Tables ==== Database diagrams ==== Test
+          database ==== views ++++ Yangi jadval uchun parametrlar qayerda
+          beriladi? ==== #New Table ==== New File Table ==== Start PowerShell
+          ==== Reports ++++ Matematik modellar, sonli usullar, dasturiy
+          vositalar va axborot texnologiyalarining emperik ma’lumotlardan
+          kerakli axborotni toppish va ana shu axborot asosida avvaldan
+          noma’lum, amaliyotda foydali bo’lgan va ma’lum maqsadlarga erishishga
+          imkon beruvchi bilimlarni sintez qilish (olish) imkonini beruvchi
+          to’plam bu-? ==== #MIT ==== MB ==== MBB ==== Bilimlar bazasi ++++
+          …-ning maqsadi zavonaviy axborot texnologiyalari va intelektual
+          algoriytmlar asosida dastlabki xom ma’lumotlar to’plamidan
+          foydalanuvchi uchun kerakli (foydali) ma’lumot (axborot olish) ====
+          #MIT ==== MB ==== MBB ==== Semantik model ++++ Xozirda kompaniyalar
+          MIT bo’yicha necha turdagi ishlarni bajarish bo’yicha o’z xizmatlarini
+          taklif qilmoqda? ==== #5 turda ==== 7 turda ==== 15 turda ==== 10
+          turda ++++ MITni necha turkumda dasturiy vositalar asosidaamalga
+          oshirish mumkin? ==== #5 turkumda ==== 8 turkumda ==== 3 turkumda ====
+          6 turkumda ++++ Bir o'zgaruvchili chiziqli regressiya bu? ====
+          #Bashoratlash uchun obyektni xarakterlovchi bitta xususiyatini olib
+          bashoratlashga xizmat qiladigan model yaratish ==== Bashoratlash uchun
+          obyektni xarakterlovchi ko'p sondagi xususiyatlarini olib
+          bashoratlashga xizmat qiladigan model yaratish ==== Sinflashtirish
+          uchun obyektni xarakterlovchi bitta xususiyatini olib siflashtirishga
+          xizmat qiladigan model yaratish ==== Sinflashtirish uchun obyektni
+          xarakterlovchi ko'p sondagi xususiyatlarini olib siflashtirishga
+          xizmat qiladigan model yaratish ++++ Logistik regressiya bu? ====
+          #Regression tahlil asosida sinflashtirish masalasini yechish ====
+          Regression tahlil asosida klasterlash masalasini yechish ====
+          Regression tahlil asosida bashoratlash masalasini yechish ====
+          Regression tahlil asosida chuqur o’qitish masalasini yechish ++++
+          Chiziqli va logistik regressiyaning asosiy farqi bu………? ==== #Bu
+          ikkalasi ikki turdagi masalani ishlaydi. chiziqli regressiya
+          basharotlash, logistik regressiya sinflashtirish ==== Bu ikkalasi ikki
+          turdagi masalani ishlaydi. chiziqli sinflashtirish basharotlash,
+          logistik regressiya regressiya ==== Ikkalasi ham bir turdagi masalani
+          ishlash uchun mo'ljallangan chiziqli regressiya basharotlash ++++
+          Python dasturlash tilida ma'lumotlarni visuallashtirish uchun
+          ishlatiladigan Kutubxona? ==== #Matplotlib ==== plotData ==== Pillow
+          ==== PyPlot ++++ Numpy kutubxonasida ikkita vektorni skalyar
+          ko'paytirish amali qanaqa? ==== #A*B ~A@B ==== np.multiply([A,B]) ====
+          np.dot([a,b]) ==== Kmaens,KNN ++++ Numpy kutubxonasida ikkita vektorni
+          vektor ko'paytirish amali qanaqa? ==== #A@B ==== A*B ====
+          np.dot([A,B]) ==== np.multiply([A,B]) ++++ Pythonda ikkita vektorni
+          birlashtirishda xatolik sodir bo'ladigan javobni tanlang? ====
+          #a#append(a,b) ==== a#np.append(a,b) ==== a#np.append(b,a) ====
+          a#np.append(b,d) ++++ Chiziqli regression model nechta qiymat
+          qaytaradi? ==== #Har doim bitta ==== Ixtiyoriy ravishdagi sonda qiymat
+          qaytarishi mumkin ==== Har doim bittadan ko'p ==== Xatolik sodir
+          bo'ladi. ++++ Bias tushunchasi? ==== #Modelni train to'plam bilan
+          testlaganda bo'ladigan xatolik ==== Modelni test to'plam bilan
+          testlaganda bo'ladigan xatolik ==== Modelni train test to'plam bilan
+          testlaganda bo'ladigangadi umumiy xatolik ==== Modelni validation
+          to'plam bilan testlaganda bo'ladigangadi umumiy xatolik ++++ Model
+          murakkab bo'lsa bias qanday bo'ladi? ==== #Quyi, model o'rgatuvchi
+          tanlamaga mostlashib qoladi va train to'plamda xatoligi past bo'ladi
+          ==== Model juda soda bo’ladi ==== Bias ning quyi yoki yuqori bo'lishi
+          model murakkabligiga bog'liq emas ==== Yuqori, model o'rgatuvchi
+          tanlamaga mostlashib qoladi va train to'plamda xatoligi yuqori bo'ladi
+          ++++ Klasterlash bu? ==== #O'qituvchisiz o'qitish algoritmi asosida
+          obyektlarni xarakterlovchi o'xshash xususiyatlari asosida guruhlash
+          ==== O'qituvchili o'qitish algoritmi asosida obyektlarni
+          xarakterlovchi o'xshash xususiyatlari asosida guruhlash ==== Mashinali
+          o'qitishda buday tushuncha yo'q. ==== Logistik regressiya asosida
+          amalga oshiriladigan mashinali o'qitish algoritmi ++++ O'qituvchisiz
+          o'qitish algoritmiga qaysi algoritim kiradi? ==== #KmaensSingular
+          Value Decomposition ==== KNNSVM ==== SVMKmaens ==== Random Forest ++++
+          KNN algoritmida k qiymat nimani xarakterlaydi? ==== #k ta eng yaqin
+          qo'shnini ==== k ta eng uzoq qo'shnini ==== O'qitish qadami ====
+          O'qitishlar sonini ++++ KNN algoritmida k ta eng yaqin qo'shni qanday
+          aniqlanadi? ==== #To'plamdagi barcha elemetlar orasidagi masofa
+          hisoblanib chiqiladi va eng yaqin k tasi tanlanadi. ==== Taxminiy
+          random () funksiyasi orqali aniqlanadi ==== To'plamdagi k ta elemetlar
+          orasidagi masofa hisoblanib chiqiladi va ular o'sish tartibida
+          saralanadi ==== KNN algoritmida k ta eng yaqin qo'shni tushunchasi
+          yo'q ++++ KMeans bu –? ==== O'qituvchisiz o'qitish algoritmi ====
+          O'qituvchili o'qitish algoritmi ==== O'zini o'zi o'qitadigan algoritmi
+          ==== Sinflashrirish algoritmi ++++ Kmaens algoritmi qaysi masalani
+          yechish uchun xizmat qiladi? ==== Klasterlash ==== O'qituvchili
+          o'qitish ==== Sinflashtirish ==== Regressiya ++++ Qidiruv tizimlarida
+          sun'iy intellektdan foydalanish mumkinmi? ==== #ha, mumkin va hozirda
+          keng qo'llanilmoqda ==== qisman amaliy natijalari bor lekin yetarlicha
+          nazariy jihatdan formallashtirilmagan ==== nazariy jihatdan mumkin,
+          lekin hozircha amaliy jihatdan natijalarga erishilmagan ==== qidiruv
+          tizimlarida sun'iy intellektdan foydalanish qidiruv vaqtini oshiradi
+          ++++ Chuqur o'qitilish deyiladi, qachonki ...? ==== #Nayron
+          tarmog'imizda yashirin qatlamlar soni bittadan ko'p bo'lsa ==== Neyron
+          tarmog'imizda yashirin qatlamlar soni bitta bo'lsa ==== Ikkita neyron
+          orasidagi masofa katta bo'lsa ==== Neyronlar soni ikkitadan ko'p
+          bo'lsa ++++ Logistik regression model nima uchun ishlatiladi? ====
+          #Sinflashtirsh masalasini yechish uchun ==== Klasterlash masalasini
+          ishlash uchun ==== Neyron tarmoqni qurish uchun ==== Qiymatni
+          bashoratlash uchun ++++ Numpy kutubxonasidagi polyfit() funksiyasi
+          nima uchun ishlatiladi? ==== #Chiziqli regressiya uchun model
+          paramertlarini aniqlash uchun ==== Loginstik regressiya uchun model
+          paramertlarini aniqlash uchun ==== Chiziqli va logistik regressiya
+          uchun model paramertlarini aniqlash uchun ==== Polynom funksiya
+          yaratish uchun ++++ Neyron tarmoqlarini qurishga mo'ljallangan python
+          kutubxonalarini ko'rsating? ==== #Numpy, keras, tensorflow ==== Numpy,
+          pandas, keras ==== Tensorflow, numpy, pandas ==== Python, Matlab,
+          Octave ++++ Python muhitida chiziqli regression model qurish uchun
+          ishlatiladigan stats.linregress(x,y) funksiyasi nechta qiymat
+          qaytaradi? ==== #5 ==== 4 ==== 3 ==== 2 ++++ Chuqur o'qitish qanday
+          tarmoqlari asosida amalga oshiriladi? ==== #neyron tarmoqlar asosida
+          ==== lokal tarmoqlar asosida ==== global tarmoqlar asosida ====
+          internet tarmoqlar asosida ++++ Chuqur o'qitishning birinchi bosqichi
+          qanday jarayondan iborat? ==== #Muammoni tushunib olish. ====
+          Ma'lumotlarni aniqlash. ==== Chuqur o'qitish algoritmini belgilash.
+          ==== Modelni o'qitish. ++++ Chiziqli regressiyada modelni sodda
+          tanlansa qaysi turdagi muammo yuzaga keladi? ==== #Underfitting ====
+          Owerfitting ==== Model ishonchli, hech qanaday muammo yo'q ==== Muammo
+          sodir bo'lmaydi ++++ K-Maens algoritmida qo'llaniladigan ikki nuqta
+          orasidagi masofa ... deb yuritiladi. ==== #Nutqlar o'rniga mos
+          variantni qo'ying ==== Euclidean masofasi ==== Chebyshev masofasi ====
+          Manhattan masofasi ==== Minkowski masofasi ++++ O'qituvchili o'qitish
+          (supervised learning) nima? ==== #modelni o'qitish uchun ma'lumotlar
+          bilan birgalikda ularning belgisini (data+label) ham ishlatish ====
+          modelni o'qitish uchun ma'lumotlarni belgisisiz (data without label)
+          ishlatish ==== modelni o'qitish uchun tasvir ma'lumotlaridan (image)
+          foydalanish ==== modelni o'qitish uchun faqat ma'lumotlar belgisini
+          (label) ishlatish ++++ O'qituvchisiz (unsupervised) o'qitish
+          algortimlari to'g'ri ko'rsatilgan javobni ko'rsating? ==== #k-means
+          clustering, hierarchical clustering, independent component analysis
+          ==== linear regression, nearest neighbor, random forest, decision tree
+          ==== k-means clustering, deep learning, logistic regression, random
+          forest ==== k-nn, decision tree, linear regression, k-means clustering
+          ++++ Regressiya nima? ==== #ma'lumotlarni intellektual tahlil qilish
+          usullaridan biri ==== ma'lumotlarni ustida arifmetik usullaridan biri
+          ==== ma'lumotlarni raqamli ishlov berish usullaridan biri ====
+          ma'lumotlarni jamlash usullaridan biri ++++ Chiziqli regression model
+          nima uchun ishlatiladi? ==== #bashorat qilish uchun ==== mantiqiy
+          model qurish uchun ==== sinflashtirish masalasini yechish uchun ====
+          segmentlash masalasini yechish uchun ++++ Sun'iy intellekt deganda
+          nimani tushunasiz? ==== #insonning onggi kabi fikrlovchi dastur ====
+          oddiy kompyuter dasturi ==== qaror qabul qiluvchi ilovalar ==== bunday
+          termin fanda mavjud emas ++++ Dataset bu nima? ==== #bu o'qitish uchun
+          kerakli bo'lgan ma'lumotlar to'plamidir ==== bu o'qitish uchun kerakli
+          bo'lgan neyronlar to'plamidir ==== bu o'qitish uchun kerakli bo'lgan
+          og'irliklar to'plamidir ==== bu o'qitish uchun kerakli bo'lgan neyron
+          tarmoq qatlamlar to'plamidir ++++ Agar A matritsaning elementlari
+          bo’lsa, isempty(A) funksiyasi nima natija qaytaradi? ==== #0 ==== -1
+          ==== 1 ==== 2 ++++ Berilgan matritsaning o’lchovlarini aniqlab
+          beruvchi funksiyani ko’rsating ==== #Size ==== long ==== wenth ====
+          length ++++ Berilgan vektorning uzunligini aniqlab beruvchi funksiyani
+          ko’rsating ==== Length ==== size ==== long ==== wenth ++++ A=[10:1]
+          ifoda qanday ko’rinishdagi vector hosil qiliadi? ==== #Xatolik haqida
+          xabar beradi ==== 1 2 3 4 5 6 7 8 9 10 ==== 1 3 5 7 9 ==== 10 9 8 7 6
+          5 4 3 2 1 ++++ A=[-10:2:0] ifoda qanday ko’rinishdagi vector hosil
+          qiliadi? #-10 -8 -6 -4 -2 0 ==== -9 -7 -5 -3 -1 ==== Xatolik haqida
+          xabar beradi ==== = -1 2 -3 -4 -5 -6 -7 -8 -9 -10 ++++
+          A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(2,2:3) ifodaning
+          natijasi qanday bo’ladi? ==== #B=[5,6] ==== B=[5,8] ==== B=[5,6; 8,9]
+          ==== B=[2,3;5,6] ++++ A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B=
+          A(2:3,2:3) ifodaning natijasi qanday bo’ladi? ==== #B=[5,6; 8,9] ====
+          B=[2,3;5,6] ==== B=[5,6] ==== B=[5,8] ++++ A=[1,2,3;4,5,6;7,8,9]
+          matritsa berilgan. B= A(2,2) ifodaning natijasi qanday bo’ladi? ====
+          #B=[5] ==== B=[8] ==== Ifoda noto’g’ri tuzilgan ==== B=[2] ++++
+          A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(1:2,2) ifodaning
+          natijasi qanday bo’ladi? ==== #B=[2;5] ==== Ifoda noto’g’ri tuzilgan
+          ==== B=[1,2] ==== B=[1;4] ++++ A=[1,2,3;4,5,6;7,8,9] matritsa
+          berilgan. B= A(2:3,1) ifodaning natijasi qanday bo’ladi? ==== #B=[4;7]
+          ==== Ifoda noto’g’ri tuzilgan ==== B=[2,3] ==== B=[4,7] ++++
+          A=[1,2,3;4,5,6;7,8,9] matritsa berilgan. B= A(3,:) ifodaning natijasi
+          qanday bo’ladi? ==== #B=[7,8,9] ==== B=[7;8;9] ==== B=[3;6;9] ====
+          Ifoda noto’g’ri tuzilgan ++++ A=[1,2,3;4,5,6;7,8,9] matritsa berilgan.
+          B= A(:,3) ifodaning natijasi qanday bo’ladi? ==== #B=[3;6;9] ====
+          B=[7;8;9] ==== Ifoda noto’g’ri tuzilgan ==== B=[7,8,9] ++++ Chiziqli
+          va logistic regressiyaning asosiy farqi? ==== #Bu ikkalasi ikki
+          turdagi masalani ishlaydi. chiziqli regressiya basharotlash, logistic
+          regressiya sinflashtirish ==== Bu ikkalasi ikki turdagi masalani
+          ishlaydi. chiziqli sinflashtirish basharotlash, logistic regressiya
+          regressiya ==== Ikkalasi ham bir turdagi masalani ishlash uchun
+          mo'ljallangan chiziqli regressiya basharotlash ++++ Python dasturlash
+          tilida ma'lumotlarni visuallashtirish uchun ishlatiladigan kutubxona
+          bu............. ==== #Matplotlib ==== plotData ==== Pillow ==== PyPlot
+          ++++ Biror tasodifiy miqdor oʻrta qiymatining boshqa bir tasodifiy
+          miqdoriga bogʻlikligi? ==== Regressiya ==== Sinflashtirish ====
+          Strukturali tizim ==== Chuqur o‘qitish ++++ .....................bu
+          tizimlar taksonlar deb ham ataladi. ==== #O’qituvchisiz ====
+          O’qituvchili ==== Chuqur o'qitish ==== Nazoratli ++++
+          ....................... - tizimlarda tanib olish masalasining yechish
+          usuli sifatida maxsus baholarni hisoblash usullari nazarda tutiladi.
+          ==== #Kombinatsiyalashgan ==== strukturali ==== mantiqiy ====
+          nazoratsiz ++++ ............ -ob'ektlarni bir -biriga o'xshash
+          xususiyatlarga ega bo'lgan ob'ektlar birlashishi va bir -biriga
+          o'xshash bo'lmagan ob'ektlar bir -biridan ajralib ketadigan tarzda
+          guruhlash usuli. ==== #Klasterlash ==== Sinflashtirish ====
+          O'qituvchili o'qitish ==== Guruhlash ++++ Ierarxik klasterlash
+          algoritmlari odatda …….turga bo'linadi. ==== #2 ==== 3 ==== 4 ==== 5
+          ++++ K-Means usuli bilan klasterlash masalasini yechishda qanday
+          optimallashtirish mezonidan foydalaniladi? ==== #nuqtalardan
+          sentroidlar (markaziy nuqtalar)gacha masofalar kvadratlarning
+          yig’indisi ==== nuqtalardan sentroidlar masofalari kvadratlarning
+          ayirmasi ==== nuqtalardan sentroidlar (markaziy nuqtalar) ====
+          nuqtalardan sentroidlar masofalari kvadratlarning yig’indisi ++++
+          Ma'lumotlarning intellektual tahlili (Data Mining) nima? ====
+          #Ma'lumotlardan yangi bilimlar olish jarayoni ==== Ma'lumotlarni
+          yig'ish jarayoni ==== Ma'lumotlarni zaxiralash jarayoni ====
+          Ma'lumotlarni kodlash jarayoni ++++ Ma'lumotlarning intellektual
+          tahlili nima? ==== #Ma'lumotlarni chuqur tahlil qilish va bilim olish
+          ==== Ma'lumotlarni saqlash ==== Ma'lumotlarni kirish va chiqish ====
+          Ma'lumotlarni buzish ++++ Klasterning asosiy vazifasi nimadan iborat?
+          ==== #Ma'lumotlarni guruhlash ==== Ma'lumotlarni tasniflash ====
+          Ma'lumotlarni o'chirish ==== Ma'lumotlarni filtrlash ++++
+          Ma'lumotlarning intellektual tahlilida "assotsiativ qoidalar" nima
+          uchun ishlatiladi? ==== #Bir-biri bilan bog'liq bo'lgan elementlarni
+          topish uchun ==== Klasterni aniqlash uchun ==== Ma'lumotlarni
+          tasniflash uchun ==== Ma'lumotlarni qayta ishlash uchun ++++ "K-means"
+          algoritmi qanday ishlaydi? ==== #Ma'lumotlarni klasterlarga ajratadi
+          ==== Tasodifiy ravishda sinflar yaratadi ==== Ma'lumotlar ustida
+          regressiya bajaradi ==== Assotsiativ qoidalar hosil qiladi ++++
+          Ma'lumotlarning intellektual tahlili qanday maqsadda qo‘llaniladi?
+          ==== #Ma'lumotlardan foydali bilimlar ajratib olish uchun ==== Faqat
+          ma'lumotlarni saqlash uchun ==== Ma'lumotlarni o‘chirib tashlash uchun
+          ==== Ma'lumotlarni shifrlash uchun ++++ Quyidagilardan qaysi biri
+          ma'lumotlarning intellektual tahlili jarayonidagi asosiy bosqichlardan
+          biri hisoblanadi? ==== #Ma'lumotlarni tahlil qilish va foydali
+          bilimlarni ajratib olish ==== Ma'lumotlarni yig‘ish ==== Faqat grafik
+          yaratish ==== Ma'lumotlarni joylashtirish ++++ Quyidagi usullardan
+          qaysi biri ma'lumotlarning intellektual tahlilida qo‘llanilmaydi? ====
+          #Suvning kimyoviy tahlili ==== Klassifikatsiya ==== Klasterlash ====
+          Assotsiatsiyalarni aniqlash ++++ Klasterlash usuli qanday vazifani
+          bajaradi? ==== #Ma'lumotlarni o‘xshash guruhlarga ajratadi ====
+          Ma'lumotlarni shifrlaydi ==== Ma'lumotlarni aniqlik bilan o‘chiradi
+          ==== Ma'lumotlarni matematik modellashtiradi ++++ Assotsiatsiyalarni
+          aniqlash algoritmi qaysi sohada keng qo‘llaniladi? ==== #Mahsulotlarni
+          birgalikda xarid qilishni tahlil qilish ==== Telekommunikatsiya
+          tarmoqlari ==== Dori vositalarini ishlab chiqarishda ==== Suv
+          resurslarini boshqarishda ++++ Quyidagi qaysi algoritm intellektual
+          tahlilda klassifikatsiya uchun ishlatiladi? ==== #K-NN (eng yaqin
+          qo‘shnilar) ==== Apriori algoritmi ==== Simpsonning qoidasi ====
+          Kalitlarni shifrlash algoritmi ++++ Ma'lumotlarning intellektual
+          tahlilida asosiy maqsad nima? ==== Ma'lumotlardan yashirin bilimlarni
+          aniqlash ==== Ma'lumotlarni saqlashni tezlashtirish ==== Faqat
+          ma'lumotlarni uzatish ==== Ma'lumotlarni bosib chiqarish ++++ Quyidagi
+          algoritmlardan qaysi biri klasterlashda ishlatiladi? ==== #K-means
+          ==== DES algoritmi ==== Shtrix kod algoritmi ==== Raqamli imzo
+          algoritmi ++++ Regression tahlilining asosiy vazifasi nima? ====
+          #Kelajakdagi qiymatlarni bashorat qilish ==== Ma'lumotlarni
+          klasterlash ==== Shifrlarni o‘qish ==== Hisobotlarni tuzish ++++
+          "Overfitting" tushunchasi ma'lumotlarning intellektual tahlilida
+          nimani anglatadi? ==== #Modelning trening ma'lumotlariga haddan
+          tashqari moslashib qolishi ==== Ma'lumotlarning ko‘p saqlanishi ====
+          Hisoblash quvvatining oshishi ==== Ma'lumotlarning hajmi kamayishi
+          ++++ Ma'lumotlarning intellektual tahlili texnologiyasida asosiy qadam
+          nima hisoblanadi? ==== #Ma'lumotlarni tozalash va tayyorlash ====
+          Ma'lumotlarni o‘chirish ==== Faqat natijalarni ko‘rsatish ====
+          Grafiklar yaratish ++++ "Big Data" tushunchasi nimani anglatadi? ====
+          #Ma'lumotlarning katta hajmi bilan ishlash texnologiyasi ==== Kichik
+          hajmdagi ma'lumotlarni boshqarish ==== Ma'lumotlarni siqish usuli ====
+          Grafikalardan foydalanish ++++ Quyidagi texnologiyalardan qaysi biri
+          ma'lumotlarning intellektual tahlilida qo‘llaniladi? ==== #Hadoop ====
+          GPS texnologiyasi ==== IoT (Internet of Things) ==== CAD/CAM tizimlari
+          ++++ "Data Warehouse" nima uchun ishlatiladi? ==== #Tahlil qilish
+          uchun optimallashtirilgan ma'lumotlarni saqlash uchun ====
+          Ma'lumotlarni vaqtinchalik saqlash uchun ==== Ma'lumotlarni o‘chirish
+          uchun ==== Faqatgina dasturlarni ishga tushirish uchun ++++ OLAP
+          texnologiyasi qanday vazifani bajaradi? ==== #Tahliliy ma'lumotlarni
+          o‘zgartiradi va turli kesimlarda ko‘rsatadi ==== Ma'lumotlarni
+          shifrlaydi ==== Ma'lumotlarni sun'iy intellekt yordamida boshqaradi
+          ==== Ma'lumotlarni fizik saqlash joyini boshqaradi ++++ Quyidagi qaysi
+          texnologiya real vaqtda katta hajmdagi ma'lumotlarni tahlil qilish
+          uchun mo‘ljallangan? ==== #Apache Spark ==== Photoshop ==== Microsoft
+          Excel ==== Bluetooth texnologiyasi ++++ Ma'lumotlarni vizualizatsiya
+          qilish uchun qaysi dasturiy ta'minotdan foydalaniladi? ==== Tableau
+          ==== Oracle Database ==== AutoCAD ==== Notepad ++++ Data Mining
+          texnologiyasida algoritmlarni amalga oshirish uchun qaysi dasturlash
+          tili keng qo‘llaniladi? ==== #Python ==== HTML ==== CSS ==== Arduino
+          ++++ Ma'lumotlarning intellektual tahlilida "machine learning" qanday
+          o‘rin tutadi? ==== #Ma'lumotlardan o‘z-o‘zidan o‘rganib, tahliliy
+          qarorlar qabul qilishni ta'minlaydi ==== Ma'lumotlarni faqat saqlash
+          uchun ishlatiladi ==== Hisoblash quvvatini oshiradi ==== Ma'lumotlarni
+          arxivlash uchun ishlatiladi ++++ Intellektual tahlilda "data
+          preprocessing" bosqichi nimani anglatadi? ==== #Ma'lumotlarni tahlil
+          qilishdan oldingi tayyorlash jarayoni, ==== Faqat natijalarni tahlil
+          qilish ==== Ma'lumotlarni saqlashni osonlashtirish ==== Ma'lumotlarni
+          aniqlik bilan siqish ++++ Ma'lumotlarning intellektual tahlili
+          jarayonining birinchi bosqichi nima? ==== #Ma'lumotlarni yig‘ish ====
+          Ma'lumotlarni tozalash ==== Ma'lumotlarni vizualizatsiya qilish ====
+          Modelni baholash ++++ "Ma'lumotlarni tozalash" bosqichida asosiy
+          vazifa nima? ==== #Shovqinli va keraksiz ma'lumotlarni olib tashlash
+          ==== Ma'lumotlar omborini yaratish ==== Ma'lumotlarni shifrlash ====
+          Ma'lumotlarni bo‘limlarga ajratish ++++ Quyidagilardan qaysi biri
+          ma'lumotlarning intellektual tahlilida "modelni qurish" bosqichining
+          asosiy qismidir? ==== #Algoritmni tanlash va ma'lumotlarga
+          moslashtirish ==== Grafik chizish ==== Faqat ma'lumotlarni siqish ====
+          Faqat ma'lumotlarni saqlash ++++ Ma'lumotlarning intellektual
+          tahlilida "modelni baholash" bosqichi nimani o‘z ichiga oladi? ====
+          #Modelning aniqligini va sifatini tekshirish, ==== Modelni ma'lumotlar
+          omboriga joylashtirish ==== Modelni ishlab chiqish uchun dastur yozish
+          ==== Ma'lumotlarni qayta yig‘ish ++++ Ma'lumotlarning intellektual
+          tahlil bosqichlarining to‘g‘ri ketma-ketligi qaysi? ====
+          #Ma'lumotlarni yig‘ish → tozalash → modelni qurish → baholash →
+          foydalanish, ==== Ma'lumotlarni baholash → yig‘ish → tozalash →
+          foydalanish → qurish. ==== Tozalash → yig‘ish → baholash → foydalanish
+          → qurish. ==== Modelni baholash → tozalash → yig‘ish → qurish →
+          foydalanish. ++++ Ma'lumotlarni intellektual tahlil qilishning asosiy
+          maqsadi nima? ==== #Ma'lumotlardan yashirin bilimlarni aniqlash ====
+          Faqat grafiklarni yaratish ==== Faqat ma'lumotlarni siqish ====
+          Internetga ulanishni yaxshilash ++++ Quyidagi bosqichlardan qaysi biri
+          intellektual tahlil jarayonida o‘tkazilmaydi? ==== #Ma'lumotlarni
+          omborga joylashtirish ==== Foydalanuvchiga natijalarni taqdim etish
+          ==== Ma'lumotlarni tahlil qilish ==== Ma'lumotlarni yig‘ish ++++
+          "Ma'lumotlarni tahlil qilish" bosqichida qanday asosiy usullar
+          qo‘llaniladi? ==== #Regression, klassifikatsiya, klasterlash ====
+          Shifrlash, autentifikatsiya, shifr ochish ==== Tahrirlash, kodlash,
+          bosib chiqarish ==== Grafik yaratish, loglarni saqlash ++++ Tahlil
+          natijalarini taqdim etish bosqichi qanday ahamiyatga ega? ====
+          #Natijalarni vizualizatsiya va qaror qabul qilish uchun foydalidir
+          ==== Faqat dasturiy ta'minotni yaratish uchun ishlatiladi ====
+          Ma'lumotlarni tezkor saqlash uchun kerak ==== Yangi ma'lumotlarni
+          yig‘ish uchun ishlatiladi ++++ Ma'lumotlarning intellektual tahlilida
+          qanday qilib qaror qabul qilishni qo‘llab-quvvatlash mumkin? ====
+          #Tahlil natijalari asosida foydali bilimlarni taqdim etish orqali ====
+          Faqat ma'lumotlarni omborga joylashtirish orqali ==== Ma'lumotlarni
+          to‘g‘ridan-to‘g‘ri o‘chirib tashlash orqali ==== Dasturiy ta'minotni
+          almashtirish orqali ++++ Ma'lumotlarning intellektual tahlilida
+          ma'lumot modellarining asosiy vazifasi nima? ==== #Ma'lumotlarni
+          strukturalash va ularning o‘zaro bog‘liqligini tavsiflash ====
+          Ma'lumotlarni grafikda chizish ==== Ma'lumotlarni vaqtinchalik
+          o‘chirib tashlash ==== Ma'lumotlarni shifrlash ++++ Quyidagilardan
+          qaysi biri ma'lumot modellari turlariga kiradi? ==== #Klassifikatsiya,
+          regressiya, klasterlash ==== Shifrlash, saqlash, chop etish ====
+          Hisobot tuzish, siqish, loglarni saqlash ==== Tasvirlarni tahrirlash,
+          ma'lumotlarni almashtirish ++++ Regression modeli qanday vazifani
+          bajaradi? ==== #Kelajakdagi qiymatlarni bashorat qilish ====
+          Ma'lumotlarni shifrlash ==== Ma'lumotlarni guruhlarga ajratish ====
+          Ma'lumotlarni xotiraga saqlash ++++ Klassifikatsiya modeli qachon
+          ishlatiladi? ==== #Ma'lumotlarni oldindan ma'lum toifalarga ajratish
+          uchun ==== Ma'lumotlarni hajmini kamaytirish uchun ==== Faqat katta
+          hajmdagi ma'lumotlarni saqlash uchun ==== Tahliliy grafiklar yaratish
+          uchun ++++ Klasterlash modelining asosiy xususiyati nima? ====
+          #Ma'lumotlarni o‘xshash guruhlarga ajratish ==== Ma'lumotlarni
+          tasodifiy ajratish ==== Ma'lumotlarni shifrlash va saqlash ==== Faqat
+          ma'lumotlarni omborda boshqarish ++++ Quyidagi algoritmlardan qaysi
+          biri regressiya modellari uchun ishlatiladi? ==== #Linear regression
+          ==== K-means ==== Apriori algoritmi ==== AES shifrlash algoritmi ++++
+          Quyidagi qaysi model assotsiatsiyalarni aniqlash uchun qo‘llaniladi?
+          ==== #Apriori modeli ==== Logistic regression ==== Random Forest ====
+          Decision Tree ++++ "Decision Tree" modeli qanday ishlaydi? ====
+          #Qarorlarni vizual daraxt shaklida tavsiflaydi ==== Ma'lumotlarni
+          grafikda aks ettiradi ==== Faqat ma'lumotlarni shifrlaydi ====
+          Ma'lumotlarni saqlash joyini boshqaradi ++++ "Random Forest" modeli
+          qanday turdagi tahlilga asoslangan? ==== #Bir nechta qaror
+          daraxtlarining kombinatsiyasiga asoslangan ==== Ma'lumotlarni
+          shifrlashga asoslangan ==== Faqat regressiya tahliliga asoslangan ====
+          K-means klasterlashga asoslangan ++++ Obyektga yo‘naltirilgan ma’lumot
+          modellari nima uchun ishlatiladi? ==== #Ma'lumotlarni ob'ektlar
+          sifatida tavsiflash va ularning o‘zaro aloqalarini aniqlash uchun ====
+          Ma'lumotlarni vaqtinchalik saqlash uchun ==== Grafik chizish uchun
+          ==== Ma'lumotlarni shifrlash uchun ++++ Obyektga yo‘naltirilgan
+          ma’lumot modellari qaysi asosiy elementlardan iborat? ==== #Obyektlar,
+          atributlar, sinflar ==== Faqat grafiklar ==== Foydalanuvchi interfeysi
+          va matn ==== Faqat sonli ma'lumotlar ++++ Obyektga yo‘naltirilgan
+          modellashtirishda "obyekt" nima? ==== #Ma'lumotlarning aniq
+          xususiyatlar va funktsiyalarga ega mustaqil birligi ==== Faqat
+          ma'lumotlar fayli ==== Tasodifiy ma'lumotlar to‘plami ==== Grafiklarda
+          aks ettirilgan ma'lumotlar ++++ "Sinflar" obyektga yo‘naltirilgan
+          modellashtirishda nima uchun ishlatiladi? ==== #Obyektlar uchun umumiy
+          xususiyat va metodlarni aniqlash uchun ==== Obyektlarni shifrlash
+          uchun ==== Ma'lumotlarni vaqtinchalik saqlash uchun ==== Faqat
+          ma'lumotlarni eksport qilish uchun ++++ Obyektga yo‘naltirilgan
+          ma’lumot modellarining asosiy afzalliklaridan biri nima? ====
+          #Ma'lumotlarni modulyar va qayta foydalanish imkoniyatini oshirish
+          ==== Ma'lumotlarni o‘chirishni osonlashtirish ==== Ma'lumotlarni
+          grafikda chizish ==== Faqat katta hajmdagi ma'lumotlarni boshqarish
+          ++++ Obyektga yo‘naltirilgan modellar qaysi dasturlash paradigmasi
+          bilan bog‘liq? ==== #Obyektga yo‘naltirilgan dasturlash
+          (Object-Oriented Programming - OOP) ==== Funktsional dasturlash ====
+          Shartli dasturlash ==== Grafik interfeysni boshqarish ++++ Obyektga
+          yo‘naltirilgan modellashtirishda atributlar qanday rol o‘ynaydi? ====
+          #Obyektning xususiyatlarini tavsiflaydi ==== Obyektlarni o‘chirishga
+          yordam beradi ==== Ma'lumotlarni shifrlaydi ==== Sinflarni
+          birlashtiradi ++++ Obyekt relyatsion modelda asosiy ma'lumotlar
+          strukturalari qanday ataladi? ==== #Obyektlar ==== Jadval ====
+          Atributlar ==== Satrlar ++++ Obyekt relyatsion modelda obyektlar nima
+          uchun ishlatiladi? ==== #Ma'lumotlarni saqlash va ular bilan ishlash
+          uchun ==== Faqat jadval tuzish uchun ==== Faqat metodlar yaratish
+          uchun ==== Faqat bog'lanishlarni aniqlash uchun ++++ Obyekt relyatsion
+          modelda atributlar nima qiladi? ==== #Obyektlarning xususiyatlarini
+          tasvirlaydi ==== Obyektlarni bog'laydi ==== Faqat metodlarni
+          boshqaradi ==== Faqat jadvallarni boshqaradi ++++ Obyekt relyatsion
+          modelda obyektlar o'rtasidagi bog'lanishlar qanday tasvirlanadi? ====
+          #Atributlar va metodlar orqali ==== Faqat metodlar orqali ==== Faqat
+          jadvallar orqali ==== Faqat cheklovlar orqali ++++ Obyekt relyatsion
+          modelda "metod" nima? ==== #Obyektning xatti-harakatlarini aniqlovchi
+          funksiya ==== Obyektni yaratish funksiyasi ==== Jadvalni yangilash
+          funksiyasi ==== Atributni o'zgartirish funksiyasi ++++ Obyekt
+          relyatsion modelda "bog'lanish" deganda nimani anglatadi? ====
+          #Obyektlar orasidagi aloqalarni ==== Jadvalni yangilashni ==== Faqat
+          ma'lumotlarni saqlashni ==== Faqat yangi obyekt yaratishni ++++ Obyekt
+          relyatsion modelda qanday ma'lumotlar turidagi obyektlar mavjud? ====
+          #Obyektlar va atributlar ==== Faqat jadvallar ==== Faqat metodlar ====
+          Faqat cheklovlar ++++ Obyekt relyatsion modelda obyektlar o'rtasidagi
+          bog'lanish qanday amalga oshiriladi? ==== #Atributlar va metodlar
+          yordamida ==== Faqat jadvallar yordamida ==== Faqat cheklovlar
+          yordamida ==== Faqat ustunlar yordamida ++++ Obyekt relyatsion modelda
+          "yangi ma'lumotlar tuzilmasi" nima? ==== #Obyektlar va ularning
+          atributlarini yaratish ==== Faqat yangi metodlarni qo'llash ==== Faqat
+          yangi jadvallarni qo'shish ==== Faqat yangi cheklovlarni belgilash
+          ++++ Obyekt relyatsion modelda ma'lumotlar qanday tashkil etiladi?
+          ==== #Obyektlar, atributlar va bog'lanishlar orqali ==== Faqat
+          metodlar orqali ==== Faqat jadval tuzilmalari orqali ==== Faqat
+          atributlar orqali ++++ Mantiqqa asoslangan ma’lumotlar modelining
+          asosiy maqsadi nima? ==== #Ma'lumotlarni mantiqiy tarzda tuzish va
+          ularga ishlov berish ==== Ma'lumotlarni faqat fizik jihatdan saqlash
+          ==== Ma'lumotlarni tahlil qilish ==== Faqat bog'lanishlarni yaratish
+          ++++ Mantiqqa asoslangan ma’lumotlar modeli nima? ==== #Ma'lumotlar va
+          ular o'rtasidagi munosabatlarni mantiqiy tarzda ifodalovchi model,
+          ==== Ma'lumotlarni jadvalda saqlash uchun ishlatiladigan model. ====
+          Faqat ma'lumotlarni saqlash uchun ishlatiladigan model. ====
+          Ma'lumotlar faqat raqamli shaklda saqlanadigan model. ++++ Mantiqqa
+          asoslangan ma’lumotlar modelida qaysi elementlar asosiy rolni
+          o'ynaydi? ==== #Faktlar, qoidalar va mantiqiy bog'lanishlar ==== Faqat
+          jadvallar ==== Faqat satrlar ==== Faqat atributlar ++++ Mantiqqa
+          asoslangan ma’lumotlar modelida qanday qoidalar ishlatiladi? ====
+          #Ma'lumotlarni mantiqiy bog'lash va ularga ishlov berish qoidalari
+          ==== Faqat ma'lumotlarni saqlash qoidalari ==== Faqat ma'lumotlar
+          bazasini boshqarish qoidalari ==== Faqat jadvalni tahrirlash qoidalari
+          ++++ Mantiqqa asoslangan ma’lumotlar modelida "mantiqiy bog'lanish"
+          nimani anglatadi? ==== #Ma'lumotlar o'rtasidagi mantiqiy aloqalar va
+          munosabatlar ==== Faqat ma'lumotlarni saqlash ==== Faqat atributlarni
+          aniqlash ==== Faqat jadval tuzilmasini belgilash ++++ Mantiqqa
+          asoslangan ma’lumotlar modeli qanday ishlaydi? ==== #Mantiqiy
+          operatorlar va qoidalar yordamida ma'lumotlarga ishlov beradi ====
+          Faqat raqamli qiymatlarni hisoblaydi ==== Faqat matnli ma'lumotlarni
+          saqlaydi ==== Faqat ma'lumotlar bazasini yangilaydi ++++ Mantiqqa
+          asoslangan ma’lumotlar modelida qanday ma'lumotlar turlari
+          ishlatiladi? ==== #Faktlar, mantiqiy operatorlar, qoidalar ==== Faqat
+          jadval turlari ==== Faqat metodlar ==== Faqat jadvallar ++++ Mantiqqa
+          asoslangan ma’lumotlar modelida mantiqiy operatorlar nima uchun
+          ishlatiladi? ==== #Ma'lumotlarni tahlil qilish va ularning o'rtasidagi
+          munosabatlarni aniqlash uchun ==== Faqat ma'lumotlarni saqlash uchun
+          ==== Faqat jadvalni yangilash uchun ==== Faqat atributlarni tahrirlash
+          uchun ++++ Mantiqqa asoslangan ma’lumotlar modelida qanday ma'lumotlar
+          bog'lanadi? ==== #Faktlar va qoidalar orqali ==== Faqat jadvallar
+          orqali ==== Faqat metodlar orqali ==== Faqat ma'lumotlarni saqlash
+          orqali ++++ Mantiqqa asoslangan ma’lumotlar modeli qaysi sohada eng
+          ko'p ishlatiladi? ==== #Sun'iy intellekt va bilimlar bazalarida ====
+          Faqat ma'lumotlar bazasini boshqarishda ==== Faqat internet
+          tarmoqlarida ==== Faqat ma'lumotlar saqlashda ++++ Ma’lumotlar
+          bazasini loyihalashtirishning asosiy maqsadi nima? ==== #Ma'lumotlarni
+          samarali saqlash va ularga tezkor kirishni ta'minlash ==== Faqat
+          ma'lumotlarni tasvirlash ==== Faqat ma'lumotlarni tahlil qilish ====
+          Ma'lumotlarni faqat saqlash ++++ Ma’lumotlar bazasini loyihalashtirish
+          jarayonida qaysi birinchi bosqich bajariladi? === #Talablarni tahlil
+          qilish ==== Ma'lumotlar bazasini saqlash ==== Ma'lumotlarni tahlil
+          qilish ==== Foydalanuvchi interfeysini yaratish ++++ Ma’lumotlar
+          bazasini loyihalashtirishda "normalizatsiya" nima? ==== #Ma'lumotlarni
+          redundansiya (takrorlanish) dan qochib, ularni optimallashtirish
+          jarayoni ==== Faqat ma'lumotlarni saqlash jarayoni ==== Faqat
+          cheklovlarni qo'llash jarayoni ==== Ma'lumotlarni faqat yirik jadvalda
+          saqlash jarayoni ++++ Ma’lumotlar bazasini loyihalashtirishda qanday
+          elementlar asosiy rolni o'ynaydi? ==== #Jadval, atribut, bog'lanishlar
+          ==== Faqat satrlar ==== Faqat foydalanuvchilar ==== Faqat metodlar
+          ++++ Ma’lumotlar bazasini loyihalashtirishda "cheklovlar" nima? ====
+          #Ma'lumotlarga qo'yilgan shartlar yoki cheklovlar ==== Faqat
+          atributlarning o'zgarishi ==== Faqat ma'lumotlarni saqlash shartlari
+          ==== Faqat foydalanuvchilarni boshqarish ==== Ma’lumotlar bazasini
+          loyihalashtirishda qaysi bosqichda ma'lumotlar modelini tanlash kerak?
+          ==== #Tahlil qilish va loyihalashtirish bosqichida ==== Ma'lumotlarni
+          saqlash bosqichida ==== Faqat interfeysni yaratish bosqichida ====
+          Ma'lumotlarni tahlil qilish bosqichida ++++ So‘rovlarni qayta
+          ishlashning asosiy maqsadi nima? ==== #Ma'lumotlarni tahlil qilish va
+          ulardan foydali ma'lumotlarni olish ==== Faqat ma'lumotlarni saqlash
+          ==== Faqat foydalanuvchilarga so‘rovlar yuborish ==== Ma'lumotlarni
+          faqat arxivlash ++++ So‘rovlarni qayta ishlashda qaysi jarayonlar
+          amalga oshiriladi? ==== #Ma'lumotlarni to'plash, tahlil qilish va
+          natijalarni chiqarish ==== Faqat ma'lumotlarni saqlash ==== Faqat
+          jadvallarni yangilash ==== Faqat so‘rovlarni saqlash ++++ So‘rovlarni
+          qayta ishlashda qanday ma'lumotlar tahlil qilinadi? ==== #Ma'lumotlar
+          va ularning o'rtasidagi bog'lanishlar ==== Faqat jadvaldagi satrlar
+          ==== Faqat foydalanuvchi nomlari ==== Faqat raqamli ma'lumotlar ++++
+          So‘rovlarni qayta ishlashda qanday usullar ishlatiladi? ====
+          #Filtrlash, guruhlash va tartiblash ==== Faqat ma'lumotlarni saqlash
+          ==== Faqat foydalanuvchi ma'lumotlarini saqlash ==== Faqat
+          atributlarni tahlil qilish ++++ Tranzaksiya nima? ==== #Ma'lumotlar
+          bazasida amalga oshirilgan ma'lumotlar o'zgarishi yoki operatsiyasi
+          ==== Faqat yangi ma'lumotlarni saqlash jarayoni ==== Faqat
+          foydalanuvchi so'rovi ==== Ma'lumotlar bazasini yangilash jarayoni
+          ++++ Tranzaksiya boshqaruvi qanday maqsadni ko'zlaydi? ====
+          #Ma'lumotlar bazasidagi tranzaksiyalarni xavfsiz va ishonchli tarzda
+          boshqarish ==== Faqat ma'lumotlarni saqlash ==== Faqat yangi
+          foydalanuvchilarni qo'shish ==== Faqat ma'lumotlarni tahlil qilish
+          ++++ Tranzaksiya boshqaruvida "ACID" nima? ==== #Tranzaksiyalarni
+          boshqarishda qo'llaniladigan to'rtta xususiyat (Atomicity,
+          Consistency, Isolation, Durability) ==== Faqat ma'lumotlarni saqlashni
+          boshqarish xususiyatlari ==== Faqat tranzaksiyalarni yangilash
+          xususiyatlari ==== Faqat foydalanuvchilarga xizmat ko'rsatish
+          xususiyatlari ++++ Tranzaksiyalarni boshqarishning asosiy vazifasi
+          nima? ==== #Tranzaksiyalarni xavfsiz va ishonchli tarzda amalga
+          oshirish va ma'lumotlar bazasini boshqarish ==== Faqat ma'lumotlarni
+          saqlashni boshqarish ==== Faqat foydalanuvchilarni boshqarish ====
+          Faqat jadvallarni yangilash ++++ Metama'lumotlar nima? ====
+          #Ma'lumotlar haqida ma'lumotlar ==== Faqat matnli ma'lumotlar ====
+          Faqat statistik ma'lumotlar ==== Ma'lumotlar bazasidagi so'rovlar ++++
+          Metama'lumotlar nimani ifodalaydi? ==== #Ma'lumotlar bazasining
+          tuzilishi, formatlari, qoidalari va boshqalarni tavsiflaydigan
+          ma'lumotlar ==== Faqat ma'lumotlarni saqlash ==== Faqat foydalanuvchi
+          hisoblari ==== Faqat ma'lumotlarni tahlil qilish ++++ Metama'lumotlar
+          qaysi sohalarda ishlatiladi? ==== #Ma'lumotlarni tartibga solish,
+          boshqarish va qayta ishlashda ==== Faqat ma'lumotlarni saqlashda ====
+          Faqat foydalanuvchilarni boshqarishda ==== Faqat ma'lumotlarni
+          yig'ishda ++++ Metama'lumotlar bazasi nima? ==== #Ma'lumotlar bazasi
+          haqida ma'lumotlarni saqlovchi tizim ==== Faqat ma'lumotlarni saqlash
+          tizimi ==== Faqat foydalanuvchilarga xizmat ko'rsatish tizimi ====
+          Faqat jadval yaratish tizimi ++++ Metama'lumotlar qanday ishlaydi?
+          ==== #Ma'lumotlarni tuzish va boshqarish jarayonlarida ma'lumotlarning
+          o'ziga xos xususiyatlarini ta'riflaydi ==== Faqat foydalanuvchi
+          interfeysini yaratish ==== Faqat ma'lumotlarni saqlash ==== Faqat
+          ma'lumotlarni tahlil qilish ++++ Metama'lumotlar qanday turdagi
+          ma'lumotlarni o'z ichiga oladi? ==== #Ma'lumotlarning strukturalari,
+          formatlari, o'lchovlari, turlari va qoidalari ==== Faqat ma'lumotlar
+          bazasidagi satrlar ==== Faqat foydalanuvchilar haqida ma'lumot ====
+          Faqat grafik ma'lumotlar ++++ Metama'lumotlar qaysi elementlarni o'z
+          ichiga oladi? ==== #Atributlar, formatlar, tuzilmalar va qoidalar ====
+          Faqat foydalanuvchi malumotlari ==== Faqat jadval elementlari ====
+          Faqat ma'lumotlar saqlash shartlari ++++ Metama'lumotlar qanday
+          tizimlarda ishlatiladi? ==== #Ma'lumotlar bazalari va axborot
+          tizimlarida ==== Faqat jadval tizimlarida ==== Faqat grafik tizimlarda
+          ==== Faqat foydalanuvchi tizimlarida ++++ Ma’lumotlar bazasining
+          butunligi nima? ==== #Ma'lumotlar to'liq va aniq saqlanishi
+          kerakligini ta'minlash ==== Faqat ma'lumotlarni saqlash ==== Faqat
+          foydalanuvchi ma'lumotlarini o'zgartirish ==== Faqat ma'lumotlarni
+          arxivlash ++++ Ma’lumotlar bazasining xavfsizligini ta'minlash uchun
+          qanday usullar ishlatiladi? ==== #Foydalanuvchi huquqlarini boshqarish
+          va ma'lumotlarni shifrlash ==== Faqat jadvallarni saqlash ==== Faqat
+          foydalanuvchi ma'lumotlarini o'zgartirish ==== Faqat ma'lumotlarni
+          saqlash ++++ Ma’lumotlarning intellektual tahlili qanday usullardan
+          foydalanadi? ==== #Klasifikatsiya, klasterlash, regessiya va
+          assotsiatsiya ==== Faqat statistik tahlil ==== Faqat ma'lumotlarni
+          saqlash ==== Faqat grafiklarni yaratish ++++ Ma’lumotlarning
+          intellektual tahlilida "assotsiatsiya" usuli nima? ==== #Ma'lumotlar
+          orasidagi o'zaro bog'lanishlarni aniqlash ==== Faqat jadvallarni
+          tahlil qilish ==== Faqat raqamli ma'lumotlarni tahlil qilish ====
+          Faqat foydalanuvchilarni ajratish ++++ Paralellashtirish amallarini
+          ma’lumotlarning intellektual tahlilida qanday afzalliklar bor? ====
+          #Tahlil qilish vaqtini kamaytirish va samaradorlikni oshirish ====
+          Faqat ma'lumotlarni saqlash imkoniyatlarini kengaytirish ==== Faqat
+          foydalanuvchilarni tahlil qilish ==== Faqat ma'lumotlarni o'zgartirish
+          ++++ Paralellashtirilgan tizimlarda qaysi resurslar ko'p ishlatiladi?
+          ==== #Bir nechta protsessorlar va xotira resurslari ==== Faqat bitta
+          protsessor ==== Faqat ma'lumotlar bazasini saqlash ==== Faqat
+          foydalanuvchi interfeysini yaratish ++++ Paralellashtirish amallarini
+          qanday muammolar yuzaga kelishi mumkin? ==== #Sinxronizatsiya va
+          resurslarni boshqarish muammolari ==== Faqat tahlil qilish
+          jarayonining sekinlashishi ==== Faqat foydalanuvchilarni boshqarish
+          ==== Faqat ma'lumotlarni yig'ish
         </p>
       </div>
     </Fragment>
