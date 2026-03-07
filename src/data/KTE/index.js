@@ -1,1090 +1,1175 @@
 const input = `
-? O‘rnatilgan tizim (Embedded System) nima?
-- O‘yin kompyuterlari
-+ Maxsus vazifalarni bajaruvchi mikroprotsessor asosidagi tizim
-- Ish stoli kompyuterlari
-- Umumiy maqsadli dasturlash tizimi
+?Katta hajmli ma’lumotlar (Big Data) qanday tavsiflanadi?
+-Oddiy ma’lumotlar bazasi
++Katta hajmdagi, tezkor o‘zgaruvchi va turli formatdagi ma’lumotlar
+-Faqatgina strukturalangan ma’lumotlar
+-Matnli fayllar va rasm fayllari
 
-? O‘rnatilgan tizimlarning asosiy xususiyati nima?
-- Yuqori grafik imkoniyatlarga ega bo‘lishi
-+ Maxsus vazifalarni bajarishga mo‘ljallanganligi
-- Doimiy Internetga ulanib ishlashi
-- Faqat dasturchilar tomonidan boshqarilishi
+?Big Data ning asosiy xususiyatlari qaysilar?
+-2V – Value va Volume
+3V – Volume, Variety, Velocity
+-4V – Volume, Value, Visibility, Velocity
+-5V – Variety, Velocity, Volume, Value, Validation
 
-? O‘rnatilgan tizimlar qaysi sohalarda keng qo‘llaniladi?
-- Faqat kompyuter o‘yinlarida
-+ Telekommunikatsiya, avtomobil sanoati, tibbiyot, sanoat avtomatlashtirish
-- Faqat Internet xizmatlarida
-- Faqat matn muharrirlarida
+?Katta hajmli ma’lumotlarni qayta ishlashning asosiy maqsadi nima?
++Ma’lumotlarni tahlil qilish va ulardan foydali natijalar olish
+-Faqat saqlash
+-Ma’lumotlarni saqlash va qo‘llash
+-Ma’lumotlarni nashr qilish
 
-? O‘rnatilgan tizimlar qanday platformalarda ishlaydi?
-- Faqat Windows operatsion tizimida
-+ Maxsus real vaqt tizimlarida (RTOS) yoki apparat platformasida
-- Faqat Linux asosida
-- Faqat mobil operatsion tizimlarda
+?Katta hajmli ma’lumotlar qanday turlarga bo‘linadi?
++Strukturalangan, no-strukturalangan, yarim-strukturalangan
+-Oddiy va murakkab
+-Saqlanish holatiga qarab
+-Tarmoqqa bog‘liq
 
-? Qaysi qurilma o‘rnatilgan tizimga misol bo‘la oladi?
-- Ish stoli kompyuteri
-+ Mikrokontroller asosidagi robot
-- Ofis printer
-- O‘yin konsoli
+?Hadoop Distributed File System (HDFS) qanday ishlaydi?
++Ma’lumotlarni bloklarga bo‘lib saqlaydi va ularni klaster bo‘ylab taqsimlaydi
+-Ma’lumotlarni faqat bitta joyda saqlaydi
+-Ma’lumotlarni faqat matnli fayllarda saqlaydi
+-Faqat rasm va videolarni saqlaydi
 
-? O‘rnatilgan tizimlarning muhim parametrlari qaysilar?
-- Katta o‘lchamli operativ xotira va tezkor protsessor
-+ Kam quvvat sarfi, ishonchlilik, real vaqt rejimida ishlash
-- Faqat kuchli grafik ishlov berish
-- Internetga ulanib ishlash
+?Qarorlarni qo‘llab-quvvatlash tizimlarining asosiy maqsadi nima?
++Foydalanuvchilarga ma’lumotlar asosida to‘g‘ri qaror qabul qilishda yordam berish
+-Raqamlarni saqlash
+-Matnli fayllarni tahlil qilish
+-Ma’lumotlarni shifrlash
 
-? O‘rnatilgan tizimlar asosan qanday operatsion tizimlardan foydalanadi?
-- Windows va MacOS
-+ Real vaqt operatsion tizimlari (RTOS) va maxsus tizimlar
-- Faqat Android
-- MS-DOS
+?OLTP tizimi qaysi jarayon bilan ishlaydi?
+-Ma’lumotlarni saqlash va tahlil qilish
+-Arxivlash
++Operatsion tranzaktsiyalar bilan
+-Rasm va videolarni tahrirlash
 
-? Real vaqt tizimlari qanday xususiyatga ega?
-- Vazifalarni istalgan vaqtda bajarishi mumkin
-+ Muayyan vaqt oralig‘ida muhim jarayonlarni bajarishi shart
-- Faqat sun’iy intellekt tizimlarida ishlaydi
-- Faqat katta xotira talab qiladi
+?OLAP texnologiyasi qanday ishlaydi?
+-Faqat ma’lumotlarni saqlaydi
++Ma’lumotlarni tahlil qilish va biznes qarorlarini qo‘llab-quvvatlash
+-Operatsion tizimlar bilan ishlaydi
+-Ma’lumotlarni ko‘paytiradi
 
-? Qaysi qurilma real vaqt tizimi bo‘lishi mumkin?
-- Ish stoli kompyuteri
-+ Tibbiyot uchun yurak monitori
-- O‘yin noutbuki
-- Veb-brauzer
+?OLAP qanday turlarga bo‘linadi?
++ROLAP, MOLAP, HOLAP
+-OQLP, OQMP
+-ROLP, MOLP
+-HOLAP, ROLAP
 
-? O‘rnatilgan tizimlarning asosiy komponentlari qaysilar?
-- Faqat dasturiy ta’minot
-- Faqat apparat qurilmalari
-+ Protsessor, xotira, kirish-chiqish interfeyslari, dasturiy ta’minot
-- Printer va skaner
+?OLTP va OLAP o‘rtasidagi asosiy farq nimada?
++OLTP – tranzaktsiyalar bilan ishlaydi, OLAP esa ma’lumotlarni tahlil qiladi
+-OLTP ma’lumotlarni saqlaydi, OLAP esa ularni ko‘rsatuvchi grafiklar tayyorlaydi
+-OLAP faqat ma’lumotlarni yozadi
+-OLTP faqat ma’lumotlarni tahlil qiladi
 
-? Real vaqt operatsion tizimlari qanday ishlaydi?
-+ Muayyan vaqt chegarasida muhim jarayonlarni bajaradi
-- Faqat ofis dasturlarini ishga tushiradi
-- Tasodifiy vaqtlarda vazifalarni bajaradi
-- Faqat Linux asosida ishlaydi
+?Ko‘p o‘lchovli ma’lumotlar modeli nima?
+-Bir o‘lchovli ma’lumotlar modeli
++Ma’lumotlarni turli o‘lchovlar orqali tahlil qilish usuli
+-Faqat matnli fayllarda saqlash
+-Oddiy jadval shaklida saqlash
 
-?O‘rnatilgan tizimlarning quvvat sarfi qanday bo‘lishi kerak?
-+Minimal quvvat sarfi talab qilinadi
--Juda ko‘p energiya talab qilad
--Faqat quyosh energiyasidan foydalanadi
--Quvvat sarfi muhim emas
+?OLAP tizimi qanday ma’lumotlar bilan ishlaydi?
+-Raqamli ma’lumotlar
++Ko‘p o‘lchovli ma’lumotlar
+- Faqat matnli ma’lumotlar
+-Arxivlangan ma’lumotlar
 
-?O‘rnatilgan tizimlar qanday xotira turlaridan foydalanadi?
-+Faqat qattiq diskdan
--ROM, RAM, Flash xotira
--Faqat USB fleshka
--Faqat operativ xotira
+?OLAP tizimlarida qanday tahlil usullari mavjud?
++Drill-down, Roll-up, Slice, Dice
+-Filter, Sort, Combine
+-Encode, Decode, Transfer
+-Plot, Mark, Design
 
-?O‘rnatilgan tizimlar uchun eng muhim omil nima?
--Ko‘plab dasturlarni bir vaqtning o‘zida ishga tushirish
-+Xavfsizlik, ishonchlilik va kam quvvat sarfi
--Internetga doimiy ulanib turish
--O‘yinga moslashganligi
+?OLAP tizimlarida ma’lumotlar qanday tuzilishda saqlanadi?
+-Jadval shaklida
++Ko‘p o‘lchovli kubda
+-Matnli fayl shaklida
+-Graf tuzilmasi shaklida
 
-?O‘rnatilgan tizimlarda ishlatiladigan protsessorlar qanday bo‘ladi?
--Asosan yuqori tezlikda ishlovchi protsessorlar
-+Maxsus vazifalarga mo‘ljallangan, energiya tejamkor protsessorlar
--Faqat Intel protsessorlari
--Faqat 64-bitli protsessorlar
+?OLAP tizimlari qaysi sohalarda ishlatiladi?
++Marketing, moliya, tibbiyot
+-Faqatgina ilmiy sohalarda
+-Kompyuterlar va texnologiya
+-Raqamli san’at
 
-?O‘rnatilgan tizimlar uchun qaysi dasturlash tili keng qo‘llaniladi?
--HTML
-+C/C++
--PHP
--JavaScript
+?Ko‘p o‘lchovli ma’lumotlar tuzilishi nima?
+-Ma’lumotlarni saqlashning yangi usuli
++Ma’lumotlarni turli o‘lchovlar orqali tahlil qilish
+-Oddiy jadval tuzilmasi
+-Faqat raqamli ma’lumotlar bilan ishlash
 
-?O‘rnatilgan tizimlarning ishlash tezligi qanday belgilanadi?
--Faqat protsessor chastotasi bilan
-+Yozilgan kod sifati va apparat resurslariga bog‘liq
--Internet tezligi bilan
--Faqat operativ xotira hajmi bilan
+?Mekansal ma’lumotlar qanday ma’lumotlardir?
+-Faqat geografik ma’lumotlar
+-Faoliyat va ish jarayonlari
++Geografik joylashuvga bog‘liq ma’lumotlar
+-Matnli ma’lumotlar
 
-?O‘rnatilgan tizimlar uchun qanday operatsion tizim keng tarqalgan?
--Windows XP
-+FreeRTOS, VxWorks, QNX
--MacOS
--Ubuntu
+?GIS tizimlari qanday ma’lumotlar bilan ishlaydi?
++Geografik ma’lumotlar va xaritalar
+-Faqat statistik ma’lumotlar
+-Rasm va video fayllari
+-Faqat raqamli jadval ma’lumotlari
 
-?O‘rnatilgan tizimlar qayerda qo‘llaniladi?
--Smartfon va planshetlarda
-+Tibbiyot uskunalarida, avtomobillarda, sanoat robotlarida
--Faqat mobil ilovalarda
--Faqat superkompyuterlarda
-
-?O‘rnatilgan tizimlarning asosiy maqsadi nima?
--Ko‘p vazifali umumiy hisoblash tizimi yaratish
-+Maxsus vazifalarni samarali bajarish
--Faqat grafik interfeys yaratish
--Faqat ma’lumotlarni saqlash
-
-?O‘rnatilgan tizimlarga qo‘yiladigan asosiy talablar qaysilar?
--Yuqori grafik imkoniyatlarga ega bo‘lishi
-+Kam quvvat sarfi, ishonchlilik, real vaqt rejimida ishlash
--Faqat katta xotira hajmiga ega bo‘lishi
--Doimiy Internetga ulanib ishlashi
-
-?Boshqariluvchi obyekt datchiklari qanday vazifani bajaradi?
--Elektr signallarni kuchaytiradi
-+Tashqi fizikaviy kattaliklarni o‘lchab, elektr signaliga aylantiradi
--Faqat dasturiy ta’minot bilan ishlaydi
--Faqat analog signallarni uzatadi
-
-?Qaysi qurilma analog-raqam (ADC) o‘zgartirgich vazifasini bajaradi?
--Sensor ekran
-+Mikrokontroller ichidagi ADC moduli
--USB fleshka
--Printer
-
-?Raqam-analog (DAC) o‘zgartirgichning vazifasi nima?
--Analog signalni raqamli signalga aylantirish
-+Raqamli signalni analog signalga aylantirish
--Faqat kodni bajarish
--Elektr energiyasini uzatish
-
-?O‘rnatilgan tizimlarda signallarni uzatuvchi interfeys qanday ishlaydi?
-+Signalni raqamli formatga o‘zgartiradi va uzatadi
--Signalni faqat kuchaytiradi
--Faqat raqamli signallarni qabul qiladi
--Signalni faqat xotirada saqlaydi
-
-?Analog signallar qanday ma’lumot turi hisoblanadi?
-+Davomli (uzluksiz)
--Diskret (raqamli)
--Matn shaklida
-
-
-?Raqamli signallar qanday xususiyatga ega?
-+Diskret (uzlukli) qiymatlarga ega bo‘ladi
--Davomli o‘zgaruvchan qiymatlarga ega bo‘ladi
--Faqat kuchaytiruvchi qurilmalar orqali uzatiladi
--O‘z-o‘zidan qayta ishlanadi
-
-?O‘rnatilgan tizimlarda ishlatiladigan eng keng tarqalgan interfeys turi qaysi?
-+RS-232, I2C, SPI, UART
--Bluetooth, Wi-Fi
--Faqat HDMI
--Faqat USB
-
-?Boshqariluvchi obyekt datchiklaridan qaysi biri haroratni o‘lchaydi?
--LDR (yorug‘lik datchigi)
-+DHT11 (harorat va namlik datchigi)
--MQ-2 (gaz datchigi)
--HC-SR04 (ultratovushli datchik)
-
-?I2C interfeysi qanday ishlaydi?
--Parallel ravishda ma’lumot uzatadi
-+Seriyali ikki simli protokol asosida ishlaydi
--Faqat analog signal uzatadi
--Faqat elektr quvvati uzatadi
-
-?Analog signalni raqamli signalga aylantirishda qanday parametr muhim?
-+Konvertatsiya tezligi
--Ekran rangi
--Dastur versiyasi
--Xotira hajmi
-
-?SPI interfeysining asosiy xususiyati nima?
-+Yuqori tezlikda seriyali ma’lumot uzatish
--Faqat simsiz ulanish orqali ishlash
--Parallel ma’lumot uzatish
--Faqat audio signal uzatish
-
-?O‘rnatilgan tizimlarda qaysi interfeys real vaqt rejimida ishlash uchun samarali?
--USB
-+SPI
--HDMI
--Ethernet
-
-?UART interfeysi qanday ishlaydi?
-+Asinxron seriyali aloqa orqali
--Faqat simsiz aloqa uchun ishlatiladi
--Faqat raqamli signallarni qabul qiladi
--Elektr energiyasini uzatadi
-
-?Boshqariluvchi obyekt datchiklari qanday signallarni ishlab chiqarishi mumkin?
--Faqat analog
-+Analog va raqamli
--Faqat raqamli
--Faqat chastotaviy
-
-?O‘rnatilgan tizimlarda qaysi datchik harakatni aniqlash uchun ishlatiladi?
-+MPU6050 (gyroskop va akselerometr)
--LM35 (harorat datchigi)
--MQ-7 (gaz datchigi)
--DS18B20 (harorat datchigi)
-
-?ADC qurilmalari qanday ishlaydi?
-+Analog signalni raqamli ko‘rinishga o‘tkazadi
--Raqamli signalni kuchaytiradi
--Analog signalni saqlaydi
--Signalni filtrlash uchun ishlatiladi
-
-?Raqam-analog o‘zgartirgich (DAC) qanday signallarni hosil qiladi?
--Faqat raqamli
-+Analog
+?Mekansal ma’lumotlar qanday formatda bo‘lishi mumkin?
 -Matnli
--Faqat impulsli
-
-?Boshqariluvchi obyekt datchiklarining asosiy vazifasi nima?
-+Tashqi fizik jarayonlarni o‘lchash va ularga javob qaytarish
--Signalni shifrlash
--Signalni faqat mustaqil saqlash
--Faqat tasvir hosil qilish
-
-?O‘rnatilgan tizimlarda signallarni uzatuvchi interfeyslarning ahamiyati nimada?
-+Ma’lumotlarni ishonchli uzatish va qabul qilish
--Faqat elektr quvvati uzatish
--Faqat audio signallar bilan ishlash
--Operatsion tizimlarni yangilash
-
-?O‘rnatilgan tizim qurilmalarini boshqarish obyekt bilan qanday vositalar orqali ulanadi?
-+Datchiklar va aktuatorlar orqali
--Faqat Wi-Fi orqali
--Faqat Bluetooth orqali
--Faqat kabel orqali
-
-САРДОР ХОЛИКОВ, [20.05.2025 0:05]
-?O‘rnatilgan tizimlarda datchiklar qanday rol o‘ynaydi?
-+Fizikaviy kattaliklarni o‘lchab, signal shaklida uzatadi
--Faqat ma’lumot saqlaydi
--Dastur yozish uchun ishlatiladi
--Faqat kuchlanishni oshirish uchun ishlatiladi
-
-?Mikrokontrollerning asosiy tarkibiy qismlaridan biri qaysi?
--Ish stoli kompyuteri
-+Markaziy protsessor (CPU), xotira, kirish-chiqish portlari
--Faqat operativ xotira
--O‘yinga moslashtirilgan grafik protsessor
-
-?O‘rnatilgan tizim protsessorlarining asosiy turlari qaysilar?
-+RISC va CISC protsessorlari
--Faqat x86 protsessorlari
--Faqat grafik protsessorlar
--Faqat ARM protsessorlar
-
-?Mikrokontroller qanday qurilma?
-+Protsessor, xotira va kirish-chiqish interfeyslarini o‘z ichiga olgan mustaqil tizim
--Faqat ma’lumot saqlash uchun ishlatiladi
--Faqat grafik ishlov berish uchun ishlatiladi
--Internetga ulanish uchun ishlatiladi
-
-?Mikrokontrollerning xotira turlari qanday?
-+ROM, RAM va EEPROM 
--Faqat qattiq disk
--Faqat flesh xotira
--Faqat operativ xotira
-
-?O‘rnatilgan tizim protsessorlari ko‘pincha qanday arxitekturaga ega bo‘ladi?
-+RISC (Reduced Instruction Set Computing)
--CISC (Complex Instruction Set Computing)
--Faqat x86 arxitekturasiga ega bo‘ladi
--Faqat FPGA asosida qurilgan bo‘ladi
-
-?Mikrokontrollerlarning eng mashhur oilalaridan biri qaysi?
-+AVR, PIC, ARM
--Intel Core i7
--AMD Ryzen
--Nvidia Tegra
-
-?Mikrokontroller qanday dasturlanadi?
-+Assembly, C, C++ yordamida
--Faqat HTML va CSS orqali
--Faqat JavaScript orqali
--Faqat Windows muhitida
-
-?Mikrokontrollerning asosiy xususiyati nima?
-+Kam quvvat sarflaydi va maxsus vazifalarni bajaradi
--Ko‘p dasturlarni bir vaqtning o‘zida ishga tushiradi
--Faqat katta o‘lchamli operativ xotiraga ega
--Faqat grafik ishlov berish uchun ishlatiladi
-
-?Mikrokontroller ichidagi ALU (Arithmetic Logic Unit) qanday vazifa bajaradi?
-+Arifmetik va mantiqiy amallarni bajaradi
--Ma’lumotlarni doimiy saqlaydi
--Grafiklarni qayta ishlaydi
--Faqat signal uzatadi
-
-?O‘rnatilgan tizim protsessorlari qanday interfeyslar bilan bog‘lanadi?
-+UART, I2C, SPI, USB
--Faqat HDMI
--Faqat Ethernet
--Faqat Wi-Fi
-
-?Mikrokontrollerning soat chastotasi nimani belgilaydi?
-+Protsessor qancha tez ishlashini
--Qurilmaning fizik o‘lchamini
--Qancha elektr quvvati talab qilinishini
--Operativ xotira hajmini
-
-?Mikrokontrollerlar qanday turdagi operatsion tizimlardan foydalanadi?
-+RTOS (Real-Time Operating System) yoki yalang‘och apparat tizimi
--Faqat Windows OS
--Faqat Linux OS
--Faqat Android OS
-
-?Qaysi protsessor turi o‘rnatilgan tizimlarda eng ko‘p qo‘llaniladi?
-+ARM
--Intel Xeon
--AMD Threadripper
--Nvidia RTX
-
-?Mikrokontrollerlarning asosiy xususiyati nima?
-+Dasturiy ta’minot va apparat vositalarini birgalikda boshqarish
--Faqat grafik interfeys ishlatish
--Faqat yuqori quvvat sarflash
--Faqat ma’lumot saqlash
-
-?Mikrokontrollerda kirish-chiqish pinlari nima uchun kerak?
-+Tashqi qurilmalar bilan aloqa o‘rnatish uchun
--Operativ xotira hajmini oshirish uchun
--Protsessor tezligini o‘zgartirish uchun
--Faqat displey boshqarish uchun
-
-?Mikrokontrollerdagi taymer va sanagichlarning vazifasi nima?
-+Vaqtni hisoblash va jarayonlarni sinxronlashtirish
--Operativ xotirani to‘ldirish
--Faqat grafikni qayta ishlash
--Faqat dastur yozish uchun
-
-?Mikrokontrollerning asosiy energiya talabi qanday?
-+Kam quvvat sarfi talab qilinadi
--Juda ko‘p energiya talab qiladi
--Faqat quyosh energiyasidan foydalanadi
--Faqat elektr tarmog‘iga ulangan holda ishlaydi
-
-?Mikrokontroller qaysi sohalarda keng qo‘llaniladi?
-+Sanoat avtomatlashtirish, avtomobil sanoati, tibbiyot, smart qurilmalar
--Faqat video o‘yinlar yaratishda
--Faqat Internet xizmatlarida
--Faqat superkompyuterlarda
-
-?Uzulish (interruption) nima?
-+Mikrokontroller ish jarayonini vaqtincha to‘xtatib, muhimroq vazifani bajarish mexanizmi
--Xotirani tozalash jarayoni
--Qurilmalarni doimiy ravishda qayta yuklash usuli
--Elektr energiyasini boshqarish tizimi
-
-?Uzulishning asosiy turlari qanday?
-+Tashqi va ichki uzilishlar
--Faqat tashqi uzilishlar
--Faqat ichki uzilishlar
--Parallel va ketma-ket uzilishlar
-
-?Uzulishlarga ishlov beruvchi maxsus dastur nima deb ataladi?
-+ISR (Interrupt Service Routine)
--BIOS
--RAM boshqaruvchi
--Multitasking protsessor
-
-?ISR nima vazifani bajaradi?
-+Uzulish sodir bo‘lganda, tegishli kodni bajaradi
--Uzulishlarni butunlay o‘chirib qo‘yadi
--Qurilmalarni uzluksiz ishlashini ta’minlaydi
--Faqat protsessor tezligini oshiradi
-
-?Tashqi qurilmalar qanday qilib uzilish hosil qiladi?
-+Maxsus signal yuborish orqali
--Dasturiy ta’minotni o‘zgartirish orqali
--Elektr quvvatini pasaytirish orqali
--Internet orqali ma’lumot olish orqali
-
-?Ichki uzilishlar qanday hosil bo‘ladi?
-+Taymer, xatolik yoki maxsus dasturiy signal orqali
--Tashqi qurilmalar signallari orqali
--Internet orqali uzatish orqali
--USB orqali ulanadigan qurilmalar orqali
-
-?O‘rnatilgan tizimlarda uzilishlarning asosiy afzalligi nima?
-+Protsessor vaqtini samarali ishlatish
--Faqatgina operativ xotira ishlashini yaxshilash
--Qurilmalarning faqat tez ishlashini ta’minlash
--Xotira sarfini ko‘paytirish
-
-?Qaysi qurilmalar tashqi uzilish hosil qilishi mumkin?
-+Klaviatura, sensorlar, tarmoq adapterlari
--Faqat protsessor
--Faqat xotira
--Faqat ichki dasturiy ta’minot
-
-?Uzulishlar qanday usullar bilan ustuvorlikka ega bo‘ladi?
-+Uzulish darajasi yoki apparat ustuvorligi orqali
--Faqat dasturiy ta’minot bilan
--Tarmoq tezligini o‘zgartirish orqali
--Operatsion tizimni qayta yuklash orqali
-
-?Uzulishlar paytida protsessor qanday ma’lumotlarni saqlaydi?
-+Joriy bajarilayotgan instruktsiya va registr qiymatlarini
--Faqat kod segmentini
--Faqat vaqt belgilarini
--Operativ xotira tarkibini butunlay o‘chiradi
-
-?Ishlov berishning vaqt ko‘rsatkichlari nimani ta’minlaydi?
-+Real vaqt rejimida uzilishlarga javob berish imkoniyatini
--Faqat xotira miqdorini oshirishni
--Internet tezligini oshirishni
--Qurilmaning haroratini pasaytirishni
-
-?ISR dasturlarini yozishda eng muhim jihat nima?
-+Tez bajarilishi va minimal kod ishlatilishi
--Katta va murakkab kod yozish
--Juda ko‘p funksiya chaqirish
--Doimiy ravishda global o‘zgaruvchilarni o‘zgartirish
-
-?Mikrokontrollerlarda uzilishlarni boshqarish uchun nima ishlatiladi?
-+Interrupt vektor jadvali
--BIOS
--Faqat dastur kodlari
--Operativ xotira
-
-?Uzulish vektori nima?
-+Uzulishlarga ishlov berish uchun mo‘ljallangan manzillar jadvali
--Qurilmalarning grafik interfeysi
--Faqat dasturiy ta’minotni ishga tushirish uchun
--Signal kuchaytiruvchi qurilma
-
-?Qaysi komponent protsessorga uzilish signallarini yuboradi?
-+IRQ (Interrupt Request) liniyalari
--RAM
--Qattiq disk
--LCD display
-
-?Uzulishlarni qayta ishlash qanday bosqichlardan iborat?
-+Uzulishni aniqlash, uni qayta ishlash va bajarilayotgan vazifaga qaytish
--Faqat yangi dastur yuklash
--Operatsion tizimni o‘zgartirish
--Xotira formatlash
-
-?Real vaqt rejimida ishlov berish uchun qaysi mexanizm muhim?
-+Uzilishlarni to‘g‘ri boshqarish va ustuvorlik belgilash
--Ko‘p operativ xotira ishlatish
--Faqat internetga ulanish
--Elektr quvvatini oshirish
-
-? ISR bajarilishida qaysi amallar bajarilishi kerak emas?
-+ Katta hajmli kod ishlatish va uzoq sikllarni bajarish
-- Minimal kod yozish va tez bajarilish
-- Registrlarni saqlash va tiklash
-- Uzulish vektoridan to‘g‘ri foydalanish
-
-? O‘rnatilgan tizimlarda eng ko‘p qaysi uzilish mexanizmlari ishlatiladi?
-+ Vaqtli (timer) va tashqi qurilma uzilishlari
-- Faqat grafik interfeys uzilishlari
-- Faqat Internet orqali keladigan uzilishlar
-- Faqat tasodifiy signallar
-
-? Uzulishlarni to‘g‘ri boshqarish nima uchun muhim?
-+ Tizimning barqaror va samarali ishlashini ta’minlash uchun
-- Faqat elektr energiyasini tejash uchun
-- Faqat xotira hajmini oshirish uchun
-- Faqat foydalanuvchi interfeysini yaxshilash uchun
-
-? Kiritish-chiqarish interfeysi nima?
-+ Tashqi qurilmalar bilan o‘rnatilgan tizim o‘rtasida ma’lumot almashish vositasi
-- Faqat o‘rnatilgan tizimning operativ xotirasi
-- Dasturlarni saqlash uchun ichki xotira
-- Faqat ekran tasvirini boshqarish tizimi
-
-? Kiritish-chiqarish interfeysining turlari qaysilar?
-+ Paralel va ketma-ket interfeyslar
-- Faqat Wi-Fi interfeysi
-- Faqat USB interfeysi
-- Faqat qattiq disk bilan ishlovchi interfeys
-
-? O‘rnatilgan tizimlarda ishlatiladigan eng keng tarqalgan ketma-ket interfeys qaysi?
-+ UART (Universal Asynchronous Receiver-Transmitter)
-- VGA
-- HDMI
-- PS/2
-
-? Kiritish/chiqarish qurilmasining kontrolleri nima vazifani bajaradi?
-+ Qurilma bilan protsessor o‘rtasidagi ma’lumot almashinuvini boshqaradi
-- Faqat xotirani boshqaradi
-- Elektr ta’minotini nazorat qiladi
-- Operatsion tizimni yuklash bilan shug‘ullanadi
-
-? O‘rnatilgan tizimlarda ishlatiladigan asosiy ketma-ket interfeyslar qaysilar?
-+ UART, SPI, I2C
-- Faqat HDMI
-- Faqat PCIe
-- Faqat DisplayPort
-
-? Paralel interfeys qanday ishlaydi?
-+ 0 uzatadi
-- Faqat bitta bitni uzatadi
-- Faqat simsiz aloqa uchun ishlatiladi
-- Faqat audio signal uzatadi
-
-? USB interfeysi qaysi turga kiradi?
-+ Ketma-ket interfeys
-- Paralel interfeys
-- Analog interfeys
-- Faqat simsiz interfeys
-
-? SPI interfeysi qaysi ma’lumot almashish usuliga asoslangan?
-+ Sinxron ketma-ket aloqa
-- Asinxron ketma-ket aloqa
-- Faqat simsiz aloqa
-- Faqat tasvir uzatish
-
-? Kiritish-chiqarish apparat interfeysi nima uchun kerak?
-+ O‘rnatilgan tizim va tashqi qurilmalar o‘rtasidagi ma’lumot almashuvini ta’minlash uchun
-- Faqat tizimni elektr ta’minoti bilan ta’minlash uchun
-- Operativ xotirani oshirish uchun
-- Faqat grafik tasvirlarni qayta ishlash uchun
-
-? I2C interfeysi qanday xususiyatga ega?
-+ Ikkita sim orqali ko‘p qurilmalar bilan aloqa o‘rnata oladi
-- Faqat bitta qurilma bilan ishlaydi
-- Faqat tezkor ma’lumot uzatish uchun mo‘ljallangan
-- Faqat audio uzatish uchun ishlatiladi
-
-? Tarmoq interfeysining asosiy vazifasi nima?
-+ O‘rnatilgan tizimlarni lokal yoki global tarmoqlarga ulash
-- Faqat qurilmani zaryadlash
-- Faqat ichki xotira bilan ishlash
-- Operatsion tizimni yangilash
-
-? Ethernet interfeysi qanday ma’lumot uzatish usuliga asoslangan?
-+ Simli aloqa
-- Simsiz aloqa
-- Faqat infraqizil aloqa
-- Faqat ultratovush signallari
-
-? O‘rnatilgan tizimlarda ishlatiladigan simsiz interfeyslar qaysilar?
-+ Wi-Fi, Bluetooth, Zigbee
-- Faqat HDMI
-- Faqat USB
-- Faqat DisplayPort
-
-? Qaysi interfeys mobil aloqa vositalarida keng qo‘llaniladi?
-+ Bluetooth
-- VGA
-- RS-232
-- LPT
-
-? CAN interfeysi qayerda keng qo‘llaniladi?
-+ Avtomobil elektronikasi va sanoat avtomatlashtirishida
-- Faqat ofis kompyuterlarida
-- Faqat televizorlarda
-- Faqat mobil telefonlarda
-
-? GPIO nima uchun ishlatiladi?
-+ Umumiy maqsadli kiritish/chiqarish signallarini boshqarish uchun
-- Faqat ma’lumot saqlash uchun
-- Faqat elektr ta’minoti uchun
-- Faqat video signal uzatish uchun
-
-? RS-232 interfeysi qaysi turga kiradi?
-+ Ketma-ket interfeys
-- Paralel interfeys
-- Faqat simsiz interfeys
-- Faqat audio interfeys
-
-? Kiritish-chiqarish interfeyslarining muhim xususiyatlari qaysilar?
-+ Ma’lumot uzatish tezligi, ulanish turi va ishonchliligi
-- Faqat interfeys uzunligi
-- Faqat elektr quvvat sarfi
-- Faqat dasturiy ta’minot bilan mosligi
-
-САРДОР ХОЛИКОВ, [20.05.2025 0:12]
-? USB interfeysining asosiy afzalliklari qaysilar?
-+ Yuqori tezlikda ma’lumot uzatish va universal ulanish
-- Faqat quvvat manbai sifatida ishlatilishi
-- Faqat grafik interfeys
-- Faqat audio signal uzatish
-
-? O‘rnatilgan tizimlar qaysi interfeyslar orqali internetga ulanadi?
-+ Ethernet, Wi-Fi, LTE
-- Faqat HDMI
-- Faqat USB
-- Faqat RS-232
-
-? O‘rnatilgan tizimlar uchun operatsion tizimlarning asosiy vazifasi nima?
-+ Dasturlarni boshqarish va tizim resurslarini samarali taqsimlash
-- Faqat grafik interfeys taqdim etish
-- Faqat internetga ulanishni ta’minlash
-- Faqat apparat qurilmalarni boshqarish
-
-? O‘rnatilgan tizimlar uchun operatsion tizimlarning muhim talablari qaysilar?
-+ Resurslarni samarali boshqarish, real vaqt rejimida ishlash va ishonchlilik
-- Faqat grafik interfeysning mavjudligi
-- Faqat katta hajmdagi xotira talab qilish
-- Faqat foydalanuvchilar uchun qulaylik yaratish
-
-? O‘rnatilgan tizimlarda ishlatiladigan eng mashhur real vaqt operatsion tizimlari (RTOS) qaysilar?
-+ FreeRTOS, VxWorks, QNX
-- Windows XP, MacOS, Ubuntu
-- Faqat Linux
-- Faqat Android
-
-САРДОР ХОЛИКОВ, [20.05.2025 0:19]
-? Monolit operatsion tizim arxitekturasi qanday ishlaydi?
-+ Barcha tizim xizmatlari yadro ichida bajariladi
-- Har bir dastur alohida yadroni ishlatadi
-- Har bir xizmat mustaqil modullar sifatida ishlaydi
-- Faqat apparat bilan bog‘langan tizim
-
-? Monolit yadrolarning asosiy afzalligi nima?
-+ Yuqori ishlash tezligi va kam kechikish
-- Juda kichik hajmda bo‘lishi
-- Barcha xizmatlarning alohida ishlashi
-- Faqat ma’lumot saqlashni ta’minlashi
-
-? Monolit yadro operatsion tizimiga misol keltiring.
-+ Linux
-- Windows NT
-- FreeRTOS
-- MacOS
-
-? Modulli arxitektura qanday ishlaydi?
-+ Operatsion tizim komponentlari mustaqil modullar shaklida bo‘ladi
-- Barcha kodlar yadroga joylashgan bo‘ladi
-- Faqat mijoz-server modelidan foydalanadi
-- Faqat grafik interfeysni ta’minlaydi
-
-? Modulli arxitekturaning afzalligi nimada?
-+ Tizimni oson sozlash va kengaytirish mumkin
-- Har doim tez ishlaydi
-- Faqat real vaqt tizimlari uchun ishlatiladi
-- Faqat Linux yadrosi uchun mo‘ljallangan
-
-? Modulli arxitekturaga misol keltiring.
-+ Linux yadrosi
-- DOS
-- Windows 3.1
-- FreeDOS
-
-? Mikroyadro nima?
-+ Minimal xizmatlarni ta’minlovchi yadro arxitekturasi
-- Operatsion tizim yadrosining eng katta versiyasi
-- Faqat grafik interfeysni ta’minlaydi
-- Faqat Windows operatsion tizimlari uchun ishlatiladi
-
-? Mikroyadro arxitekturasining asosiy afzalligi nima?
-+ Tizimning ishonchliligi va xavfsizligini oshiradi
-- Operatsion tizimni sekinlashtiradi
-- Faqat katta hajmdagi xotira talab qiladi
-- Faqat mijoz-server modelini qo‘llab-quvvatlaydi
-
-? Mikroyadro operatsion tizimlariga misollar qaysilar?
-+ QNX, Minix, L4
-- MS-DOS, FreeDOS
-- Windows 98, MacOS
-- FreeBSD, Solaris
-
-? Mijoz-server modeli qanday ishlaydi?
-+ Xizmatlar alohida jarayonlar sifatida bajariladi va yadroga minimal yuk tushadi
-- Barcha xizmatlar yadro ichida bajariladi
-- Faqat bitta mijoz ishlashi mumkin
-- Faqat foydalanuvchilar uchun mo‘ljallangan
-
-? Qaysi operatsion tizim mijoz-server modeli asosida ishlaydi?
-+ QNX
-- MS-DOS
-- Windows 95
-- FreeDOS
-
-? Monolit va mikroyadro tizimlari o‘rtasidagi asosiy farq nima?
-+ Monolit tizimda barcha xizmatlar yadro ichida bajariladi, mikroyadroda esa xizmatlar alohida jarayonlar sifatida ishlaydi
-- Monolit tizimda xizmatlar alohida ishlaydi, mikroyadroda esa barchasi bir joyda bajariladi
-- Mikroyadroda faqat real vaqt rejimida ishlash mumkin
-- Monolit tizim faqat Windows uchun ishlatiladi
-
-? Qaysi operatsion tizim mikroyadro arxitekturasidan foydalanadi?
-+ QNX
-- DOS
-- Windows XP
-- Linux
-
-? Mikroyadro tizimida xizmatlarning ishlashi qanday tashkil etiladi?
-+ Har bir xizmat alohida jarayon sifatida ishlaydi
-- Barcha xizmatlar yagona yadro ichida joylashadi
-- Faqat bitta jarayon ishlashi mumkin
-- Operatsion tizim grafik interfeyssiz ishlaydi
-
-? Monolit yadroda xatoliklar qanday ta’sir qiladi?
-+ Barcha tizimga ta’sir qiladi va tizim ishdan chiqishi mumkin
-- Xatolik faqat bitta jarayonga ta’sir qiladi
-- Hech qanday ta’sir qilmaydi
-- Faqat tarmoq xizmatlariga ta’sir qiladi
-
-? Mikroyadro tizimida xatoliklar qanday ta’sir qiladi?
-+ Xatolik faqat muayyan xizmatga ta’sir qiladi
-- Butun tizim ishdan chiqadi
-- Barcha jarayonlar to‘xtaydi
-- Faqat grafik interfeys o‘chadi
-
-? Operatsion tizimlar uchun eng muhim omillar qaysilar?
-+ Ishonchlilik, tezlik, xavfsizlik va samaradorlik
-- Faqat grafik interfeys
-- Faqat tarmoq xizmatlari
-- Faqat xotira hajmi
-
-? Arduino nima?
-+ Ochiq kodli apparat va dasturiy ta’minot platformasi
-- Faqat grafik interfeysga ega bo‘lgan dastur
-- Ish stoli kompyuterlari uchun mo‘ljallangan operatsion tizim
-- Faqat robototexnikada ishlatiladigan dastur
-
-? Arduino loyihalarida ishlatiladigan asosiy dasturlash tili qaysi?
-+ C/C++
-- Python
-- Java
-- HTML
-
-? Arduino platalarida ishlatiladigan asosiy mikrokontroller qaysi?
-+ Atmel (Microchip) AVR va ARM Cortex-M
-- Intel Core i7
-- AMD Ryzen
-- NVIDIA Tegra
-
-? Arduino tizimi qanday dasturiy ta’minot yordamida dasturlanadi?
-+ Arduino IDE
-- Microsoft Word
-- Adobe Photoshop
-- Windows Explorer
-
-? Arduino platalari qanday interfeys orqali kompyuterga ulanadi?
-+ USB
-- HDMI
-- VGA
-- Ethernet
-
-САРДОР ХОЛИКОВ, [20.05.2025 0:19]
-? Arduino Uno platasida qaysi mikrokontroller ishlatiladi?
-+ ATmega328P
-- STM32F103
-- ESP8266
-- PIC16F877A
-
-? Arduino Mega 2560 platasining asosiy xususiyati nima?
-+ Ko‘proq kirish-chiqarish pinlariga ega
-- O‘ta kichik o‘lchamga ega
-- Faqat Wi-Fi bilan ishlaydi
-- Faqat quvvatni boshqarish uchun ishlatiladi
-
-? Qaysi Arduino modeli Wi-Fi bilan integratsiyalashgan?
-+ Arduino Uno WiFi
-- Arduino Mega
-- Arduino Nano
-- Arduino Due
-
-? Arduino Due platasining asosiy afzalligi nima?
-+ ARM Cortex-M3 yadrosiga ega bo‘lishi
-- Faqat LEDlarni boshqarish imkoniyati
-- Juda kichik o‘lchamga ega bo‘lishi
-- Faqat ma’lumot uzatish uchun ishlatilishi
-
-? Arduino Nano qanday ishlaydi?
-+ Arduino Uno'ning ixcham versiyasi bo‘lib, USB orqali dasturlanadi
-- Faqat Wi-Fi moduli sifatida ishlaydi
-- Faqat grafik interfeys uchun ishlatiladi
-- Ko‘p yadroli protsessorni o‘z ichiga oladi
-
-? Arduino LilyPad qayerda ishlatiladi?
-+ Kiyim-kechakka tikiladigan elektron tizimlarda
-- Sun’iy yo‘ldosh boshqaruvida
-- Smartfon protsessorlarida
-- Faqat televizor pultlarida
-
-? Arduino platalari qanday asosiy apparat interfeyslariga ega?
-+ A) Digital va analog pinlar, UART, SPI, I2C
-- B) Faqat USB
-- C) Faqat HDMI
-- D) Faqat Bluetooth
-
-САРДОР ХОЛИКОВ, [20.05.2025 0:30]
-?O‘rnatilgan tizimlar uchun ARM arxitekturasining asosiy afzalligi nima?
-+Kam quvvat sarfi va yuqori unumdorlik
--Juda qimmat bo‘lishi
--Faqat katta hajmdagi xotira talab qilishi
--Faqat katta hajmdagi grafik interfeyslarni qo‘llab-quvvatlashi
-
-?ARM arxitekturasiga asoslangan qaysi mikrokontrollerlar Arduino platalarida ishlatiladi?
-+STM32, SAM3X8E
--Intel Pentium
--AMD Ryzen
--NVIDIA GPU
-
-?Arduino platalarida qanday dastur yozish mumkin?
-+Mikrokontrollerga mos keladigan har qanday C/C++ kodi
--Faqat grafik interfeys dasturlari
--Faqat Linux operatsion tizimlarini boshqarish dasturlari
--Faqat JavaScript bilan ishlaydigan dasturlar
-
-?Arduino IDE qanday tilda yozilgan?
-+Java
--Python
--HTML
--Bash Script
-
-?Arduino platalarida qaysi dasturlash modeli ishlatiladi?
-+Loop va Setup funksiyalaridan iborat
--Faqat obyektga yo‘naltirilgan dasturlash
--Faqat server-klient modeli
--Faqat voqealarga asoslangan dasturlash
-
-?Arduino orqali qanday sensorlarni ulash mumkin?
-+Temperaturali, bosimli, namlik, harakat datchiklari
--Faqat video kameralar
--Faqat ovoz chiqaruvchi qurilmalar
--Faqat Wi-Fi modular
-
-?O‘rnatilgan tizimlarda ARM protsessorlarining muhim xususiyati nima?
-+Kam quvvat iste’mol qilishi va yuqori unumdorlik
--Faqat ma’lumotlarni saqlash uchun ishlatilishi
--Juda katta hajmda bo‘lishi
--Faqat grafik ishlov berish uchun ishlatilishi
-
-?Arduino bilan ishlovchi ARM protsessorli mikrokontrollerlar qaysilar?
-+STM32F103, SAM3X8E
--Intel Core i5, Core i7
--AMD Ryzen 9, Ryzen 7
--NVIDIA Tegra X1
-
-?O‘rnatilgan tizimlarda tashxislash (diagnostika) nima?
-+Tizimning ishlashini tekshirish va muammolarni aniqlash jarayoni
--Faqat tizimga dastur yozish jarayoni
--Faqat apparat vositalarni ishlab chiqarish jarayoni
--Qurilmalarning elektr quvvati iste’molini hisoblash jarayoni
-
-?O‘rnatilgan tizimlarni tashxislashda qaysi vositalar ishlatiladi?
-+Oscilloscope, Logic Analyzer, JTAG debuggers
--Faqat multimetr
--Faqat LED indikatorlar
--Faqat operatsion tizim
-
-?O‘rnatilgan tizimlarda eng keng tarqalgan dasturiy tashxislash vositasi qaysi?
-+GDB (GNU Debugger)
--Microsoft Word
++Vektorli va rasterli formatlar
+-Faqat raqamli
+-Faqat Excel faylida
+
+?Ko‘p o‘lchovli tuzilmalarda qaysi usul ishlatiladi?
++Hierarchical strukturalar
+-Faqat strukturaviy saqlash
+-Ma’lumotlarni tekis tuzishda
+-Tashqi ma’lumotlar bilan ishlash
+
+?Ma’lumotlar ombori (Data Warehouse) nima?
++Tashkilotning barcha tarixiy ma’lumotlarini saqlovchi tizim
+-Faqat operatsion ma’lumotlarni saqlovchi tizim
+-Ma’lumotlarni faqat saqlash
+-Yangi ma’lumotlar yaratish tizimi
+
+?Data Mart nima?
++Ma’lumotlar omborining kichik bo‘limi
+-Ma’lumotlarni saqlash xizmati
+-Faqat analitik ma’lumotlar bazasi
+-Sun’iy intellekt tizimi
+
+?ETL jarayoni nimani anglatadi?
++Extract, Transform, Load
+-Extract, Test, Load
+-Export, Transfer, Link
+-Evaluate, Transform, Learn
+
+?Data Warehouse tizimida qanday arxitektura qo‘llaniladi?
++Uch pog‘onali arxitektura
+-Ikki pog‘onali arxitektura
+-Faqat bitta platformada arxitektura
+-Matnli arxitektura
+
+?Ma’lumotlar ombori tizimlarining asosiy vazifasi nima?
++Tarixiy va analitik ma’lumotlarni saqlash
+-Faqat yangi ma’lumotlarni saqlash
+-Ma’lumotlarni tezda yo‘q qilish
+-Kichik hajmdagi ma’lumotlarni saqlash
+
+?Katta hajmli ma’lumotlarning xavfsizligini ta’minlashda qanday usul ishlatiladi?
++Ma’lumotlarni shifrlash va autentifikatsiya
+-Faqat saqlash
+-Ma’lumotlarni faqat saqlash
+-Ularni yagona joyda saqlash
+
+?Katta hajmli ma’lumotlarda qanday xavf-xatarlar mavjud?
++Yolg‘on ma’lumotlar va tizimning ishlashini susaytirish
+-Faqat arxivlash
+-Faqat shifrlash
+-Faqat saqlash
+
+?Ma’lumotlarning integratsiyasini ta’minlashda nimalar kerak?
++Ma’lumotlar orasida moslikni va ma’lumotlar sifatini ta’minlash
+-Faqat ma’lumotlarni shifrlash
+-Ma’lumotlarni saqlash joyini yangilash
+-Faqat ishlov berish
+
+?Ma’lumotlarni xavfsizligini ta’minlashda qanday texnologiyalar qo‘llaniladi?
++Shifrlash va autentifikatsiya
+-Faqat VPN
+-Faqat saqlashni kuzatish
+-Qayta ishlash
+
+?Katta hajmli ma’lumotlar xavfsizligini ta’minlash uchun qanday tarmoq xavfsizlik texnologiyalari kerak?
++Tarmoqni bo‘lish, shifrlash, autentifikatsiya
+-Faqat tarmoqni yangilash
+-Ma’lumotlarni faqat serverda saqlash
+-Qayta ishlash va saqlash
+
+?Katta hajmli ma’lumotlarni qayta ishlash jarayonida qanday texnologiyalar qo‘llaniladi?
++Hadoop, Spark
+-Matnli fayllar
+-Ma’lumotlar saqlashni yangilash
+-Faqat saqlash
+
+?Hadoop nima?
++Katta hajmli ma’lumotlarni saqlash va qayta ishlash tizimi
+-Faqat ma’lumotlarni saqlash tizimi
+-Ma’lumotlarni faqat tahlil qilish tizimi
+-Ma’lumotlar bazasining boshqaruv tizimi
+
+?MapReduce nima?
++Katta hajmli ma’lumotlarni parallel qayta ishlash jarayoni
+-Faqat saqlash
+-Ma’lumotlarni shifrlash jarayoni
+-Faqat jadval tuzish
+
+?Apache Spark nima?
++Katta hajmli ma’lumotlarni qayta ishlash uchun yuqori tezlikdagi tizim
+-Faqat jadval tuzish tizimi
+-Raqamli tahlil qilish
+-Ma’lumotlarni saqlash tizimi
+
+?Katta hajmli ma’lumotlarni qayta ishlashda qanday imkoniyatlar mavjud?
++Tezkor ma’lumotlarni qayta ishlash va tahlil qilish
+-Faqat jadval yaratish
+-Faqat matnli fayllarni tahlil qilish
+-Saqlash va saqlashni yangilash
+
+?Ma’lumotlarni uzatishda qanday metodlar ishlatiladi?
++Replikatsiya va parchalanish
+-Faqat saqlash
+-Arxivlash
+-Saqlashni yangilash
+
+?Ma’lumotlar uzatishda replikatsiya nima?
++Ma’lumotlarning nusxalarini yaratish va ularni boshqa joylarga uzatish
+-Ma’lumotlarni faqat saqlash
+-Faqat shifrlash
+-Qayta ishlash
+
+?Ma’lumotlarni uzatishning qaysi metodi katta hajmli ma’lumotlar uchun samarali?
++Replikatsiya va yuqori tezlikdagi tarmoqlar
+-Faqat shifrlash
+-Faqat tahlil qilish
+-Faqat saqlash
+
+?Katta hajmli ma’lumotlarni uzatishda qanday texnologiyalar kerak?
++Tarmoq protokollari, replikatsiya, shifrlash
+-Faqat shifrlash
+-Tahlil qilish va saqlash
+-Faqat tarmoqni yangilash
+
+?Ma’lumotlar uzatishda qanday xavfsizlik choralari kerak?
++Shifrlash, autentifikatsiya, tarmoqni bo‘lish
+-Faoliyatni tekshirish
+-Faqat saqlashni yangilash
+-Faqat tahlil qilish
+
+?OLAP tizimlarida qanday ma’lumotlar saqlanadi?
++Ko‘p o‘lchovli ma’lumotlar
+- Faqat raqamli ma’lumotlar
+- Matnli fayllar
+- Rasm va video fayllari
+
+?OLAP tizimida qanday usullar ishlatiladi?
++Drill-down, roll-up, slice, dice
+-Arxivlash
+-Faqat saqlash
+-Tarmoqni yangilash
+
+?Ko‘p o‘lchovli ma’lumotlar tuzilishi qanday ishlaydi?
++Ma’lumotlarni o‘lchovlar bo‘yicha tahlil qilish
+-Faoliyatni kuzatish
+-Raqamli tahlil qilish
+-Ma’lumotlarni shifrlash
+
+?OLAP tizimlarining qanday turlari mavjud?
++MOLAP, ROLAP, HOLAP
+-ALOP, ROLP
+-HOLAP, ROLAP
+-MOLAP, OLAP
+
+?OLAP tizimi qaysi sohalarda qo‘llaniladi?
++Biznes tahlili va qaror qabul qilish
+-Faqat ilmiy sohalarda
+-Raqamli san’atda
+-Matnli fayllarni yaratish
+
+?Data Warehouse nima?
++Ma’lumotlarni saqlash va tahlil qilish tizimi
+-Faqat ma’lumotlarni saqlash
+-Tarmoqqa bog‘liq
+-Grafik ma’lumotlarni saqlash
+
+?Data Warehouse tizimi uchun qanday arxitektura qo‘llaniladi?
++Uch pog‘onali arxitektura
+-Faqat bitta platformada arxitektura
+-Ikki pog‘onali arxitektura
+-Tashqi arxitektura
+
+?Ma’lumotlar ombori nima uchun ishlatiladi?
++Tarixiy ma’lumotlarni saqlash
+-Faqat yangi ma’lumotlarni saqlash
+-Qayta ishlash
+-Ma’lumotlarni saqlashni tekshirish
+
+?Data Mart nima?
++Data Warehouse ning kichik bo‘limi
+-Faqat ma’lumotlarni saqlash
+-Arxivlash tizimi
+-Faqat tahlil qilish
+
+?Ma’lumotlar ombori tizimlarining asosiy vazifasi nima?
++Tarixiy va analitik ma’lumotlarni saqlash
+-Faqat yangi ma’lumotlarni saqlash
+-Faqat matnli fayllarni yaratish
+- Ma’lumotlarni saqlashni tekshirish
+
+?Mantiqiy model nima?
++Ma’lumotlarning tuzilishini ifodalovchi model
+-Ma’lumotlarni saqlashning jarayoni
+-Faqat ma’lumotlarni tahlil qilish
+-Ma’lumotlarni shifrlash modeli
+
+?Ma’lumotlar omborining mantiqiy modeli qanday maqsadni ko‘zlaydi?
++Ma’lumotlarni tashkil qilish va bog‘lash
+-Ma’lumotlarni shifrlash
+-Ma’lumotlarni faqat saqlash
+-Faqat tahlil qilish
+
+?Ma’lumotlar omborining mantiqiy modelida qanday model ishlatiladi?
++Relyatsion model
+-Faqat hierarxik model
+-Faqat tarmoq modeli
+-Raqamli model
+
+?Mantiqiy modelda ma’lumotlarning qanday bog‘lanish turlari mavjud?
++Jadvallar orasida bog‘lanish
+-Faqat jadval yaratish
+-Raqamli tahlil qilish
+-Matnli fayllar saqlash
+
+?Mantiqiy modelda ma’lumotlarning integratsiyasini qanday ta’minlash mumkin?
++Ma’lumotlar orasidagi bog‘lanishni optimallashtirish
+-Faqat jadval yaratish
+-Faoliyatni kuzatish
+-Ma’lumotlarni saqlash
+
+?Ma’lumotlar omborining fizik modeli nima?
++Ma’lumotlarni saqlash va boshqarishning texnik tavsifi
+-Faqat ma’lumotlarni tahlil qilish
+-Ma’lumotlar orasidagi bog‘lanish
+-Jadval yaratish
+
+?Ma’lumotlar omborining fizik modelining asosiy vazifasi nima?
++Ma’lumotlarni fizik saqlash va tashish
+-Faqat tahlil qilish
+-Shifrlash
+-Jadvalni yaratish
+
+
+
+?Ma’lumotlarni saqlashda qanday fizikal model qo‘llaniladi?
++Ma’lumotlarni bloklarga ajratish va saqlash
+-Faqat ma’lumotlarni tahlil qilish
+-Ma’lumotlarni faqat jadvalga kiritish
+-Faqat shifrlash
+
+?Ma’lumotlar omborining fizik modelida qanday saqlash tizimlari qo‘llanadi?
++Disklar, massivlar, ma’lumotlar bazalari
+-Faqat jadval tizimi
+-Faoliyatni kuzatish
+-Raqamli tahlil
+
+?Ma’lumotlarni fizik modellashtirishda qanday strategiyalar mavjud?
++Ma’lumotlarni parallel saqlash
+-Faqat saqlashni yangilash
+-Matnli fayllar yaratish
+-Tarmoqni bo‘lish
+
+?Katta hajmdagi ma’lumotlar bilan ishlash texnologiyalarining asosiy maqsadi nima?
++Ma’lumotlarni tez va samarali qayta ishlash
+-Faqat ma’lumotlarni saqlash
+-Faqat tahlil qilish
+-Faqat ma’lumotlarni tarmoqda uzatish
+
+?Katta hajmdagi ma’lumotlarni qayta ishlash uchun qanday texnologiyalar qo‘llaniladi?
++Hadoop, Spark, NoSQL
+-Faqat saqlash
+-Faqat shifrlash
+- Jadval tuzis
+
+?Hadoop nima?
++Katta hajmdagi ma’lumotlarni saqlash va qayta ishlash tizimi
+-Faqat tarmoqda uzatish
+-Faqat saqlashni yangilash
+-Raqamli tahlil qilish
+
+?Apache Spark qaysi jarayonlarni tezlashtiradi?
++Katta hajmdagi ma’lumotlarni qayta ishlash
+-Faqat jadval tuzish
+-Ma’lumotlarni faqat saqlash
+-Faqat tahlil qilish
+
+?NoSQL bazalari qaysi turdagi ma’lumotlar uchun mos keladi?
++Nestructural ma’lumotlar
+-Faqat raqamli ma’lumotlar
+-Jadval tizimlari
+-Faqat grafik ma’lumotlar
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashda qanday asosiy muammolar mavjud?
++Tezlik, saqlash va integratsiya
+-Faqat saqlash
+-Faqat shifrlash
+-Faqat arxivlash
+
+?Katta hajmdagi ma’lumotlarda qanday kamchiliklar bo‘lishi mumkin?
++Ma’lumotlar bir-biriga mos kelmasligi
+-Saqlashning kamligi
+-Faqat tarmoqni yangilash
+-Jadvalning notog‘ri ishlashi
+
+?Katta hajmdagi ma’lumotlarda qanday xavf-xatarlar mavjud?
++Ma’lumotlarning to‘g‘ri bo‘lmasligi va tarmoqni yomon ishlatish
+-Ma’lumotlarni faqat saqlash
+-Faqat shifrlash
+-Faqat arxivlash
+
+?Katta hajmdagi ma’lumotlarni tahlil qilishda qanday qiyinchiliklar bor?
++Katta hajmdagi ma’lumotlarni tahlil qilishning murakkabligi
+-Faqat shifrlashni amalga oshirish
+-Faqat saqlashni yangilash
+-Jadvalni yaratish
+
+?Katta hajmdagi ma’lumotlarning sifatini qanday ta’minlash mumkin?
++Ma’lumotlarni tekshirish va filtrlash
+-Faqat arxivlash
+-Faqat shifrlash
+-Faqat ma’lumotlarni tahlil qilish
+
+?Tranzaksiya tushunchasi nima?
++Ma’lumotlar bazasida amalga oshiriladigan operatsiya to‘plami
+-Faqat saqlash jarayoni
+-Faqat tahlil qilish
+-Raqamli tahlil jarayoni
+
+?Tranzaksiya qaysi vazifani bajaradi?
++Ma’lumotlarni saqlash va qayta ishlashni boshqarish
+-Faqat ma’lumotlarni saqlash
+-Faoliyatni kuzatish
+-Ma’lumotlarni faqat tarmoqda uzatish
+
+?Katta hajmdagi ma’lumotlarda tranzaksiyalarni boshqarishda qanday texnologiyalar qo‘llaniladi?
++ACID xususiyatlari
+-Faqat tarmoqni yangilash
+-Faoliyatni kuzatish
+-Jadval tuzish
+
+?ACID xususiyatlari nima?
++Atomlik, izolyatsiya, mustahkamlik, barqarorlik
+-Faqat saqlash
+-Shifrlash va autentifikatsiya
+-Qayta ishlash
+
+?Katta hajmdagi ma’lumotlar bazasida tranzaksiyalarni boshqarishda qanday muammolar bo‘lishi mumkin?
++Faqat ma’lumotlar orasidagi kechikish va moslik masalalari
+- Faqat saqlashni yangilash
+- Faqat tahlil qilish
+- Faqat shifrlash
+
+?Mantiqiy modelda qanday xususiyatlar mavjud?
++Yaxshi tashkil etilgan jadval tuzish va ma’lumotlarni tahlil qilish
+-Faqat ma’lumotlarni saqlash
+-Faqat tarmoqdagi operatsiyalar
+-Ma’lumotlarni tasniflash
+
+?Mantiqiy modelda qanday relatsiyalar mavjud?
++Jadvalning ustunlari va qatorlari o‘rtasidagi bog‘lanish
+-Faqat saqlash
+-Shifrlash
+-Tarmoqdagi bog‘lanishlar
+
+?Relyatsion modelda qanday elementlar ishlatiladi?
++Jadval, ustun, qator
+-Faqat tarmoqdagi ma’lumotlar
+-Shifrlash tizimlari
+-Raqamli tahlil usullari
+
+?Mantiqiy modelda ma’lumotlar qanday saqlanadi?
++Jadval sifatida
+-Faqat saqlash
+-Shifrlangan fayllarda
+-Tarmoq orqali
+
+?Mantiqiy modelda ma’lumotlar o‘rtasidagi bog‘lanish qanday ta’minlanadi?
++Foreign key (chet kalit)
+-Faoliyatni kuzatish
+-Tarmoqdagi bog‘lanish
+-Raqamli tahlil qilish
+
+?Ma’lumotlar omborining fizik modelida qanday metodlar qo‘llaniladi?
++Ma’lumotlar fayllari va indekslar yordamida saqlash
+-Faqat shifrlash
+-Faqat jadval tuzish
+-Faoliyatni kuzatish
+
+?Fizik modelda ma’lumotlar qanday saqlanadi?
++Fayllar va indekslar yordamida
+-Faqat saqlash
+-Jadval yaratish
+-Faqat shifrlash
+
+?Fizik modelda qanday saqlash tizimlari mavjud?
++Raqamli fayllar va ma’lumotlar bazalari
+-Faqat jadval tizimi
+-Faqat shifrlash tizimi
+-Tarmoqda saqlash
+
+?Ma’lumotlar omborining fizik modeli qanday vazifani bajaradi?
++Ma’lumotlarni saqlash, boshqarish va tez ishlashini ta’minlash
+-Faqat tarmoqni yangilash
+-Faqat jadval yaratish
+-Ma’lumotlarni faqat saqlash
+
+?Fizik modelda ma’lumotlarni qayta ishlash jarayoni qanday amalga oshiriladi?
++Ma’lumotlar fayllari va indekslar yordamida qayta ishlanadi
+-Faqat saqlashni yangilash
+-Raqamli tahlil qilish
+-Jadvalni yangilash
+
+?Ma’lumotlarni qanday texnologiyalar yordamida parallel qayta ishlash mumkin?
++Hadoop va Apache Spark
+-Faqat shifrlash
+-Jadval tuzish
+-Faoliyatni kuzatish
+
+?Hadoop nima uchun ishlatiladi?
++Katta hajmdagi ma’lumotlarni saqlash va qayta ishlash uchun
+-Faqat saqlash
+-Shifrlashni amalga oshirish
+-Faqat tarmoqni yangilash
+
+?Apache Spark qanday afzalliklarga ega?
++Katta hajmdagi ma’lumotlarni tez va samarali qayta ishlash
+-Faqat jadval yaratish
+-Ma’lumotlarni faqat tarmoqda uzatish
+-Faqat tahlil qilish
+
+?NoSQL bazalari qaysi holatda eng samarali?
++Ma’lumotlar nestrukturali yoki kengaytirilgan bo‘lsa
+-Faqat tahlil qilishda
+-Faqat jadval yaratishda
+-Faqat ma’lumotlarni shifrlashda
+
+?NoSQL tizimlari qanday asosiy afzalliklarga ega?
++Katta hajmdagi ma’lumotlar bilan moslashuvchanlik va tezlik
+-Faqat jadval tuzish
+-Faqat shifrlash
+-Faqat tarmoqdagi ma’lumotlar
+
+?Katta hajmdagi ma’lumotlarni saqlashda qanday xatoliklar yuzaga kelishi mumkin?
++Ma’lumotlar zaxirasining yetishmasligi va kechikishlar
+-Faqat saqlash
+-Faqat shifrlash
+-Faoliyatni kuzatish
+
+?Katta hajmdagi ma’lumotlar bilan ishlashda qanday resurslar ko‘proq sarflanadi?
++Xotira va hisoblash quvvati
+-Faqat tarmoqni yangilash
+-Faqat saqlashni yangilash
+-Faqat shifrlashni amalga oshirish
+
+?Katta hajmdagi ma’lumotlarni tahlil qilishda qaysi omillar eng muhim?
++Tezlik, saqlash va ma’lumotlar sifatini saqlash
+-Faqat saqlash
+-Faqat shifrlash
+-Faoliyatni kuzatish
+
+?Katta hajmdagi ma’lumotlarni tahlil qilishda yuzaga keladigan qiyinchiliklardan biri nima?
++Ma’lumotlarning xilma-xilligi va tezligi
+- Faqat saqlashni yangilash
+- Jadval yaratish
+- Faqat shifrlash
+
+?Katta hajmdagi ma’lumotlarda xavfsizlikni qanday ta’minlash mumkin?
++Shifrlash va autentifikatsiya yordamida
+-Faqat saqlash
+-Tarmoqni yangilash
+-Faoliyatni kuzatish
+
+?Tranzaksiya va uning xususiyatlari nimalardan iborat?
++Atomlik, izolyatsiya, mustahkamlik va barqarorlik
+-Faqat saqlash
+-Faqat tahlil qilish
+-Faoliyatni kuzatish
+
+?Tranzaksiya qanday amalga oshiriladi?
++Bir necha ma’lumotlarni o‘zgartirish, yangilash yoki saqlash jarayoni
+-Faqat ma’lumotlarni tarmoqda uzatish
+-Faqat shifrlash
+-Faoliyatni kuzatish
+
+?Katta hajmdagi ma’lumotlar bazasida tranzaksiya boshqarishning asosiy maqsadi nima?
++Ma’lumotlarning to‘g‘ri va ishonchli bo‘lishini ta’minlash
+-Faqat saqlash
+-Shifrlash
+-Jadval yaratish
+
+?Katta hajmdagi ma’lumotlar bazasida tranzaksiya boshqarishda qanday muammolar mavjud?
++Kechikish va xatoliklarni aniqlash
+-Faqat jadval yaratish
+-Shifrlashni amalga oshirish
+-Tarmoqni yangilash
+
+?Tranzaksiya boshqarishda qanday texnologiyalar qo‘llaniladi?
++ACID xususiyatlari yordamida
+-Faqat tarmoqni yangilash
+-Faqat jadval yaratish
+-Faqat shifrlash
+
+?Data Mining qanday jarayon?
+-Ma’lumotlarni qayta ishlash
++Yangi bilimlarni ochish jarayoni
+-Faqat ma’lumotlarni saqlash
+-Shifrlash jarayoni
+
+?Data Miningda asosiy bosqichlardan biri nima?
+-Ma’lumotlarni to‘plash
++Ma’lumotlarni tahlil qilish
+-Shifrlash
+-Internet orqali uzatish
+
+?Data Miningning asosiy usullaridan biri?
++Klasterlash
+-Faqat jadval yaratish
+-Ma’lumotlarni tarmoq orqali uzatish
+-Ma’lumotlarni shifrlash
+
+?Data Miningda qo‘llaniladigan texnologiyalardan biri?
++Decision Tree
+-Internet protokollari
+-Tarmoq topologiyasi
+-Faqat saqlash tizimlari
+
+?Data Mining jarayonida qanday ma’lumotlar ishlatiladi?
++Tuzilgan va tuzilmagan
+-Faqat matnli
+-Faqat tasvirlar
+-Faqat jadval ma’lumotlari
+
+?Katta hajmdagi ma’lumotlar qaysi sohada qo‘llaniladi?
++Hamma sohada
+-Faqat dasturlash
+-Faqat transport
+-Faqat moliya
+
+?Katta hajmdagi ma’lumotlar tibbiyotda nima uchun ishlatiladi?
++Kasalliklarni prognoz qilish
+-Tarmoq sozlamalarini tekshirish
+-Matnlarni shifrlash
+-Kompyuter xotirasini tekshirish
+
+?Katta hajmdagi ma’lumotlar qaysi texnologiya yordamida qayta ishlanadi?
++Machine Learning
+-Word Processing
+-Faqat jadval tahlili
+-Internet protokollari
+
+?Marketing sohasida katta hajmdagi ma’lumotlardan qanday foydalaniladi?
++Mijoz xatti-harakatlarini tahlil qilish
+-Faqat reklama joylashtirish
+-Shifrlash algoritmlarini o‘rganish
+-Kompyuter xotirasini tahlil qilish
+
+?Katta hajmdagi ma’lumotlar transport sohasida qanday ishlatiladi?
++Yo‘l harakati oqimini prognoz qilish
+-Faqat chiptalarni sotish
+-Faqat ma’lumotlarni saqlash
+-Elektron pochta jo‘natish
+
+?Ma’lumotlarni intellectual tahlil qilishning asosiy usuli?
++Klasterlash
+-Internetda ma’lumot qidirish
+-Faqat ma’lumotlarni saqlash
+-Shifrlash jarayonlari
+
+?Ma’lumotlarni intellectual tahlil qilish qaysi texnologiya yordamida amalga oshiriladi?
++Sun’iy intellekt
+-Internet protokollari
+-Faqat jadval yaratish
+-Faqat tarmoq orqali uzatish
+
+?Ma’lumotlarni tahlil qilish uchun qaysi dasturiy ta’minot ishlatiladi?
++Python
 -Photoshop
--VLC Media Player
+-Excel
+-Faqat Notepad
 
-?Logic Analyzer qaysi maqsadda ishlatiladi?
-+Raqamli signallarni tahlil qilish uchun
--Elektr toki kuchini o‘lchash uchun
--Analog signallarni tahlil qilish uchun
--Faoliyat vaqtini o‘lchash uchun
+?Regression modeli qaysi sohada ishlatiladi?
++Prognoz qilish
+-Internet orqali ma’lumot uzatish
+-Tarmoq xavfsizligi
+-Faqat matnlarni tahlil qilish
 
-?JTAG debuggers qanday ishlaydi?
-+Mikrokontroller ichki registrlari va dasturlarini tahlil qilish uchun
--Faqat elektr toki o‘lchash uchun
--Faqat USB orqali ulanish uchun
--Faqat tarmoq signallarini tekshirish uchun
+?Ma’lumotlarni tahlil qilish natijasida qanday foydali bilimlar olinadi?
++Yangi naqshlar va bog‘liqliklar
+-Faqat jadval yaratish
+-Internet trafikini kuzatish
+-Kompyuter tezligini oshirish
 
-?O‘rnatilgan tizimlarda real vaqt tashxislash qanday amalga oshiriladi?
-+Real vaqt operatsion tizimlari va maxsus diagnostika vositalari orqali
--Faqat LED indikatorlar yordamida
--Faqat elektr kuchlanishini o‘lchash orqali
--Barcha tizimni o‘chirib, qayta yoqish orqali
+?Qaror daraxti qanday maqsadda ishlatiladi?
++Ma’lumotlarni tasniflash
+-Internet orqali uzatish
+-Faqat saqlash
+-Kompyuter xavfsizligini oshirish
 
-?Debugging nima?
-+Dasturdagi xatolarni topish va ularni tuzatish jarayoni
--Faqat kod yozish jarayoni
--Qurilmalarni elektr tarmog‘iga ulash jarayoni
--Qurilmalarning fizik o‘lchamlarini hisoblash jarayoni
+?Qaror daraxtida har bir tugun nima ifodalaydi?
++Qaror qabul qilish nuqtasi
+-Faqat matn
+-Internet provayder
+-Kompyuterning IP-manzili
 
-?Mikrokontrollerlarni tashxislashda Breakpoint nima uchun ishlatiladi?
-+Dastur bajarilishini muayyan joyda to‘xtatish uchun
--Dastur kodining hajmini oshirish uchun
--Qurilmaning ishlash vaqtini pasaytirish uchun
--Signalni kuchaytirish uchun
+?Qaror daraxtlarining asosiy afzalligi?
++Vizual tushunarli bo‘lishi
+-Internet orqali uzatilishi
+-Faqat saqlash tizimiga bog‘liq
+-Tarmoq xavfsizligini oshirish
 
-?O‘rnatilgan tizimlarni tashxislashning eng muhim bosqichi qaysi?
-+Muammoni aniqlash va analiz qilish
--Faqat kod yozish
--Faqat quvvatni o‘lchash
--Tizimni qayta o‘rnatish
+?Qaror daraxtining asosiy usuli?
++ID3
+-Tarmoq sozlamalari
+-Faqat matnlar bilan ishlash
+-Internet xavfsizligi
 
-?Tashxislash jarayonida real vaqt operatsion tizimlari qanday ahamiyatga ega?
-+Ular tizimning ishlash vaqtini aniq o‘lchash imkonini beradi
--Faqat ma’lumotlarni saqlash uchun ishlatiladi
--Hech qanday ahamiyatga ega emas
--Faqat apparat sozlamalarini saqlash uchun ishlatiladi
+?Qaror daraxti qaysi jarayonda keng qo‘llaniladi?
++Ma’lumotlarni tasniflash
+-Tarmoqni skanerlash
+-Faqat shifrlash
+-Kompyuter tezligini oshirish
 
-?Mikrokontrollerlar uchun eng keng tarqalgan tashxislash interfeysi qaysi?
-+JTAG va SWD
--HDMI
--VGA
--Ethernet
+?Klasterlash nima uchun ishlatiladi?
++O‘xshash ma’lumotlarni guruhlash
+-Tarmoq sozlamalarini tekshirish
+-Faqat shifrlash
+-Kompyuter tezligini oshirish
 
-?Debugger nima?
-+Dastur bajarilishini nazorat qiluvchi va xatolarni topishga yordam beruvchi vosita
--Qurilmalarni quvvat bilan ta’minlovchi qurilma
--Qurilmalarni faqat ishlab chiqarish jarayoni
--Tizimlarni qayta yoqish jarayoni
-
-САРДОР ХОЛИКОВ, [20.05.2025 0:30]
-?O‘rnatilgan tizimlarning tashxislash jarayonida “Watchdog Timer” qanday ishlaydi?
-+Tizim ishdan chiqsa, uni avtomatik qayta yuklash orqali muammoni bartaraf etadi
--Elektr quvvatini nazorat qiladi
--Internet ulanishini tekshiradi
--Faqat dasturiy ta’minotni yuklaydi
-
-?Mikrokontrollerlarni tashxislashda oscilloscope nima uchun ishlatiladi?
-+Analog va raqamli signallarni ko‘rish va tahlil qilish uchun
--USB interfeysini tekshirish uchun
--Faqat tarmoq tezligini o‘lchash uchun
--Faqat dasturlarni yozish uchun
-
-?Qaysi debugging usuli eng kam invaziv hisoblanadi?
-+JTAG va SWD interfeyslari orqali debugging
--Print statement debugging
--LED blinking debugging
--Dasturiy emulyatsiya orqali debugging
-
-?Mikrokontroller tizimlarida "Watchpoint" nima?
-+Muayyan xotira maydoni o‘zgarishini kuzatish imkonini beruvchi debugging texnikasi
--Elektr quvvati nazorati tizimi
--Qurilma haroratini o‘lchovchi datchik
--Internet signalini kuchaytiruvchi moslama
-
-?Tashxislash jarayonida “Stepping” nima?
-+Dastur bajarilishini bosqichma-bosqich tekshirish jarayoni
--Signal kuchaytirish usuli
--Elektr manbaini nazorat qilish texnikasi
--Faqat kodni kompilyatsiya qilish
-
-?Dasturiy debugging vositalari qaysilar?
-+GDB, OpenOCD, Keil uVision
--Excel va Word
--Photoshop va AutoCAD
--Windows Media Player
-
-?Logic Analyzer yordamida qanday signallar tahlil qilinadi?
-+Raqamli signallar
--Faqat audio signallar
--Faqat video signallar
--Faqat elektr kuchlanishi
-
-?Debugging jarayonida qaysi usul eng samarali hisoblanadi?
-+JTAG debugging va real vaqt monitoring
--Faqat LED yordamida tekshirish
--Faqat qayta yuklash
--Qurilmani almashtirish
-
-?O‘rnatilgan tizimlarning dasturiy ta’minoti qanday qismlardan iborat?
-+Tizimli, amaliy va instrumental dasturiy ta’minot
--Faqat tizimli dasturiy ta’minot
--Faqat amaliy dasturiy ta’minot
--Faqat instrumental dasturiy ta’minot
-
-?Tizimli dasturiy ta’minotning asosiy vazifasi nima?
-+Tizimning apparat vositalari bilan ishlashini ta’minlash
--Faqat foydalanuvchi dasturlarini yaratish
--Faqat internetga ulanadigan ilovalarni boshqarish
--Faqat grafik interfeysni yaratish
-
-?O‘rnatilgan tizimlar uchun eng mashhur tizimli dasturiy ta’minot turlaridan biri qaysi?
-+Real vaqt operatsion tizimlari (RTOS)
+?Klasterlash usullaridan biri?
++K-means
 -Photoshop
--Microsoft Office
--VLC Media Player
+-Excel
+-Tarmoq protokollari
 
-?Amaliy dasturiy ta’minotning asosiy vazifasi nima?
-+Foydalanuvchi va tizim ehtiyojlariga mos xizmatlarni ta’minlash
--Faqat operatsion tizimni boshqarish
--Faqat apparat vositalarni boshqarish
--Faqat internetga ulanishni ta’minlash
+?Klasterlashda asosiy maqsad?
++O‘xshash obyektlarni guruhlash
+- Internetda matn qidirish
+- Kompyuter xotirasini oshirish
+- Tarmoq monitoring
 
-?Instrumental dasturiy ta’minot nima uchun ishlatiladi?
-+Dasturlarni ishlab chiqish va sinovdan o‘tkazish uchun
--Faqat ma’lumotlarni tahlil qilish uchun
--Faqat internetdan foydalanish uchun
--Faqat audio va video fayllarni qayta ishlash uchun
+?Klasterlash texnologiyasi qaysi sohada ishlatiladi?
++Tibbiyot
+-Faqat dasturlash
+-Faqat tarmoq xavfsizligi
+-Kompyuter sozlamalarini o‘zgartirish
 
-САРДОР ХОЛИКОВ, [20.05.2025 0:33]
-? Qaysi dasturiy ta’minot turi operatsion tizim tarkibiga kiradi?
-+ Drayverlar, yadro va tizimli kutubxonalar
-- Faqat grafik dasturlar
-- Faqat ofis dasturlari
-- Faqat antivirus dasturlari
+?Klasterlash algoritmlari qaysi ma’lumotlarni qayta ishlaydi?
++Tuzilgan va tuzilmagan
+-Faqat rasm
+-Faqat video
+-Internet trafik
 
-? Real vaqt operatsion tizimlari (RTOS) qanday tizimlar uchun zarur?
-+ Vaqt kritik bo‘lgan o‘rnatilgan tizimlar uchun
-- Oddiy ofis kompyuterlarida ishlash uchun
-- Faqat multimedia tizimlari uchun
-- Faqat mobil qurilmalar uchun
+?Ma’lumotlarni tasniflash jarayonida nima qilinadi?
++Ma’lumotlar o‘rtasida o‘xshashliklar topiladi
+-Yangi texnologiyalar o‘rganiladi
+-Faqat ma’lumotlarni saqlash
+-Tarmoq xavfsizligi oshiriladi
 
-? Tizimli dasturiy ta’minotning tarkibiy qismlaridan biri bo‘lgan bootloaderning vazifasi nima?
-+ Operatsion tizimni yuklash
-- Faqat internetga ulanish
-- Faqat xotirani boshqarish
-- Faqat grafik interfeysni yaratish
+?Ma’lumotlarni qidirishning asosiy maqsadi nima?
++Ma’lumotlarni tahlil qilish va yangi bilimlar olish
+-Faqat ma’lumotlarni saqlash
+-Kompyuterning tezligini oshirish
+-Tarmoq protokollarini o‘rganish
 
-? O‘rnatilgan tizimlarning dasturiy ta’minoti qanday til yordamida yoziladi?
-+ C/C++, Python, Assembly
-- Faqat HTML
-- Faqat Microsoft Excel
-- Faqat JavaScript
+?Tasniflashda ishlatiladigan texnologiya?
++Machine Learning
+-Internet xavfsizligi
+-Faqat matnni tahlil qilish
+-Shifrlash jarayonlari
 
-? Dasturiy ta’minotni yaratish bosqichlari qanday?
-+ Talablarni aniqlash, loyihalash, dasturlash, sinov va integratsiya, foydalanish
-- Faqat kod yozish
-- Faqat ma’lumotlarni saqlash
-- Faqat grafik interfeys yaratish
+?Ma’lumotlarni tasniflashda qaysi algoritmlar qo‘llaniladi?
++Naive Bayes
+-Tarmoq protokollarini tekshirish
+-Faqat jadval tuzish
+-Internetni kuzatish
 
-? O‘rnatilgan tizimlar uchun dasturiy ta’minot loyihalashda qaysi jihatlar muhim?
-+ Xotira samaradorligi, tezkorlik va energiya iste’moli
-- Faqat grafik dizayn
-- Faqat foydalanuvchi interfeysi
-- Faqat internetga ulanish tezligi
+?Tasniflash jarayonida nima amalga oshiriladi?
++Ma’lumotlar kategoriyalarga ajratiladi
+-Shifrlash algoritmlari o‘rganiladi
+-Tarmoqni sozlash
+-Kompyuter tizimlarini tahlil qilish
 
-? Amaliy dasturiy ta’minotga misol bo‘ladigan dasturlar qaysilar?
-+ Signalni qayta ishlash, avtomatlashtirish va monitoring dasturlari
-- Faqat antivirus dasturlari
-- Faqat matn muharrirlari
-- Faqat video pleerlar
+?Katta hajmdagi ma’lumotlarni yaratish jarayonida qanday texnologiya ishlatiladi?
++Hadoop
+-Internet xavfsizligi
+-Faqat jadval yaratish
+-Kompyuterning operatsion tizimi
 
-? Tizimli dasturiy ta’minotning yadro (kernel) qismi qanday vazifani bajaradi?
-+ Resurslarni boshqarish va jarayonlarni taqsimlash
-- Faqat rasm va videolarni qayta ishlash
-- Faqat internet tarmog‘ini boshqarish
-- Faqat matn tahrirlash
+?Katta hajmdagi ma’lumotlarni boshqarish uchun nima kerak?
++Samarali ma’lumotlar bazasi tizimi
+-Faqat matn tahlili
+-Internetni tezlashtirish
+-Faqat kompyuter xavfsizligi
 
-? Dasturiy ta’minotni yaratishda testlashning asosiy maqsadi nima?
-+ Xatolarni aniqlash va tuzatish
-- Faqat kod yozish tezligini oshirish
-- Faqat grafik interfeys yaratish
-- Faqat internetga ulanishni ta’minlash
+?Katta hajmdagi ma’lumotlarni boshqarishda asosiy muammolar qaysilar?
++Ma’lumotlar uzilishlaridan saqlanish
+-Faqat tarmoqni sozlash
+-Kompyuterning tezligini oshirish
+-Internet protokollarini yaxshilash
 
-? Dasturiy ta’minotning texnik xizmat ko‘rsatish bosqichi nimani anglatadi?
-+ Dasturiy ta’minotni yangilash va xatolarni bartaraf etish
-- Faqat dastur kodini o‘chirish
-- Faqat dastur grafik interfeysini o‘zgartirish
-- Faqat kompyuterning quvvat sarfini kamaytirish
+?Ma’lumotlarni boshqarishda qanday tizimlar ishlatiladi
++Distributed File Systems (DFS)
+-Faqat saqlash tizimlari
+-Faqat shifrlash tizimlari
+-Kompyuter xavfsizligi
 
-? Embedded Linux nima?
-+ O‘rnatilgan tizimlar uchun moslashtirilgan Linux distributivi
-- Faqat mobil telefonlar uchun tizim
-- Faqat Windows muhitida ishlaydi
-- Faqat shaxsiy kompyuterlar uchun operatsion tizim
+?Katta hajmdagi ma’lumotlarni yaratishda qanday yondashuvlar ishlatiladi?
++Parallel hisoblash texnologiyalari
+-Internet protokollarini yaxshilash
+-Faqat matn tahlili
+-Kompyuter xotirasini optimallashtirish
 
-? FreeRTOS nima?
-+ Ochiq kodli real vaqt operatsion tizimi
-- Matn muharriri
-- Internet tarmog‘ini boshqaruvchi dastur
-- Grafik dastur
+?Ma’lumotlarni qidirishda qanday metodlar ishlatiladi?
++Klasterlash
+-Faqat saqlash
+-Tarmoq monitoring
+-Kompyuter xavfsizligini tekshirish
 
-? Dasturiy ta’minotning interfeys qismi qanday maqsadda ishlatiladi?
-+ Foydalanuvchilar va tizim o‘rtasida aloqa o‘rnatish uchun
-- Faqat xotira boshqarish uchun
-- Faqat protsessor yuklanishini tekshirish uchun
-- Faqat internetga ulanish uchun
+?Ma’lumotlarni tahlil qilishda ishlatiladigan texnologiya?
++Artificial Intelligence
+-Faqat tarmoqni tekshirish
+-Internet xavfsizligi
+-Faqat matnni qayta ishlash
 
-? Tizimli dasturiy ta’minotning muhim komponentlaridan biri bu...
-+ Drayverlar
-- Faqat video pleer
-- Faqat ofis dasturlari
-- Faqat audio dasturlar
+?Ma’lumotlarni tahlil qilishda qaysi algoritm qo‘llaniladi?
++Decision Tree
+-Faqat jadval tuzish
+-Internet protokollarini tekshirish
+-Kompyuter tizimini optimallashtirish
 
-? Kompilyator qanday vazifani bajaradi?
-+ Dastur kodini mashina kodiga aylantirish
-- Faqat internet tarmog‘ini nazorat qilish
-- Faqat matn tahrirlash
-- Faqat video yaratish
+?Ma’lumotlarni qidirishning asosiy jarayoni nima?
++Ma’lumotlarni tizimga kiritish va tahlil qilish
+-Tarmoqni sozlash
+-Internet xavfsizligini oshirish
+-Faqat jadval yaratish
+
+?Ma’lumotlarni qidirish va tahlil qilishda maqsad nima?
++Yangi bilimlarni kashf etish
+-Faqat kompyuterning tezligini oshirish
+-Faqat tarmoq monitoring
+-Internet xavfsizligini oshirish
+
+?Katta hajmdagi ma’lumotlarni xavfsiz saqlash uchun qanday metod ishlatiladi?
++Shifrlash
+-Internetni tezlashtirish
+-Faqat tarmoqni tekshirish
+-Kompyuter xavfsizligini oshirish
+
+?Katta hajmdagi ma’lumotlarni xavfsizligi qaysi tarmoqlarda ishlatiladi?
++Ma’lumotlar bazasi tarmoqlari
+-Faqat internet protokollarida
+-Faqat tarmoqni optimallashtirish
+-Kompyuter tizimlarida
+
+?Ma’lumotlarni xavfsiz saqlashda qanday yondashuv qo‘llaniladi?
++Shifrlash algoritmlari
+-Internetni optimallashtirish
+-Faqat kompyuter xavfsizligi
+-Tarmoqni tezlashtirish
+
+?Katta hajmdagi ma’lumotlarni xavfsizligini qanday ta’minlash mumkin?
++Ma’lumotlarni shifrlash va autentifikatsiya qilish
+-Faqat kompyuterning operatsion tizimini yangilash
+-Internetni optimallashtirish
+-Faqat matnni tahlil qilish
+
+?Katta hajmdagi ma’lumotlar xavfsizligini ta’minlashda eng muhim omil?
++Shifrlash va foydalanuvchi autentifikatsiyasi
+-Faqat tarmoqni kuzatish
+-Kompyuter xavfsizligini oshirish
+-Ma’lumotlarni faqat saqlash
+
+?Katta hajmdagi ma’lumotlarni yaratishda nima asosiy rol o‘ynaydi?
+-Tarmoq tizimlari
++Data lakes
+-Ma’lumotlar shifrlash
+-Foydalanuvchi interfeysi
+
+?Katta hajmdagi ma’lumotlarni boshqarishda asosiy yondashuv qanday?
++Paralel hisoblash
+-Faqat saqlash tizimlari
+-Yangi algoritmlar
+-Kengaytirilgan tarmoq
+
+?Katta hajmdagi ma’lumotlarni boshqarish uchun eng samarali usul?
++Shifrlash
+-Faqat ma’lumotlarni saqlash
+-Foydalanuvchi izlanishlari
+-Dasturiy ta’minot optimallashtirish
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashda qanday usullar ishlatiladi?
++Klasterlash va tasniflash
+-Internet tahlili
+-Faqat tarmoqni sozlash
+-Ma’lumotlarni faqat saqlash
+
+?Katta hajmdagi ma’lumotlar uchun qaysi algoritmlar ishlatiladi?
++Parallel algoritmlar
+-Internet protokollarini optimallashtirish
+-Tarmoqni faollashtirish
+-Shifrlash algoritmlari
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashda nima ishlatiladi?
++Big Data Platformalari
+-Faol tarmoq boshqaruvi
+-Faqat ma’lumotlarni tahlil qilish
+-Tizim operatsionligini oshirish
+
+?Ma’lumotlar bazasini boshqarishda qaysi tizimlar ishlatiladi?
++Hadoop
+-Faqat tarmoqni optimallashtirish
+-Internet protokollarini optimallashtirish
+-Ma’lumotlar ombori xizmati
+
+?Katta hajmdagi ma’lumotlar bazasining boshqarish tizimi qaysi maqsadlarni amalga oshiradi?
++Samarali ma’lumot saqlash va tahlil qilish
+-Internetni tezlashtirish
+-Shifrlash algoritmlarini o‘rganish
+-Tarmoqni boshqarish
+
+?Katta hajmdagi ma’lumotlar bazasini boshqarish tizimlari qanday ishlaydi?
++Ma’lumotlar bo‘yicha querylar yaratish
+-Faqat saqlash tizimlaridan foydalanish
+-Yangi texnologiyalarni o‘rganish
+-Kompyuterni optimallashtirish
+
+?Neyron tarmoqlarini katta hajmdagi ma’lumotlarda ishlatishning asosiy maqsadi nima?
++Ma’lumotlarni prognozlash va tasniflash
+-Shifrlash va xavfsizlikni oshirish
+-Kompyuter tizimlarini yaxshilash
+-Tarmoqni tezlashtirish
+
+?Neyron tarmoqlarining qaysi turi katta hajmdagi ma’lumotlar bilan ishlashda eng ko‘p ishlatiladi?
++Deep learning
+-Matn tahlili
+-Faqat tarmoq monitoring
+-Kompyuter tizimini optimallashtirish
+
+?Katta hajmdagi ma’lumotlarda neyron tarmoqlarini qanday ishlatish mumkin?
++Ma’lumotlarni tasniflash va prognozlash
+-Internet xavfsizligini oshirish
+-Tarmoqni faollashtirish
+-Ma’lumotlarni saqlash
+
+?Hadoop arxitekturasi nima?
++Katta hajmdagi ma’lumotlarni qayta ishlash uchun tizim
+-Tarmoqni optimallashtirish tizimi
+-Faqat saqlash tizimi
+-Kompyuter xavfsizligi tizimi
+
+?Hadoop arxitekturasi qaysi qatlamlardan iborat?
++Yuzaki qatlam, saqlash, va hisoblash
+-Tarmoqni boshqarish
+-Faqat ma’lumotlar tahlili
+-Kompyuter xavfsizligi
+
+?Hadoop arxitekturasining asosiy komponenti nima?
++HDFS
+-Internetni tezlashtirish
+-Faqat saqlash tizimlari
+-Tarmoqni boshqarish
+
+?Katta hajmdagi ma’lumotlar xavfsizligini ta’minlashda qanday usullar qo‘llanadi?
++Shifrlash va autentifikatsiya
+-Faqat tarmoqni optimallashtirish
+-Kompyuterni yaxshilash
+-Yangi texnologiyalarni joriy etish
+
+?Katta hajmdagi ma’lumotlarni xavfsiz saqlashda qanday metod ishlatiladi?
++Shifrlash algoritmlari
+-Faqat jadval yaratish
+-Kompyuter xavfsizligini oshirish
+-Internetni tezlashtirish
+
+?Ma’lumotlar xavfsizligi bo‘yicha qaysi metodlar samarali hisoblanadi?
++Foydalanuvchi autentifikatsiyasi va ma’lumotlarni shifrlash
+-Tarmoqni faollashtirish
+-Faqat tarmoq monitoring
+-Internet xavfsizligini oshirish
+
+?Katta hajmdagi ma’lumotlarda xavfsizlikni ta’minlash uchun qanday texnologiyalar ishlatiladi?
++Ma’lumotlarni shifrlash
+-Faqat kompyuterning operatsion tizimini yangilash
+-Tarmoqni optimallashtirish
+-Kompyuter tizimlarini tahlil qilish
+
+?Katta hajmdagi ma’lumotlarning xavfsizligini qanday ta’minlash mumkin?
++Shifrlash va autentifikatsiya qilish
+-Faqat saqlash tizimlari
+-Faqat tarmoqni faollashtirish
+-Kompyuterni optimallashtirish
+
+?Katta hajmdagi ma’lumotlarni boshqarishda qaysi usullar samarali hisoblanadi?
++Parallel hisoblash va saqlash texnologiyalari
+-Yalpi ma’lumotlar tahlili
+-Internet xavfsizligini oshirish
+-Kompyuterni faollashtirish
+
+?Ma’lumotlarni boshqarishning asosiy vazifasi nima?
++Katta hajmdagi ma’lumotlarni tahlil qilish va saqlash
+-Faqat xavfsizlikni ta’minlash
+-Internetni tezlashtirish
+-Tarmoqni faollashtirish
+
+?Katta hajmdagi ma’lumotlarni boshqarishning asosiy komponenti nima?
++Saqlash tizimlari va tahlil vositalari
+-Shifrlash metodlari
+-Yangi tarmoq qurilmalari
+-Faqat saqlash dasturlari
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashda qaysi texnologiya ishlatiladi?
++MapReduce
+-Yalpi saqlash tizimi
+-Faqat internet tahlili
+-Shifrlash vositalari
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashda eng samarali tizim qaysi?
++Hadoop
+-Oracle
+-MySQL
+-SQL Server
+
+?Katta hajmdagi ma’lumotlar bilan ishlashda qaysi usul tahlil qilishni osonlashtiradi?
++Paralel hisoblash
+-Tarmoqni sozlash
+-Internet xavfsizligi
+-Faqat saqlash tizimlari
+
+?Katta hajmdagi ma’lumotlar bazasini boshqarishda qaysi usul samarali hisoblanadi?
++Ma’lumotlarni taqsimlash va tahlil qilish
+-Tarmoqni optimallashtirish
+-Yangi texnologiyalarni ishlab chiqish
+-Faqat saqlash tizimlari
+
+?Katta hajmdagi ma’lumotlarni boshqarish tizimining asosiy maqsadi nima?
++Ma’lumotlarni samarali saqlash va tahlil qilish
+-Internet xavfsizligini oshirish
+-Faqat shifrlash algoritmlari
+-Tarmoqni faollashtirish
+
+? Katta hajmdagi ma’lumotlar bazasi tizimi qanday ishlaydi?
++Paralel tahlil va ma’lumotlarni saqlash
+-Faqat tarmoq xavfsizligini oshirish
+-Shifrlash metodlarini ishlatish
+-Yangi texnologiyalarni ishlab chiqish
+
+?Neyron tarmoqlarini katta hajmdagi ma’lumotlar bilan ishlashda qanday qo‘llash mumkin?
++Ma’lumotlarni tasniflash va prognozlash
+-Internet xavfsizligini ta’minlash
+-Faqat tarmoqni faollashtirish
+-Shifrlash vositalarini ishlatish
+
+?Neyron tarmoqlari qaysi sohalarda ishlatiladi?
++Ma’lumotlarni tahlil qilish va prognozlash
+-Shifrlash va xavfsizlikni oshirish
+-Kompyuter tizimlarini yaxshilash
+-Faqat tarmoq monitoring
+
+?Katta hajmdagi ma’lumotlarda neyron tarmoqlarini qanday ishlatish mumkin?
++Ma’lumotlarni prognozlash
+-Shifrlash metodlarini ishlatish
+-Yangi tizimlarni ishlab chiqish
+-Faqat tarmoqni optimallashtirish
+
+?Hadoop arxitekturasi nima uchun ishlatiladi?
++Katta hajmdagi ma’lumotlarni saqlash va tahlil qilish
+-Faqat internet xavfsizligini oshirish
+-Yangi tizimlar yaratish
+-Shifrlash va xavfsizlikni ta’minlash
+
+?Hadoop tizimida ma’lumotlar qanday saqlanadi?
++HDFS orqali
+-Yalpi saqlash tizimlarida
+-Shifrlangan fayllarda
+-Tarmoqda
+
+?Hadoop arxitekturasida qanday qatlamlar mavjud?
++HDFS, MapReduce va YARN
+-Faqat shifrlash va xavfsizlik
+-Tarmoqni boshqarish va optimallashtirish
+-Internetni tezlashtirish
+
+?Katta hajmdagi ma’lumotlarning xavfsizligini ta’minlashda qanday metodlar ishlatiladi?
++Shifrlash va foydalanuvchi autentifikatsiyasi
+-Faqat tarmoqni optimallashtirish
+-Internetni tezlashtirish
+-Yangi texnologiyalarni ishlab chiqish
+
+?Katta hajmdagi ma’lumotlarda xavfsizlikni ta’minlashda nima muhim?
++Shifrlash va xavfsiz protokollar
+-Tarmoqni faollashtirish
+-Yangi dasturlarni yaratish
+-Ma’lumotlarni saqlash
+
+?Katta hajmdagi ma’lumotlarni xavfsiz saqlashda qanday usullar qo‘llanadi?
++Shifrlash va saqlash protokollari
+-Tarmoqni faollashtirish
+-Yangi tizimlarni ishlab chiqish
+-Internetni optimallashtirish
+
+?Katta hajmdagi ma’lumotlarni boshqarishda qaysi texnologiya ishlatiladi?
++Hadoop
+-MySQL
+-Java
+-Docker
+
+?Katta hajmdagi ma’lumotlarni boshqarish tizimi qanday ishlaydi?
++Paralel tahlil va saqlash
+-Ma’lumotlarni faqat saqlash
+-Yangi tizimlar yaratish
+-Faqat shifrlash
+
+?Katta hajmdagi ma’lumotlar bazasi qanday tuzilishga ega?
++Taqqoslash va parallel ishlashga asoslangan
+-Yalpi tarmoqni optimallashtirishga asoslangan
+-Faqat internetni tezlashtirishga asoslangan
+-Ma’lumotlarni saqlash uchun faqat bir xil tizimdan foydalanadi
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashda qaysi usul samarali hisoblanadi?
++MapReduce
+-Faqat tarmoqni yaxshilash
+-Shifrlash usullari
+-Internet xavfsizligi
+
+?Katta hajmdagi ma’lumotlarni qayta ishlashning asosiy maqsadi nima?
++Ma’lumotlarni samarali saqlash va tahlil qilish
+-Tarmoqni optimallashtirish
+-Internet xavfsizligini ta’minlash
+-Yangi tizimlar yaratish
+
+?Ma’lumotlarni qayta ishlashda qanday vositalar ishlatiladi?
++Hadoop, Spark
+-Internet tarmog‘ini tezlashtirish
+-Shifrlash algoritmlari
+-Faqat saqlash tizimlari
+
+?Katta hajmdagi ma’lumotlar bazasini boshqarish tizimining asosiy funksiyasi nima?
++Ma’lumotlarni saqlash, qidirish va tahlil qilish
+-Yangi tizimlarni yaratish
+-Faqat xavfsizlikni ta’minlash
+-Tarmoqni optimallashtirish
+
+?Katta hajmdagi ma’lumotlar bazasi tizimi qanday ma’lumotlar bilan ishlaydi?
++Strukturali va tuzilmasiz ma’lumotlar
+-Faqat internet tarmog‘i bilan
+-Yalpi texnologiya vositalari
+-Shifrlash fayllari
+
+?Katta hajmdagi ma’lumotlar bazasini boshqarish tizimlarining afzalligi nima?
++Ma’lumotlarning tezkor tahlili va samarali saqlanishi
+-Tarmoqning yuqori tezligi
+-Yangi tarmoq qurilmalari
+-Shifrlash va xavfsizlik
+
+?Katta hajmdagi ma’lumotlarda neyron tarmoqlarining asosiy roli nima?
++Ma’lumotlarni tahlil qilish va prognozlash
+-Yangi tizimlar yaratish
+-Tarmoqni optimallashtirish
+-Internet xavfsizligini oshirish
+
+?Neyron tarmoqlarini katta hajmdagi ma’lumotlarda ishlatishda qanday asosiy afzalliklar mavjud?
++Ma’lumotlar to‘plamini samarali tahlil qilish
+-Internetni tezlashtirish
+-Faqat tarmoqni optimallashtirish
+-Shifrlash metodlarining ishlatilishi
+
+?Katta hajmdagi ma’lumotlarda neyron tarmoqlari qaysi usulda ishlaydi?
++Ma’lumotlarni prognozlash va tasniflash
+-Tarmoqni faollashtirish
+-Yangi tizimlarni ishlab chiqish
+-Faqat saqlash tizimlarini yaratish
 `;
 
 const parseQuestions = (data) => {
