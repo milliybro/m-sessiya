@@ -7,7 +7,7 @@ const input = `
 
 ?Big Data ning asosiy xususiyatlari qaysilar?
 -2V – Value va Volume
-3V – Volume, Variety, Velocity
++3V – Volume, Variety, Velocity
 -4V – Volume, Value, Visibility, Velocity
 -5V – Variety, Velocity, Volume, Value, Validation
 
@@ -1174,20 +1174,34 @@ const input = `
 
 const parseQuestions = (data) => {
   const questions = data.trim().split("\n\n");
-  return questions.map((block) => {
-    const lines = block.split("\n").filter(Boolean);
-    const question = lines[0].replace("?", "").trim();
-    const answers = lines
-      .slice(1)
-      .map((line) => line.replace(/[+-]/, "").trim());
-    return {
-      question,
-      answer1: answers[0],
-      answer2: answers[1],
-      answer3: answers[2],
-      answer4: answers[3],
-    };
-  });
+  return questions
+    .map((block) => {
+      const lines = block.split("\n").filter(Boolean);
+      const questionLine = lines[0];
+      if (!questionLine) return null;
+
+      const question = questionLine.replace(/^\?/, "").trim();
+
+      // Only grab lines that start with + or -
+      const answerLines = lines
+        .slice(1)
+        .filter((line) => /^[+-]/.test(line.trim()));
+
+      if (answerLines.length < 4) return null; // skip malformed blocks
+
+      const answers = answerLines.map((line) =>
+        line.trim().replace(/^[+-]/, "").trim()
+      );
+
+      return {
+        question,
+        answer1: answers[0],
+        answer2: answers[1],
+        answer3: answers[2],
+        answer4: answers[3],
+      };
+    })
+    .filter(Boolean); // remove nulls
 };
 
 const KTEData = parseQuestions(input);
