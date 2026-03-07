@@ -1182,26 +1182,27 @@ const parseQuestions = (data) => {
 
       const question = questionLine.replace(/^\?/, "").trim();
 
-      // Only grab lines that start with + or -
       const answerLines = lines
         .slice(1)
         .filter((line) => /^[+-]/.test(line.trim()));
 
-      if (answerLines.length < 4) return null; // skip malformed blocks
+      if (answerLines.length < 4) return null;
 
-      const answers = answerLines.map((line) =>
-        line.trim().replace(/^[+-]/, "").trim()
-      );
+      const answers = answerLines.map((line) => ({
+        text: line.trim().replace(/^[+-]/, "").trim(),
+        isCorrect: line.trim().startsWith("+"),
+      }));
 
       return {
         question,
-        answer1: answers[0],
-        answer2: answers[1],
-        answer3: answers[2],
-        answer4: answers[3],
+        answer1: answers[0].text,
+        answer2: answers[1].text,
+        answer3: answers[2].text,
+        answer4: answers[3].text,
+        correct: answers.findIndex((a) => a.isCorrect) + 1, // 1, 2, 3 yoki 4
       };
     })
-    .filter(Boolean); // remove nulls
+    .filter(Boolean);
 };
 
 const KTEData = parseQuestions(input);
